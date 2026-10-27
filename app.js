@@ -306,8 +306,7 @@
       o.value = p.id; o.textContent = `${p.name} · ${p.role}`;
       sel.appendChild(o);
     }
-    const you = data.nodes.find((n) => n.id === "you");
-    sel.value = you ? "you" : (people.find((p) => p.role === "engineer") || people[0]).id;
+    sel.value = (people.find((p) => p.role === "engineer") || people[0]).id;
   }
 
   function renderIntent(intent) {
@@ -379,7 +378,7 @@
       // about something the graph doesn't contain should say so, not return
       // the origin's strongest neighbours as if they matched.
       const note = intent.unknown.length
-        ? `This graph has nothing matching “${intent.unknown.join(", ")}”. Name a skill, role, stage, city, or a person/org that is in the graph — or add the people you know and grow it.`
+        ? `This graph has nothing matching “${intent.unknown.join(", ")}”. Name a skill, role, stage, city, or a person/org that is in the graph.`
         : `Tell me what you're looking for: a skill, role, stage, city, or a person/org in the graph.`;
       current = { paths: [], active: 0, note };
     } else {
@@ -409,12 +408,12 @@
       .attr("class", (d) => d.auto ? "edge auto" : "edge")
       .attr("stroke-width", (d) => d.auto ? 0.5 : 0.6 + 2 * (data.edgeTypes[d.type]?.base ?? 0.3));
     gNodes = root.append("g").selectAll("g").data(nodes, (d) => d.id).join("g")
-      .attr("class", (d) => `node ${d.id === "you" ? "you" : "person"}`)
+      .attr("class", "node person")
       .call(d3.drag()
         .on("start", (ev, d) => { if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
         .on("drag", (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
         .on("end", (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
-    gNodes.append("circle").attr("r", (d) => d.id === "you" ? 9 : 4.5);
+    gNodes.append("circle").attr("r", 4.5);
     gNodes.append("text").attr("dx", 9).attr("dy", 3).text((d) => d.name);
     gNodes.append("title").text((d) => `${d.name}\n${d.role} · ${d.skills.join(", ")}${(d.orgs || []).length ? "\n" + d.orgs.map((o) => o.name).join(", ") : ""}`);
     gNodes.on("click", (ev, d) => { $("#origin").value = d.id; run(); });
@@ -447,35 +446,8 @@
       .classed("dim", (d) => p && ![...litEdges].some((e) => e.source === d.source.id && e.target === d.target.id && e.type === d.type));
   }
 
-  // ---------- "add me" ----------
-  function meRow() {
-    const row = document.createElement("div");
-    row.className = "me-row";
-    const list = data.nodes.filter((n) => n.kind === "person").sort((a, b) => a.name.localeCompare(b.name)).map((n) => `<option value="${n.id}">${n.name}</option>`).join("");
-    const types = Object.entries(data.edgeTypes).filter(([k]) => k !== "colleagues").map(([k, v]) => `<option value="${k}">${v.label}</option>`).join("");
-    row.innerHTML = `<select class="me-who">${list}</select><select class="me-type">${types}</select>`;
-    $("#me-rows").appendChild(row);
-  }
-  function saveMe() {
-    const name = $("#me-name").value.trim() || "You";
-    data.nodes = data.nodes.filter((n) => n.id !== "you");
-    data.edges = data.edges.filter((e) => e.source !== "you" && e.target !== "you");
-    data.nodes.push({ id: "you", kind: "person", name, role: "engineer", skills: [], city: "", orgs: [] });
-    $("#me-rows").querySelectorAll(".me-row").forEach((r) => {
-      const who = r.querySelector(".me-who").value, type = r.querySelector(".me-type").value;
-      const other = byId[who];
-      data.edges.push({ source: "you", target: who, type, year: YEAR_NOW, reason: `${name} says: ${data.edgeTypes[type].label} ${other.name}.`, src: "" });
-    });
-    byId = Object.fromEntries(data.nodes.map((n) => [n.id, n]));
-    adj = buildAdjacency(data);
-    fillOrigin();
-    renderGraph();
-    $("#addme").open = false;
-    run();
-  }
-
   // ---------- wire up ----------
-  document.querySelectorAll('input[name="ds"]').forEach((r) => r.addEventListener("change", (e) => { loadDataset(e.target.value); $("#me-rows").innerHTML = ""; meRow(); }));
+  document.querySelectorAll('input[name="ds"]').forEach((r) => r.addEventListener("change", (e) => loadDataset(e.target.value)));
   document.querySelectorAll('input[name="mode"]').forEach((r) => r.addEventListener("change", run));
   $("#run").addEventListener("click", run);
   $("#query").addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); run(); } });
@@ -486,11 +458,8 @@
     run();
   });
   $("#origin").addEventListener("change", () => { if (current.paths.length) run(); });
-  $("#me-add-row").addEventListener("click", meRow);
-  $("#me-save").addEventListener("click", saveMe);
-  $("#copy").addEventListener("click", () => { navigator.clipboard?.writeText($("#draft").value); $("#copy").textContent = "Copied"; setTimeout(() => ($("#copy").textContent = "Copy"), 1200); });
+  $("#copy").addEventListener("click",() => { navigator.clipboard?.writeText($("#draft").value); $("#copy").textContent = "Copied"; setTimeout(() => ($("#copy").textContent = "Copy"), 1200); });
   window.addEventListener("resize", () => { if (sim) { const b = svg.node().getBoundingClientRect(); sim.force("center", d3.forceCenter(b.width / 2, b.height / 2)).alpha(0.3).restart(); } });
 
   loadDataset("public");
-  meRow();
 })();
