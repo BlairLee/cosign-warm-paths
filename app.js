@@ -72,6 +72,9 @@
     const companyWords = ["company", "companies", "startup", "startups", "firm", "lab", "labs"].filter(has);
     companyWords.forEach(consume);
     const wantsCompany = companyWords.length > 0 && roles.length === 0;
+    // "someone on the X team" wants a person, not the X node itself.
+    const wantsPerson = roles.length > 0 ||
+      /\b(someone|anyone|somebody|person|people|member|members|folks|team)\b/.test(t);
     // Named entities: any node whose name (or a short alias) appears in the query.
     const named = (data?.nodes || []).filter((n) => {
       const hits = aliasesOf(n).filter((a) => t.includes(` ${a} `));
@@ -82,7 +85,7 @@
     // keeps an unmatched query from silently degrading into "rank everyone".
     const unknown = [...new Set(t.replace(/-/g, " ").trim().split(/\s+/))]
       .filter((w) => w.length > 2 && !/^\d+$/.test(w) && !STOPWORDS.has(w) && !consumed.has(w));
-    return { skills, roles, stages, cities, wantsCompany, named, unknown };
+    return { skills, roles, stages, cities, wantsCompany, wantsPerson, named, unknown };
   }
   function aliasesOf(n) {
     const full = n.name.toLowerCase().replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
@@ -97,9 +100,11 @@
     // A named entity in the query wins: the entity itself, or the people attached to a named company.
     if (intent.named.length) {
       for (const n of intent.named) {
-        if (n.id === node.id) return 1.5;
+        // A named company in a person-flavoured query ("someone on the Cosign
+        // team") ranks its people above the company node itself.
+        if (n.id === node.id) return (n.kind === "company" && intent.wantsPerson) ? 0.6 : 1.5;
         if (n.kind === "company" && node.kind === "person" &&
-            (adj.get(node.id) || []).some((x) => x.to === n.id && (x.edge.type === "cofounded" || x.edge.type === "worked_with"))) return 1.2;
+            (adj.get(node.id) || []).some((x) => x.to === n.id && (x.edge.type === "cofounded" || x.edge.type === "worked_with"))) return intent.wantsCompany ? 0.8 : 1.2;
       }
       return 0;
     }
@@ -234,6 +239,7 @@
     public: [
       "I want to meet someone on the Cosign team",
       "Who can introduce me to an investor focused on AI infra?",
+      "Who can introduce me to Packy McCormick?",
       "Looking for a founder who has built in recruiting",
       "I want to reach someone working on consumer AI at a16z",
     ],
