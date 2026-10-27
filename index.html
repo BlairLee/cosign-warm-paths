@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cosign Paths</title>
+<meta name="description" content="Who should vouch for me? Trust-weighted intro paths over an endorsement graph.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo">⟡</span>
+    <div>
+      <h1>Cosign Paths</h1>
+      <p class="tag">Who should vouch for me? Intro paths ranked by endorsement strength, not hop count.</p>
+    </div>
+  </div>
+  <div class="dataset">
+    <label><input type="radio" name="ds" value="synthetic" checked> Synthetic graph</label>
+    <label><input type="radio" name="ds" value="public"> Public slice (a16z / Cosign)</label>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="panel">
+    <section>
+      <h2>1 · You are</h2>
+      <select id="origin"></select>
+      <details id="addme">
+        <summary>…or add yourself with the people you actually know</summary>
+        <input id="me-name" placeholder="Your name">
+        <div id="me-rows"></div>
+        <button id="me-add-row" class="ghost">+ another person</button>
+        <button id="me-save">Add me to the graph</button>
+      </details>
+    </section>
+
+    <section>
+      <h2>2 · What do you want?</h2>
+      <textarea id="query" rows="3">I want to meet an engineer working on AI infra at a seed-stage startup</textarea>
+      <div class="row">
+        <button id="run">Find paths</button>
+        <button id="example" class="ghost">Try another example</button>
+      </div>
+      <div id="intent" class="intent"></div>
+    </section>
+
+    <section>
+      <h2>3 · Paths</h2>
+      <div class="compare">
+        <label><input type="radio" name="mode" value="trust" checked> Trust-weighted</label>
+        <label><input type="radio" name="mode" value="hops"> Fewest hops (baseline)</label>
+      </div>
+      <div id="results"></div>
+    </section>
+
+    <section id="draft-section" hidden>
+      <h2>4 · Ask for the intro</h2>
+      <textarea id="draft" rows="8"></textarea>
+      <button id="copy" class="ghost">Copy</button>
+    </section>
+
+    <footer class="fine">
+      <p id="dsnote"></p>
+      <p>Edges are weighted by endorsement type and recency; a path's trust is the product of its edges, discounted per hop. <a href="https://github.com/BlairLee/cosign-warm-paths">Source</a>.</p>
+    </footer>
+  </aside>
+
+  <section class="canvas">
+    <svg id="graph"></svg>
+    <div class="legend" id="legend"></div>
+    <div class="hint" id="hint">Pick who you are, describe who you want to meet, and press <b>Find paths</b>.</div>
+  </section>
+</main>
+
+<script src="vendor/d3.v7.min.js"></script>
+<script src="data/synthetic.js"></script>
+<script src="data/public.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
