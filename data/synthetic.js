@@ -1178,1390 +1178,12 @@ window.COSIGN_SYNTHETIC = {
    "city": "London"
   },
   {
-   "id": "p100",
-   "kind": "person",
-   "name": "Lior Moss",
-   "role": "engineer",
-   "skills": [
-    "robotics",
-    "biotech"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p101",
-   "kind": "person",
-   "name": "Soren Glen",
-   "role": "researcher",
-   "skills": [
-    "security",
-    "product design"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p102",
-   "kind": "person",
-   "name": "Ada Knoll",
-   "role": "founder",
-   "skills": [
-    "llm eval",
-    "fintech"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p103",
-   "kind": "person",
-   "name": "Teo Isle",
-   "role": "investor",
-   "skills": [
-    "distributed systems",
-    "ai infra",
-    "sales"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p104",
-   "kind": "person",
-   "name": "Elio Elm",
-   "role": "engineer",
-   "skills": [
-    "recruiting",
-    "frontend",
-    "distributed systems"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p105",
-   "kind": "person",
-   "name": "Zev Heath",
-   "role": "founder",
-   "skills": [
-    "llm eval",
-    "ml ranking",
-    "robotics"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p106",
-   "kind": "person",
-   "name": "Tova Fjord",
-   "role": "pm",
-   "skills": [
-    "mobile",
-    "fundraising"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p107",
-   "kind": "person",
-   "name": "Yara Elm",
-   "role": "pm",
-   "skills": [
-    "robotics",
-    "mobile"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p108",
-   "kind": "person",
-   "name": "Kael Dune",
-   "role": "investor",
-   "skills": [
-    "growth",
-    "gtm",
-    "recruiting"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p109",
-   "kind": "person",
-   "name": "Finn Kestrel",
-   "role": "engineer",
-   "skills": [
-    "product design",
-    "ai infra"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p110",
-   "kind": "person",
-   "name": "Cira Grove",
-   "role": "engineer",
-   "skills": [
-    "sales",
-    "backend"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p111",
-   "kind": "person",
-   "name": "Sana Oak",
-   "role": "pm",
-   "skills": [
-    "robotics",
-    "growth",
-    "mobile"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p112",
-   "kind": "person",
-   "name": "Idris Oak",
-   "role": "investor",
-   "skills": [
-    "ml ranking",
-    "agents",
-    "llm eval"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p113",
-   "kind": "person",
-   "name": "Tova Shore",
-   "role": "engineer",
-   "skills": [
-    "sales",
-    "data eng"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p114",
-   "kind": "person",
-   "name": "Gus Knoll",
-   "role": "designer",
-   "skills": [
-    "llm eval",
-    "mobile"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p115",
-   "kind": "person",
-   "name": "Bram Fjord",
-   "role": "engineer",
-   "skills": [
-    "robotics",
-    "gtm",
-    "ai infra"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p116",
-   "kind": "person",
-   "name": "Rhea Calder",
-   "role": "operator",
-   "skills": [
-    "biotech",
-    "backend"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p117",
-   "kind": "person",
-   "name": "Lior Delta",
-   "role": "investor",
-   "skills": [
-    "agents",
-    "frontend"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p118",
-   "kind": "person",
-   "name": "Ulla Glen",
-   "role": "researcher",
-   "skills": [
-    "frontend",
-    "sales"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p119",
-   "kind": "person",
-   "name": "Zev Loch",
-   "role": "founder",
-   "skills": [
-    "recruiting",
-    "devtools"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p120",
-   "kind": "person",
-   "name": "Zara Birch",
-   "role": "researcher",
-   "skills": [
-    "ai infra",
-    "fintech",
-    "backend"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p121",
-   "kind": "person",
-   "name": "Dev Moss",
-   "role": "designer",
-   "skills": [
-    "frontend",
-    "backend",
-    "llm eval"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p122",
-   "kind": "person",
-   "name": "Rhea Loch",
-   "role": "founder",
-   "skills": [
-    "frontend",
-    "distributed systems"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p123",
-   "kind": "person",
-   "name": "Oren Pine",
-   "role": "operator",
-   "skills": [
-    "ai infra",
-    "fintech"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p124",
-   "kind": "person",
-   "name": "Finn Oak",
-   "role": "pm",
-   "skills": [
-    "backend",
-    "distributed systems",
-    "ml ranking"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p125",
-   "kind": "person",
-   "name": "Uma Shore",
-   "role": "designer",
-   "skills": [
-    "frontend",
-    "gtm"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p126",
-   "kind": "person",
-   "name": "Dax Loch",
-   "role": "founder",
-   "skills": [
-    "gtm",
-    "biotech"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p127",
-   "kind": "person",
-   "name": "Ines Ember",
-   "role": "engineer",
-   "skills": [
-    "mobile",
-    "devtools",
-    "biotech"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p128",
-   "kind": "person",
-   "name": "Ada Shore",
-   "role": "operator",
-   "skills": [
-    "robotics",
-    "frontend",
-    "ml ranking"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p129",
-   "kind": "person",
-   "name": "Wren Wilde",
-   "role": "investor",
-   "skills": [
-    "backend",
-    "devtools"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p130",
-   "kind": "person",
-   "name": "Kael Ashby",
-   "role": "engineer",
-   "skills": [
-    "llm eval",
-    "devtools",
-    "frontend"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p131",
-   "kind": "person",
-   "name": "Yara Ashby",
-   "role": "pm",
-   "skills": [
-    "ml ranking",
-    "frontend",
-    "llm eval"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p132",
-   "kind": "person",
-   "name": "Gia Elm",
-   "role": "founder",
-   "skills": [
-    "ai infra",
-    "ml ranking",
-    "mobile"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p133",
-   "kind": "person",
-   "name": "Jory Ember",
-   "role": "designer",
-   "skills": [
-    "devtools",
-    "data eng",
-    "agents"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p134",
-   "kind": "person",
-   "name": "Yara Vale",
-   "role": "investor",
-   "skills": [
-    "frontend",
-    "fintech",
-    "llm eval"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p135",
-   "kind": "person",
-   "name": "Oren Shore",
-   "role": "pm",
-   "skills": [
-    "mobile",
-    "distributed systems",
-    "robotics"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p136",
-   "kind": "person",
-   "name": "Kai Thorn",
-   "role": "pm",
-   "skills": [
-    "llm eval",
-    "sales"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p137",
-   "kind": "person",
-   "name": "Xan Delta",
-   "role": "founder",
-   "skills": [
-    "robotics",
-    "product design"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p138",
-   "kind": "person",
-   "name": "Lior Fjord",
-   "role": "investor",
-   "skills": [
-    "fundraising",
-    "frontend"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p139",
-   "kind": "person",
-   "name": "Reza Arbor",
-   "role": "researcher",
-   "skills": [
-    "sales",
-    "fintech"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p140",
-   "kind": "person",
-   "name": "Esme Elm",
-   "role": "pm",
-   "skills": [
-    "sales",
-    "mobile",
-    "recruiting"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p141",
-   "kind": "person",
-   "name": "Tova Moss",
-   "role": "pm",
-   "skills": [
-    "distributed systems",
-    "fundraising",
-    "data eng"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p142",
-   "kind": "person",
-   "name": "Wren Shore",
-   "role": "pm",
-   "skills": [
-    "data eng",
-    "recruiting"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p143",
-   "kind": "person",
-   "name": "Milo Heath",
-   "role": "researcher",
-   "skills": [
-    "fundraising",
-    "security",
-    "gtm"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p144",
-   "kind": "person",
-   "name": "Mira Quarry",
-   "role": "operator",
-   "skills": [
-    "ml ranking",
-    "distributed systems",
-    "llm eval"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p145",
-   "kind": "person",
-   "name": "Cira Calder",
-   "role": "investor",
-   "skills": [
-    "agents",
-    "sales",
-    "devtools"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p146",
-   "kind": "person",
-   "name": "Amara Lark",
-   "role": "engineer",
-   "skills": [
-    "security",
-    "biotech",
-    "robotics"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p147",
-   "kind": "person",
-   "name": "Kai Quarry",
-   "role": "pm",
-   "skills": [
-    "sales",
-    "devtools",
-    "distributed systems"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p148",
-   "kind": "person",
-   "name": "Esme Juniper",
-   "role": "operator",
-   "skills": [
-    "data eng",
-    "fintech"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p149",
-   "kind": "person",
-   "name": "Finn Birch",
-   "role": "founder",
-   "skills": [
-    "backend",
-    "security"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p150",
-   "kind": "person",
-   "name": "Wes Quarry",
-   "role": "investor",
-   "skills": [
-    "security",
-    "distributed systems",
-    "fundraising"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p151",
-   "kind": "person",
-   "name": "Bram Loch",
-   "role": "engineer",
-   "skills": [
-    "agents",
-    "backend",
-    "sales"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p152",
-   "kind": "person",
-   "name": "Amara Harbor",
-   "role": "founder",
-   "skills": [
-    "sales",
-    "frontend",
-    "distributed systems"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p153",
-   "kind": "person",
-   "name": "Pax Knoll",
-   "role": "founder",
-   "skills": [
-    "fintech",
-    "mobile"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p154",
-   "kind": "person",
-   "name": "Amara Glen",
-   "role": "researcher",
-   "skills": [
-    "recruiting",
-    "llm eval",
-    "security"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p155",
-   "kind": "person",
-   "name": "Pax Zephyr",
-   "role": "founder",
-   "skills": [
-    "fintech",
-    "security",
-    "llm eval"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p156",
-   "kind": "person",
-   "name": "Rhea Moss",
-   "role": "pm",
-   "skills": [
-    "backend",
-    "agents",
-    "growth"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p157",
-   "kind": "person",
-   "name": "Oren Brook",
-   "role": "founder",
-   "skills": [
-    "ml ranking",
-    "robotics"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p158",
-   "kind": "person",
-   "name": "Esme Loch",
-   "role": "engineer",
-   "skills": [
-    "fundraising",
-    "devtools"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p159",
-   "kind": "person",
-   "name": "Milo Arbor",
-   "role": "engineer",
-   "skills": [
-    "ml ranking",
-    "fintech",
-    "recruiting"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p160",
-   "kind": "person",
-   "name": "Hale Brook",
-   "role": "founder",
-   "skills": [
-    "fundraising",
-    "robotics"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p161",
-   "kind": "person",
-   "name": "Quin Dune",
-   "role": "founder",
-   "skills": [
-    "distributed systems",
-    "agents"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p162",
-   "kind": "person",
-   "name": "Cira Zephyr",
-   "role": "designer",
-   "skills": [
-    "biotech",
-    "fundraising"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p163",
-   "kind": "person",
-   "name": "Cleo Jade",
-   "role": "engineer",
-   "skills": [
-    "ai infra",
-    "llm eval",
-    "frontend"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p164",
-   "kind": "person",
-   "name": "Bodhi Glen",
-   "role": "designer",
-   "skills": [
-    "agents",
-    "gtm",
-    "devtools"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p165",
-   "kind": "person",
-   "name": "Ines Ridge",
-   "role": "investor",
-   "skills": [
-    "devtools",
-    "data eng"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p166",
-   "kind": "person",
-   "name": "Hana Shore",
-   "role": "designer",
-   "skills": [
-    "distributed systems",
-    "gtm",
-    "fintech"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p167",
-   "kind": "person",
-   "name": "Nico Delta",
-   "role": "designer",
-   "skills": [
-    "devtools",
-    "backend"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p168",
-   "kind": "person",
-   "name": "Ulla Delta",
-   "role": "engineer",
-   "skills": [
-    "ml ranking",
-    "frontend"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p169",
-   "kind": "person",
-   "name": "Finn Fjord",
-   "role": "founder",
-   "skills": [
-    "security",
-    "ml ranking"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p170",
-   "kind": "person",
-   "name": "Dev Loch",
-   "role": "investor",
-   "skills": [
-    "mobile",
-    "security",
-    "gtm"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p171",
-   "kind": "person",
-   "name": "Dev Shore",
-   "role": "investor",
-   "skills": [
-    "robotics",
-    "biotech"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p172",
-   "kind": "person",
-   "name": "Jory Grove",
-   "role": "engineer",
-   "skills": [
-    "fintech",
-    "security"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p173",
-   "kind": "person",
-   "name": "Yuki Ridge",
-   "role": "investor",
-   "skills": [
-    "fintech",
-    "gtm",
-    "ai infra"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p174",
-   "kind": "person",
-   "name": "Rhea Thorn",
-   "role": "pm",
-   "skills": [
-    "product design",
-    "ml ranking"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p175",
-   "kind": "person",
-   "name": "Wes Brook",
-   "role": "founder",
-   "skills": [
-    "data eng",
-    "mobile"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p176",
-   "kind": "person",
-   "name": "Vida Kestrel",
-   "role": "engineer",
-   "skills": [
-    "robotics",
-    "agents",
-    "llm eval"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p177",
-   "kind": "person",
-   "name": "Kai Dune",
-   "role": "operator",
-   "skills": [
-    "mobile",
-    "frontend"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p178",
-   "kind": "person",
-   "name": "Cira Cove",
-   "role": "engineer",
-   "skills": [
-    "distributed systems",
-    "security",
-    "mobile"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p179",
-   "kind": "person",
-   "name": "Soren Heath",
-   "role": "designer",
-   "skills": [
-    "fundraising",
-    "data eng"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p180",
-   "kind": "person",
-   "name": "Dev Arbor",
-   "role": "engineer",
-   "skills": [
-    "ml ranking",
-    "recruiting",
-    "sales"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p181",
-   "kind": "person",
-   "name": "Hale Arbor",
-   "role": "designer",
-   "skills": [
-    "ml ranking",
-    "data eng"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p182",
-   "kind": "person",
-   "name": "Uma Oak",
-   "role": "designer",
-   "skills": [
-    "security",
-    "agents",
-    "data eng"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p183",
-   "kind": "person",
-   "name": "Cleo Delta",
-   "role": "founder",
-   "skills": [
-    "devtools",
-    "robotics",
-    "mobile"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p184",
-   "kind": "person",
-   "name": "Zev Cove",
-   "role": "engineer",
-   "skills": [
-    "devtools",
-    "product design"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p185",
-   "kind": "person",
-   "name": "Dax Zephyr",
-   "role": "founder",
-   "skills": [
-    "fundraising",
-    "mobile",
-    "data eng"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p186",
-   "kind": "person",
-   "name": "Tova Wilde",
-   "role": "engineer",
-   "skills": [
-    "agents",
-    "biotech",
-    "distributed systems"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p187",
-   "kind": "person",
-   "name": "Zara Yarrow",
-   "role": "engineer",
-   "skills": [
-    "ml ranking",
-    "fundraising",
-    "distributed systems"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p188",
-   "kind": "person",
-   "name": "Quin Moss",
-   "role": "engineer",
-   "skills": [
-    "agents",
-    "product design"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p189",
-   "kind": "person",
-   "name": "Fia Flint",
-   "role": "operator",
-   "skills": [
-    "backend",
-    "robotics",
-    "devtools"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p190",
-   "kind": "person",
-   "name": "Ulla Juniper",
-   "role": "engineer",
-   "skills": [
-    "sales",
-    "recruiting"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p191",
-   "kind": "person",
-   "name": "Dev Yarrow",
-   "role": "designer",
-   "skills": [
-    "backend",
-    "llm eval"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p192",
-   "kind": "person",
-   "name": "Xan Shore",
-   "role": "founder",
-   "skills": [
-    "agents",
-    "biotech",
-    "data eng"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p193",
-   "kind": "person",
-   "name": "Wes Calder",
-   "role": "engineer",
-   "skills": [
-    "growth",
-    "devtools",
-    "frontend"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p194",
-   "kind": "person",
-   "name": "Jory Dune",
-   "role": "designer",
-   "skills": [
-    "devtools",
-    "agents",
-    "biotech"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p195",
-   "kind": "person",
-   "name": "Lior Calder",
-   "role": "engineer",
-   "skills": [
-    "backend",
-    "biotech"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p196",
-   "kind": "person",
-   "name": "Nia Kestrel",
-   "role": "engineer",
-   "skills": [
-    "data eng",
-    "mobile",
-    "devtools"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p197",
-   "kind": "person",
-   "name": "Milo Dune",
-   "role": "operator",
-   "skills": [
-    "agents",
-    "devtools",
-    "distributed systems"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p198",
-   "kind": "person",
-   "name": "Sana Ashby",
-   "role": "engineer",
-   "skills": [
-    "gtm",
-    "ml ranking",
-    "devtools"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p199",
-   "kind": "person",
-   "name": "Lena Juniper",
-   "role": "pm",
-   "skills": [
-    "data eng",
-    "ml ranking"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p200",
-   "kind": "person",
-   "name": "Uma Fjord",
-   "role": "engineer",
-   "skills": [
-    "devtools",
-    "ml ranking"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p201",
-   "kind": "person",
-   "name": "Gus Zephyr",
-   "role": "founder",
-   "skills": [
-    "growth",
-    "devtools"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p202",
-   "kind": "person",
-   "name": "Mira Oak",
-   "role": "pm",
-   "skills": [
-    "sales",
-    "distributed systems"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p203",
-   "kind": "person",
-   "name": "Zara Knoll",
-   "role": "researcher",
-   "skills": [
-    "llm eval",
-    "devtools",
-    "ml ranking"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p204",
-   "kind": "person",
-   "name": "Yara Juniper",
-   "role": "engineer",
-   "skills": [
-    "gtm",
-    "product design",
-    "backend"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p205",
-   "kind": "person",
-   "name": "Amara Zephyr",
-   "role": "operator",
-   "skills": [
-    "backend",
-    "sales"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p206",
-   "kind": "person",
-   "name": "Cira Oak",
-   "role": "designer",
-   "skills": [
-    "frontend",
-    "growth"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p207",
-   "kind": "person",
-   "name": "Sana Elm",
-   "role": "designer",
-   "skills": [
-    "data eng",
-    "biotech"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p208",
-   "kind": "person",
-   "name": "Amara Kestrel",
-   "role": "researcher",
-   "skills": [
-    "ml ranking",
-    "recruiting",
-    "llm eval"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p209",
-   "kind": "person",
-   "name": "Elio Zephyr",
-   "role": "investor",
-   "skills": [
-    "biotech",
-    "distributed systems"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p210",
-   "kind": "person",
-   "name": "Rhea Elm",
-   "role": "pm",
-   "skills": [
-    "mobile",
-    "agents"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "p211",
-   "kind": "person",
-   "name": "Cira Yarrow",
-   "role": "pm",
-   "skills": [
-    "data eng",
-    "biotech"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p212",
-   "kind": "person",
-   "name": "Pax Ashby",
-   "role": "pm",
-   "skills": [
-    "ai infra",
-    "devtools"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p213",
-   "kind": "person",
-   "name": "Uma Wilde",
-   "role": "operator",
-   "skills": [
-    "sales",
-    "frontend"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "p214",
-   "kind": "person",
-   "name": "Cira Arbor",
-   "role": "pm",
-   "skills": [
-    "growth",
-    "ml ranking"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p215",
-   "kind": "person",
-   "name": "Vik Jade",
-   "role": "engineer",
-   "skills": [
-    "fundraising",
-    "sales",
-    "distributed systems"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "p216",
-   "kind": "person",
-   "name": "Pax Cove",
-   "role": "investor",
-   "skills": [
-    "agents",
-    "distributed systems",
-    "frontend"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "p217",
-   "kind": "person",
-   "name": "Idris Brook",
-   "role": "investor",
-   "skills": [
-    "ml ranking",
-    "sales"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "p218",
-   "kind": "person",
-   "name": "Ada Yarrow",
-   "role": "engineer",
-   "skills": [
-    "agents",
-    "biotech"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "p219",
-   "kind": "person",
-   "name": "Esme Jade",
-   "role": "designer",
-   "skills": [
-    "biotech",
-    "fintech",
-    "ai infra"
-   ],
-   "city": "Seattle"
-  },
-  {
    "id": "c000",
    "kind": "company",
-   "name": "Prism Labs",
-   "stage": "series b",
+   "name": "Nimbus Health",
+   "stage": "seed",
    "focus": [
-    "security",
+    "frontend",
     "recruiting"
    ],
    "city": "London"
@@ -2569,11696 +1191,5749 @@ window.COSIGN_SYNTHETIC = {
   {
    "id": "c001",
    "kind": "company",
-   "name": "Lumen Data",
-   "stage": "pre-seed",
+   "name": "Meridian AI",
+   "stage": "seed",
    "focus": [
-    "security",
+    "sales",
     "fundraising"
    ],
-   "city": "London"
+   "city": "Los Angeles"
   },
   {
    "id": "c002",
    "kind": "company",
-   "name": "Quill Security",
-   "stage": "series a",
+   "name": "Nimbus Robotics",
+   "stage": "pre-seed",
    "focus": [
-    "ml ranking",
-    "llm eval"
+    "fintech",
+    "ml ranking"
    ],
    "city": "Los Angeles"
   },
   {
    "id": "c003",
    "kind": "company",
-   "name": "Tandem Works",
-   "stage": "seed",
+   "name": "Vector Labs",
+   "stage": "growth",
    "focus": [
-    "backend",
-    "frontend"
+    "sales",
+    "ml ranking"
    ],
    "city": "London"
   },
   {
    "id": "c004",
    "kind": "company",
-   "name": "Nimbus Systems",
+   "name": "Prism AI",
    "stage": "pre-seed",
    "focus": [
-    "backend",
-    "llm eval"
+    "robotics",
+    "sales"
    ],
-   "city": "Los Angeles"
+   "city": "Seattle"
   },
   {
    "id": "c005",
    "kind": "company",
-   "name": "Forge Labs",
-   "stage": "seed",
+   "name": "Prism Bio",
+   "stage": "series a",
    "focus": [
-    "llm eval",
-    "devtools"
+    "product design",
+    "llm eval"
    ],
    "city": "Los Angeles"
   },
   {
    "id": "c006",
    "kind": "company",
-   "name": "Orbit Finance",
+   "name": "Harbor Cloud",
    "stage": "series b",
    "focus": [
-    "recruiting",
-    "llm eval"
+    "agents",
+    "robotics"
    ],
    "city": "London"
   },
   {
    "id": "c007",
    "kind": "company",
-   "name": "Forge Robotics",
-   "stage": "series a",
+   "name": "Vector Systems",
+   "stage": "seed",
    "focus": [
-    "llm eval",
-    "devtools"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "c008",
-   "kind": "company",
-   "name": "Quill Data",
-   "stage": "series b",
-   "focus": [
-    "data eng",
-    "backend"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "c009",
-   "kind": "company",
-   "name": "Tandem Systems",
-   "stage": "series b",
-   "focus": [
-    "frontend",
-    "security"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "c010",
-   "kind": "company",
-   "name": "Signal AI",
-   "stage": "series b",
-   "focus": [
-    "agents",
-    "mobile"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "c011",
-   "kind": "company",
-   "name": "Nimbus Finance",
-   "stage": "series a",
-   "focus": [
-    "devtools",
-    "distributed systems"
+    "robotics",
+    "sales"
    ],
    "city": "San Francisco"
   },
   {
-   "id": "c012",
+   "id": "c008",
    "kind": "company",
-   "name": "Meridian Robotics",
-   "stage": "series b",
+   "name": "Relay AI",
+   "stage": "growth",
    "focus": [
-    "gtm",
-    "mobile"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "c013",
-   "kind": "company",
-   "name": "Beacon Data",
-   "stage": "series b",
-   "focus": [
-    "llm eval",
-    "security"
+    "mobile",
+    "fundraising"
    ],
    "city": "Austin"
   },
   {
-   "id": "c014",
+   "id": "c009",
    "kind": "company",
-   "name": "Cinder Robotics",
+   "name": "Orbit Bio",
+   "stage": "series b",
+   "focus": [
+    "sales",
+    "robotics"
+   ],
+   "city": "Seattle"
+  },
+  {
+   "id": "c010",
+   "kind": "company",
+   "name": "Meridian Security",
+   "stage": "growth",
+   "focus": [
+    "llm eval",
+    "distributed systems"
+   ],
+   "city": "New York"
+  },
+  {
+   "id": "c011",
+   "kind": "company",
+   "name": "Forge Robotics",
    "stage": "pre-seed",
    "focus": [
+    "product design",
+    "fundraising"
+   ],
+   "city": "New York"
+  },
+  {
+   "id": "c012",
+   "kind": "company",
+   "name": "Harbor Systems",
+   "stage": "pre-seed",
+   "focus": [
+    "mobile",
+    "backend"
+   ],
+   "city": "London"
+  },
+  {
+   "id": "c013",
+   "kind": "company",
+   "name": "Prism Robotics",
+   "stage": "pre-seed",
+   "focus": [
+    "fundraising",
+    "sales"
+   ],
+   "city": "London"
+  },
+  {
+   "id": "c014",
+   "kind": "company",
+   "name": "Meridian Infra",
+   "stage": "series b",
+   "focus": [
     "agents",
-    "data eng"
+    "fundraising"
    ],
    "city": "Los Angeles"
   },
   {
    "id": "c015",
    "kind": "company",
-   "name": "Nimbus Labs",
-   "stage": "seed",
+   "name": "Forge Cloud",
+   "stage": "pre-seed",
    "focus": [
-    "gtm",
-    "backend"
+    "fintech",
+    "fundraising"
    ],
-   "city": "San Francisco"
+   "city": "London"
   },
   {
    "id": "c016",
    "kind": "company",
-   "name": "Atlas AI",
+   "name": "Atlas Robotics",
    "stage": "seed",
    "focus": [
-    "security",
-    "gtm"
+    "agents",
+    "llm eval"
    ],
-   "city": "Seattle"
+   "city": "New York"
   },
   {
    "id": "c017",
    "kind": "company",
-   "name": "Vector Security",
-   "stage": "seed",
-   "focus": [
-    "backend",
-    "security"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "c018",
-   "kind": "company",
-   "name": "Beacon AI",
-   "stage": "growth",
-   "focus": [
-    "ml ranking",
-    "biotech"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "c019",
-   "kind": "company",
-   "name": "Orbit Data",
-   "stage": "series a",
-   "focus": [
-    "fundraising",
-    "distributed systems"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "c020",
-   "kind": "company",
-   "name": "Nimbus Bio",
-   "stage": "growth",
-   "focus": [
-    "data eng",
-    "fintech"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "c021",
-   "kind": "company",
-   "name": "Signal Robotics",
-   "stage": "series b",
-   "focus": [
-    "growth",
-    "sales"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "c022",
-   "kind": "company",
-   "name": "Prism Health",
-   "stage": "pre-seed",
-   "focus": [
-    "ml ranking",
-    "agents"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "c023",
-   "kind": "company",
-   "name": "Nimbus Infra",
-   "stage": "series b",
-   "focus": [
-    "agents",
-    "devtools"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "c024",
-   "kind": "company",
-   "name": "Verge Infra",
-   "stage": "pre-seed",
-   "focus": [
-    "fintech",
-    "gtm"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "c025",
-   "kind": "company",
-   "name": "Meridian Systems",
-   "stage": "seed",
-   "focus": [
-    "security",
-    "biotech"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "c026",
-   "kind": "company",
-   "name": "Quill Health",
-   "stage": "seed",
-   "focus": [
-    "fundraising",
-    "frontend"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "c027",
-   "kind": "company",
-   "name": "Verge Finance",
-   "stage": "growth",
-   "focus": [
-    "security",
-    "backend"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "c028",
-   "kind": "company",
-   "name": "Atlas Security",
-   "stage": "pre-seed",
-   "focus": [
-    "agents",
-    "sales"
-   ],
-   "city": "Seattle"
-  },
-  {
-   "id": "c029",
-   "kind": "company",
-   "name": "Prism Finance",
-   "stage": "series b",
-   "focus": [
-    "mobile",
-    "robotics"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "c030",
-   "kind": "company",
-   "name": "Atlas Data",
+   "name": "Meridian Bio",
    "stage": "pre-seed",
    "focus": [
     "backend",
-    "gtm"
+    "sales"
    ],
    "city": "London"
-  },
-  {
-   "id": "c031",
-   "kind": "company",
-   "name": "Verge Systems",
-   "stage": "growth",
-   "focus": [
-    "robotics",
-    "product design"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "c032",
-   "kind": "company",
-   "name": "Cinder Finance",
-   "stage": "pre-seed",
-   "focus": [
-    "distributed systems",
-    "biotech"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "c033",
-   "kind": "company",
-   "name": "Nimbus Data",
-   "stage": "seed",
-   "focus": [
-    "security",
-    "biotech"
-   ],
-   "city": "Los Angeles"
-  },
-  {
-   "id": "c034",
-   "kind": "company",
-   "name": "Harbor Robotics",
-   "stage": "seed",
-   "focus": [
-    "fintech",
-    "recruiting"
-   ],
-   "city": "New York"
-  },
-  {
-   "id": "c035",
-   "kind": "company",
-   "name": "Meridian Security",
-   "stage": "growth",
-   "focus": [
-    "agents",
-    "biotech"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "c036",
-   "kind": "company",
-   "name": "Nimbus Security",
-   "stage": "growth",
-   "focus": [
-    "ml ranking",
-    "product design"
-   ],
-   "city": "London"
-  },
-  {
-   "id": "c037",
-   "kind": "company",
-   "name": "Tandem Security",
-   "stage": "pre-seed",
-   "focus": [
-    "ai infra",
-    "agents"
-   ],
-   "city": "San Francisco"
-  },
-  {
-   "id": "c038",
-   "kind": "company",
-   "name": "Signal Works",
-   "stage": "seed",
-   "focus": [
-    "robotics",
-    "mobile"
-   ],
-   "city": "Austin"
-  },
-  {
-   "id": "c039",
-   "kind": "company",
-   "name": "Lumen Bio",
-   "stage": "growth",
-   "focus": [
-    "sales",
-    "gtm"
-   ],
-   "city": "Seattle"
   }
  ],
  "edges": [
   {
-   "source": "p099",
-   "target": "p106",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Tova Quarry and Tova Fjord worked together at Prism Labs for two years."
-  },
-  {
-   "source": "p099",
-   "target": "p156",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Tova Quarry and Rhea Moss worked together at Prism Labs for four years."
-  },
-  {
-   "source": "p156",
-   "target": "p099",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Rhea Moss and Tova Quarry worked together at Prism Labs for two years."
-  },
-  {
-   "source": "p106",
-   "target": "p117",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Tova Fjord and Lior Delta worked together at Prism Labs for two years."
-  },
-  {
-   "source": "p117",
-   "target": "p106",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Lior Delta and Tova Fjord worked together at Prism Labs for four years."
-  },
-  {
-   "source": "p117",
-   "target": "p156",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Lior Delta and Rhea Moss worked together at Prism Labs for two years."
-  },
-  {
-   "source": "p156",
-   "target": "p117",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Rhea Moss and Lior Delta worked together at Prism Labs for three years."
-  },
-  {
-   "source": "p117",
-   "target": "p199",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Lior Delta and Lena Juniper worked together at Prism Labs for two years."
-  },
-  {
-   "source": "p199",
-   "target": "p117",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Lena Juniper and Lior Delta worked together at Prism Labs for two years."
-  },
-  {
-   "source": "p142",
-   "target": "p156",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Wren Shore and Rhea Moss worked together at Prism Labs for three years."
-  },
-  {
-   "source": "p156",
-   "target": "p142",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Rhea Moss and Wren Shore worked together at Prism Labs for three years."
-  },
-  {
-   "source": "p099",
-   "target": "c000",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Tova Quarry and Prism Labs worked together at Prism Labs for two years."
-  },
-  {
-   "source": "p106",
-   "target": "c000",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Tova Fjord and Prism Labs worked together at Prism Labs for four years."
-  },
-  {
-   "source": "p117",
-   "target": "c000",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Lior Delta and Prism Labs worked together at Prism Labs for two years."
-  },
-  {
-   "source": "p142",
-   "target": "c000",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Wren Shore and Prism Labs worked together at Prism Labs for three years."
-  },
-  {
-   "source": "p156",
-   "target": "c000",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Rhea Moss and Prism Labs worked together at Prism Labs for two years."
-  },
-  {
-   "source": "p199",
-   "target": "c000",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Lena Juniper and Prism Labs worked together at Prism Labs for four years."
-  },
-  {
-   "source": "p046",
-   "target": "p049",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Finn Delta and Lena Loch worked together at Lumen Data for four years."
-  },
-  {
-   "source": "p046",
-   "target": "p212",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Finn Delta and Pax Ashby worked together at Lumen Data for two years."
-  },
-  {
-   "source": "p212",
-   "target": "p046",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Pax Ashby and Finn Delta worked together at Lumen Data for three years."
-  },
-  {
-   "source": "p049",
-   "target": "p141",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Lena Loch and Tova Moss worked together at Lumen Data for four years."
-  },
-  {
-   "source": "p141",
-   "target": "p049",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Tova Moss and Lena Loch worked together at Lumen Data for three years."
-  },
-  {
-   "source": "p049",
-   "target": "p164",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Lena Loch and Bodhi Glen worked together at Lumen Data for four years."
-  },
-  {
-   "source": "p141",
-   "target": "p164",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Tova Moss and Bodhi Glen worked together at Lumen Data for four years."
-  },
-  {
-   "source": "p046",
-   "target": "c001",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Finn Delta and Lumen Data worked together at Lumen Data for four years."
-  },
-  {
-   "source": "p049",
-   "target": "c001",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Lena Loch and Lumen Data worked together at Lumen Data for four years."
-  },
-  {
-   "source": "p141",
-   "target": "c001",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Tova Moss and Lumen Data worked together at Lumen Data for two years."
-  },
-  {
-   "source": "p164",
-   "target": "c001",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Bodhi Glen and Lumen Data worked together at Lumen Data for two years."
-  },
-  {
-   "source": "p212",
-   "target": "c001",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Pax Ashby and Lumen Data worked together at Lumen Data for three years."
-  },
-  {
-   "source": "p037",
-   "target": "p094",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Lior Ember and Quin Wilde worked together at Quill Security for three years."
-  },
-  {
-   "source": "p094",
-   "target": "p037",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Quin Wilde and Lior Ember worked together at Quill Security for three years."
-  },
-  {
-   "source": "p037",
-   "target": "p096",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Lior Ember and Elio Heath worked together at Quill Security for three years."
-  },
-  {
-   "source": "p096",
-   "target": "p037",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Elio Heath and Lior Ember worked together at Quill Security for two years."
-  },
-  {
-   "source": "p037",
-   "target": "p195",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Lior Ember and Lior Calder worked together at Quill Security for four years."
-  },
-  {
-   "source": "p094",
-   "target": "p096",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Quin Wilde and Elio Heath worked together at Quill Security for three years."
-  },
-  {
-   "source": "p096",
-   "target": "p094",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Elio Heath and Quin Wilde worked together at Quill Security for three years."
-  },
-  {
-   "source": "p094",
-   "target": "p195",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Quin Wilde and Lior Calder worked together at Quill Security for two years."
-  },
-  {
-   "source": "p195",
-   "target": "p094",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Lior Calder and Quin Wilde worked together at Quill Security for two years."
-  },
-  {
-   "source": "p096",
-   "target": "p162",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Elio Heath and Cira Zephyr worked together at Quill Security for four years."
-  },
-  {
-   "source": "p162",
-   "target": "p096",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Cira Zephyr and Elio Heath worked together at Quill Security for two years."
-  },
-  {
-   "source": "p096",
-   "target": "p195",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Elio Heath and Lior Calder worked together at Quill Security for four years."
-  },
-  {
-   "source": "p037",
-   "target": "c002",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Lior Ember and Quill Security worked together at Quill Security for four years."
-  },
-  {
-   "source": "p094",
-   "target": "c002",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Quin Wilde and Quill Security worked together at Quill Security for two years."
-  },
-  {
-   "source": "p096",
-   "target": "c002",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Elio Heath and Quill Security worked together at Quill Security for three years."
-  },
-  {
-   "source": "p162",
-   "target": "c002",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Cira Zephyr and Quill Security worked together at Quill Security for two years."
-  },
-  {
-   "source": "p195",
-   "target": "c002",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Lior Calder and Quill Security worked together at Quill Security for three years."
-  },
-  {
-   "source": "p021",
-   "target": "p137",
-   "type": "cofounded",
-   "year": 2020,
-   "reason": "Ulla Heath and Xan Delta co-founded Tandem Works."
-  },
-  {
-   "source": "p137",
-   "target": "p021",
-   "type": "cofounded",
-   "year": 2020,
-   "reason": "Xan Delta and Ulla Heath co-founded Tandem Works."
-  },
-  {
-   "source": "p021",
-   "target": "p167",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Ulla Heath and Nico Delta worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p027",
-   "target": "p137",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Vida Ember and Xan Delta worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p137",
-   "target": "p027",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Xan Delta and Vida Ember worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p027",
-   "target": "p187",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Vida Ember and Zara Yarrow worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p187",
-   "target": "p027",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Zara Yarrow and Vida Ember worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p051",
-   "target": "p092",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Wes Juniper and Finn Ridge worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p092",
-   "target": "p051",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Finn Ridge and Wes Juniper worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p051",
-   "target": "p137",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Wes Juniper and Xan Delta worked together at Tandem Works for two years."
-  },
-  {
-   "source": "p051",
-   "target": "p145",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Wes Juniper and Cira Calder worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p145",
-   "target": "p051",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Cira Calder and Wes Juniper worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p092",
-   "target": "p118",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Finn Ridge and Ulla Glen worked together at Tandem Works for two years."
-  },
-  {
-   "source": "p092",
-   "target": "p137",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Finn Ridge and Xan Delta worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p092",
-   "target": "p167",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Finn Ridge and Nico Delta worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p092",
-   "target": "p187",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Finn Ridge and Zara Yarrow worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p118",
-   "target": "p167",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Ulla Glen and Nico Delta worked together at Tandem Works for two years."
-  },
-  {
-   "source": "p167",
-   "target": "p118",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Nico Delta and Ulla Glen worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p118",
-   "target": "p170",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Ulla Glen and Dev Loch worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p118",
-   "target": "p187",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Ulla Glen and Zara Yarrow worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p137",
-   "target": "p145",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Xan Delta and Cira Calder worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p145",
-   "target": "p137",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Cira Calder and Xan Delta worked together at Tandem Works for two years."
-  },
-  {
-   "source": "p137",
-   "target": "p170",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Xan Delta and Dev Loch worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p170",
-   "target": "p137",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Dev Loch and Xan Delta worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p137",
-   "target": "p180",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Xan Delta and Dev Arbor worked together at Tandem Works for two years."
-  },
-  {
-   "source": "p145",
-   "target": "p167",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Cira Calder and Nico Delta worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p167",
-   "target": "p145",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Nico Delta and Cira Calder worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p145",
-   "target": "p170",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Cira Calder and Dev Loch worked together at Tandem Works for two years."
-  },
-  {
-   "source": "p170",
-   "target": "p145",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Dev Loch and Cira Calder worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p145",
-   "target": "p180",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Cira Calder and Dev Arbor worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p167",
-   "target": "p180",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Nico Delta and Dev Arbor worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p180",
-   "target": "p167",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Dev Arbor and Nico Delta worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p167",
-   "target": "p187",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Nico Delta and Zara Yarrow worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p187",
-   "target": "p167",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Zara Yarrow and Nico Delta worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p170",
-   "target": "p180",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Dev Loch and Dev Arbor worked together at Tandem Works for two years."
-  },
-  {
-   "source": "p180",
-   "target": "p170",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Dev Arbor and Dev Loch worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p180",
-   "target": "p187",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Dev Arbor and Zara Yarrow worked together at Tandem Works for two years."
-  },
-  {
-   "source": "p187",
-   "target": "p180",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Zara Yarrow and Dev Arbor worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p021",
-   "target": "c003",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Ulla Heath and Tandem Works worked together at Tandem Works for two years."
-  },
-  {
-   "source": "p027",
-   "target": "c003",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Vida Ember and Tandem Works worked together at Tandem Works for two years."
-  },
-  {
-   "source": "p051",
-   "target": "c003",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Wes Juniper and Tandem Works worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p060",
-   "target": "c003",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Reza Wilde and Tandem Works worked together at Tandem Works for three years."
-  },
-  {
-   "source": "p092",
-   "target": "c003",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Finn Ridge and Tandem Works worked together at Tandem Works for two years."
-  },
-  {
-   "source": "p118",
-   "target": "c003",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Ulla Glen and Tandem Works worked together at Tandem Works for four years."
-  },
-  {
-   "source": "p029",
-   "target": "p146",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Bodhi Cove and Amara Lark worked together at Nimbus Systems for three years."
-  },
-  {
-   "source": "p146",
-   "target": "p029",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Amara Lark and Bodhi Cove worked together at Nimbus Systems for three years."
-  },
-  {
-   "source": "p130",
-   "target": "p143",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Kael Ashby and Milo Heath worked together at Nimbus Systems for four years."
-  },
-  {
-   "source": "p001",
-   "target": "c004",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Gia Knoll and Nimbus Systems worked together at Nimbus Systems for three years."
-  },
-  {
-   "source": "p029",
-   "target": "c004",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Bodhi Cove and Nimbus Systems worked together at Nimbus Systems for four years."
-  },
-  {
-   "source": "p130",
-   "target": "c004",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Kael Ashby and Nimbus Systems worked together at Nimbus Systems for three years."
-  },
-  {
-   "source": "p143",
-   "target": "c004",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Milo Heath and Nimbus Systems worked together at Nimbus Systems for three years."
-  },
-  {
-   "source": "p146",
-   "target": "c004",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Amara Lark and Nimbus Systems worked together at Nimbus Systems for four years."
-  },
-  {
-   "source": "p018",
-   "target": "p192",
-   "type": "cofounded",
-   "year": 2019,
-   "reason": "Zara Wilde and Xan Shore co-founded Forge Labs."
-  },
-  {
-   "source": "p192",
+   "source": "p005",
    "target": "p018",
-   "type": "cofounded",
-   "year": 2016,
-   "reason": "Xan Shore and Zara Wilde co-founded Forge Labs."
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Wren Yarrow and Zara Wilde worked together at Nimbus Health for four years."
+  },
+  {
+   "source": "p005",
+   "target": "p079",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Wren Yarrow and Reza Birch worked together at Nimbus Health for two years."
   },
   {
    "source": "p018",
-   "target": "p076",
+   "target": "p036",
    "type": "worked_with",
-   "year": 2017,
-   "reason": "Zara Wilde and Zara Brook worked together at Forge Labs for two years."
+   "year": 2025,
+   "reason": "Zara Wilde and Dev Grove worked together at Nimbus Health for four years."
+  },
+  {
+   "source": "p036",
+   "target": "p018",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Dev Grove and Zara Wilde worked together at Nimbus Health for three years."
   },
   {
    "source": "p018",
-   "target": "p093",
+   "target": "p079",
    "type": "worked_with",
-   "year": 2025,
-   "reason": "Zara Wilde and Vida Brook worked together at Forge Labs for four years."
+   "year": 2016,
+   "reason": "Zara Wilde and Reza Birch worked together at Nimbus Health for three years."
   },
   {
-   "source": "p076",
-   "target": "p128",
+   "source": "p025",
+   "target": "p036",
    "type": "worked_with",
-   "year": 2020,
-   "reason": "Zara Brook and Ada Shore worked together at Forge Labs for four years."
+   "year": 2019,
+   "reason": "Cira Harbor and Dev Grove worked together at Nimbus Health for three years."
   },
   {
-   "source": "p128",
-   "target": "p076",
+   "source": "p036",
+   "target": "p025",
    "type": "worked_with",
-   "year": 2024,
-   "reason": "Ada Shore and Zara Brook worked together at Forge Labs for two years."
+   "year": 2026,
+   "reason": "Dev Grove and Cira Harbor worked together at Nimbus Health for four years."
   },
   {
-   "source": "p076",
-   "target": "p136",
+   "source": "p036",
+   "target": "p079",
    "type": "worked_with",
    "year": 2022,
-   "reason": "Zara Brook and Kai Thorn worked together at Forge Labs for three years."
+   "reason": "Dev Grove and Reza Birch worked together at Nimbus Health for two years."
   },
   {
-   "source": "p076",
-   "target": "p151",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Zara Brook and Bram Loch worked together at Forge Labs for two years."
-  },
-  {
-   "source": "p093",
-   "target": "p151",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Vida Brook and Bram Loch worked together at Forge Labs for three years."
-  },
-  {
-   "source": "p151",
-   "target": "p093",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Bram Loch and Vida Brook worked together at Forge Labs for four years."
-  },
-  {
-   "source": "p128",
-   "target": "p151",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Ada Shore and Bram Loch worked together at Forge Labs for four years."
-  },
-  {
-   "source": "p151",
-   "target": "p192",
+   "source": "p005",
+   "target": "c000",
    "type": "worked_with",
    "year": 2020,
-   "reason": "Bram Loch and Xan Shore worked together at Forge Labs for four years."
-  },
-  {
-   "source": "p192",
-   "target": "p151",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Xan Shore and Bram Loch worked together at Forge Labs for three years."
+   "reason": "Wren Yarrow and Nimbus Health worked together at Nimbus Health for four years."
   },
   {
    "source": "p018",
-   "target": "c005",
+   "target": "c000",
    "type": "worked_with",
-   "year": 2016,
-   "reason": "Zara Wilde and Forge Labs worked together at Forge Labs for two years."
+   "year": 2021,
+   "reason": "Zara Wilde and Nimbus Health worked together at Nimbus Health for three years."
   },
   {
-   "source": "p076",
-   "target": "c005",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Zara Brook and Forge Labs worked together at Forge Labs for two years."
-  },
-  {
-   "source": "p093",
-   "target": "c005",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Vida Brook and Forge Labs worked together at Forge Labs for three years."
-  },
-  {
-   "source": "p110",
-   "target": "c005",
+   "source": "p025",
+   "target": "c000",
    "type": "worked_with",
    "year": 2023,
-   "reason": "Cira Grove and Forge Labs worked together at Forge Labs for three years."
+   "reason": "Cira Harbor and Nimbus Health worked together at Nimbus Health for three years."
   },
   {
-   "source": "p128",
-   "target": "c005",
+   "source": "p036",
+   "target": "c000",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Dev Grove and Nimbus Health worked together at Nimbus Health for three years."
+  },
+  {
+   "source": "p070",
+   "target": "c000",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Dax Jade and Nimbus Health worked together at Nimbus Health for two years."
+  },
+  {
+   "source": "p079",
+   "target": "c000",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Reza Birch and Nimbus Health worked together at Nimbus Health for two years."
+  },
+  {
+   "source": "p002",
+   "target": "p061",
    "type": "worked_with",
    "year": 2019,
-   "reason": "Ada Shore and Forge Labs worked together at Forge Labs for two years."
+   "reason": "Orla Ivory and Reza Cove worked together at Meridian AI for two years."
   },
   {
-   "source": "p136",
-   "target": "c005",
+   "source": "p002",
+   "target": "p081",
    "type": "worked_with",
-   "year": 2026,
-   "reason": "Kai Thorn and Forge Labs worked together at Forge Labs for two years."
+   "year": 2018,
+   "reason": "Orla Ivory and Quin Ashby worked together at Meridian AI for two years."
   },
   {
-   "source": "p008",
+   "source": "p014",
+   "target": "p056",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Wes Loch and Sana Knoll worked together at Meridian AI for two years."
+  },
+  {
+   "source": "p056",
+   "target": "p014",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Sana Knoll and Wes Loch worked together at Meridian AI for four years."
+  },
+  {
+   "source": "p014",
+   "target": "p061",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Wes Loch and Reza Cove worked together at Meridian AI for four years."
+  },
+  {
+   "source": "p014",
    "target": "p081",
    "type": "worked_with",
    "year": 2021,
-   "reason": "Rhea Flint and Quin Ashby worked together at Orbit Finance for two years."
+   "reason": "Wes Loch and Quin Ashby worked together at Meridian AI for four years."
   },
   {
    "source": "p081",
-   "target": "p008",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Quin Ashby and Rhea Flint worked together at Orbit Finance for two years."
-  },
-  {
-   "source": "p008",
-   "target": "p111",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Rhea Flint and Sana Oak worked together at Orbit Finance for four years."
-  },
-  {
-   "source": "p111",
-   "target": "p008",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Sana Oak and Rhea Flint worked together at Orbit Finance for two years."
-  },
-  {
-   "source": "p011",
-   "target": "p024",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Ulla Dune and Idris Moss worked together at Orbit Finance for two years."
-  },
-  {
-   "source": "p024",
-   "target": "p011",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Idris Moss and Ulla Dune worked together at Orbit Finance for three years."
-  },
-  {
-   "source": "p011",
-   "target": "p111",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Ulla Dune and Sana Oak worked together at Orbit Finance for two years."
-  },
-  {
-   "source": "p111",
-   "target": "p011",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Sana Oak and Ulla Dune worked together at Orbit Finance for three years."
-  },
-  {
-   "source": "p024",
-   "target": "p100",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Idris Moss and Lior Moss worked together at Orbit Finance for two years."
-  },
-  {
-   "source": "p100",
-   "target": "p024",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Lior Moss and Idris Moss worked together at Orbit Finance for three years."
-  },
-  {
-   "source": "p024",
-   "target": "p165",
+   "target": "p014",
    "type": "worked_with",
    "year": 2018,
-   "reason": "Idris Moss and Ines Ridge worked together at Orbit Finance for four years."
+   "reason": "Quin Ashby and Wes Loch worked together at Meridian AI for two years."
   },
   {
-   "source": "p081",
-   "target": "p111",
+   "source": "p014",
+   "target": "p086",
    "type": "worked_with",
-   "year": 2017,
-   "reason": "Quin Ashby and Sana Oak worked together at Orbit Finance for two years."
+   "year": 2022,
+   "reason": "Wes Loch and Tova Glen worked together at Meridian AI for two years."
   },
   {
-   "source": "p111",
+   "source": "p021",
    "target": "p081",
    "type": "worked_with",
-   "year": 2022,
-   "reason": "Sana Oak and Quin Ashby worked together at Orbit Finance for three years."
+   "year": 2024,
+   "reason": "Ulla Heath and Quin Ashby worked together at Meridian AI for four years."
   },
   {
    "source": "p081",
-   "target": "p165",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Quin Ashby and Ines Ridge worked together at Orbit Finance for three years."
-  },
-  {
-   "source": "p100",
-   "target": "p111",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Lior Moss and Sana Oak worked together at Orbit Finance for four years."
-  },
-  {
-   "source": "p111",
-   "target": "p100",
+   "target": "p021",
    "type": "worked_with",
    "year": 2026,
-   "reason": "Sana Oak and Lior Moss worked together at Orbit Finance for two years."
+   "reason": "Quin Ashby and Ulla Heath worked together at Meridian AI for three years."
   },
   {
-   "source": "p008",
-   "target": "c006",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Rhea Flint and Orbit Finance worked together at Orbit Finance for four years."
-  },
-  {
-   "source": "p011",
-   "target": "c006",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Ulla Dune and Orbit Finance worked together at Orbit Finance for three years."
-  },
-  {
-   "source": "p024",
-   "target": "c006",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Idris Moss and Orbit Finance worked together at Orbit Finance for two years."
-  },
-  {
-   "source": "p081",
-   "target": "c006",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Quin Ashby and Orbit Finance worked together at Orbit Finance for four years."
-  },
-  {
-   "source": "p100",
-   "target": "c006",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Lior Moss and Orbit Finance worked together at Orbit Finance for three years."
-  },
-  {
-   "source": "p111",
-   "target": "c006",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Sana Oak and Orbit Finance worked together at Orbit Finance for four years."
-  },
-  {
-   "source": "p153",
-   "target": "p201",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Pax Knoll and Gus Zephyr co-founded Forge Robotics."
-  },
-  {
-   "source": "p201",
-   "target": "p153",
-   "type": "cofounded",
-   "year": 2024,
-   "reason": "Gus Zephyr and Pax Knoll co-founded Forge Robotics."
-  },
-  {
-   "source": "p032",
-   "target": "p121",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Dev Knoll and Dev Moss worked together at Forge Robotics for three years."
-  },
-  {
-   "source": "p121",
-   "target": "p032",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Dev Moss and Dev Knoll worked together at Forge Robotics for four years."
-  },
-  {
-   "source": "p032",
-   "target": "p153",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Dev Knoll and Pax Knoll worked together at Forge Robotics for three years."
-  },
-  {
-   "source": "p032",
-   "target": "p162",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Dev Knoll and Cira Zephyr worked together at Forge Robotics for four years."
-  },
-  {
-   "source": "p162",
-   "target": "p032",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Cira Zephyr and Dev Knoll worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p047",
-   "target": "p055",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Quin Kestrel and Mira Birch worked together at Forge Robotics for three years."
-  },
-  {
-   "source": "p055",
-   "target": "p047",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Mira Birch and Quin Kestrel worked together at Forge Robotics for four years."
-  },
-  {
-   "source": "p047",
-   "target": "p104",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Quin Kestrel and Elio Elm worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p104",
-   "target": "p047",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Elio Elm and Quin Kestrel worked together at Forge Robotics for three years."
-  },
-  {
-   "source": "p047",
-   "target": "p153",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Quin Kestrel and Pax Knoll worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p153",
-   "target": "p047",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Pax Knoll and Quin Kestrel worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p047",
-   "target": "p201",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Quin Kestrel and Gus Zephyr worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p201",
-   "target": "p047",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Gus Zephyr and Quin Kestrel worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p055",
-   "target": "p104",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Mira Birch and Elio Elm worked together at Forge Robotics for four years."
-  },
-  {
-   "source": "p104",
-   "target": "p055",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Elio Elm and Mira Birch worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p055",
-   "target": "p162",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Mira Birch and Cira Zephyr worked together at Forge Robotics for three years."
-  },
-  {
-   "source": "p162",
-   "target": "p055",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Cira Zephyr and Mira Birch worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p104",
-   "target": "p121",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Elio Elm and Dev Moss worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p121",
-   "target": "p104",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Dev Moss and Elio Elm worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p153",
-   "target": "p162",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Pax Knoll and Cira Zephyr worked together at Forge Robotics for three years."
-  },
-  {
-   "source": "p162",
-   "target": "p201",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Cira Zephyr and Gus Zephyr worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p201",
-   "target": "p162",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Gus Zephyr and Cira Zephyr worked together at Forge Robotics for three years."
-  },
-  {
-   "source": "p032",
-   "target": "c007",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Dev Knoll and Forge Robotics worked together at Forge Robotics for three years."
-  },
-  {
-   "source": "p047",
-   "target": "c007",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Quin Kestrel and Forge Robotics worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p055",
-   "target": "c007",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Mira Birch and Forge Robotics worked together at Forge Robotics for two years."
-  },
-  {
-   "source": "p104",
-   "target": "c007",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Elio Elm and Forge Robotics worked together at Forge Robotics for three years."
-  },
-  {
-   "source": "p121",
-   "target": "c007",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Dev Moss and Forge Robotics worked together at Forge Robotics for four years."
-  },
-  {
-   "source": "p153",
-   "target": "c007",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Pax Knoll and Forge Robotics worked together at Forge Robotics for three years."
-  },
-  {
-   "source": "p102",
-   "target": "p152",
-   "type": "cofounded",
-   "year": 2021,
-   "reason": "Ada Knoll and Amara Harbor co-founded Quill Data."
-  },
-  {
-   "source": "p152",
-   "target": "p102",
-   "type": "cofounded",
-   "year": 2019,
-   "reason": "Amara Harbor and Ada Knoll co-founded Quill Data."
-  },
-  {
-   "source": "p102",
-   "target": "p155",
-   "type": "cofounded",
-   "year": 2024,
-   "reason": "Ada Knoll and Pax Zephyr co-founded Quill Data."
-  },
-  {
-   "source": "p155",
-   "target": "p102",
-   "type": "cofounded",
-   "year": 2018,
-   "reason": "Pax Zephyr and Ada Knoll co-founded Quill Data."
-  },
-  {
-   "source": "p152",
-   "target": "p155",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Amara Harbor and Pax Zephyr co-founded Quill Data."
-  },
-  {
-   "source": "p155",
-   "target": "p152",
-   "type": "cofounded",
-   "year": 2019,
-   "reason": "Pax Zephyr and Amara Harbor co-founded Quill Data."
-  },
-  {
-   "source": "p032",
-   "target": "p060",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Dev Knoll and Reza Wilde worked together at Quill Data for two years."
-  },
-  {
-   "source": "p032",
-   "target": "p102",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Dev Knoll and Ada Knoll worked together at Quill Data for two years."
-  },
-  {
-   "source": "p102",
-   "target": "p032",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Ada Knoll and Dev Knoll worked together at Quill Data for four years."
-  },
-  {
-   "source": "p032",
-   "target": "p112",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Dev Knoll and Idris Oak worked together at Quill Data for four years."
-  },
-  {
-   "source": "p112",
-   "target": "p032",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Idris Oak and Dev Knoll worked together at Quill Data for four years."
-  },
-  {
-   "source": "p032",
-   "target": "p123",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Dev Knoll and Oren Pine worked together at Quill Data for two years."
-  },
-  {
-   "source": "p032",
-   "target": "p155",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Dev Knoll and Pax Zephyr worked together at Quill Data for two years."
-  },
-  {
-   "source": "p155",
-   "target": "p032",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Pax Zephyr and Dev Knoll worked together at Quill Data for four years."
-  },
-  {
-   "source": "p032",
-   "target": "p189",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Dev Knoll and Fia Flint worked together at Quill Data for two years."
-  },
-  {
-   "source": "p189",
-   "target": "p032",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Fia Flint and Dev Knoll worked together at Quill Data for four years."
-  },
-  {
-   "source": "p060",
-   "target": "p081",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Reza Wilde and Quin Ashby worked together at Quill Data for three years."
-  },
-  {
-   "source": "p081",
-   "target": "p060",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Quin Ashby and Reza Wilde worked together at Quill Data for four years."
-  },
-  {
-   "source": "p060",
-   "target": "p152",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Reza Wilde and Amara Harbor worked together at Quill Data for four years."
-  },
-  {
-   "source": "p060",
-   "target": "p155",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Reza Wilde and Pax Zephyr worked together at Quill Data for two years."
-  },
-  {
-   "source": "p081",
+   "source": "p021",
    "target": "p087",
    "type": "worked_with",
-   "year": 2020,
-   "reason": "Quin Ashby and Mira Ember worked together at Quill Data for two years."
-  },
-  {
-   "source": "p087",
-   "target": "p081",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Mira Ember and Quin Ashby worked together at Quill Data for four years."
-  },
-  {
-   "source": "p081",
-   "target": "p112",
-   "type": "worked_with",
    "year": 2023,
-   "reason": "Quin Ashby and Idris Oak worked together at Quill Data for two years."
+   "reason": "Ulla Heath and Mira Ember worked together at Meridian AI for three years."
   },
   {
-   "source": "p112",
-   "target": "p081",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Idris Oak and Quin Ashby worked together at Quill Data for two years."
-  },
-  {
-   "source": "p081",
-   "target": "p123",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Quin Ashby and Oren Pine worked together at Quill Data for four years."
-  },
-  {
-   "source": "p081",
-   "target": "p155",
+   "source": "p056",
+   "target": "p086",
    "type": "worked_with",
    "year": 2017,
-   "reason": "Quin Ashby and Pax Zephyr worked together at Quill Data for two years."
+   "reason": "Sana Knoll and Tova Glen worked together at Meridian AI for four years."
   },
   {
-   "source": "p155",
-   "target": "p081",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Pax Zephyr and Quin Ashby worked together at Quill Data for two years."
-  },
-  {
-   "source": "p081",
-   "target": "p170",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Quin Ashby and Dev Loch worked together at Quill Data for two years."
-  },
-  {
-   "source": "p081",
-   "target": "p189",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Quin Ashby and Fia Flint worked together at Quill Data for four years."
-  },
-  {
-   "source": "p189",
-   "target": "p081",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Fia Flint and Quin Ashby worked together at Quill Data for four years."
-  },
-  {
-   "source": "p087",
-   "target": "p148",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Mira Ember and Esme Juniper worked together at Quill Data for two years."
-  },
-  {
-   "source": "p102",
-   "target": "p123",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Ada Knoll and Oren Pine worked together at Quill Data for three years."
-  },
-  {
-   "source": "p123",
-   "target": "p102",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Oren Pine and Ada Knoll worked together at Quill Data for four years."
-  },
-  {
-   "source": "p102",
-   "target": "p155",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Ada Knoll and Pax Zephyr worked together at Quill Data for three years."
-  },
-  {
-   "source": "p155",
-   "target": "p102",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Pax Zephyr and Ada Knoll worked together at Quill Data for four years."
-  },
-  {
-   "source": "p112",
-   "target": "p123",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Idris Oak and Oren Pine worked together at Quill Data for two years."
-  },
-  {
-   "source": "p123",
-   "target": "p112",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Oren Pine and Idris Oak worked together at Quill Data for three years."
-  },
-  {
-   "source": "p112",
-   "target": "p189",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Idris Oak and Fia Flint worked together at Quill Data for three years."
-  },
-  {
-   "source": "p189",
-   "target": "p112",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Fia Flint and Idris Oak worked together at Quill Data for four years."
-  },
-  {
-   "source": "p148",
-   "target": "p152",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Esme Juniper and Amara Harbor worked together at Quill Data for four years."
-  },
-  {
-   "source": "p148",
-   "target": "p170",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Esme Juniper and Dev Loch worked together at Quill Data for four years."
-  },
-  {
-   "source": "p155",
-   "target": "p170",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Pax Zephyr and Dev Loch worked together at Quill Data for two years."
-  },
-  {
-   "source": "p170",
-   "target": "p155",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Dev Loch and Pax Zephyr worked together at Quill Data for four years."
-  },
-  {
-   "source": "p170",
-   "target": "p189",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Dev Loch and Fia Flint worked together at Quill Data for two years."
-  },
-  {
-   "source": "p189",
-   "target": "p170",
+   "source": "p086",
+   "target": "p056",
    "type": "worked_with",
    "year": 2018,
-   "reason": "Fia Flint and Dev Loch worked together at Quill Data for two years."
+   "reason": "Tova Glen and Sana Knoll worked together at Meridian AI for four years."
+  },
+  {
+   "source": "p061",
+   "target": "p086",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Reza Cove and Tova Glen worked together at Meridian AI for three years."
+  },
+  {
+   "source": "p086",
+   "target": "p061",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Tova Glen and Reza Cove worked together at Meridian AI for two years."
+  },
+  {
+   "source": "p081",
+   "target": "p086",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Quin Ashby and Tova Glen worked together at Meridian AI for three years."
+  },
+  {
+   "source": "p086",
+   "target": "p081",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Tova Glen and Quin Ashby worked together at Meridian AI for three years."
+  },
+  {
+   "source": "p002",
+   "target": "c001",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Orla Ivory and Meridian AI worked together at Meridian AI for three years."
+  },
+  {
+   "source": "p014",
+   "target": "c001",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Wes Loch and Meridian AI worked together at Meridian AI for three years."
+  },
+  {
+   "source": "p021",
+   "target": "c001",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Ulla Heath and Meridian AI worked together at Meridian AI for four years."
+  },
+  {
+   "source": "p056",
+   "target": "c001",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Sana Knoll and Meridian AI worked together at Meridian AI for two years."
+  },
+  {
+   "source": "p061",
+   "target": "c001",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Reza Cove and Meridian AI worked together at Meridian AI for three years."
+  },
+  {
+   "source": "p081",
+   "target": "c001",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Quin Ashby and Meridian AI worked together at Meridian AI for two years."
+  },
+  {
+   "source": "p026",
+   "target": "p095",
+   "type": "cofounded",
+   "year": 2024,
+   "reason": "Orla Oak and Hana Moss co-founded Nimbus Robotics."
+  },
+  {
+   "source": "p095",
+   "target": "p026",
+   "type": "cofounded",
+   "year": 2025,
+   "reason": "Hana Moss and Orla Oak co-founded Nimbus Robotics."
+  },
+  {
+   "source": "p026",
+   "target": "p088",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Orla Oak and Milo Harbor worked together at Nimbus Robotics for three years."
+  },
+  {
+   "source": "p088",
+   "target": "p026",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Milo Harbor and Orla Oak worked together at Nimbus Robotics for two years."
+  },
+  {
+   "source": "p058",
+   "target": "p072",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Gus Harbor and Oren Ridge worked together at Nimbus Robotics for four years."
+  },
+  {
+   "source": "p072",
+   "target": "p058",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Oren Ridge and Gus Harbor worked together at Nimbus Robotics for three years."
+  },
+  {
+   "source": "p009",
+   "target": "c002",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Reza Ridge and Nimbus Robotics worked together at Nimbus Robotics for four years."
+  },
+  {
+   "source": "p026",
+   "target": "c002",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Orla Oak and Nimbus Robotics worked together at Nimbus Robotics for two years."
+  },
+  {
+   "source": "p058",
+   "target": "c002",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Gus Harbor and Nimbus Robotics worked together at Nimbus Robotics for three years."
+  },
+  {
+   "source": "p072",
+   "target": "c002",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Oren Ridge and Nimbus Robotics worked together at Nimbus Robotics for two years."
+  },
+  {
+   "source": "p088",
+   "target": "c002",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Milo Harbor and Nimbus Robotics worked together at Nimbus Robotics for two years."
+  },
+  {
+   "source": "p095",
+   "target": "c002",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Hana Moss and Nimbus Robotics worked together at Nimbus Robotics for four years."
+  },
+  {
+   "source": "p011",
+   "target": "p027",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Ulla Dune and Vida Ember worked together at Vector Labs for three years."
+  },
+  {
+   "source": "p027",
+   "target": "p011",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Vida Ember and Ulla Dune worked together at Vector Labs for three years."
+  },
+  {
+   "source": "p011",
+   "target": "p048",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Ulla Dune and Hale Ember worked together at Vector Labs for two years."
+  },
+  {
+   "source": "p048",
+   "target": "p011",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Hale Ember and Ulla Dune worked together at Vector Labs for four years."
+  },
+  {
+   "source": "p011",
+   "target": "p049",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Ulla Dune and Lena Loch worked together at Vector Labs for three years."
+  },
+  {
+   "source": "p011",
+   "target": "p077",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Ulla Dune and Tova Ashby worked together at Vector Labs for three years."
+  },
+  {
+   "source": "p077",
+   "target": "p011",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Tova Ashby and Ulla Dune worked together at Vector Labs for four years."
+  },
+  {
+   "source": "p016",
+   "target": "p048",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Oren Kestrel and Hale Ember worked together at Vector Labs for four years."
+  },
+  {
+   "source": "p048",
+   "target": "p016",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Hale Ember and Oren Kestrel worked together at Vector Labs for two years."
+  },
+  {
+   "source": "p016",
+   "target": "p077",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Oren Kestrel and Tova Ashby worked together at Vector Labs for three years."
+  },
+  {
+   "source": "p016",
+   "target": "p085",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Oren Kestrel and Dax Quarry worked together at Vector Labs for four years."
+  },
+  {
+   "source": "p085",
+   "target": "p016",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Dax Quarry and Oren Kestrel worked together at Vector Labs for two years."
+  },
+  {
+   "source": "p027",
+   "target": "p085",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Vida Ember and Dax Quarry worked together at Vector Labs for four years."
+  },
+  {
+   "source": "p085",
+   "target": "p027",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Dax Quarry and Vida Ember worked together at Vector Labs for three years."
+  },
+  {
+   "source": "p048",
+   "target": "p049",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Hale Ember and Lena Loch worked together at Vector Labs for two years."
+  },
+  {
+   "source": "p049",
+   "target": "p059",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Lena Loch and Bodhi Arbor worked together at Vector Labs for three years."
+  },
+  {
+   "source": "p059",
+   "target": "p049",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Bodhi Arbor and Lena Loch worked together at Vector Labs for three years."
+  },
+  {
+   "source": "p059",
+   "target": "p077",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Bodhi Arbor and Tova Ashby worked together at Vector Labs for four years."
+  },
+  {
+   "source": "p077",
+   "target": "p085",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Tova Ashby and Dax Quarry worked together at Vector Labs for four years."
+  },
+  {
+   "source": "p011",
+   "target": "c003",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Ulla Dune and Vector Labs worked together at Vector Labs for two years."
+  },
+  {
+   "source": "p016",
+   "target": "c003",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Oren Kestrel and Vector Labs worked together at Vector Labs for three years."
+  },
+  {
+   "source": "p027",
+   "target": "c003",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Vida Ember and Vector Labs worked together at Vector Labs for four years."
+  },
+  {
+   "source": "p048",
+   "target": "c003",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Hale Ember and Vector Labs worked together at Vector Labs for two years."
+  },
+  {
+   "source": "p049",
+   "target": "c003",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Lena Loch and Vector Labs worked together at Vector Labs for three years."
+  },
+  {
+   "source": "p059",
+   "target": "c003",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Bodhi Arbor and Vector Labs worked together at Vector Labs for three years."
+  },
+  {
+   "source": "p022",
+   "target": "p047",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Kael Fjord and Quin Kestrel worked together at Prism AI for two years."
+  },
+  {
+   "source": "p047",
+   "target": "p022",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Quin Kestrel and Kael Fjord worked together at Prism AI for four years."
+  },
+  {
+   "source": "p022",
+   "target": "p051",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Kael Fjord and Wes Juniper worked together at Prism AI for three years."
+  },
+  {
+   "source": "p051",
+   "target": "p022",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Wes Juniper and Kael Fjord worked together at Prism AI for three years."
+  },
+  {
+   "source": "p022",
+   "target": "p052",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Kael Fjord and Bram Lark worked together at Prism AI for two years."
+  },
+  {
+   "source": "p022",
+   "target": "p068",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Kael Fjord and Pia Arbor worked together at Prism AI for three years."
+  },
+  {
+   "source": "p068",
+   "target": "p022",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Pia Arbor and Kael Fjord worked together at Prism AI for four years."
+  },
+  {
+   "source": "p022",
+   "target": "p090",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Kael Fjord and Oren Flint worked together at Prism AI for two years."
+  },
+  {
+   "source": "p090",
+   "target": "p022",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Oren Flint and Kael Fjord worked together at Prism AI for four years."
+  },
+  {
+   "source": "p028",
+   "target": "p038",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Pax Grove and Pax Calder worked together at Prism AI for four years."
+  },
+  {
+   "source": "p038",
+   "target": "p028",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Pax Calder and Pax Grove worked together at Prism AI for three years."
+  },
+  {
+   "source": "p028",
+   "target": "p063",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Pax Grove and Juno Arbor worked together at Prism AI for two years."
+  },
+  {
+   "source": "p063",
+   "target": "p028",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Juno Arbor and Pax Grove worked together at Prism AI for three years."
+  },
+  {
+   "source": "p028",
+   "target": "p068",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Pax Grove and Pia Arbor worked together at Prism AI for three years."
+  },
+  {
+   "source": "p068",
+   "target": "p028",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Pia Arbor and Pax Grove worked together at Prism AI for three years."
+  },
+  {
+   "source": "p028",
+   "target": "p085",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Pax Grove and Dax Quarry worked together at Prism AI for two years."
+  },
+  {
+   "source": "p085",
+   "target": "p028",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Dax Quarry and Pax Grove worked together at Prism AI for four years."
+  },
+  {
+   "source": "p038",
+   "target": "p051",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Pax Calder and Wes Juniper worked together at Prism AI for three years."
+  },
+  {
+   "source": "p051",
+   "target": "p038",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Wes Juniper and Pax Calder worked together at Prism AI for two years."
+  },
+  {
+   "source": "p038",
+   "target": "p052",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Pax Calder and Bram Lark worked together at Prism AI for four years."
+  },
+  {
+   "source": "p052",
+   "target": "p038",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Bram Lark and Pax Calder worked together at Prism AI for four years."
+  },
+  {
+   "source": "p038",
+   "target": "p068",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Pax Calder and Pia Arbor worked together at Prism AI for four years."
+  },
+  {
+   "source": "p068",
+   "target": "p038",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Pia Arbor and Pax Calder worked together at Prism AI for four years."
+  },
+  {
+   "source": "p046",
+   "target": "p063",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Finn Delta and Juno Arbor worked together at Prism AI for three years."
+  },
+  {
+   "source": "p046",
+   "target": "p068",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Finn Delta and Pia Arbor worked together at Prism AI for three years."
+  },
+  {
+   "source": "p047",
+   "target": "p052",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Quin Kestrel and Bram Lark worked together at Prism AI for three years."
+  },
+  {
+   "source": "p052",
+   "target": "p047",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Bram Lark and Quin Kestrel worked together at Prism AI for four years."
+  },
+  {
+   "source": "p047",
+   "target": "p090",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Quin Kestrel and Oren Flint worked together at Prism AI for three years."
+  },
+  {
+   "source": "p090",
+   "target": "p047",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Oren Flint and Quin Kestrel worked together at Prism AI for three years."
+  },
+  {
+   "source": "p051",
+   "target": "p052",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Wes Juniper and Bram Lark worked together at Prism AI for three years."
+  },
+  {
+   "source": "p052",
+   "target": "p063",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Bram Lark and Juno Arbor worked together at Prism AI for three years."
+  },
+  {
+   "source": "p063",
+   "target": "p068",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Juno Arbor and Pia Arbor worked together at Prism AI for four years."
+  },
+  {
+   "source": "p085",
+   "target": "p090",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Dax Quarry and Oren Flint worked together at Prism AI for four years."
+  },
+  {
+   "source": "p022",
+   "target": "c004",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Kael Fjord and Prism AI worked together at Prism AI for two years."
+  },
+  {
+   "source": "p028",
+   "target": "c004",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Pax Grove and Prism AI worked together at Prism AI for three years."
+  },
+  {
+   "source": "p033",
+   "target": "c004",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Elio North and Prism AI worked together at Prism AI for two years."
+  },
+  {
+   "source": "p038",
+   "target": "c004",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Pax Calder and Prism AI worked together at Prism AI for two years."
+  },
+  {
+   "source": "p046",
+   "target": "c004",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Finn Delta and Prism AI worked together at Prism AI for four years."
+  },
+  {
+   "source": "p047",
+   "target": "c004",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Quin Kestrel and Prism AI worked together at Prism AI for four years."
+  },
+  {
+   "source": "p006",
+   "target": "p065",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Finn Loch and Gus Wilde worked together at Prism Bio for three years."
+  },
+  {
+   "source": "p065",
+   "target": "p006",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Gus Wilde and Finn Loch worked together at Prism Bio for four years."
+  },
+  {
+   "source": "p008",
+   "target": "p072",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Rhea Flint and Oren Ridge worked together at Prism Bio for four years."
+  },
+  {
+   "source": "p072",
+   "target": "p008",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Oren Ridge and Rhea Flint worked together at Prism Bio for three years."
+  },
+  {
+   "source": "p006",
+   "target": "c005",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Finn Loch and Prism Bio worked together at Prism Bio for three years."
+  },
+  {
+   "source": "p008",
+   "target": "c005",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Rhea Flint and Prism Bio worked together at Prism Bio for four years."
+  },
+  {
+   "source": "p065",
+   "target": "c005",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Gus Wilde and Prism Bio worked together at Prism Bio for two years."
+  },
+  {
+   "source": "p072",
+   "target": "c005",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Oren Ridge and Prism Bio worked together at Prism Bio for four years."
+  },
+  {
+   "source": "p019",
+   "target": "p032",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Vik Quarry and Dev Knoll worked together at Harbor Cloud for three years."
   },
   {
    "source": "p032",
-   "target": "c008",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Dev Knoll and Quill Data worked together at Quill Data for four years."
-  },
-  {
-   "source": "p060",
-   "target": "c008",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Reza Wilde and Quill Data worked together at Quill Data for four years."
-  },
-  {
-   "source": "p081",
-   "target": "c008",
+   "target": "p019",
    "type": "worked_with",
    "year": 2021,
-   "reason": "Quin Ashby and Quill Data worked together at Quill Data for three years."
+   "reason": "Dev Knoll and Vik Quarry worked together at Harbor Cloud for three years."
   },
   {
-   "source": "p087",
-   "target": "c008",
+   "source": "p019",
+   "target": "p084",
    "type": "worked_with",
    "year": 2026,
-   "reason": "Mira Ember and Quill Data worked together at Quill Data for four years."
+   "reason": "Vik Quarry and Bram Juniper worked together at Harbor Cloud for four years."
   },
   {
-   "source": "p102",
-   "target": "c008",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Ada Knoll and Quill Data worked together at Quill Data for three years."
-  },
-  {
-   "source": "p112",
-   "target": "c008",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Idris Oak and Quill Data worked together at Quill Data for two years."
-  },
-  {
-   "source": "p057",
-   "target": "p175",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Quin Calder and Wes Brook co-founded Tandem Systems."
-  },
-  {
-   "source": "p175",
-   "target": "p057",
-   "type": "cofounded",
-   "year": 2026,
-   "reason": "Wes Brook and Quin Calder co-founded Tandem Systems."
-  },
-  {
-   "source": "p035",
-   "target": "p057",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Soren North and Quin Calder worked together at Tandem Systems for two years."
-  },
-  {
-   "source": "p057",
-   "target": "p075",
+   "source": "p084",
+   "target": "p019",
    "type": "worked_with",
    "year": 2018,
-   "reason": "Quin Calder and Amara Wilde worked together at Tandem Systems for four years."
+   "reason": "Bram Juniper and Vik Quarry worked together at Harbor Cloud for two years."
   },
   {
-   "source": "p075",
-   "target": "p186",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Amara Wilde and Tova Wilde worked together at Tandem Systems for four years."
-  },
-  {
-   "source": "p186",
-   "target": "p075",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Tova Wilde and Amara Wilde worked together at Tandem Systems for three years."
-  },
-  {
-   "source": "p175",
-   "target": "p186",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Wes Brook and Tova Wilde worked together at Tandem Systems for three years."
-  },
-  {
-   "source": "p035",
-   "target": "c009",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Soren North and Tandem Systems worked together at Tandem Systems for four years."
-  },
-  {
-   "source": "p057",
-   "target": "c009",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Quin Calder and Tandem Systems worked together at Tandem Systems for three years."
-  },
-  {
-   "source": "p075",
-   "target": "c009",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Amara Wilde and Tandem Systems worked together at Tandem Systems for two years."
-  },
-  {
-   "source": "p175",
-   "target": "c009",
+   "source": "p021",
+   "target": "p084",
    "type": "worked_with",
    "year": 2019,
-   "reason": "Wes Brook and Tandem Systems worked together at Tandem Systems for three years."
+   "reason": "Ulla Heath and Bram Juniper worked together at Harbor Cloud for two years."
   },
   {
-   "source": "p186",
-   "target": "c009",
+   "source": "p032",
+   "target": "p042",
    "type": "worked_with",
    "year": 2020,
-   "reason": "Tova Wilde and Tandem Systems worked together at Tandem Systems for four years."
+   "reason": "Dev Knoll and Esme Pine worked together at Harbor Cloud for three years."
   },
   {
-   "source": "p002",
-   "target": "p014",
+   "source": "p042",
+   "target": "p084",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Esme Pine and Bram Juniper worked together at Harbor Cloud for three years."
+  },
+  {
+   "source": "p084",
+   "target": "p042",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Bram Juniper and Esme Pine worked together at Harbor Cloud for three years."
+  },
+  {
+   "source": "p019",
+   "target": "c006",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Vik Quarry and Harbor Cloud worked together at Harbor Cloud for three years."
+  },
+  {
+   "source": "p021",
+   "target": "c006",
    "type": "worked_with",
    "year": 2022,
-   "reason": "Orla Ivory and Wes Loch worked together at Signal AI for four years."
+   "reason": "Ulla Heath and Harbor Cloud worked together at Harbor Cloud for three years."
   },
   {
-   "source": "p014",
-   "target": "p002",
+   "source": "p032",
+   "target": "c006",
    "type": "worked_with",
-   "year": 2018,
-   "reason": "Wes Loch and Orla Ivory worked together at Signal AI for three years."
+   "year": 2022,
+   "reason": "Dev Knoll and Harbor Cloud worked together at Harbor Cloud for two years."
   },
   {
-   "source": "p002",
-   "target": "c010",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Orla Ivory and Signal AI worked together at Signal AI for two years."
-  },
-  {
-   "source": "p014",
-   "target": "c010",
+   "source": "p042",
+   "target": "c006",
    "type": "worked_with",
    "year": 2023,
-   "reason": "Wes Loch and Signal AI worked together at Signal AI for two years."
+   "reason": "Esme Pine and Harbor Cloud worked together at Harbor Cloud for three years."
   },
   {
-   "source": "p089",
-   "target": "c010",
+   "source": "p084",
+   "target": "c006",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Bram Juniper and Harbor Cloud worked together at Harbor Cloud for two years."
+  },
+  {
+   "source": "p026",
+   "target": "p043",
+   "type": "cofounded",
+   "year": 2022,
+   "reason": "Orla Oak and Pia Jade co-founded Vector Systems."
+  },
+  {
+   "source": "p043",
+   "target": "p026",
+   "type": "cofounded",
+   "year": 2022,
+   "reason": "Pia Jade and Orla Oak co-founded Vector Systems."
+  },
+  {
+   "source": "p026",
+   "target": "p057",
+   "type": "cofounded",
+   "year": 2018,
+   "reason": "Orla Oak and Quin Calder co-founded Vector Systems."
+  },
+  {
+   "source": "p057",
+   "target": "p026",
+   "type": "cofounded",
+   "year": 2020,
+   "reason": "Quin Calder and Orla Oak co-founded Vector Systems."
+  },
+  {
+   "source": "p043",
+   "target": "p057",
+   "type": "cofounded",
+   "year": 2017,
+   "reason": "Pia Jade and Quin Calder co-founded Vector Systems."
+  },
+  {
+   "source": "p057",
+   "target": "p043",
+   "type": "cofounded",
+   "year": 2021,
+   "reason": "Quin Calder and Pia Jade co-founded Vector Systems."
+  },
+  {
+   "source": "p004",
+   "target": "p024",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Rhea Juniper and Idris Moss worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p024",
+   "target": "p004",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Idris Moss and Rhea Juniper worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p004",
+   "target": "p026",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Rhea Juniper and Orla Oak worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p026",
+   "target": "p004",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Orla Oak and Rhea Juniper worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p004",
+   "target": "p068",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Rhea Juniper and Pia Arbor worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p068",
+   "target": "p004",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Pia Arbor and Rhea Juniper worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p024",
+   "target": "p096",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Idris Moss and Elio Heath worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p096",
+   "target": "p024",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Elio Heath and Idris Moss worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p026",
+   "target": "p031",
    "type": "worked_with",
    "year": 2020,
-   "reason": "Bodhi Zephyr and Signal AI worked together at Signal AI for three years."
+   "reason": "Orla Oak and Lior Ridge worked together at Vector Systems for three years."
   },
   {
-   "source": "p133",
-   "target": "c010",
+   "source": "p031",
+   "target": "p026",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Lior Ridge and Orla Oak worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p026",
+   "target": "p057",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Orla Oak and Quin Calder worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p026",
+   "target": "p068",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Orla Oak and Pia Arbor worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p068",
+   "target": "p026",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Pia Arbor and Orla Oak worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p026",
+   "target": "p077",
    "type": "worked_with",
    "year": 2020,
-   "reason": "Jory Ember and Signal AI worked together at Signal AI for two years."
+   "reason": "Orla Oak and Tova Ashby worked together at Vector Systems for four years."
   },
   {
-   "source": "p095",
+   "source": "p026",
+   "target": "p096",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Orla Oak and Elio Heath worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p096",
+   "target": "p026",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Elio Heath and Orla Oak worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p031",
+   "target": "p043",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Lior Ridge and Pia Jade worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p043",
+   "target": "p031",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Pia Jade and Lior Ridge worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p031",
+   "target": "p067",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Lior Ridge and Oren Moss worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p067",
+   "target": "p031",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Oren Moss and Lior Ridge worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p031",
+   "target": "p068",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Lior Ridge and Pia Arbor worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p068",
+   "target": "p031",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Pia Arbor and Lior Ridge worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p031",
+   "target": "p077",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Lior Ridge and Tova Ashby worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p077",
+   "target": "p031",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Tova Ashby and Lior Ridge worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p031",
+   "target": "p096",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Lior Ridge and Elio Heath worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p096",
+   "target": "p031",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Elio Heath and Lior Ridge worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p042",
+   "target": "p043",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Esme Pine and Pia Jade worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p043",
+   "target": "p042",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Pia Jade and Esme Pine worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p042",
+   "target": "p057",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Esme Pine and Quin Calder worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p042",
+   "target": "p077",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Esme Pine and Tova Ashby worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p077",
+   "target": "p042",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Tova Ashby and Esme Pine worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p043",
+   "target": "p057",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Pia Jade and Quin Calder worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p043",
+   "target": "p067",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Pia Jade and Oren Moss worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p043",
+   "target": "p068",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Pia Jade and Pia Arbor worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p068",
+   "target": "p043",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Pia Arbor and Pia Jade worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p043",
+   "target": "p077",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Pia Jade and Tova Ashby worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p077",
+   "target": "p043",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Tova Ashby and Pia Jade worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p043",
+   "target": "p096",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Pia Jade and Elio Heath worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p057",
+   "target": "p068",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Quin Calder and Pia Arbor worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p068",
+   "target": "p057",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Pia Arbor and Quin Calder worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p057",
+   "target": "p077",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Quin Calder and Tova Ashby worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p067",
+   "target": "p083",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Oren Moss and Wren Oak worked together at Vector Systems for four years."
+  },
+  {
+   "source": "p083",
+   "target": "p067",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Wren Oak and Oren Moss worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p067",
    "target": "p096",
    "type": "worked_with",
    "year": 2022,
-   "reason": "Hana Moss and Elio Heath worked together at Nimbus Finance for four years."
+   "reason": "Oren Moss and Elio Heath worked together at Vector Systems for two years."
   },
   {
    "source": "p096",
-   "target": "p095",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Elio Heath and Hana Moss worked together at Nimbus Finance for four years."
-  },
-  {
-   "source": "p106",
-   "target": "p179",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Tova Fjord and Soren Heath worked together at Nimbus Finance for two years."
-  },
-  {
-   "source": "p179",
-   "target": "p106",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Soren Heath and Tova Fjord worked together at Nimbus Finance for four years."
-  },
-  {
-   "source": "p108",
-   "target": "p179",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Kael Dune and Soren Heath worked together at Nimbus Finance for two years."
-  },
-  {
-   "source": "p179",
-   "target": "p108",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Soren Heath and Kael Dune worked together at Nimbus Finance for two years."
-  },
-  {
-   "source": "p095",
-   "target": "c011",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Hana Moss and Nimbus Finance worked together at Nimbus Finance for two years."
-  },
-  {
-   "source": "p096",
-   "target": "c011",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Elio Heath and Nimbus Finance worked together at Nimbus Finance for three years."
-  },
-  {
-   "source": "p106",
-   "target": "c011",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Tova Fjord and Nimbus Finance worked together at Nimbus Finance for two years."
-  },
-  {
-   "source": "p108",
-   "target": "c011",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Kael Dune and Nimbus Finance worked together at Nimbus Finance for two years."
-  },
-  {
-   "source": "p179",
-   "target": "c011",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Soren Heath and Nimbus Finance worked together at Nimbus Finance for two years."
-  },
-  {
-   "source": "p132",
-   "target": "p161",
-   "type": "cofounded",
-   "year": 2023,
-   "reason": "Gia Elm and Quin Dune co-founded Meridian Robotics."
-  },
-  {
-   "source": "p161",
-   "target": "p132",
-   "type": "cofounded",
-   "year": 2020,
-   "reason": "Quin Dune and Gia Elm co-founded Meridian Robotics."
-  },
-  {
-   "source": "p015",
-   "target": "p090",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Orla Isle and Oren Flint worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p090",
-   "target": "p015",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Oren Flint and Orla Isle worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p015",
-   "target": "p132",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Orla Isle and Gia Elm worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p015",
-   "target": "p193",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Orla Isle and Wes Calder worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p028",
-   "target": "p035",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Pax Grove and Soren North worked together at Meridian Robotics for four years."
-  },
-  {
-   "source": "p035",
-   "target": "p028",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Soren North and Pax Grove worked together at Meridian Robotics for four years."
-  },
-  {
-   "source": "p028",
-   "target": "p132",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Pax Grove and Gia Elm worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p028",
-   "target": "p196",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Pax Grove and Nia Kestrel worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p196",
-   "target": "p028",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Nia Kestrel and Pax Grove worked together at Meridian Robotics for three years."
-  },
-  {
-   "source": "p028",
-   "target": "p200",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Pax Grove and Uma Fjord worked together at Meridian Robotics for four years."
-  },
-  {
-   "source": "p200",
-   "target": "p028",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Uma Fjord and Pax Grove worked together at Meridian Robotics for three years."
-  },
-  {
-   "source": "p035",
-   "target": "p193",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Soren North and Wes Calder worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p193",
-   "target": "p035",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Wes Calder and Soren North worked together at Meridian Robotics for four years."
-  },
-  {
-   "source": "p035",
-   "target": "p214",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Soren North and Cira Arbor worked together at Meridian Robotics for three years."
-  },
-  {
-   "source": "p090",
-   "target": "p161",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Oren Flint and Quin Dune worked together at Meridian Robotics for four years."
-  },
-  {
-   "source": "p090",
-   "target": "p193",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Oren Flint and Wes Calder worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p108",
-   "target": "p193",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Kael Dune and Wes Calder worked together at Meridian Robotics for three years."
-  },
-  {
-   "source": "p193",
-   "target": "p108",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Wes Calder and Kael Dune worked together at Meridian Robotics for three years."
-  },
-  {
-   "source": "p132",
-   "target": "p193",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Gia Elm and Wes Calder worked together at Meridian Robotics for three years."
-  },
-  {
-   "source": "p132",
-   "target": "p196",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Gia Elm and Nia Kestrel worked together at Meridian Robotics for four years."
-  },
-  {
-   "source": "p196",
-   "target": "p132",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Nia Kestrel and Gia Elm worked together at Meridian Robotics for three years."
-  },
-  {
-   "source": "p161",
-   "target": "p214",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Quin Dune and Cira Arbor worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p193",
-   "target": "p214",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Wes Calder and Cira Arbor worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p214",
-   "target": "p193",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Cira Arbor and Wes Calder worked together at Meridian Robotics for four years."
-  },
-  {
-   "source": "p196",
-   "target": "p200",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Nia Kestrel and Uma Fjord worked together at Meridian Robotics for four years."
-  },
-  {
-   "source": "p200",
-   "target": "p196",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Uma Fjord and Nia Kestrel worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p015",
-   "target": "c012",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Orla Isle and Meridian Robotics worked together at Meridian Robotics for four years."
-  },
-  {
-   "source": "p028",
-   "target": "c012",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Pax Grove and Meridian Robotics worked together at Meridian Robotics for three years."
-  },
-  {
-   "source": "p035",
-   "target": "c012",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Soren North and Meridian Robotics worked together at Meridian Robotics for four years."
-  },
-  {
-   "source": "p090",
-   "target": "c012",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Oren Flint and Meridian Robotics worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p108",
-   "target": "c012",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Kael Dune and Meridian Robotics worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p132",
-   "target": "c012",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Gia Elm and Meridian Robotics worked together at Meridian Robotics for two years."
-  },
-  {
-   "source": "p020",
-   "target": "p078",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Gus Moss and Orla Heath worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p020",
-   "target": "p190",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Gus Moss and Ulla Juniper worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p190",
-   "target": "p020",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Ulla Juniper and Gus Moss worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p058",
-   "target": "p078",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Gus Harbor and Orla Heath worked together at Beacon Data for three years."
-  },
-  {
-   "source": "p078",
-   "target": "p058",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Orla Heath and Gus Harbor worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p058",
-   "target": "p127",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Gus Harbor and Ines Ember worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p058",
-   "target": "p169",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Gus Harbor and Finn Fjord worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p169",
-   "target": "p058",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Finn Fjord and Gus Harbor worked together at Beacon Data for three years."
-  },
-  {
-   "source": "p058",
-   "target": "p190",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Gus Harbor and Ulla Juniper worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p190",
-   "target": "p058",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Ulla Juniper and Gus Harbor worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p058",
-   "target": "p202",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Gus Harbor and Mira Oak worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p202",
-   "target": "p058",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Mira Oak and Gus Harbor worked together at Beacon Data for three years."
-  },
-  {
-   "source": "p070",
-   "target": "p190",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Dax Jade and Ulla Juniper worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p190",
-   "target": "p070",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Ulla Juniper and Dax Jade worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p070",
-   "target": "p202",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Dax Jade and Mira Oak worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p078",
-   "target": "p202",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Orla Heath and Mira Oak worked together at Beacon Data for three years."
-  },
-  {
-   "source": "p078",
-   "target": "p209",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Orla Heath and Elio Zephyr worked together at Beacon Data for three years."
-  },
-  {
-   "source": "p127",
-   "target": "p202",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Ines Ember and Mira Oak worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p135",
-   "target": "p169",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Oren Shore and Finn Fjord worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p135",
-   "target": "p190",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Oren Shore and Ulla Juniper worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p190",
-   "target": "p135",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Ulla Juniper and Oren Shore worked together at Beacon Data for three years."
-  },
-  {
-   "source": "p135",
-   "target": "p197",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Oren Shore and Milo Dune worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p197",
-   "target": "p135",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Milo Dune and Oren Shore worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p135",
-   "target": "p209",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Oren Shore and Elio Zephyr worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p209",
-   "target": "p135",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Elio Zephyr and Oren Shore worked together at Beacon Data for three years."
-  },
-  {
-   "source": "p169",
-   "target": "p202",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Finn Fjord and Mira Oak worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p202",
-   "target": "p169",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Mira Oak and Finn Fjord worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p169",
-   "target": "p209",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Finn Fjord and Elio Zephyr worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p190",
-   "target": "p197",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Ulla Juniper and Milo Dune worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p197",
-   "target": "p190",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Milo Dune and Ulla Juniper worked together at Beacon Data for three years."
-  },
-  {
-   "source": "p190",
-   "target": "p202",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Ulla Juniper and Mira Oak worked together at Beacon Data for three years."
-  },
-  {
-   "source": "p202",
-   "target": "p190",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Mira Oak and Ulla Juniper worked together at Beacon Data for three years."
-  },
-  {
-   "source": "p197",
-   "target": "p209",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Milo Dune and Elio Zephyr worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p209",
-   "target": "p197",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Elio Zephyr and Milo Dune worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p202",
-   "target": "p209",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Mira Oak and Elio Zephyr worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p209",
-   "target": "p202",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Elio Zephyr and Mira Oak worked together at Beacon Data for two years."
-  },
-  {
-   "source": "p020",
-   "target": "c013",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Gus Moss and Beacon Data worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p058",
-   "target": "c013",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Gus Harbor and Beacon Data worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p070",
-   "target": "c013",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Dax Jade and Beacon Data worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p078",
-   "target": "c013",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Orla Heath and Beacon Data worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p127",
-   "target": "c013",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Ines Ember and Beacon Data worked together at Beacon Data for four years."
-  },
-  {
-   "source": "p135",
-   "target": "c013",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Oren Shore and Beacon Data worked together at Beacon Data for three years."
-  },
-  {
-   "source": "p084",
-   "target": "p176",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Bram Juniper and Vida Kestrel worked together at Cinder Robotics for three years."
-  },
-  {
-   "source": "p176",
-   "target": "p084",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Vida Kestrel and Bram Juniper worked together at Cinder Robotics for four years."
-  },
-  {
-   "source": "p084",
-   "target": "p185",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Bram Juniper and Dax Zephyr worked together at Cinder Robotics for three years."
-  },
-  {
-   "source": "p084",
-   "target": "p211",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Bram Juniper and Cira Yarrow worked together at Cinder Robotics for three years."
-  },
-  {
-   "source": "p211",
-   "target": "p084",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Cira Yarrow and Bram Juniper worked together at Cinder Robotics for two years."
-  },
-  {
-   "source": "p156",
-   "target": "p176",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Rhea Moss and Vida Kestrel worked together at Cinder Robotics for two years."
-  },
-  {
-   "source": "p156",
-   "target": "p211",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Rhea Moss and Cira Yarrow worked together at Cinder Robotics for two years."
-  },
-  {
-   "source": "p159",
-   "target": "p211",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Milo Arbor and Cira Yarrow worked together at Cinder Robotics for two years."
-  },
-  {
-   "source": "p176",
-   "target": "p185",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Vida Kestrel and Dax Zephyr worked together at Cinder Robotics for two years."
-  },
-  {
-   "source": "p185",
-   "target": "p176",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Dax Zephyr and Vida Kestrel worked together at Cinder Robotics for three years."
-  },
-  {
-   "source": "p176",
-   "target": "p211",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Vida Kestrel and Cira Yarrow worked together at Cinder Robotics for three years."
-  },
-  {
-   "source": "p211",
-   "target": "p176",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Cira Yarrow and Vida Kestrel worked together at Cinder Robotics for three years."
-  },
-  {
-   "source": "p084",
-   "target": "c014",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Bram Juniper and Cinder Robotics worked together at Cinder Robotics for two years."
-  },
-  {
-   "source": "p123",
-   "target": "c014",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Oren Pine and Cinder Robotics worked together at Cinder Robotics for three years."
-  },
-  {
-   "source": "p156",
-   "target": "c014",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Rhea Moss and Cinder Robotics worked together at Cinder Robotics for four years."
-  },
-  {
-   "source": "p159",
-   "target": "c014",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Milo Arbor and Cinder Robotics worked together at Cinder Robotics for two years."
-  },
-  {
-   "source": "p176",
-   "target": "c014",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Vida Kestrel and Cinder Robotics worked together at Cinder Robotics for two years."
-  },
-  {
-   "source": "p185",
-   "target": "c014",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Dax Zephyr and Cinder Robotics worked together at Cinder Robotics for three years."
-  },
-  {
-   "source": "p013",
    "target": "p067",
    "type": "worked_with",
-   "year": 2022,
-   "reason": "Fia Birch and Oren Moss worked together at Nimbus Labs for three years."
-  },
-  {
-   "source": "p013",
-   "target": "p118",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Fia Birch and Ulla Glen worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p118",
-   "target": "p013",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Ulla Glen and Fia Birch worked together at Nimbus Labs for four years."
-  },
-  {
-   "source": "p013",
-   "target": "p167",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Fia Birch and Nico Delta worked together at Nimbus Labs for four years."
-  },
-  {
-   "source": "p167",
-   "target": "p013",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Nico Delta and Fia Birch worked together at Nimbus Labs for three years."
-  },
-  {
-   "source": "p013",
-   "target": "p203",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Fia Birch and Zara Knoll worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p203",
-   "target": "p013",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Zara Knoll and Fia Birch worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p054",
-   "target": "p174",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Dax Yarrow and Rhea Thorn worked together at Nimbus Labs for four years."
-  },
-  {
-   "source": "p067",
-   "target": "p164",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Oren Moss and Bodhi Glen worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p067",
-   "target": "p167",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Oren Moss and Nico Delta worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p167",
-   "target": "p067",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Nico Delta and Oren Moss worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p067",
-   "target": "p174",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Oren Moss and Rhea Thorn worked together at Nimbus Labs for four years."
-  },
-  {
-   "source": "p174",
-   "target": "p067",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Rhea Thorn and Oren Moss worked together at Nimbus Labs for three years."
-  },
-  {
-   "source": "p067",
-   "target": "p216",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Oren Moss and Pax Cove worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p082",
-   "target": "p118",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Yuki Cove and Ulla Glen worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p118",
-   "target": "p082",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Ulla Glen and Yuki Cove worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p113",
-   "target": "p167",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Tova Shore and Nico Delta worked together at Nimbus Labs for three years."
-  },
-  {
-   "source": "p167",
-   "target": "p113",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Nico Delta and Tova Shore worked together at Nimbus Labs for four years."
-  },
-  {
-   "source": "p113",
-   "target": "p216",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Tova Shore and Pax Cove worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p216",
-   "target": "p113",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Pax Cove and Tova Shore worked together at Nimbus Labs for four years."
-  },
-  {
-   "source": "p118",
-   "target": "p174",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Ulla Glen and Rhea Thorn worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p164",
-   "target": "p167",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Bodhi Glen and Nico Delta worked together at Nimbus Labs for two years."
-  },
-  {
-   "source": "p167",
-   "target": "p203",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Nico Delta and Zara Knoll worked together at Nimbus Labs for four years."
-  },
-  {
-   "source": "p013",
-   "target": "c015",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Fia Birch and Nimbus Labs worked together at Nimbus Labs for three years."
-  },
-  {
-   "source": "p054",
-   "target": "c015",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Dax Yarrow and Nimbus Labs worked together at Nimbus Labs for four years."
-  },
-  {
-   "source": "p067",
-   "target": "c015",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Oren Moss and Nimbus Labs worked together at Nimbus Labs for four years."
-  },
-  {
-   "source": "p082",
-   "target": "c015",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Yuki Cove and Nimbus Labs worked together at Nimbus Labs for four years."
-  },
-  {
-   "source": "p113",
-   "target": "c015",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Tova Shore and Nimbus Labs worked together at Nimbus Labs for four years."
-  },
-  {
-   "source": "p118",
-   "target": "c015",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Ulla Glen and Nimbus Labs worked together at Nimbus Labs for three years."
-  },
-  {
-   "source": "p025",
-   "target": "p212",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Cira Harbor and Pax Ashby worked together at Atlas AI for four years."
-  },
-  {
-   "source": "p066",
-   "target": "p117",
-   "type": "worked_with",
    "year": 2021,
-   "reason": "Jory Brook and Lior Delta worked together at Atlas AI for three years."
+   "reason": "Elio Heath and Oren Moss worked together at Vector Systems for two years."
   },
   {
-   "source": "p066",
-   "target": "p212",
+   "source": "p068",
+   "target": "p077",
    "type": "worked_with",
    "year": 2025,
-   "reason": "Jory Brook and Pax Ashby worked together at Atlas AI for four years."
+   "reason": "Pia Arbor and Tova Ashby worked together at Vector Systems for four years."
   },
   {
-   "source": "p212",
-   "target": "p066",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Pax Ashby and Jory Brook worked together at Atlas AI for four years."
-  },
-  {
-   "source": "p117",
-   "target": "p217",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Lior Delta and Idris Brook worked together at Atlas AI for four years."
-  },
-  {
-   "source": "p217",
-   "target": "p117",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Idris Brook and Lior Delta worked together at Atlas AI for four years."
-  },
-  {
-   "source": "p025",
-   "target": "c016",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Cira Harbor and Atlas AI worked together at Atlas AI for four years."
-  },
-  {
-   "source": "p066",
-   "target": "c016",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Jory Brook and Atlas AI worked together at Atlas AI for four years."
-  },
-  {
-   "source": "p117",
-   "target": "c016",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Lior Delta and Atlas AI worked together at Atlas AI for four years."
-  },
-  {
-   "source": "p212",
-   "target": "c016",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Pax Ashby and Atlas AI worked together at Atlas AI for three years."
-  },
-  {
-   "source": "p217",
-   "target": "c016",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Idris Brook and Atlas AI worked together at Atlas AI for two years."
-  },
-  {
-   "source": "p072",
-   "target": "p115",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Oren Ridge and Bram Fjord worked together at Vector Security for three years."
-  },
-  {
-   "source": "p072",
-   "target": "p177",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Oren Ridge and Kai Dune worked together at Vector Security for two years."
-  },
-  {
-   "source": "p103",
-   "target": "p177",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Teo Isle and Kai Dune worked together at Vector Security for three years."
-  },
-  {
-   "source": "p115",
-   "target": "p177",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Bram Fjord and Kai Dune worked together at Vector Security for four years."
-  },
-  {
-   "source": "p072",
-   "target": "c017",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Oren Ridge and Vector Security worked together at Vector Security for two years."
-  },
-  {
-   "source": "p103",
-   "target": "c017",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Teo Isle and Vector Security worked together at Vector Security for three years."
-  },
-  {
-   "source": "p115",
-   "target": "c017",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Bram Fjord and Vector Security worked together at Vector Security for three years."
-  },
-  {
-   "source": "p177",
-   "target": "c017",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Kai Dune and Vector Security worked together at Vector Security for four years."
-  },
-  {
-   "source": "p023",
-   "target": "p072",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Ines Grove and Oren Ridge worked together at Beacon AI for two years."
-  },
-  {
-   "source": "p023",
-   "target": "p075",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Ines Grove and Amara Wilde worked together at Beacon AI for four years."
-  },
-  {
-   "source": "p072",
-   "target": "p075",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Oren Ridge and Amara Wilde worked together at Beacon AI for two years."
-  },
-  {
-   "source": "p072",
-   "target": "p098",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Oren Ridge and Wren Delta worked together at Beacon AI for three years."
-  },
-  {
-   "source": "p098",
-   "target": "p072",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Wren Delta and Oren Ridge worked together at Beacon AI for four years."
-  },
-  {
-   "source": "p072",
-   "target": "p122",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Oren Ridge and Rhea Loch worked together at Beacon AI for two years."
-  },
-  {
-   "source": "p122",
-   "target": "p072",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Rhea Loch and Oren Ridge worked together at Beacon AI for four years."
-  },
-  {
-   "source": "p075",
-   "target": "p171",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Amara Wilde and Dev Shore worked together at Beacon AI for four years."
-  },
-  {
-   "source": "p171",
-   "target": "p075",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Dev Shore and Amara Wilde worked together at Beacon AI for three years."
-  },
-  {
-   "source": "p091",
-   "target": "p107",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Idris Grove and Yara Elm worked together at Beacon AI for three years."
-  },
-  {
-   "source": "p107",
-   "target": "p091",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Yara Elm and Idris Grove worked together at Beacon AI for four years."
-  },
-  {
-   "source": "p098",
-   "target": "p122",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Wren Delta and Rhea Loch worked together at Beacon AI for three years."
-  },
-  {
-   "source": "p122",
-   "target": "p098",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Rhea Loch and Wren Delta worked together at Beacon AI for two years."
-  },
-  {
-   "source": "p098",
-   "target": "p204",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Wren Delta and Yara Juniper worked together at Beacon AI for three years."
-  },
-  {
-   "source": "p204",
-   "target": "p098",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Yara Juniper and Wren Delta worked together at Beacon AI for four years."
-  },
-  {
-   "source": "p122",
-   "target": "p204",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Rhea Loch and Yara Juniper worked together at Beacon AI for three years."
-  },
-  {
-   "source": "p204",
-   "target": "p122",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Yara Juniper and Rhea Loch worked together at Beacon AI for four years."
-  },
-  {
-   "source": "p023",
-   "target": "c018",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Ines Grove and Beacon AI worked together at Beacon AI for two years."
-  },
-  {
-   "source": "p072",
-   "target": "c018",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Oren Ridge and Beacon AI worked together at Beacon AI for four years."
-  },
-  {
-   "source": "p075",
-   "target": "c018",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Amara Wilde and Beacon AI worked together at Beacon AI for two years."
-  },
-  {
-   "source": "p091",
-   "target": "c018",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Idris Grove and Beacon AI worked together at Beacon AI for four years."
-  },
-  {
-   "source": "p098",
-   "target": "c018",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Wren Delta and Beacon AI worked together at Beacon AI for four years."
-  },
-  {
-   "source": "p107",
-   "target": "c018",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Yara Elm and Beacon AI worked together at Beacon AI for two years."
-  },
-  {
-   "source": "p043",
-   "target": "p119",
-   "type": "cofounded",
-   "year": 2023,
-   "reason": "Pia Jade and Zev Loch co-founded Orbit Data."
-  },
-  {
-   "source": "p119",
-   "target": "p043",
-   "type": "cofounded",
-   "year": 2021,
-   "reason": "Zev Loch and Pia Jade co-founded Orbit Data."
-  },
-  {
-   "source": "p043",
-   "target": "p157",
-   "type": "cofounded",
-   "year": 2017,
-   "reason": "Pia Jade and Oren Brook co-founded Orbit Data."
-  },
-  {
-   "source": "p157",
-   "target": "p043",
-   "type": "cofounded",
-   "year": 2016,
-   "reason": "Oren Brook and Pia Jade co-founded Orbit Data."
-  },
-  {
-   "source": "p043",
-   "target": "p183",
-   "type": "cofounded",
-   "year": 2020,
-   "reason": "Pia Jade and Cleo Delta co-founded Orbit Data."
-  },
-  {
-   "source": "p183",
-   "target": "p043",
-   "type": "cofounded",
-   "year": 2017,
-   "reason": "Cleo Delta and Pia Jade co-founded Orbit Data."
-  },
-  {
-   "source": "p119",
-   "target": "p157",
-   "type": "cofounded",
-   "year": 2019,
-   "reason": "Zev Loch and Oren Brook co-founded Orbit Data."
-  },
-  {
-   "source": "p157",
-   "target": "p119",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Oren Brook and Zev Loch co-founded Orbit Data."
-  },
-  {
-   "source": "p119",
-   "target": "p183",
-   "type": "cofounded",
-   "year": 2023,
-   "reason": "Zev Loch and Cleo Delta co-founded Orbit Data."
-  },
-  {
-   "source": "p183",
-   "target": "p119",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Cleo Delta and Zev Loch co-founded Orbit Data."
-  },
-  {
-   "source": "p157",
-   "target": "p183",
-   "type": "cofounded",
-   "year": 2016,
-   "reason": "Oren Brook and Cleo Delta co-founded Orbit Data."
-  },
-  {
-   "source": "p183",
-   "target": "p157",
-   "type": "cofounded",
-   "year": 2026,
-   "reason": "Cleo Delta and Oren Brook co-founded Orbit Data."
-  },
-  {
-   "source": "p017",
-   "target": "p119",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Milo Flint and Zev Loch worked together at Orbit Data for three years."
-  },
-  {
-   "source": "p017",
-   "target": "p121",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Milo Flint and Dev Moss worked together at Orbit Data for three years."
-  },
-  {
-   "source": "p121",
-   "target": "p017",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Dev Moss and Milo Flint worked together at Orbit Data for three years."
-  },
-  {
-   "source": "p017",
-   "target": "p141",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Milo Flint and Tova Moss worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p141",
-   "target": "p017",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Tova Moss and Milo Flint worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p017",
-   "target": "p157",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Milo Flint and Oren Brook worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p157",
-   "target": "p017",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Oren Brook and Milo Flint worked together at Orbit Data for two years."
-  },
-  {
-   "source": "p017",
-   "target": "p183",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Milo Flint and Cleo Delta worked together at Orbit Data for three years."
-  },
-  {
-   "source": "p183",
-   "target": "p017",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Cleo Delta and Milo Flint worked together at Orbit Data for two years."
-  },
-  {
-   "source": "p043",
-   "target": "p069",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Pia Jade and Teo Jade worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p069",
-   "target": "p043",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Teo Jade and Pia Jade worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p043",
-   "target": "p116",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Pia Jade and Rhea Calder worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p048",
-   "target": "p068",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Hale Ember and Pia Arbor worked together at Orbit Data for two years."
-  },
-  {
-   "source": "p068",
-   "target": "p048",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Pia Arbor and Hale Ember worked together at Orbit Data for three years."
-  },
-  {
-   "source": "p048",
-   "target": "p116",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Hale Ember and Rhea Calder worked together at Orbit Data for two years."
-  },
-  {
-   "source": "p048",
-   "target": "p119",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Hale Ember and Zev Loch worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p048",
-   "target": "p141",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Hale Ember and Tova Moss worked together at Orbit Data for three years."
-  },
-  {
-   "source": "p048",
-   "target": "p157",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Hale Ember and Oren Brook worked together at Orbit Data for two years."
-  },
-  {
-   "source": "p068",
-   "target": "p069",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Pia Arbor and Teo Jade worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p068",
-   "target": "p121",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Pia Arbor and Dev Moss worked together at Orbit Data for two years."
-  },
-  {
-   "source": "p068",
-   "target": "p141",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Pia Arbor and Tova Moss worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p141",
-   "target": "p068",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Tova Moss and Pia Arbor worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p068",
-   "target": "p157",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Pia Arbor and Oren Brook worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p157",
-   "target": "p068",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Oren Brook and Pia Arbor worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p068",
-   "target": "p183",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Pia Arbor and Cleo Delta worked together at Orbit Data for three years."
-  },
-  {
-   "source": "p183",
+   "source": "p077",
    "target": "p068",
    "type": "worked_with",
    "year": 2024,
-   "reason": "Cleo Delta and Pia Arbor worked together at Orbit Data for four years."
+   "reason": "Tova Ashby and Pia Arbor worked together at Vector Systems for two years."
   },
   {
-   "source": "p069",
-   "target": "p119",
+   "source": "p004",
+   "target": "c007",
    "type": "worked_with",
-   "year": 2025,
-   "reason": "Teo Jade and Zev Loch worked together at Orbit Data for two years."
+   "year": 2022,
+   "reason": "Rhea Juniper and Vector Systems worked together at Vector Systems for four years."
   },
   {
-   "source": "p119",
-   "target": "p069",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Zev Loch and Teo Jade worked together at Orbit Data for three years."
-  },
-  {
-   "source": "p069",
-   "target": "p141",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Teo Jade and Tova Moss worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p141",
-   "target": "p069",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Tova Moss and Teo Jade worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p099",
-   "target": "p157",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Tova Quarry and Oren Brook worked together at Orbit Data for two years."
-  },
-  {
-   "source": "p157",
-   "target": "p099",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Oren Brook and Tova Quarry worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p099",
-   "target": "p183",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Tova Quarry and Cleo Delta worked together at Orbit Data for three years."
-  },
-  {
-   "source": "p116",
-   "target": "p121",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Rhea Calder and Dev Moss worked together at Orbit Data for two years."
-  },
-  {
-   "source": "p119",
-   "target": "p121",
+   "source": "p024",
+   "target": "c007",
    "type": "worked_with",
    "year": 2024,
-   "reason": "Zev Loch and Dev Moss worked together at Orbit Data for three years."
+   "reason": "Idris Moss and Vector Systems worked together at Vector Systems for three years."
   },
   {
-   "source": "p017",
-   "target": "c019",
+   "source": "p026",
+   "target": "c007",
    "type": "worked_with",
-   "year": 2023,
-   "reason": "Milo Flint and Orbit Data worked together at Orbit Data for four years."
+   "year": 2024,
+   "reason": "Orla Oak and Vector Systems worked together at Vector Systems for two years."
+  },
+  {
+   "source": "p031",
+   "target": "c007",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Lior Ridge and Vector Systems worked together at Vector Systems for three years."
+  },
+  {
+   "source": "p042",
+   "target": "c007",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Esme Pine and Vector Systems worked together at Vector Systems for four years."
   },
   {
    "source": "p043",
-   "target": "c019",
+   "target": "c007",
    "type": "worked_with",
-   "year": 2016,
-   "reason": "Pia Jade and Orbit Data worked together at Orbit Data for two years."
+   "year": 2026,
+   "reason": "Pia Jade and Vector Systems worked together at Vector Systems for two years."
   },
   {
-   "source": "p048",
-   "target": "c019",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Hale Ember and Orbit Data worked together at Orbit Data for two years."
-  },
-  {
-   "source": "p068",
-   "target": "c019",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Pia Arbor and Orbit Data worked together at Orbit Data for four years."
-  },
-  {
-   "source": "p069",
-   "target": "c019",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Teo Jade and Orbit Data worked together at Orbit Data for two years."
-  },
-  {
-   "source": "p099",
-   "target": "c019",
-   "type": "worked_with",
+   "source": "p000",
+   "target": "p080",
+   "type": "cofounded",
    "year": 2018,
-   "reason": "Tova Quarry and Orbit Data worked together at Orbit Data for three years."
+   "reason": "Oren Harbor and Lena Brook co-founded Relay AI."
   },
   {
-   "source": "p005",
-   "target": "p174",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Wren Yarrow and Rhea Thorn worked together at Nimbus Bio for four years."
+   "source": "p080",
+   "target": "p000",
+   "type": "cofounded",
+   "year": 2022,
+   "reason": "Lena Brook and Oren Harbor co-founded Relay AI."
   },
   {
-   "source": "p174",
+   "source": "p000",
    "target": "p005",
    "type": "worked_with",
-   "year": 2019,
-   "reason": "Rhea Thorn and Wren Yarrow worked together at Nimbus Bio for four years."
+   "year": 2021,
+   "reason": "Oren Harbor and Wren Yarrow worked together at Relay AI for two years."
   },
   {
-   "source": "p014",
-   "target": "p015",
+   "source": "p000",
+   "target": "p053",
    "type": "worked_with",
    "year": 2016,
-   "reason": "Wes Loch and Orla Isle worked together at Nimbus Bio for four years."
+   "reason": "Oren Harbor and Kai Glen worked together at Relay AI for four years."
   },
   {
-   "source": "p015",
-   "target": "p014",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Orla Isle and Wes Loch worked together at Nimbus Bio for four years."
-  },
-  {
-   "source": "p014",
-   "target": "p063",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Wes Loch and Juno Arbor worked together at Nimbus Bio for two years."
-  },
-  {
-   "source": "p063",
-   "target": "p014",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Juno Arbor and Wes Loch worked together at Nimbus Bio for four years."
-  },
-  {
-   "source": "p015",
-   "target": "p063",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Orla Isle and Juno Arbor worked together at Nimbus Bio for three years."
-  },
-  {
-   "source": "p063",
-   "target": "p015",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Juno Arbor and Orla Isle worked together at Nimbus Bio for four years."
-  },
-  {
-   "source": "p015",
-   "target": "p174",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Orla Isle and Rhea Thorn worked together at Nimbus Bio for two years."
-  },
-  {
-   "source": "p015",
-   "target": "p209",
+   "source": "p053",
+   "target": "p000",
    "type": "worked_with",
    "year": 2023,
-   "reason": "Orla Isle and Elio Zephyr worked together at Nimbus Bio for two years."
+   "reason": "Kai Glen and Oren Harbor worked together at Relay AI for two years."
   },
   {
-   "source": "p209",
-   "target": "p015",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Elio Zephyr and Orla Isle worked together at Nimbus Bio for two years."
-  },
-  {
-   "source": "p063",
-   "target": "p091",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Juno Arbor and Idris Grove worked together at Nimbus Bio for two years."
-  },
-  {
-   "source": "p063",
-   "target": "p174",
+   "source": "p000",
+   "target": "p092",
    "type": "worked_with",
    "year": 2025,
-   "reason": "Juno Arbor and Rhea Thorn worked together at Nimbus Bio for four years."
+   "reason": "Oren Harbor and Finn Ridge worked together at Relay AI for two years."
   },
   {
-   "source": "p174",
-   "target": "p063",
+   "source": "p092",
+   "target": "p000",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Finn Ridge and Oren Harbor worked together at Relay AI for four years."
+  },
+  {
+   "source": "p000",
+   "target": "p093",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Oren Harbor and Vida Brook worked together at Relay AI for four years."
+  },
+  {
+   "source": "p093",
+   "target": "p000",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Vida Brook and Oren Harbor worked together at Relay AI for three years."
+  },
+  {
+   "source": "p003",
+   "target": "p005",
    "type": "worked_with",
    "year": 2017,
-   "reason": "Rhea Thorn and Juno Arbor worked together at Nimbus Bio for three years."
-  },
-  {
-   "source": "p174",
-   "target": "p209",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Rhea Thorn and Elio Zephyr worked together at Nimbus Bio for four years."
-  },
-  {
-   "source": "p209",
-   "target": "p174",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Elio Zephyr and Rhea Thorn worked together at Nimbus Bio for two years."
+   "reason": "Cira Ridge and Wren Yarrow worked together at Relay AI for four years."
   },
   {
    "source": "p005",
-   "target": "c020",
+   "target": "p003",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Wren Yarrow and Cira Ridge worked together at Relay AI for four years."
+  },
+  {
+   "source": "p005",
+   "target": "p053",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Wren Yarrow and Kai Glen worked together at Relay AI for four years."
+  },
+  {
+   "source": "p005",
+   "target": "p092",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Wren Yarrow and Finn Ridge worked together at Relay AI for two years."
+  },
+  {
+   "source": "p092",
+   "target": "p005",
    "type": "worked_with",
    "year": 2023,
-   "reason": "Wren Yarrow and Nimbus Bio worked together at Nimbus Bio for three years."
+   "reason": "Finn Ridge and Wren Yarrow worked together at Relay AI for three years."
   },
   {
-   "source": "p014",
-   "target": "c020",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Wes Loch and Nimbus Bio worked together at Nimbus Bio for four years."
-  },
-  {
-   "source": "p015",
-   "target": "c020",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Orla Isle and Nimbus Bio worked together at Nimbus Bio for three years."
-  },
-  {
-   "source": "p063",
-   "target": "c020",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Juno Arbor and Nimbus Bio worked together at Nimbus Bio for three years."
-  },
-  {
-   "source": "p091",
-   "target": "c020",
+   "source": "p005",
+   "target": "p093",
    "type": "worked_with",
    "year": 2019,
-   "reason": "Idris Grove and Nimbus Bio worked together at Nimbus Bio for three years."
-  },
-  {
-   "source": "p174",
-   "target": "c020",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Rhea Thorn and Nimbus Bio worked together at Nimbus Bio for three years."
+   "reason": "Wren Yarrow and Vida Brook worked together at Relay AI for four years."
   },
   {
    "source": "p034",
-   "target": "p038",
+   "target": "p092",
    "type": "worked_with",
-   "year": 2016,
-   "reason": "Quin Flint and Pax Calder worked together at Signal Robotics for four years."
+   "year": 2018,
+   "reason": "Quin Flint and Finn Ridge worked together at Relay AI for two years."
   },
   {
-   "source": "p038",
+   "source": "p092",
    "target": "p034",
    "type": "worked_with",
-   "year": 2016,
-   "reason": "Pax Calder and Quin Flint worked together at Signal Robotics for four years."
+   "year": 2026,
+   "reason": "Finn Ridge and Quin Flint worked together at Relay AI for four years."
+  },
+  {
+   "source": "p080",
+   "target": "p093",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Lena Brook and Vida Brook worked together at Relay AI for two years."
+  },
+  {
+   "source": "p093",
+   "target": "p080",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Vida Brook and Lena Brook worked together at Relay AI for three years."
+  },
+  {
+   "source": "p000",
+   "target": "c008",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Oren Harbor and Relay AI worked together at Relay AI for three years."
+  },
+  {
+   "source": "p003",
+   "target": "c008",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Cira Ridge and Relay AI worked together at Relay AI for four years."
+  },
+  {
+   "source": "p005",
+   "target": "c008",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Wren Yarrow and Relay AI worked together at Relay AI for two years."
   },
   {
    "source": "p034",
-   "target": "p100",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Quin Flint and Lior Moss worked together at Signal Robotics for three years."
-  },
-  {
-   "source": "p100",
-   "target": "p034",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Lior Moss and Quin Flint worked together at Signal Robotics for three years."
-  },
-  {
-   "source": "p038",
-   "target": "p198",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Pax Calder and Sana Ashby worked together at Signal Robotics for two years."
-  },
-  {
-   "source": "p198",
-   "target": "p038",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Sana Ashby and Pax Calder worked together at Signal Robotics for two years."
-  },
-  {
-   "source": "p100",
-   "target": "p217",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Lior Moss and Idris Brook worked together at Signal Robotics for four years."
-  },
-  {
-   "source": "p217",
-   "target": "p100",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Idris Brook and Lior Moss worked together at Signal Robotics for four years."
-  },
-  {
-   "source": "p198",
-   "target": "p217",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Sana Ashby and Idris Brook worked together at Signal Robotics for two years."
-  },
-  {
-   "source": "p217",
-   "target": "p198",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Idris Brook and Sana Ashby worked together at Signal Robotics for two years."
-  },
-  {
-   "source": "p034",
-   "target": "c021",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Quin Flint and Signal Robotics worked together at Signal Robotics for two years."
-  },
-  {
-   "source": "p038",
-   "target": "c021",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Pax Calder and Signal Robotics worked together at Signal Robotics for three years."
-  },
-  {
-   "source": "p100",
-   "target": "c021",
+   "target": "c008",
    "type": "worked_with",
    "year": 2025,
-   "reason": "Lior Moss and Signal Robotics worked together at Signal Robotics for two years."
+   "reason": "Quin Flint and Relay AI worked together at Relay AI for four years."
   },
   {
-   "source": "p198",
-   "target": "c021",
+   "source": "p053",
+   "target": "c008",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Kai Glen and Relay AI worked together at Relay AI for three years."
+  },
+  {
+   "source": "p069",
+   "target": "c008",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Teo Jade and Relay AI worked together at Relay AI for two years."
+  },
+  {
+   "source": "p013",
+   "target": "p025",
    "type": "worked_with",
    "year": 2017,
-   "reason": "Sana Ashby and Signal Robotics worked together at Signal Robotics for two years."
+   "reason": "Fia Birch and Cira Harbor worked together at Orbit Bio for three years."
   },
   {
-   "source": "p217",
-   "target": "c021",
+   "source": "p013",
+   "target": "p037",
    "type": "worked_with",
-   "year": 2021,
-   "reason": "Idris Brook and Signal Robotics worked together at Signal Robotics for four years."
+   "year": 2024,
+   "reason": "Fia Birch and Lior Ember worked together at Orbit Bio for four years."
   },
   {
-   "source": "p065",
-   "target": "p153",
-   "type": "cofounded",
+   "source": "p013",
+   "target": "p057",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Fia Birch and Quin Calder worked together at Orbit Bio for four years."
+  },
+  {
+   "source": "p057",
+   "target": "p013",
+   "type": "worked_with",
    "year": 2016,
-   "reason": "Gus Wilde and Pax Knoll co-founded Prism Health."
+   "reason": "Quin Calder and Fia Birch worked together at Orbit Bio for four years."
   },
   {
-   "source": "p153",
-   "target": "p065",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Pax Knoll and Gus Wilde co-founded Prism Health."
+   "source": "p013",
+   "target": "p060",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Fia Birch and Reza Wilde worked together at Orbit Bio for three years."
   },
   {
-   "source": "p065",
-   "target": "p160",
-   "type": "cofounded",
-   "year": 2025,
-   "reason": "Gus Wilde and Hale Brook co-founded Prism Health."
-  },
-  {
-   "source": "p160",
-   "target": "p065",
-   "type": "cofounded",
-   "year": 2024,
-   "reason": "Hale Brook and Gus Wilde co-founded Prism Health."
-  },
-  {
-   "source": "p153",
-   "target": "p160",
-   "type": "cofounded",
-   "year": 2025,
-   "reason": "Pax Knoll and Hale Brook co-founded Prism Health."
-  },
-  {
-   "source": "p160",
-   "target": "p153",
-   "type": "cofounded",
+   "source": "p013",
+   "target": "p062",
+   "type": "worked_with",
    "year": 2018,
-   "reason": "Hale Brook and Pax Knoll co-founded Prism Health."
+   "reason": "Fia Birch and Reza Ashby worked together at Orbit Bio for four years."
   },
   {
-   "source": "p006",
+   "source": "p013",
    "target": "p071",
    "type": "worked_with",
    "year": 2026,
-   "reason": "Finn Loch and Juno Elm worked together at Prism Health for three years."
+   "reason": "Fia Birch and Juno Elm worked together at Orbit Bio for three years."
   },
   {
-   "source": "p071",
-   "target": "p006",
+   "source": "p013",
+   "target": "p075",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Fia Birch and Amara Wilde worked together at Orbit Bio for two years."
+  },
+  {
+   "source": "p013",
+   "target": "p079",
    "type": "worked_with",
    "year": 2025,
-   "reason": "Juno Elm and Finn Loch worked together at Prism Health for four years."
+   "reason": "Fia Birch and Reza Birch worked together at Orbit Bio for four years."
   },
   {
-   "source": "p065",
-   "target": "p071",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Gus Wilde and Juno Elm worked together at Prism Health for three years."
-  },
-  {
-   "source": "p065",
-   "target": "p153",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Gus Wilde and Pax Knoll worked together at Prism Health for four years."
-  },
-  {
-   "source": "p153",
-   "target": "p065",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Pax Knoll and Gus Wilde worked together at Prism Health for four years."
-  },
-  {
-   "source": "p065",
-   "target": "p205",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Gus Wilde and Amara Zephyr worked together at Prism Health for four years."
-  },
-  {
-   "source": "p071",
-   "target": "p153",
+   "source": "p013",
+   "target": "p086",
    "type": "worked_with",
    "year": 2018,
-   "reason": "Juno Elm and Pax Knoll worked together at Prism Health for four years."
+   "reason": "Fia Birch and Tova Glen worked together at Orbit Bio for two years."
   },
   {
-   "source": "p153",
-   "target": "p071",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Pax Knoll and Juno Elm worked together at Prism Health for three years."
-  },
-  {
-   "source": "p160",
-   "target": "p219",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Hale Brook and Esme Jade worked together at Prism Health for two years."
-  },
-  {
-   "source": "p219",
-   "target": "p160",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Esme Jade and Hale Brook worked together at Prism Health for four years."
-  },
-  {
-   "source": "p180",
-   "target": "p205",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Dev Arbor and Amara Zephyr worked together at Prism Health for three years."
-  },
-  {
-   "source": "p205",
-   "target": "p180",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Amara Zephyr and Dev Arbor worked together at Prism Health for two years."
-  },
-  {
-   "source": "p180",
-   "target": "p219",
+   "source": "p013",
+   "target": "p088",
    "type": "worked_with",
    "year": 2022,
-   "reason": "Dev Arbor and Esme Jade worked together at Prism Health for four years."
+   "reason": "Fia Birch and Milo Harbor worked together at Orbit Bio for two years."
   },
   {
-   "source": "p205",
-   "target": "p219",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Amara Zephyr and Esme Jade worked together at Prism Health for three years."
-  },
-  {
-   "source": "p219",
-   "target": "p205",
+   "source": "p025",
+   "target": "p057",
    "type": "worked_with",
    "year": 2025,
-   "reason": "Esme Jade and Amara Zephyr worked together at Prism Health for two years."
+   "reason": "Cira Harbor and Quin Calder worked together at Orbit Bio for three years."
   },
   {
-   "source": "p006",
-   "target": "c022",
+   "source": "p057",
+   "target": "p025",
    "type": "worked_with",
    "year": 2026,
-   "reason": "Finn Loch and Prism Health worked together at Prism Health for three years."
+   "reason": "Quin Calder and Cira Harbor worked together at Orbit Bio for two years."
   },
   {
-   "source": "p065",
-   "target": "c022",
+   "source": "p025",
+   "target": "p071",
    "type": "worked_with",
-   "year": 2019,
-   "reason": "Gus Wilde and Prism Health worked together at Prism Health for four years."
+   "year": 2017,
+   "reason": "Cira Harbor and Juno Elm worked together at Orbit Bio for two years."
+  },
+  {
+   "source": "p025",
+   "target": "p079",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Cira Harbor and Reza Birch worked together at Orbit Bio for four years."
+  },
+  {
+   "source": "p025",
+   "target": "p082",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Cira Harbor and Yuki Cove worked together at Orbit Bio for three years."
+  },
+  {
+   "source": "p082",
+   "target": "p025",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Yuki Cove and Cira Harbor worked together at Orbit Bio for four years."
+  },
+  {
+   "source": "p025",
+   "target": "p086",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Cira Harbor and Tova Glen worked together at Orbit Bio for three years."
+  },
+  {
+   "source": "p025",
+   "target": "p088",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Cira Harbor and Milo Harbor worked together at Orbit Bio for three years."
+  },
+  {
+   "source": "p029",
+   "target": "p037",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Bodhi Cove and Lior Ember worked together at Orbit Bio for three years."
+  },
+  {
+   "source": "p029",
+   "target": "p060",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Bodhi Cove and Reza Wilde worked together at Orbit Bio for three years."
+  },
+  {
+   "source": "p060",
+   "target": "p029",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Reza Wilde and Bodhi Cove worked together at Orbit Bio for four years."
+  },
+  {
+   "source": "p029",
+   "target": "p082",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Bodhi Cove and Yuki Cove worked together at Orbit Bio for two years."
+  },
+  {
+   "source": "p082",
+   "target": "p029",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Yuki Cove and Bodhi Cove worked together at Orbit Bio for three years."
+  },
+  {
+   "source": "p037",
+   "target": "p094",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Lior Ember and Quin Wilde worked together at Orbit Bio for two years."
+  },
+  {
+   "source": "p094",
+   "target": "p037",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Quin Wilde and Lior Ember worked together at Orbit Bio for three years."
+  },
+  {
+   "source": "p057",
+   "target": "p086",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Quin Calder and Tova Glen worked together at Orbit Bio for three years."
+  },
+  {
+   "source": "p086",
+   "target": "p057",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Tova Glen and Quin Calder worked together at Orbit Bio for four years."
+  },
+  {
+   "source": "p060",
+   "target": "p079",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Reza Wilde and Reza Birch worked together at Orbit Bio for two years."
+  },
+  {
+   "source": "p079",
+   "target": "p060",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Reza Birch and Reza Wilde worked together at Orbit Bio for three years."
+  },
+  {
+   "source": "p060",
+   "target": "p082",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Reza Wilde and Yuki Cove worked together at Orbit Bio for two years."
   },
   {
    "source": "p071",
-   "target": "c022",
+   "target": "p075",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Juno Elm and Amara Wilde worked together at Orbit Bio for three years."
+  },
+  {
+   "source": "p075",
+   "target": "p071",
    "type": "worked_with",
    "year": 2019,
-   "reason": "Juno Elm and Prism Health worked together at Prism Health for two years."
+   "reason": "Amara Wilde and Juno Elm worked together at Orbit Bio for two years."
   },
   {
-   "source": "p144",
-   "target": "c022",
+   "source": "p074",
+   "target": "p075",
    "type": "worked_with",
-   "year": 2019,
-   "reason": "Mira Quarry and Prism Health worked together at Prism Health for two years."
+   "year": 2023,
+   "reason": "Jory Oak and Amara Wilde worked together at Orbit Bio for two years."
   },
   {
-   "source": "p153",
-   "target": "c022",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Pax Knoll and Prism Health worked together at Prism Health for two years."
-  },
-  {
-   "source": "p160",
-   "target": "c022",
+   "source": "p075",
+   "target": "p074",
    "type": "worked_with",
    "year": 2017,
-   "reason": "Hale Brook and Prism Health worked together at Prism Health for two years."
+   "reason": "Amara Wilde and Jory Oak worked together at Orbit Bio for four years."
   },
   {
-   "source": "p026",
-   "target": "p122",
-   "type": "cofounded",
-   "year": 2026,
-   "reason": "Orla Oak and Rhea Loch co-founded Nimbus Infra."
-  },
-  {
-   "source": "p122",
-   "target": "p026",
-   "type": "cofounded",
-   "year": 2023,
-   "reason": "Rhea Loch and Orla Oak co-founded Nimbus Infra."
-  },
-  {
-   "source": "p026",
-   "target": "p149",
-   "type": "cofounded",
-   "year": 2024,
-   "reason": "Orla Oak and Finn Birch co-founded Nimbus Infra."
-  },
-  {
-   "source": "p149",
-   "target": "p026",
-   "type": "cofounded",
-   "year": 2023,
-   "reason": "Finn Birch and Orla Oak co-founded Nimbus Infra."
-  },
-  {
-   "source": "p026",
-   "target": "p192",
-   "type": "cofounded",
-   "year": 2025,
-   "reason": "Orla Oak and Xan Shore co-founded Nimbus Infra."
-  },
-  {
-   "source": "p192",
-   "target": "p026",
-   "type": "cofounded",
-   "year": 2023,
-   "reason": "Xan Shore and Orla Oak co-founded Nimbus Infra."
-  },
-  {
-   "source": "p122",
-   "target": "p149",
-   "type": "cofounded",
-   "year": 2020,
-   "reason": "Rhea Loch and Finn Birch co-founded Nimbus Infra."
-  },
-  {
-   "source": "p149",
-   "target": "p122",
-   "type": "cofounded",
-   "year": 2018,
-   "reason": "Finn Birch and Rhea Loch co-founded Nimbus Infra."
-  },
-  {
-   "source": "p122",
-   "target": "p192",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Rhea Loch and Xan Shore co-founded Nimbus Infra."
-  },
-  {
-   "source": "p192",
-   "target": "p122",
-   "type": "cofounded",
-   "year": 2025,
-   "reason": "Xan Shore and Rhea Loch co-founded Nimbus Infra."
-  },
-  {
-   "source": "p149",
-   "target": "p192",
-   "type": "cofounded",
-   "year": 2016,
-   "reason": "Finn Birch and Xan Shore co-founded Nimbus Infra."
-  },
-  {
-   "source": "p192",
-   "target": "p149",
-   "type": "cofounded",
-   "year": 2023,
-   "reason": "Xan Shore and Finn Birch co-founded Nimbus Infra."
-  },
-  {
-   "source": "p007",
-   "target": "p026",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Esme Calder and Orla Oak worked together at Nimbus Infra for four years."
-  },
-  {
-   "source": "p007",
-   "target": "p033",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Esme Calder and Elio North worked together at Nimbus Infra for three years."
-  },
-  {
-   "source": "p007",
-   "target": "p122",
+   "source": "p074",
+   "target": "p088",
    "type": "worked_with",
    "year": 2019,
-   "reason": "Esme Calder and Rhea Loch worked together at Nimbus Infra for four years."
+   "reason": "Jory Oak and Milo Harbor worked together at Orbit Bio for two years."
   },
   {
-   "source": "p122",
-   "target": "p007",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Rhea Loch and Esme Calder worked together at Nimbus Infra for two years."
-  },
-  {
-   "source": "p007",
-   "target": "p149",
+   "source": "p088",
+   "target": "p074",
    "type": "worked_with",
    "year": 2023,
-   "reason": "Esme Calder and Finn Birch worked together at Nimbus Infra for three years."
+   "reason": "Milo Harbor and Jory Oak worked together at Orbit Bio for two years."
   },
   {
-   "source": "p149",
-   "target": "p007",
+   "source": "p075",
+   "target": "p082",
    "type": "worked_with",
-   "year": 2023,
-   "reason": "Finn Birch and Esme Calder worked together at Nimbus Infra for two years."
+   "year": 2019,
+   "reason": "Amara Wilde and Yuki Cove worked together at Orbit Bio for two years."
   },
   {
-   "source": "p028",
-   "target": "p192",
+   "source": "p082",
+   "target": "p075",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Yuki Cove and Amara Wilde worked together at Orbit Bio for four years."
+  },
+  {
+   "source": "p079",
+   "target": "p086",
    "type": "worked_with",
    "year": 2018,
-   "reason": "Pax Grove and Xan Shore worked together at Nimbus Infra for two years."
+   "reason": "Reza Birch and Tova Glen worked together at Orbit Bio for four years."
   },
   {
-   "source": "p192",
-   "target": "p028",
+   "source": "p086",
+   "target": "p079",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Tova Glen and Reza Birch worked together at Orbit Bio for two years."
+  },
+  {
+   "source": "p082",
+   "target": "p088",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Yuki Cove and Milo Harbor worked together at Orbit Bio for four years."
+  },
+  {
+   "source": "p088",
+   "target": "p082",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Milo Harbor and Yuki Cove worked together at Orbit Bio for four years."
+  },
+  {
+   "source": "p082",
+   "target": "p094",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Yuki Cove and Quin Wilde worked together at Orbit Bio for two years."
+  },
+  {
+   "source": "p094",
+   "target": "p082",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Quin Wilde and Yuki Cove worked together at Orbit Bio for two years."
+  },
+  {
+   "source": "p086",
+   "target": "p094",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Tova Glen and Quin Wilde worked together at Orbit Bio for two years."
+  },
+  {
+   "source": "p094",
+   "target": "p086",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Quin Wilde and Tova Glen worked together at Orbit Bio for three years."
+  },
+  {
+   "source": "p088",
+   "target": "p094",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Milo Harbor and Quin Wilde worked together at Orbit Bio for four years."
+  },
+  {
+   "source": "p094",
+   "target": "p088",
    "type": "worked_with",
    "year": 2023,
-   "reason": "Xan Shore and Pax Grove worked together at Nimbus Infra for four years."
+   "reason": "Quin Wilde and Milo Harbor worked together at Orbit Bio for two years."
   },
   {
-   "source": "p033",
-   "target": "p149",
+   "source": "p013",
+   "target": "c009",
    "type": "worked_with",
    "year": 2024,
-   "reason": "Elio North and Finn Birch worked together at Nimbus Infra for two years."
+   "reason": "Fia Birch and Orbit Bio worked together at Orbit Bio for two years."
   },
   {
-   "source": "p149",
-   "target": "p033",
+   "source": "p025",
+   "target": "c009",
    "type": "worked_with",
-   "year": 2018,
-   "reason": "Finn Birch and Elio North worked together at Nimbus Infra for two years."
+   "year": 2016,
+   "reason": "Cira Harbor and Orbit Bio worked together at Orbit Bio for three years."
   },
   {
-   "source": "p122",
-   "target": "p192",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Rhea Loch and Xan Shore worked together at Nimbus Infra for four years."
-  },
-  {
-   "source": "p192",
-   "target": "p122",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Xan Shore and Rhea Loch worked together at Nimbus Infra for two years."
-  },
-  {
-   "source": "p007",
-   "target": "c023",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Esme Calder and Nimbus Infra worked together at Nimbus Infra for three years."
-  },
-  {
-   "source": "p026",
-   "target": "c023",
+   "source": "p029",
+   "target": "c009",
    "type": "worked_with",
    "year": 2026,
-   "reason": "Orla Oak and Nimbus Infra worked together at Nimbus Infra for three years."
+   "reason": "Bodhi Cove and Orbit Bio worked together at Orbit Bio for four years."
   },
   {
-   "source": "p028",
-   "target": "c023",
+   "source": "p037",
+   "target": "c009",
    "type": "worked_with",
-   "year": 2023,
-   "reason": "Pax Grove and Nimbus Infra worked together at Nimbus Infra for three years."
+   "year": 2016,
+   "reason": "Lior Ember and Orbit Bio worked together at Orbit Bio for two years."
   },
   {
-   "source": "p033",
-   "target": "c023",
+   "source": "p057",
+   "target": "c009",
    "type": "worked_with",
    "year": 2025,
-   "reason": "Elio North and Nimbus Infra worked together at Nimbus Infra for three years."
+   "reason": "Quin Calder and Orbit Bio worked together at Orbit Bio for three years."
   },
   {
-   "source": "p122",
-   "target": "c023",
+   "source": "p060",
+   "target": "c009",
    "type": "worked_with",
-   "year": 2026,
-   "reason": "Rhea Loch and Nimbus Infra worked together at Nimbus Infra for two years."
+   "year": 2019,
+   "reason": "Reza Wilde and Orbit Bio worked together at Orbit Bio for three years."
   },
   {
-   "source": "p125",
-   "target": "c023",
+   "source": "p003",
+   "target": "p015",
    "type": "worked_with",
-   "year": 2026,
-   "reason": "Uma Shore and Nimbus Infra worked together at Nimbus Infra for three years."
+   "year": 2019,
+   "reason": "Cira Ridge and Orla Isle worked together at Meridian Security for four years."
+  },
+  {
+   "source": "p003",
+   "target": "p055",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Cira Ridge and Mira Birch worked together at Meridian Security for three years."
   },
   {
    "source": "p012",
-   "target": "p150",
+   "target": "p061",
    "type": "worked_with",
-   "year": 2018,
-   "reason": "Esme North and Wes Quarry worked together at Verge Infra for two years."
+   "year": 2024,
+   "reason": "Esme North and Reza Cove worked together at Meridian Security for three years."
   },
   {
-   "source": "p150",
+   "source": "p061",
+   "target": "p012",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Reza Cove and Esme North worked together at Meridian Security for two years."
+  },
+  {
+   "source": "p015",
+   "target": "p061",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Orla Isle and Reza Cove worked together at Meridian Security for three years."
+  },
+  {
+   "source": "p061",
+   "target": "p015",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Reza Cove and Orla Isle worked together at Meridian Security for four years."
+  },
+  {
+   "source": "p048",
+   "target": "p055",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Hale Ember and Mira Birch worked together at Meridian Security for three years."
+  },
+  {
+   "source": "p055",
+   "target": "p048",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Mira Birch and Hale Ember worked together at Meridian Security for four years."
+  },
+  {
+   "source": "p055",
+   "target": "p061",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Mira Birch and Reza Cove worked together at Meridian Security for four years."
+  },
+  {
+   "source": "p003",
+   "target": "c010",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Cira Ridge and Meridian Security worked together at Meridian Security for two years."
+  },
+  {
+   "source": "p012",
+   "target": "c010",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Esme North and Meridian Security worked together at Meridian Security for two years."
+  },
+  {
+   "source": "p015",
+   "target": "c010",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Orla Isle and Meridian Security worked together at Meridian Security for four years."
+  },
+  {
+   "source": "p048",
+   "target": "c010",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Hale Ember and Meridian Security worked together at Meridian Security for four years."
+  },
+  {
+   "source": "p055",
+   "target": "c010",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Mira Birch and Meridian Security worked together at Meridian Security for three years."
+  },
+  {
+   "source": "p061",
+   "target": "c010",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Reza Cove and Meridian Security worked together at Meridian Security for two years."
+  },
+  {
+   "source": "p062",
+   "target": "p073",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Reza Ashby and Esme Shore worked together at Forge Robotics for two years."
+  },
+  {
+   "source": "p073",
+   "target": "p062",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Esme Shore and Reza Ashby worked together at Forge Robotics for four years."
+  },
+  {
+   "source": "p062",
+   "target": "p097",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Reza Ashby and Teo Pine worked together at Forge Robotics for three years."
+  },
+  {
+   "source": "p097",
+   "target": "p062",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Teo Pine and Reza Ashby worked together at Forge Robotics for four years."
+  },
+  {
+   "source": "p073",
+   "target": "p083",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Esme Shore and Wren Oak worked together at Forge Robotics for two years."
+  },
+  {
+   "source": "p083",
+   "target": "p073",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Wren Oak and Esme Shore worked together at Forge Robotics for two years."
+  },
+  {
+   "source": "p073",
+   "target": "p087",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Esme Shore and Mira Ember worked together at Forge Robotics for three years."
+  },
+  {
+   "source": "p087",
+   "target": "p073",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Mira Ember and Esme Shore worked together at Forge Robotics for three years."
+  },
+  {
+   "source": "p078",
+   "target": "p083",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Orla Heath and Wren Oak worked together at Forge Robotics for four years."
+  },
+  {
+   "source": "p078",
+   "target": "p087",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Orla Heath and Mira Ember worked together at Forge Robotics for two years."
+  },
+  {
+   "source": "p087",
+   "target": "p078",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Mira Ember and Orla Heath worked together at Forge Robotics for three years."
+  },
+  {
+   "source": "p078",
+   "target": "p091",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Orla Heath and Idris Grove worked together at Forge Robotics for two years."
+  },
+  {
+   "source": "p091",
+   "target": "p078",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Idris Grove and Orla Heath worked together at Forge Robotics for three years."
+  },
+  {
+   "source": "p083",
+   "target": "p091",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Wren Oak and Idris Grove worked together at Forge Robotics for two years."
+  },
+  {
+   "source": "p091",
+   "target": "p083",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Idris Grove and Wren Oak worked together at Forge Robotics for three years."
+  },
+  {
+   "source": "p083",
+   "target": "p097",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Wren Oak and Teo Pine worked together at Forge Robotics for three years."
+  },
+  {
+   "source": "p087",
+   "target": "p097",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Mira Ember and Teo Pine worked together at Forge Robotics for two years."
+  },
+  {
+   "source": "p097",
+   "target": "p087",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Teo Pine and Mira Ember worked together at Forge Robotics for three years."
+  },
+  {
+   "source": "p091",
+   "target": "p097",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Idris Grove and Teo Pine worked together at Forge Robotics for three years."
+  },
+  {
+   "source": "p062",
+   "target": "c011",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Reza Ashby and Forge Robotics worked together at Forge Robotics for three years."
+  },
+  {
+   "source": "p073",
+   "target": "c011",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Esme Shore and Forge Robotics worked together at Forge Robotics for four years."
+  },
+  {
+   "source": "p078",
+   "target": "c011",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Orla Heath and Forge Robotics worked together at Forge Robotics for two years."
+  },
+  {
+   "source": "p083",
+   "target": "c011",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Wren Oak and Forge Robotics worked together at Forge Robotics for two years."
+  },
+  {
+   "source": "p087",
+   "target": "c011",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Mira Ember and Forge Robotics worked together at Forge Robotics for four years."
+  },
+  {
+   "source": "p091",
+   "target": "c011",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Idris Grove and Forge Robotics worked together at Forge Robotics for three years."
+  },
+  {
+   "source": "p041",
+   "target": "p066",
+   "type": "cofounded",
+   "year": 2016,
+   "reason": "Kael Glen and Jory Brook co-founded Harbor Systems."
+  },
+  {
+   "source": "p066",
+   "target": "p041",
+   "type": "cofounded",
+   "year": 2023,
+   "reason": "Jory Brook and Kael Glen co-founded Harbor Systems."
+  },
+  {
+   "source": "p041",
+   "target": "p080",
+   "type": "cofounded",
+   "year": 2019,
+   "reason": "Kael Glen and Lena Brook co-founded Harbor Systems."
+  },
+  {
+   "source": "p080",
+   "target": "p041",
+   "type": "cofounded",
+   "year": 2024,
+   "reason": "Lena Brook and Kael Glen co-founded Harbor Systems."
+  },
+  {
+   "source": "p066",
+   "target": "p080",
+   "type": "cofounded",
+   "year": 2022,
+   "reason": "Jory Brook and Lena Brook co-founded Harbor Systems."
+  },
+  {
+   "source": "p080",
+   "target": "p066",
+   "type": "cofounded",
+   "year": 2026,
+   "reason": "Lena Brook and Jory Brook co-founded Harbor Systems."
+  },
+  {
+   "source": "p013",
+   "target": "p017",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Fia Birch and Milo Flint worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p013",
+   "target": "p032",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Fia Birch and Dev Knoll worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p013",
+   "target": "p041",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Fia Birch and Kael Glen worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p041",
+   "target": "p013",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Kael Glen and Fia Birch worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p013",
+   "target": "p054",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Fia Birch and Dax Yarrow worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p054",
+   "target": "p013",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Dax Yarrow and Fia Birch worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p013",
+   "target": "p066",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Fia Birch and Jory Brook worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p066",
+   "target": "p013",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Jory Brook and Fia Birch worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p013",
+   "target": "p076",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Fia Birch and Zara Brook worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p017",
+   "target": "p032",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Milo Flint and Dev Knoll worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p032",
+   "target": "p017",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Dev Knoll and Milo Flint worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p017",
+   "target": "p041",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Milo Flint and Kael Glen worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p041",
+   "target": "p017",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Kael Glen and Milo Flint worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p017",
+   "target": "p080",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Milo Flint and Lena Brook worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p032",
+   "target": "p076",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Dev Knoll and Zara Brook worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p076",
+   "target": "p032",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Zara Brook and Dev Knoll worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p032",
+   "target": "p080",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Dev Knoll and Lena Brook worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p032",
+   "target": "p097",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Dev Knoll and Teo Pine worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p097",
+   "target": "p032",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Teo Pine and Dev Knoll worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p041",
+   "target": "p045",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Kael Glen and Vida North worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p045",
+   "target": "p041",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Vida North and Kael Glen worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p041",
+   "target": "p055",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Kael Glen and Mira Birch worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p041",
+   "target": "p066",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Kael Glen and Jory Brook worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p066",
+   "target": "p041",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Jory Brook and Kael Glen worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p054",
+   "target": "p066",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Dax Yarrow and Jory Brook worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p066",
+   "target": "p054",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Jory Brook and Dax Yarrow worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p055",
+   "target": "p066",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Mira Birch and Jory Brook worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p066",
+   "target": "p055",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Jory Brook and Mira Birch worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p076",
+   "target": "p080",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Zara Brook and Lena Brook worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p080",
+   "target": "p076",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Lena Brook and Zara Brook worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p076",
+   "target": "p097",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Zara Brook and Teo Pine worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p080",
+   "target": "p097",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Lena Brook and Teo Pine worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p080",
+   "target": "p098",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Lena Brook and Wren Delta worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p098",
+   "target": "p080",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Wren Delta and Lena Brook worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p013",
+   "target": "c012",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Fia Birch and Harbor Systems worked together at Harbor Systems for two years."
+  },
+  {
+   "source": "p017",
+   "target": "c012",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Milo Flint and Harbor Systems worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p032",
+   "target": "c012",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Dev Knoll and Harbor Systems worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p041",
+   "target": "c012",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Kael Glen and Harbor Systems worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p045",
+   "target": "c012",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Vida North and Harbor Systems worked together at Harbor Systems for four years."
+  },
+  {
+   "source": "p054",
+   "target": "c012",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Dax Yarrow and Harbor Systems worked together at Harbor Systems for three years."
+  },
+  {
+   "source": "p043",
+   "target": "p089",
+   "type": "cofounded",
+   "year": 2016,
+   "reason": "Pia Jade and Bodhi Zephyr co-founded Prism Robotics."
+  },
+  {
+   "source": "p089",
+   "target": "p043",
+   "type": "cofounded",
+   "year": 2025,
+   "reason": "Bodhi Zephyr and Pia Jade co-founded Prism Robotics."
+  },
+  {
+   "source": "p008",
+   "target": "p030",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Rhea Flint and Vida Glen worked together at Prism Robotics for three years."
+  },
+  {
+   "source": "p008",
+   "target": "p043",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Rhea Flint and Pia Jade worked together at Prism Robotics for three years."
+  },
+  {
+   "source": "p043",
+   "target": "p008",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Pia Jade and Rhea Flint worked together at Prism Robotics for three years."
+  },
+  {
+   "source": "p008",
+   "target": "p089",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Rhea Flint and Bodhi Zephyr worked together at Prism Robotics for four years."
+  },
+  {
+   "source": "p089",
+   "target": "p008",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Bodhi Zephyr and Rhea Flint worked together at Prism Robotics for four years."
+  },
+  {
+   "source": "p010",
    "target": "p012",
    "type": "worked_with",
    "year": 2026,
-   "reason": "Wes Quarry and Esme North worked together at Verge Infra for four years."
+   "reason": "Pax Kestrel and Esme North worked together at Prism Robotics for four years."
   },
   {
    "source": "p012",
-   "target": "p151",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Esme North and Bram Loch worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p029",
-   "target": "p053",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Bodhi Cove and Kai Glen worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p053",
-   "target": "p029",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Kai Glen and Bodhi Cove worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p029",
-   "target": "p114",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Bodhi Cove and Gus Knoll worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p029",
-   "target": "p151",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Bodhi Cove and Bram Loch worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p151",
-   "target": "p029",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Bram Loch and Bodhi Cove worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p029",
-   "target": "p194",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Bodhi Cove and Jory Dune worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p194",
-   "target": "p029",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Jory Dune and Bodhi Cove worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p029",
-   "target": "p215",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Bodhi Cove and Vik Jade worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p053",
-   "target": "p189",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Kai Glen and Fia Flint worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p189",
-   "target": "p053",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Fia Flint and Kai Glen worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p114",
-   "target": "p189",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Gus Knoll and Fia Flint worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p189",
-   "target": "p114",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Fia Flint and Gus Knoll worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p114",
-   "target": "p194",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Gus Knoll and Jory Dune worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p194",
-   "target": "p114",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Jory Dune and Gus Knoll worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p150",
-   "target": "p181",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Wes Quarry and Hale Arbor worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p181",
-   "target": "p150",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Hale Arbor and Wes Quarry worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p150",
-   "target": "p215",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Wes Quarry and Vik Jade worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p215",
-   "target": "p150",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Vik Jade and Wes Quarry worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p151",
-   "target": "p181",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Bram Loch and Hale Arbor worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p181",
-   "target": "p151",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Hale Arbor and Bram Loch worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p151",
-   "target": "p189",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Bram Loch and Fia Flint worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p189",
-   "target": "p151",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Fia Flint and Bram Loch worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p181",
-   "target": "p189",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Hale Arbor and Fia Flint worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p189",
-   "target": "p181",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Fia Flint and Hale Arbor worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p181",
-   "target": "p194",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Hale Arbor and Jory Dune worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p194",
-   "target": "p181",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Jory Dune and Hale Arbor worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p181",
-   "target": "p204",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Hale Arbor and Yara Juniper worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p204",
-   "target": "p181",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Yara Juniper and Hale Arbor worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p189",
-   "target": "p204",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Fia Flint and Yara Juniper worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p204",
-   "target": "p189",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Yara Juniper and Fia Flint worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p194",
-   "target": "p204",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Jory Dune and Yara Juniper worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p204",
-   "target": "p194",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Yara Juniper and Jory Dune worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p204",
-   "target": "p215",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Yara Juniper and Vik Jade worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p215",
-   "target": "p204",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Vik Jade and Yara Juniper worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p012",
-   "target": "c024",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Esme North and Verge Infra worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p029",
-   "target": "c024",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Bodhi Cove and Verge Infra worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p053",
-   "target": "c024",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Kai Glen and Verge Infra worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p114",
-   "target": "c024",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Gus Knoll and Verge Infra worked together at Verge Infra for three years."
-  },
-  {
-   "source": "p150",
-   "target": "c024",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Wes Quarry and Verge Infra worked together at Verge Infra for two years."
-  },
-  {
-   "source": "p151",
-   "target": "c024",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Bram Loch and Verge Infra worked together at Verge Infra for four years."
-  },
-  {
-   "source": "p000",
-   "target": "p026",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Oren Harbor and Orla Oak co-founded Meridian Systems."
-  },
-  {
-   "source": "p026",
-   "target": "p000",
-   "type": "cofounded",
-   "year": 2016,
-   "reason": "Orla Oak and Oren Harbor co-founded Meridian Systems."
-  },
-  {
-   "source": "p000",
-   "target": "p036",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Oren Harbor and Dev Grove worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p036",
-   "target": "p000",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Dev Grove and Oren Harbor worked together at Meridian Systems for two years."
-  },
-  {
-   "source": "p000",
-   "target": "p042",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Oren Harbor and Esme Pine worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p042",
-   "target": "p000",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Esme Pine and Oren Harbor worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p000",
-   "target": "p097",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Oren Harbor and Teo Pine worked together at Meridian Systems for three years."
-  },
-  {
-   "source": "p006",
-   "target": "p036",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Finn Loch and Dev Grove worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p036",
-   "target": "p006",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Dev Grove and Finn Loch worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p006",
-   "target": "p074",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Finn Loch and Jory Oak worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p074",
-   "target": "p006",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Jory Oak and Finn Loch worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p026",
-   "target": "p036",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Orla Oak and Dev Grove worked together at Meridian Systems for three years."
-  },
-  {
-   "source": "p036",
-   "target": "p026",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Dev Grove and Orla Oak worked together at Meridian Systems for three years."
-  },
-  {
-   "source": "p033",
-   "target": "p097",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Elio North and Teo Pine worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p033",
-   "target": "p109",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Elio North and Finn Kestrel worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p109",
-   "target": "p033",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Finn Kestrel and Elio North worked together at Meridian Systems for three years."
-  },
-  {
-   "source": "p036",
-   "target": "p042",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Dev Grove and Esme Pine worked together at Meridian Systems for two years."
-  },
-  {
-   "source": "p042",
-   "target": "p036",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Esme Pine and Dev Grove worked together at Meridian Systems for two years."
-  },
-  {
-   "source": "p036",
-   "target": "p074",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Dev Grove and Jory Oak worked together at Meridian Systems for two years."
-  },
-  {
-   "source": "p074",
-   "target": "p036",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Jory Oak and Dev Grove worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p042",
-   "target": "p074",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Esme Pine and Jory Oak worked together at Meridian Systems for two years."
-  },
-  {
-   "source": "p042",
-   "target": "p097",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Esme Pine and Teo Pine worked together at Meridian Systems for three years."
-  },
-  {
-   "source": "p042",
-   "target": "p109",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Esme Pine and Finn Kestrel worked together at Meridian Systems for three years."
-  },
-  {
-   "source": "p042",
-   "target": "p168",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Esme Pine and Ulla Delta worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p168",
-   "target": "p042",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Ulla Delta and Esme Pine worked together at Meridian Systems for two years."
-  },
-  {
-   "source": "p074",
-   "target": "p168",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Jory Oak and Ulla Delta worked together at Meridian Systems for two years."
-  },
-  {
-   "source": "p168",
-   "target": "p074",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Ulla Delta and Jory Oak worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p097",
-   "target": "p168",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Teo Pine and Ulla Delta worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p168",
-   "target": "p097",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Ulla Delta and Teo Pine worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p000",
-   "target": "c025",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Oren Harbor and Meridian Systems worked together at Meridian Systems for two years."
-  },
-  {
-   "source": "p006",
-   "target": "c025",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Finn Loch and Meridian Systems worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p026",
-   "target": "c025",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Orla Oak and Meridian Systems worked together at Meridian Systems for three years."
-  },
-  {
-   "source": "p033",
-   "target": "c025",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Elio North and Meridian Systems worked together at Meridian Systems for four years."
-  },
-  {
-   "source": "p036",
-   "target": "c025",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Dev Grove and Meridian Systems worked together at Meridian Systems for three years."
-  },
-  {
-   "source": "p042",
-   "target": "c025",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Esme Pine and Meridian Systems worked together at Meridian Systems for three years."
-  },
-  {
-   "source": "p089",
-   "target": "p095",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Bodhi Zephyr and Hana Moss co-founded Quill Health."
-  },
-  {
-   "source": "p095",
-   "target": "p089",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Hana Moss and Bodhi Zephyr co-founded Quill Health."
-  },
-  {
-   "source": "p089",
-   "target": "p149",
-   "type": "cofounded",
-   "year": 2021,
-   "reason": "Bodhi Zephyr and Finn Birch co-founded Quill Health."
-  },
-  {
-   "source": "p149",
-   "target": "p089",
-   "type": "cofounded",
-   "year": 2019,
-   "reason": "Finn Birch and Bodhi Zephyr co-founded Quill Health."
-  },
-  {
-   "source": "p095",
-   "target": "p149",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Hana Moss and Finn Birch co-founded Quill Health."
-  },
-  {
-   "source": "p149",
-   "target": "p095",
-   "type": "cofounded",
-   "year": 2020,
-   "reason": "Finn Birch and Hana Moss co-founded Quill Health."
-  },
-  {
-   "source": "p013",
-   "target": "p210",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Fia Birch and Rhea Elm worked together at Quill Health for two years."
-  },
-  {
-   "source": "p013",
-   "target": "p213",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Fia Birch and Uma Wilde worked together at Quill Health for four years."
-  },
-  {
-   "source": "p213",
-   "target": "p013",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Uma Wilde and Fia Birch worked together at Quill Health for two years."
-  },
-  {
-   "source": "p085",
-   "target": "p089",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Dax Quarry and Bodhi Zephyr worked together at Quill Health for two years."
-  },
-  {
-   "source": "p089",
-   "target": "p085",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Bodhi Zephyr and Dax Quarry worked together at Quill Health for two years."
-  },
-  {
-   "source": "p085",
-   "target": "p095",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Dax Quarry and Hana Moss worked together at Quill Health for four years."
-  },
-  {
-   "source": "p095",
-   "target": "p085",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Hana Moss and Dax Quarry worked together at Quill Health for two years."
-  },
-  {
-   "source": "p085",
-   "target": "p163",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Dax Quarry and Cleo Jade worked together at Quill Health for four years."
-  },
-  {
-   "source": "p085",
-   "target": "p182",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Dax Quarry and Uma Oak worked together at Quill Health for two years."
-  },
-  {
-   "source": "p085",
-   "target": "p210",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Dax Quarry and Rhea Elm worked together at Quill Health for two years."
-  },
-  {
-   "source": "p085",
-   "target": "p213",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Dax Quarry and Uma Wilde worked together at Quill Health for four years."
-  },
-  {
-   "source": "p089",
-   "target": "p147",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Bodhi Zephyr and Kai Quarry worked together at Quill Health for four years."
-  },
-  {
-   "source": "p147",
-   "target": "p089",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Kai Quarry and Bodhi Zephyr worked together at Quill Health for four years."
-  },
-  {
-   "source": "p089",
-   "target": "p149",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Bodhi Zephyr and Finn Birch worked together at Quill Health for four years."
-  },
-  {
-   "source": "p089",
-   "target": "p210",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Bodhi Zephyr and Rhea Elm worked together at Quill Health for three years."
-  },
-  {
-   "source": "p210",
-   "target": "p089",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Rhea Elm and Bodhi Zephyr worked together at Quill Health for three years."
-  },
-  {
-   "source": "p095",
-   "target": "p147",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Hana Moss and Kai Quarry worked together at Quill Health for two years."
-  },
-  {
-   "source": "p147",
-   "target": "p095",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Kai Quarry and Hana Moss worked together at Quill Health for two years."
-  },
-  {
-   "source": "p095",
-   "target": "p182",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Hana Moss and Uma Oak worked together at Quill Health for four years."
-  },
-  {
-   "source": "p182",
-   "target": "p095",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Uma Oak and Hana Moss worked together at Quill Health for four years."
-  },
-  {
-   "source": "p095",
-   "target": "p188",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Hana Moss and Quin Moss worked together at Quill Health for three years."
-  },
-  {
-   "source": "p188",
-   "target": "p095",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Quin Moss and Hana Moss worked together at Quill Health for two years."
-  },
-  {
-   "source": "p147",
-   "target": "p149",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Kai Quarry and Finn Birch worked together at Quill Health for four years."
-  },
-  {
-   "source": "p147",
-   "target": "p182",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Kai Quarry and Uma Oak worked together at Quill Health for three years."
-  },
-  {
-   "source": "p147",
-   "target": "p213",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Kai Quarry and Uma Wilde worked together at Quill Health for two years."
-  },
-  {
-   "source": "p149",
-   "target": "p182",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Finn Birch and Uma Oak worked together at Quill Health for four years."
-  },
-  {
-   "source": "p149",
-   "target": "p213",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Finn Birch and Uma Wilde worked together at Quill Health for three years."
-  },
-  {
-   "source": "p213",
-   "target": "p149",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Uma Wilde and Finn Birch worked together at Quill Health for four years."
-  },
-  {
-   "source": "p163",
-   "target": "p188",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Cleo Jade and Quin Moss worked together at Quill Health for four years."
-  },
-  {
-   "source": "p188",
-   "target": "p163",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Quin Moss and Cleo Jade worked together at Quill Health for three years."
-  },
-  {
-   "source": "p182",
-   "target": "p188",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Uma Oak and Quin Moss worked together at Quill Health for three years."
-  },
-  {
-   "source": "p188",
-   "target": "p182",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Quin Moss and Uma Oak worked together at Quill Health for two years."
-  },
-  {
-   "source": "p188",
-   "target": "p210",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Quin Moss and Rhea Elm worked together at Quill Health for four years."
-  },
-  {
-   "source": "p013",
-   "target": "c026",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Fia Birch and Quill Health worked together at Quill Health for four years."
-  },
-  {
-   "source": "p085",
-   "target": "c026",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Dax Quarry and Quill Health worked together at Quill Health for three years."
-  },
-  {
-   "source": "p089",
-   "target": "c026",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Bodhi Zephyr and Quill Health worked together at Quill Health for two years."
-  },
-  {
-   "source": "p095",
-   "target": "c026",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Hana Moss and Quill Health worked together at Quill Health for four years."
-  },
-  {
-   "source": "p147",
-   "target": "c026",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Kai Quarry and Quill Health worked together at Quill Health for two years."
-  },
-  {
-   "source": "p149",
-   "target": "c026",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Finn Birch and Quill Health worked together at Quill Health for four years."
-  },
-  {
-   "source": "p109",
-   "target": "p179",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Finn Kestrel and Soren Heath worked together at Verge Finance for three years."
-  },
-  {
-   "source": "p179",
-   "target": "p109",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Soren Heath and Finn Kestrel worked together at Verge Finance for three years."
-  },
-  {
-   "source": "p109",
-   "target": "c027",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Finn Kestrel and Verge Finance worked together at Verge Finance for two years."
-  },
-  {
-   "source": "p158",
-   "target": "c027",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Esme Loch and Verge Finance worked together at Verge Finance for two years."
-  },
-  {
-   "source": "p179",
-   "target": "c027",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Soren Heath and Verge Finance worked together at Verge Finance for three years."
-  },
-  {
-   "source": "p002",
-   "target": "p077",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Orla Ivory and Tova Ashby worked together at Atlas Security for two years."
-  },
-  {
-   "source": "p077",
-   "target": "p002",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Tova Ashby and Orla Ivory worked together at Atlas Security for two years."
-  },
-  {
-   "source": "p002",
-   "target": "p137",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Orla Ivory and Xan Delta worked together at Atlas Security for three years."
-  },
-  {
-   "source": "p137",
-   "target": "p002",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Xan Delta and Orla Ivory worked together at Atlas Security for three years."
-  },
-  {
-   "source": "p002",
-   "target": "p166",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Orla Ivory and Hana Shore worked together at Atlas Security for two years."
-  },
-  {
-   "source": "p010",
-   "target": "p077",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Pax Kestrel and Tova Ashby worked together at Atlas Security for four years."
-  },
-  {
-   "source": "p010",
-   "target": "p150",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Pax Kestrel and Wes Quarry worked together at Atlas Security for three years."
-  },
-  {
-   "source": "p150",
    "target": "p010",
    "type": "worked_with",
-   "year": 2024,
-   "reason": "Wes Quarry and Pax Kestrel worked together at Atlas Security for two years."
+   "year": 2026,
+   "reason": "Esme North and Pax Kestrel worked together at Prism Robotics for three years."
   },
   {
    "source": "p010",
-   "target": "p166",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Pax Kestrel and Hana Shore worked together at Atlas Security for three years."
-  },
-  {
-   "source": "p077",
-   "target": "p137",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Tova Ashby and Xan Delta worked together at Atlas Security for two years."
-  },
-  {
-   "source": "p137",
-   "target": "p077",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Xan Delta and Tova Ashby worked together at Atlas Security for four years."
-  },
-  {
-   "source": "p077",
-   "target": "p166",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Tova Ashby and Hana Shore worked together at Atlas Security for four years."
-  },
-  {
-   "source": "p166",
-   "target": "p077",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Hana Shore and Tova Ashby worked together at Atlas Security for three years."
-  },
-  {
-   "source": "p077",
-   "target": "p168",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Tova Ashby and Ulla Delta worked together at Atlas Security for four years."
-  },
-  {
-   "source": "p137",
-   "target": "p150",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Xan Delta and Wes Quarry worked together at Atlas Security for three years."
-  },
-  {
-   "source": "p150",
-   "target": "p137",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Wes Quarry and Xan Delta worked together at Atlas Security for two years."
-  },
-  {
-   "source": "p166",
-   "target": "p168",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Hana Shore and Ulla Delta worked together at Atlas Security for two years."
-  },
-  {
-   "source": "p168",
-   "target": "p166",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Ulla Delta and Hana Shore worked together at Atlas Security for four years."
-  },
-  {
-   "source": "p002",
-   "target": "c028",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Orla Ivory and Atlas Security worked together at Atlas Security for two years."
-  },
-  {
-   "source": "p010",
-   "target": "c028",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Pax Kestrel and Atlas Security worked together at Atlas Security for two years."
-  },
-  {
-   "source": "p056",
-   "target": "c028",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Sana Knoll and Atlas Security worked together at Atlas Security for four years."
-  },
-  {
-   "source": "p077",
-   "target": "c028",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Tova Ashby and Atlas Security worked together at Atlas Security for four years."
-  },
-  {
-   "source": "p137",
-   "target": "c028",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Xan Delta and Atlas Security worked together at Atlas Security for four years."
-  },
-  {
-   "source": "p150",
-   "target": "c028",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Wes Quarry and Atlas Security worked together at Atlas Security for three years."
-  },
-  {
-   "source": "p105",
-   "target": "p119",
-   "type": "cofounded",
-   "year": 2016,
-   "reason": "Zev Heath and Zev Loch co-founded Prism Finance."
-  },
-  {
-   "source": "p119",
-   "target": "p105",
-   "type": "cofounded",
-   "year": 2024,
-   "reason": "Zev Loch and Zev Heath co-founded Prism Finance."
-  },
-  {
-   "source": "p105",
-   "target": "p157",
-   "type": "cofounded",
-   "year": 2016,
-   "reason": "Zev Heath and Oren Brook co-founded Prism Finance."
-  },
-  {
-   "source": "p157",
-   "target": "p105",
-   "type": "cofounded",
-   "year": 2022,
-   "reason": "Oren Brook and Zev Heath co-founded Prism Finance."
-  },
-  {
-   "source": "p003",
-   "target": "p009",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Cira Ridge and Reza Ridge worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p003",
-   "target": "p019",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Cira Ridge and Vik Quarry worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p003",
-   "target": "p039",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Cira Ridge and Ulla Quarry worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p003",
-   "target": "p105",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Cira Ridge and Zev Heath worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p105",
-   "target": "p003",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Zev Heath and Cira Ridge worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p003",
-   "target": "p218",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Cira Ridge and Ada Yarrow worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p009",
-   "target": "p019",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Reza Ridge and Vik Quarry worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p019",
-   "target": "p009",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Vik Quarry and Reza Ridge worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p009",
-   "target": "p064",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Reza Ridge and Cira Elm worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p009",
-   "target": "p124",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Reza Ridge and Finn Oak worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p124",
-   "target": "p009",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Finn Oak and Reza Ridge worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p019",
-   "target": "p039",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Vik Quarry and Ulla Quarry worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p019",
-   "target": "p064",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Vik Quarry and Cira Elm worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p064",
-   "target": "p019",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Cira Elm and Vik Quarry worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p019",
-   "target": "p103",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Vik Quarry and Teo Isle worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p103",
-   "target": "p019",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Teo Isle and Vik Quarry worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p019",
-   "target": "p105",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Vik Quarry and Zev Heath worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p019",
-   "target": "p124",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Vik Quarry and Finn Oak worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p019",
-   "target": "p140",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Vik Quarry and Esme Elm worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p019",
-   "target": "p157",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Vik Quarry and Oren Brook worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p157",
-   "target": "p019",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Oren Brook and Vik Quarry worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p019",
-   "target": "p218",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Vik Quarry and Ada Yarrow worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p218",
-   "target": "p019",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Ada Yarrow and Vik Quarry worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p039",
-   "target": "p105",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Ulla Quarry and Zev Heath worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p039",
-   "target": "p157",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Ulla Quarry and Oren Brook worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p039",
-   "target": "p218",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Ulla Quarry and Ada Yarrow worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p218",
-   "target": "p039",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Ada Yarrow and Ulla Quarry worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p064",
-   "target": "p124",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Cira Elm and Finn Oak worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p064",
-   "target": "p140",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Cira Elm and Esme Elm worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p103",
-   "target": "p140",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Teo Isle and Esme Elm worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p140",
-   "target": "p103",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Esme Elm and Teo Isle worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p103",
-   "target": "p218",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Teo Isle and Ada Yarrow worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p218",
-   "target": "p103",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Ada Yarrow and Teo Isle worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p105",
-   "target": "p140",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Zev Heath and Esme Elm worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p140",
-   "target": "p105",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Esme Elm and Zev Heath worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p105",
-   "target": "p218",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Zev Heath and Ada Yarrow worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p119",
-   "target": "p124",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Zev Loch and Finn Oak worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p124",
-   "target": "p218",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Finn Oak and Ada Yarrow worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p140",
-   "target": "p157",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Esme Elm and Oren Brook worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p157",
-   "target": "p140",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Oren Brook and Esme Elm worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p140",
-   "target": "p218",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Esme Elm and Ada Yarrow worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p218",
-   "target": "p140",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Ada Yarrow and Esme Elm worked together at Prism Finance for four years."
-  },
-  {
-   "source": "p003",
-   "target": "c029",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Cira Ridge and Prism Finance worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p009",
-   "target": "c029",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Reza Ridge and Prism Finance worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p019",
-   "target": "c029",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Vik Quarry and Prism Finance worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p039",
-   "target": "c029",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Ulla Quarry and Prism Finance worked together at Prism Finance for three years."
-  },
-  {
-   "source": "p064",
-   "target": "c029",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Cira Elm and Prism Finance worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p103",
-   "target": "c029",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Teo Isle and Prism Finance worked together at Prism Finance for two years."
-  },
-  {
-   "source": "p023",
-   "target": "p062",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Ines Grove and Reza Ashby worked together at Atlas Data for two years."
-  },
-  {
-   "source": "p062",
-   "target": "p023",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Reza Ashby and Ines Grove worked together at Atlas Data for four years."
-  },
-  {
-   "source": "p023",
-   "target": "p078",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Ines Grove and Orla Heath worked together at Atlas Data for four years."
-  },
-  {
-   "source": "p023",
-   "target": "p086",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Ines Grove and Tova Glen worked together at Atlas Data for two years."
-  },
-  {
-   "source": "p023",
-   "target": "p201",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Ines Grove and Gus Zephyr worked together at Atlas Data for three years."
-  },
-  {
-   "source": "p062",
-   "target": "p078",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Reza Ashby and Orla Heath worked together at Atlas Data for four years."
-  },
-  {
-   "source": "p062",
-   "target": "p086",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Reza Ashby and Tova Glen worked together at Atlas Data for four years."
-  },
-  {
-   "source": "p062",
-   "target": "p146",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Reza Ashby and Amara Lark worked together at Atlas Data for two years."
-  },
-  {
-   "source": "p146",
-   "target": "p062",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Amara Lark and Reza Ashby worked together at Atlas Data for three years."
-  },
-  {
-   "source": "p078",
-   "target": "p090",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Orla Heath and Oren Flint worked together at Atlas Data for two years."
-  },
-  {
-   "source": "p090",
-   "target": "p078",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Oren Flint and Orla Heath worked together at Atlas Data for two years."
-  },
-  {
-   "source": "p078",
-   "target": "p208",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Orla Heath and Amara Kestrel worked together at Atlas Data for two years."
-  },
-  {
-   "source": "p208",
-   "target": "p078",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Amara Kestrel and Orla Heath worked together at Atlas Data for four years."
-  },
-  {
-   "source": "p086",
-   "target": "p146",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Tova Glen and Amara Lark worked together at Atlas Data for two years."
-  },
-  {
-   "source": "p146",
-   "target": "p086",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Amara Lark and Tova Glen worked together at Atlas Data for three years."
-  },
-  {
-   "source": "p201",
-   "target": "p208",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Gus Zephyr and Amara Kestrel worked together at Atlas Data for three years."
-  },
-  {
-   "source": "p208",
-   "target": "p201",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Amara Kestrel and Gus Zephyr worked together at Atlas Data for three years."
-  },
-  {
-   "source": "p023",
-   "target": "c030",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Ines Grove and Atlas Data worked together at Atlas Data for three years."
-  },
-  {
-   "source": "p062",
-   "target": "c030",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Reza Ashby and Atlas Data worked together at Atlas Data for four years."
-  },
-  {
-   "source": "p078",
-   "target": "c030",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Orla Heath and Atlas Data worked together at Atlas Data for two years."
-  },
-  {
-   "source": "p086",
-   "target": "c030",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Tova Glen and Atlas Data worked together at Atlas Data for four years."
-  },
-  {
-   "source": "p090",
-   "target": "c030",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Oren Flint and Atlas Data worked together at Atlas Data for three years."
-  },
-  {
-   "source": "p146",
-   "target": "c030",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Amara Lark and Atlas Data worked together at Atlas Data for four years."
-  },
-  {
-   "source": "p016",
-   "target": "p070",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Oren Kestrel and Dax Jade worked together at Verge Systems for three years."
-  },
-  {
-   "source": "p070",
-   "target": "p016",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Dax Jade and Oren Kestrel worked together at Verge Systems for three years."
-  },
-  {
-   "source": "p016",
-   "target": "p207",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Oren Kestrel and Sana Elm worked together at Verge Systems for four years."
-  },
-  {
-   "source": "p207",
-   "target": "p016",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Sana Elm and Oren Kestrel worked together at Verge Systems for four years."
-  },
-  {
-   "source": "p097",
-   "target": "p216",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Teo Pine and Pax Cove worked together at Verge Systems for three years."
-  },
-  {
-   "source": "p216",
-   "target": "p097",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Pax Cove and Teo Pine worked together at Verge Systems for four years."
-  },
-  {
-   "source": "p097",
-   "target": "p218",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Teo Pine and Ada Yarrow worked together at Verge Systems for four years."
-  },
-  {
-   "source": "p016",
-   "target": "c031",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Oren Kestrel and Verge Systems worked together at Verge Systems for three years."
-  },
-  {
-   "source": "p070",
-   "target": "c031",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Dax Jade and Verge Systems worked together at Verge Systems for four years."
-  },
-  {
-   "source": "p097",
-   "target": "c031",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Teo Pine and Verge Systems worked together at Verge Systems for three years."
-  },
-  {
-   "source": "p136",
-   "target": "c031",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Kai Thorn and Verge Systems worked together at Verge Systems for two years."
-  },
-  {
-   "source": "p207",
-   "target": "c031",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Sana Elm and Verge Systems worked together at Verge Systems for four years."
-  },
-  {
-   "source": "p216",
-   "target": "c031",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Pax Cove and Verge Systems worked together at Verge Systems for two years."
-  },
-  {
-   "source": "p016",
-   "target": "p040",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Oren Kestrel and Reza Thorn worked together at Cinder Finance for two years."
-  },
-  {
-   "source": "p040",
-   "target": "p016",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Reza Thorn and Oren Kestrel worked together at Cinder Finance for four years."
-  },
-  {
-   "source": "p040",
-   "target": "p044",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Reza Thorn and Hale Glen worked together at Cinder Finance for two years."
-  },
-  {
-   "source": "p120",
-   "target": "p138",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Zara Birch and Lior Fjord worked together at Cinder Finance for four years."
-  },
-  {
-   "source": "p138",
-   "target": "p120",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Lior Fjord and Zara Birch worked together at Cinder Finance for three years."
-  },
-  {
-   "source": "p016",
-   "target": "c032",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Oren Kestrel and Cinder Finance worked together at Cinder Finance for four years."
-  },
-  {
-   "source": "p019",
-   "target": "c032",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Vik Quarry and Cinder Finance worked together at Cinder Finance for two years."
-  },
-  {
-   "source": "p036",
-   "target": "c032",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Dev Grove and Cinder Finance worked together at Cinder Finance for three years."
-  },
-  {
-   "source": "p040",
-   "target": "c032",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Reza Thorn and Cinder Finance worked together at Cinder Finance for two years."
-  },
-  {
-   "source": "p044",
-   "target": "c032",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Hale Glen and Cinder Finance worked together at Cinder Finance for two years."
-  },
-  {
-   "source": "p120",
-   "target": "c032",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Zara Birch and Cinder Finance worked together at Cinder Finance for four years."
-  },
-  {
-   "source": "p039",
-   "target": "p052",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Ulla Quarry and Bram Lark worked together at Nimbus Data for three years."
-  },
-  {
-   "source": "p039",
-   "target": "p083",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Ulla Quarry and Wren Oak worked together at Nimbus Data for three years."
-  },
-  {
-   "source": "p052",
-   "target": "p181",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Bram Lark and Hale Arbor worked together at Nimbus Data for four years."
-  },
-  {
-   "source": "p181",
-   "target": "p052",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Hale Arbor and Bram Lark worked together at Nimbus Data for three years."
-  },
-  {
-   "source": "p083",
-   "target": "p176",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Wren Oak and Vida Kestrel worked together at Nimbus Data for three years."
-  },
-  {
-   "source": "p083",
-   "target": "p181",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Wren Oak and Hale Arbor worked together at Nimbus Data for two years."
-  },
-  {
-   "source": "p181",
-   "target": "p083",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Hale Arbor and Wren Oak worked together at Nimbus Data for three years."
-  },
-  {
-   "source": "p134",
-   "target": "p176",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Yara Vale and Vida Kestrel worked together at Nimbus Data for four years."
-  },
-  {
-   "source": "p134",
-   "target": "p181",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Yara Vale and Hale Arbor worked together at Nimbus Data for four years."
-  },
-  {
-   "source": "p181",
-   "target": "p134",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Hale Arbor and Yara Vale worked together at Nimbus Data for four years."
-  },
-  {
-   "source": "p039",
-   "target": "c033",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Ulla Quarry and Nimbus Data worked together at Nimbus Data for four years."
-  },
-  {
-   "source": "p052",
-   "target": "c033",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Bram Lark and Nimbus Data worked together at Nimbus Data for three years."
-  },
-  {
-   "source": "p083",
-   "target": "c033",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Wren Oak and Nimbus Data worked together at Nimbus Data for three years."
-  },
-  {
-   "source": "p129",
-   "target": "c033",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Wren Wilde and Nimbus Data worked together at Nimbus Data for four years."
-  },
-  {
-   "source": "p134",
-   "target": "c033",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Yara Vale and Nimbus Data worked together at Nimbus Data for three years."
-  },
-  {
-   "source": "p176",
-   "target": "c033",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Vida Kestrel and Nimbus Data worked together at Nimbus Data for two years."
-  },
-  {
-   "source": "p064",
-   "target": "p145",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Cira Elm and Cira Calder worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p145",
-   "target": "p064",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Cira Calder and Cira Elm worked together at Harbor Robotics for two years."
-  },
-  {
-   "source": "p064",
-   "target": "p154",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Cira Elm and Amara Glen worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p064",
-   "target": "p158",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Cira Elm and Esme Loch worked together at Harbor Robotics for four years."
-  },
-  {
-   "source": "p073",
-   "target": "p101",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Esme Shore and Soren Glen worked together at Harbor Robotics for two years."
-  },
-  {
-   "source": "p073",
-   "target": "p145",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Esme Shore and Cira Calder worked together at Harbor Robotics for four years."
-  },
-  {
-   "source": "p073",
-   "target": "p152",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Esme Shore and Amara Harbor worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p152",
-   "target": "p073",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Amara Harbor and Esme Shore worked together at Harbor Robotics for four years."
-  },
-  {
-   "source": "p073",
-   "target": "p154",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Esme Shore and Amara Glen worked together at Harbor Robotics for two years."
-  },
-  {
-   "source": "p073",
-   "target": "p184",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Esme Shore and Zev Cove worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p184",
-   "target": "p073",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Zev Cove and Esme Shore worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p079",
-   "target": "p145",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Reza Birch and Cira Calder worked together at Harbor Robotics for two years."
-  },
-  {
-   "source": "p145",
-   "target": "p079",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Cira Calder and Reza Birch worked together at Harbor Robotics for four years."
-  },
-  {
-   "source": "p079",
-   "target": "p152",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Reza Birch and Amara Harbor worked together at Harbor Robotics for two years."
-  },
-  {
-   "source": "p152",
-   "target": "p079",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Amara Harbor and Reza Birch worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p101",
-   "target": "p145",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Soren Glen and Cira Calder worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p127",
-   "target": "p152",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Ines Ember and Amara Harbor worked together at Harbor Robotics for four years."
-  },
-  {
-   "source": "p127",
-   "target": "p154",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Ines Ember and Amara Glen worked together at Harbor Robotics for two years."
-  },
-  {
-   "source": "p127",
-   "target": "p158",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Ines Ember and Esme Loch worked together at Harbor Robotics for two years."
-  },
-  {
-   "source": "p145",
-   "target": "p154",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Cira Calder and Amara Glen worked together at Harbor Robotics for four years."
-  },
-  {
-   "source": "p154",
-   "target": "p145",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Amara Glen and Cira Calder worked together at Harbor Robotics for two years."
-  },
-  {
-   "source": "p152",
-   "target": "p158",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Amara Harbor and Esme Loch worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p064",
-   "target": "c034",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Cira Elm and Harbor Robotics worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p073",
-   "target": "c034",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Esme Shore and Harbor Robotics worked together at Harbor Robotics for four years."
-  },
-  {
-   "source": "p079",
-   "target": "c034",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Reza Birch and Harbor Robotics worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p101",
-   "target": "c034",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Soren Glen and Harbor Robotics worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p127",
-   "target": "c034",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Ines Ember and Harbor Robotics worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p145",
-   "target": "c034",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Cira Calder and Harbor Robotics worked together at Harbor Robotics for three years."
-  },
-  {
-   "source": "p080",
-   "target": "p126",
-   "type": "cofounded",
-   "year": 2021,
-   "reason": "Lena Brook and Dax Loch co-founded Meridian Security."
-  },
-  {
-   "source": "p126",
-   "target": "p080",
-   "type": "cofounded",
-   "year": 2020,
-   "reason": "Dax Loch and Lena Brook co-founded Meridian Security."
-  },
-  {
-   "source": "p030",
-   "target": "p034",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Vida Glen and Quin Flint worked together at Meridian Security for two years."
-  },
-  {
-   "source": "p030",
-   "target": "p061",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Vida Glen and Reza Cove worked together at Meridian Security for two years."
-  },
-  {
-   "source": "p061",
    "target": "p030",
    "type": "worked_with",
-   "year": 2022,
-   "reason": "Reza Cove and Vida Glen worked together at Meridian Security for four years."
+   "year": 2020,
+   "reason": "Pax Kestrel and Vida Glen worked together at Prism Robotics for two years."
   },
   {
    "source": "p030",
-   "target": "p131",
+   "target": "p010",
    "type": "worked_with",
-   "year": 2017,
-   "reason": "Vida Glen and Yara Ashby worked together at Meridian Security for four years."
+   "year": 2018,
+   "reason": "Vida Glen and Pax Kestrel worked together at Prism Robotics for three years."
   },
   {
-   "source": "p030",
-   "target": "p197",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Vida Glen and Milo Dune worked together at Meridian Security for four years."
-  },
-  {
-   "source": "p034",
-   "target": "p088",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Quin Flint and Milo Harbor worked together at Meridian Security for four years."
-  },
-  {
-   "source": "p088",
+   "source": "p012",
    "target": "p034",
    "type": "worked_with",
-   "year": 2023,
-   "reason": "Milo Harbor and Quin Flint worked together at Meridian Security for three years."
+   "year": 2018,
+   "reason": "Esme North and Quin Flint worked together at Prism Robotics for three years."
   },
   {
    "source": "p034",
-   "target": "p197",
+   "target": "p012",
    "type": "worked_with",
-   "year": 2019,
-   "reason": "Quin Flint and Milo Dune worked together at Meridian Security for three years."
+   "year": 2021,
+   "reason": "Quin Flint and Esme North worked together at Prism Robotics for four years."
   },
   {
-   "source": "p080",
-   "target": "p187",
+   "source": "p012",
+   "target": "p043",
    "type": "worked_with",
-   "year": 2024,
-   "reason": "Lena Brook and Zara Yarrow worked together at Meridian Security for two years."
+   "year": 2021,
+   "reason": "Esme North and Pia Jade worked together at Prism Robotics for three years."
   },
   {
-   "source": "p088",
-   "target": "p126",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Milo Harbor and Dax Loch worked together at Meridian Security for four years."
-  },
-  {
-   "source": "p126",
-   "target": "p088",
+   "source": "p043",
+   "target": "p012",
    "type": "worked_with",
    "year": 2022,
-   "reason": "Dax Loch and Milo Harbor worked together at Meridian Security for three years."
-  },
-  {
-   "source": "p126",
-   "target": "p187",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Dax Loch and Zara Yarrow worked together at Meridian Security for four years."
-  },
-  {
-   "source": "p187",
-   "target": "p126",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Zara Yarrow and Dax Loch worked together at Meridian Security for two years."
-  },
-  {
-   "source": "p187",
-   "target": "p197",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Zara Yarrow and Milo Dune worked together at Meridian Security for three years."
-  },
-  {
-   "source": "p197",
-   "target": "p187",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Milo Dune and Zara Yarrow worked together at Meridian Security for two years."
+   "reason": "Pia Jade and Esme North worked together at Prism Robotics for four years."
   },
   {
    "source": "p030",
-   "target": "c035",
+   "target": "p043",
    "type": "worked_with",
-   "year": 2021,
-   "reason": "Vida Glen and Meridian Security worked together at Meridian Security for three years."
+   "year": 2025,
+   "reason": "Vida Glen and Pia Jade worked together at Prism Robotics for two years."
+  },
+  {
+   "source": "p043",
+   "target": "p030",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Pia Jade and Vida Glen worked together at Prism Robotics for four years."
+  },
+  {
+   "source": "p030",
+   "target": "p058",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Vida Glen and Gus Harbor worked together at Prism Robotics for four years."
+  },
+  {
+   "source": "p058",
+   "target": "p030",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Gus Harbor and Vida Glen worked together at Prism Robotics for three years."
   },
   {
    "source": "p034",
-   "target": "c035",
+   "target": "p058",
    "type": "worked_with",
-   "year": 2016,
-   "reason": "Quin Flint and Meridian Security worked together at Meridian Security for two years."
+   "year": 2023,
+   "reason": "Quin Flint and Gus Harbor worked together at Prism Robotics for two years."
   },
   {
-   "source": "p061",
-   "target": "c035",
+   "source": "p034",
+   "target": "p064",
    "type": "worked_with",
-   "year": 2019,
-   "reason": "Reza Cove and Meridian Security worked together at Meridian Security for four years."
+   "year": 2026,
+   "reason": "Quin Flint and Cira Elm worked together at Prism Robotics for three years."
   },
   {
-   "source": "p080",
-   "target": "c035",
+   "source": "p034",
+   "target": "p074",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Quin Flint and Jory Oak worked together at Prism Robotics for two years."
+  },
+  {
+   "source": "p074",
+   "target": "p034",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Jory Oak and Quin Flint worked together at Prism Robotics for two years."
+  },
+  {
+   "source": "p058",
+   "target": "p064",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Gus Harbor and Cira Elm worked together at Prism Robotics for two years."
+  },
+  {
+   "source": "p064",
+   "target": "p089",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Cira Elm and Bodhi Zephyr worked together at Prism Robotics for four years."
+  },
+  {
+   "source": "p089",
+   "target": "p064",
    "type": "worked_with",
    "year": 2024,
-   "reason": "Lena Brook and Meridian Security worked together at Meridian Security for four years."
+   "reason": "Bodhi Zephyr and Cira Elm worked together at Prism Robotics for two years."
   },
   {
-   "source": "p088",
-   "target": "c035",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Milo Harbor and Meridian Security worked together at Meridian Security for four years."
-  },
-  {
-   "source": "p126",
-   "target": "c035",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Dax Loch and Meridian Security worked together at Meridian Security for two years."
-  },
-  {
-   "source": "p045",
-   "target": "p093",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Vida North and Vida Brook worked together at Nimbus Security for four years."
-  },
-  {
-   "source": "p093",
-   "target": "p045",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Vida Brook and Vida North worked together at Nimbus Security for two years."
-  },
-  {
-   "source": "p045",
-   "target": "p130",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Vida North and Kael Ashby worked together at Nimbus Security for two years."
-  },
-  {
-   "source": "p045",
-   "target": "p139",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Vida North and Reza Arbor worked together at Nimbus Security for four years."
-  },
-  {
-   "source": "p139",
-   "target": "p045",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Reza Arbor and Vida North worked together at Nimbus Security for three years."
-  },
-  {
-   "source": "p093",
-   "target": "p130",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Vida Brook and Kael Ashby worked together at Nimbus Security for three years."
-  },
-  {
-   "source": "p093",
-   "target": "p172",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Vida Brook and Jory Grove worked together at Nimbus Security for three years."
-  },
-  {
-   "source": "p107",
-   "target": "p172",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Yara Elm and Jory Grove worked together at Nimbus Security for two years."
-  },
-  {
-   "source": "p130",
-   "target": "p132",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Kael Ashby and Gia Elm worked together at Nimbus Security for two years."
-  },
-  {
-   "source": "p132",
-   "target": "p130",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Gia Elm and Kael Ashby worked together at Nimbus Security for two years."
-  },
-  {
-   "source": "p130",
-   "target": "p139",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Kael Ashby and Reza Arbor worked together at Nimbus Security for three years."
-  },
-  {
-   "source": "p130",
-   "target": "p172",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Kael Ashby and Jory Grove worked together at Nimbus Security for two years."
-  },
-  {
-   "source": "p172",
-   "target": "p130",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Jory Grove and Kael Ashby worked together at Nimbus Security for three years."
-  },
-  {
-   "source": "p045",
-   "target": "c036",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Vida North and Nimbus Security worked together at Nimbus Security for two years."
-  },
-  {
-   "source": "p093",
-   "target": "c036",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Vida Brook and Nimbus Security worked together at Nimbus Security for four years."
-  },
-  {
-   "source": "p107",
-   "target": "c036",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Yara Elm and Nimbus Security worked together at Nimbus Security for two years."
-  },
-  {
-   "source": "p130",
-   "target": "c036",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Kael Ashby and Nimbus Security worked together at Nimbus Security for four years."
-  },
-  {
-   "source": "p132",
-   "target": "c036",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Gia Elm and Nimbus Security worked together at Nimbus Security for two years."
-  },
-  {
-   "source": "p139",
-   "target": "c036",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Reza Arbor and Nimbus Security worked together at Nimbus Security for four years."
-  },
-  {
-   "source": "p020",
-   "target": "p048",
+   "source": "p074",
+   "target": "p089",
    "type": "worked_with",
    "year": 2022,
-   "reason": "Gus Moss and Hale Ember worked together at Tandem Security for four years."
-  },
-  {
-   "source": "p048",
-   "target": "p020",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Hale Ember and Gus Moss worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p020",
-   "target": "p196",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Gus Moss and Nia Kestrel worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p043",
-   "target": "p051",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Pia Jade and Wes Juniper worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p043",
-   "target": "p082",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Pia Jade and Yuki Cove worked together at Tandem Security for three years."
-  },
-  {
-   "source": "p043",
-   "target": "p178",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Pia Jade and Cira Cove worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p178",
-   "target": "p043",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Cira Cove and Pia Jade worked together at Tandem Security for four years."
-  },
-  {
-   "source": "p043",
-   "target": "p196",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Pia Jade and Nia Kestrel worked together at Tandem Security for three years."
-  },
-  {
-   "source": "p196",
-   "target": "p043",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Nia Kestrel and Pia Jade worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p048",
-   "target": "p051",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Hale Ember and Wes Juniper worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p051",
-   "target": "p048",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Wes Juniper and Hale Ember worked together at Tandem Security for three years."
-  },
-  {
-   "source": "p116",
-   "target": "p048",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Rhea Calder and Hale Ember worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p048",
-   "target": "p143",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Hale Ember and Milo Heath worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p143",
-   "target": "p048",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Milo Heath and Hale Ember worked together at Tandem Security for four years."
-  },
-  {
-   "source": "p048",
-   "target": "p178",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Hale Ember and Cira Cove worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p178",
-   "target": "p048",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Cira Cove and Hale Ember worked together at Tandem Security for four years."
-  },
-  {
-   "source": "p048",
-   "target": "p196",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Hale Ember and Nia Kestrel worked together at Tandem Security for three years."
-  },
-  {
-   "source": "p196",
-   "target": "p048",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Nia Kestrel and Hale Ember worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p050",
-   "target": "p178",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Wren North and Cira Cove worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p178",
-   "target": "p050",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Cira Cove and Wren North worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p051",
-   "target": "p082",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Wes Juniper and Yuki Cove worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p082",
-   "target": "p051",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Yuki Cove and Wes Juniper worked together at Tandem Security for four years."
-  },
-  {
-   "source": "p051",
-   "target": "p213",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Wes Juniper and Uma Wilde worked together at Tandem Security for three years."
-  },
-  {
-   "source": "p213",
-   "target": "p051",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Uma Wilde and Wes Juniper worked together at Tandem Security for three years."
-  },
-  {
-   "source": "p082",
-   "target": "p143",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Yuki Cove and Milo Heath worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p143",
-   "target": "p082",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Milo Heath and Yuki Cove worked together at Tandem Security for four years."
-  },
-  {
-   "source": "p082",
-   "target": "p196",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Yuki Cove and Nia Kestrel worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p116",
-   "target": "p178",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Rhea Calder and Cira Cove worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p178",
-   "target": "p213",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Cira Cove and Uma Wilde worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p213",
-   "target": "p178",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Uma Wilde and Cira Cove worked together at Tandem Security for four years."
-  },
-  {
-   "source": "p196",
-   "target": "p213",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Nia Kestrel and Uma Wilde worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p213",
-   "target": "p196",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Uma Wilde and Nia Kestrel worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p020",
-   "target": "c037",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Gus Moss and Tandem Security worked together at Tandem Security for three years."
-  },
-  {
-   "source": "p043",
-   "target": "c037",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Pia Jade and Tandem Security worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p048",
-   "target": "c037",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Hale Ember and Tandem Security worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p050",
-   "target": "c037",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Wren North and Tandem Security worked together at Tandem Security for four years."
-  },
-  {
-   "source": "p051",
-   "target": "c037",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Wes Juniper and Tandem Security worked together at Tandem Security for two years."
-  },
-  {
-   "source": "p082",
-   "target": "c037",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Yuki Cove and Tandem Security worked together at Tandem Security for four years."
-  },
-  {
-   "source": "p022",
-   "target": "p049",
-   "type": "cofounded",
-   "year": 2017,
-   "reason": "Kael Fjord and Lena Loch co-founded Signal Works."
-  },
-  {
-   "source": "p049",
-   "target": "p022",
-   "type": "cofounded",
-   "year": 2025,
-   "reason": "Lena Loch and Kael Fjord co-founded Signal Works."
-  },
-  {
-   "source": "p004",
-   "target": "p125",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Rhea Juniper and Uma Shore worked together at Signal Works for four years."
-  },
-  {
-   "source": "p125",
-   "target": "p004",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Uma Shore and Rhea Juniper worked together at Signal Works for three years."
-  },
-  {
-   "source": "p004",
-   "target": "p128",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Rhea Juniper and Ada Shore worked together at Signal Works for four years."
-  },
-  {
-   "source": "p022",
-   "target": "p202",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Kael Fjord and Mira Oak worked together at Signal Works for two years."
-  },
-  {
-   "source": "p202",
-   "target": "p022",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Mira Oak and Kael Fjord worked together at Signal Works for two years."
-  },
-  {
-   "source": "p049",
-   "target": "p125",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Lena Loch and Uma Shore worked together at Signal Works for four years."
-  },
-  {
-   "source": "p125",
-   "target": "p049",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Uma Shore and Lena Loch worked together at Signal Works for four years."
-  },
-  {
-   "source": "p049",
-   "target": "p166",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Lena Loch and Hana Shore worked together at Signal Works for three years."
-  },
-  {
-   "source": "p166",
-   "target": "p049",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Hana Shore and Lena Loch worked together at Signal Works for four years."
-  },
-  {
-   "source": "p049",
-   "target": "p173",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Lena Loch and Yuki Ridge worked together at Signal Works for two years."
-  },
-  {
-   "source": "p049",
-   "target": "p195",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Lena Loch and Lior Calder worked together at Signal Works for three years."
-  },
-  {
-   "source": "p195",
-   "target": "p049",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Lior Calder and Lena Loch worked together at Signal Works for three years."
-  },
-  {
-   "source": "p125",
-   "target": "p195",
-   "type": "worked_with",
-   "year": 2018,
-   "reason": "Uma Shore and Lior Calder worked together at Signal Works for two years."
-  },
-  {
-   "source": "p125",
-   "target": "p202",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Uma Shore and Mira Oak worked together at Signal Works for two years."
-  },
-  {
-   "source": "p202",
-   "target": "p125",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Mira Oak and Uma Shore worked together at Signal Works for two years."
-  },
-  {
-   "source": "p128",
-   "target": "p173",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Ada Shore and Yuki Ridge worked together at Signal Works for two years."
-  },
-  {
-   "source": "p166",
-   "target": "p195",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Hana Shore and Lior Calder worked together at Signal Works for two years."
-  },
-  {
-   "source": "p195",
-   "target": "p202",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Lior Calder and Mira Oak worked together at Signal Works for three years."
-  },
-  {
-   "source": "p202",
-   "target": "p195",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Mira Oak and Lior Calder worked together at Signal Works for four years."
-  },
-  {
-   "source": "p004",
-   "target": "c038",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Rhea Juniper and Signal Works worked together at Signal Works for two years."
-  },
-  {
-   "source": "p022",
-   "target": "c038",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Kael Fjord and Signal Works worked together at Signal Works for two years."
-  },
-  {
-   "source": "p049",
-   "target": "c038",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Lena Loch and Signal Works worked together at Signal Works for two years."
-  },
-  {
-   "source": "p125",
-   "target": "c038",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Uma Shore and Signal Works worked together at Signal Works for four years."
-  },
-  {
-   "source": "p128",
-   "target": "c038",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Ada Shore and Signal Works worked together at Signal Works for three years."
-  },
-  {
-   "source": "p166",
-   "target": "c038",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Hana Shore and Signal Works worked together at Signal Works for two years."
-  },
-  {
-   "source": "p041",
-   "target": "p066",
-   "type": "cofounded",
-   "year": 2025,
-   "reason": "Kael Glen and Jory Brook co-founded Lumen Bio."
-  },
-  {
-   "source": "p066",
-   "target": "p041",
-   "type": "cofounded",
-   "year": 2021,
-   "reason": "Jory Brook and Kael Glen co-founded Lumen Bio."
-  },
-  {
-   "source": "p031",
-   "target": "p041",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Lior Ridge and Kael Glen worked together at Lumen Bio for two years."
-  },
-  {
-   "source": "p031",
-   "target": "p053",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Lior Ridge and Kai Glen worked together at Lumen Bio for four years."
-  },
-  {
-   "source": "p031",
-   "target": "p066",
-   "type": "worked_with",
-   "year": 2016,
-   "reason": "Lior Ridge and Jory Brook worked together at Lumen Bio for four years."
-  },
-  {
-   "source": "p066",
-   "target": "p031",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Jory Brook and Lior Ridge worked together at Lumen Bio for three years."
-  },
-  {
-   "source": "p031",
-   "target": "p163",
-   "type": "worked_with",
-   "year": 2017,
-   "reason": "Lior Ridge and Cleo Jade worked together at Lumen Bio for three years."
-  },
-  {
-   "source": "p053",
-   "target": "p163",
-   "type": "worked_with",
-   "year": 2026,
-   "reason": "Kai Glen and Cleo Jade worked together at Lumen Bio for three years."
-  },
-  {
-   "source": "p163",
-   "target": "p053",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Cleo Jade and Kai Glen worked together at Lumen Bio for three years."
-  },
-  {
-   "source": "p059",
-   "target": "p163",
-   "type": "worked_with",
-   "year": 2021,
-   "reason": "Bodhi Arbor and Cleo Jade worked together at Lumen Bio for three years."
-  },
-  {
-   "source": "p066",
-   "target": "p163",
-   "type": "worked_with",
-   "year": 2023,
-   "reason": "Jory Brook and Cleo Jade worked together at Lumen Bio for three years."
-  },
-  {
-   "source": "p031",
-   "target": "c039",
-   "type": "worked_with",
-   "year": 2020,
-   "reason": "Lior Ridge and Lumen Bio worked together at Lumen Bio for four years."
-  },
-  {
-   "source": "p041",
-   "target": "c039",
-   "type": "worked_with",
-   "year": 2022,
-   "reason": "Kael Glen and Lumen Bio worked together at Lumen Bio for two years."
-  },
-  {
-   "source": "p053",
-   "target": "c039",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Kai Glen and Lumen Bio worked together at Lumen Bio for two years."
-  },
-  {
-   "source": "p059",
-   "target": "c039",
-   "type": "worked_with",
-   "year": 2019,
-   "reason": "Bodhi Arbor and Lumen Bio worked together at Lumen Bio for three years."
-  },
-  {
-   "source": "p066",
-   "target": "c039",
-   "type": "worked_with",
-   "year": 2024,
-   "reason": "Jory Brook and Lumen Bio worked together at Lumen Bio for two years."
-  },
-  {
-   "source": "p163",
-   "target": "c039",
-   "type": "worked_with",
-   "year": 2025,
-   "reason": "Cleo Jade and Lumen Bio worked together at Lumen Bio for two years."
-  },
-  {
-   "source": "p001",
-   "target": "p130",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Gia Knoll cosigned Kael Ashby for llm eval."
-  },
-  {
-   "source": "p001",
-   "target": "p146",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Gia Knoll cosigned Amara Lark for security."
-  },
-  {
-   "source": "p002",
-   "target": "p168",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Orla Ivory cosigned Ulla Delta for ml ranking."
-  },
-  {
-   "source": "p002",
-   "target": "p010",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Orla Ivory cosigned Pax Kestrel for fundraising."
-  },
-  {
-   "source": "p004",
-   "target": "p125",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Rhea Juniper cosigned Uma Shore for frontend."
-  },
-  {
-   "source": "p004",
-   "target": "p126",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Rhea Juniper cosigned Dax Loch for biotech."
-  },
-  {
-   "source": "p005",
-   "target": "p063",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Wren Yarrow cosigned Juno Arbor for robotics."
-  },
-  {
-   "source": "p006",
-   "target": "p004",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Finn Loch cosigned Rhea Juniper for distributed systems."
+   "reason": "Jory Oak and Bodhi Zephyr worked together at Prism Robotics for three years."
   },
   {
    "source": "p008",
-   "target": "p081",
-   "type": "cosigned_skill",
+   "target": "c013",
+   "type": "worked_with",
    "year": 2018,
-   "reason": "Rhea Flint cosigned Quin Ashby for data eng."
-  },
-  {
-   "source": "p009",
-   "target": "p091",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Reza Ridge cosigned Idris Grove for devtools."
+   "reason": "Rhea Flint and Prism Robotics worked together at Prism Robotics for two years."
   },
   {
    "source": "p010",
-   "target": "p056",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Pax Kestrel cosigned Sana Knoll for recruiting."
-  },
-  {
-   "source": "p010",
-   "target": "p168",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Pax Kestrel cosigned Ulla Delta for frontend."
+   "target": "c013",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Pax Kestrel and Prism Robotics worked together at Prism Robotics for two years."
   },
   {
    "source": "p012",
-   "target": "p003",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Esme North cosigned Cira Ridge for mobile."
-  },
-  {
-   "source": "p013",
-   "target": "p095",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Fia Birch cosigned Hana Moss for fundraising."
-  },
-  {
-   "source": "p013",
-   "target": "p113",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Fia Birch cosigned Tova Shore for sales."
-  },
-  {
-   "source": "p014",
-   "target": "p029",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Wes Loch cosigned Bodhi Cove for llm eval."
-  },
-  {
-   "source": "p015",
-   "target": "p209",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Orla Isle cosigned Elio Zephyr for biotech."
-  },
-  {
-   "source": "p016",
-   "target": "p036",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Oren Kestrel cosigned Dev Grove for biotech."
-  },
-  {
-   "source": "p016",
-   "target": "p040",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Oren Kestrel cosigned Reza Thorn for ai infra."
-  },
-  {
-   "source": "p017",
-   "target": "p019",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Milo Flint cosigned Vik Quarry for biotech."
-  },
-  {
-   "source": "p017",
-   "target": "p043",
-   "type": "cosigned_skill",
+   "target": "c013",
+   "type": "worked_with",
    "year": 2026,
-   "reason": "Milo Flint cosigned Pia Jade for sales."
-  },
-  {
-   "source": "p018",
-   "target": "p011",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Zara Wilde cosigned Ulla Dune for devtools."
-  },
-  {
-   "source": "p019",
-   "target": "p052",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Vik Quarry cosigned Bram Lark for fundraising."
-  },
-  {
-   "source": "p019",
-   "target": "p039",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Vik Quarry cosigned Ulla Quarry for recruiting."
-  },
-  {
-   "source": "p021",
-   "target": "p061",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Ulla Heath cosigned Reza Cove for fintech."
-  },
-  {
-   "source": "p022",
-   "target": "p135",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Kael Fjord cosigned Oren Shore for mobile."
-  },
-  {
-   "source": "p022",
-   "target": "p137",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Kael Fjord cosigned Xan Delta for product design."
-  },
-  {
-   "source": "p023",
-   "target": "p098",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Ines Grove cosigned Wren Delta for backend."
-  },
-  {
-   "source": "p024",
-   "target": "p111",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Idris Moss cosigned Sana Oak for growth."
-  },
-  {
-   "source": "p024",
-   "target": "p008",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Idris Moss cosigned Rhea Flint for gtm."
-  },
-  {
-   "source": "p024",
-   "target": "p142",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Idris Moss cosigned Wren Shore for recruiting."
-  },
-  {
-   "source": "p026",
-   "target": "p109",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Orla Oak cosigned Finn Kestrel for ai infra."
-  },
-  {
-   "source": "p027",
-   "target": "p048",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Vida Ember cosigned Hale Ember for ml ranking."
-  },
-  {
-   "source": "p029",
-   "target": "p146",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Bodhi Cove cosigned Amara Lark for robotics."
-  },
-  {
-   "source": "p029",
-   "target": "p053",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Bodhi Cove cosigned Kai Glen for frontend."
+   "reason": "Esme North and Prism Robotics worked together at Prism Robotics for three years."
   },
   {
    "source": "p030",
-   "target": "p043",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Vida Glen cosigned Pia Jade for distributed systems."
-  },
-  {
-   "source": "p030",
-   "target": "p187",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Vida Glen cosigned Zara Yarrow for distributed systems."
-  },
-  {
-   "source": "p031",
-   "target": "p196",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Lior Ridge cosigned Nia Kestrel for devtools."
-  },
-  {
-   "source": "p032",
-   "target": "p153",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Dev Knoll cosigned Pax Knoll for fintech."
-  },
-  {
-   "source": "p032",
-   "target": "p027",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Dev Knoll cosigned Vida Ember for growth."
-  },
-  {
-   "source": "p032",
-   "target": "p087",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Dev Knoll cosigned Mira Ember for fundraising."
-  },
-  {
-   "source": "p033",
-   "target": "p000",
-   "type": "cosigned_skill",
+   "target": "c013",
+   "type": "worked_with",
    "year": 2018,
-   "reason": "Elio North cosigned Oren Harbor for ml ranking."
-  },
-  {
-   "source": "p033",
-   "target": "p026",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Elio North cosigned Orla Oak for fundraising."
+   "reason": "Vida Glen and Prism Robotics worked together at Prism Robotics for four years."
   },
   {
    "source": "p034",
-   "target": "p131",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Quin Flint cosigned Yara Ashby for frontend."
-  },
-  {
-   "source": "p035",
-   "target": "p015",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Soren North cosigned Orla Isle for distributed systems."
-  },
-  {
-   "source": "p035",
-   "target": "p214",
-   "type": "cosigned_skill",
+   "target": "c013",
+   "type": "worked_with",
    "year": 2022,
-   "reason": "Soren North cosigned Cira Arbor for growth."
+   "reason": "Quin Flint and Prism Robotics worked together at Prism Robotics for three years."
   },
   {
-   "source": "p037",
-   "target": "p077",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Lior Ember cosigned Tova Ashby for mobile."
+   "source": "p043",
+   "target": "c013",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Pia Jade and Prism Robotics worked together at Prism Robotics for two years."
   },
   {
-   "source": "p038",
-   "target": "p034",
-   "type": "cosigned_skill",
+   "source": "p018",
+   "target": "p041",
+   "type": "cofounded",
+   "year": 2022,
+   "reason": "Zara Wilde and Kael Glen co-founded Meridian Infra."
+  },
+  {
+   "source": "p041",
+   "target": "p018",
+   "type": "cofounded",
+   "year": 2021,
+   "reason": "Kael Glen and Zara Wilde co-founded Meridian Infra."
+  },
+  {
+   "source": "p018",
+   "target": "p049",
+   "type": "cofounded",
+   "year": 2023,
+   "reason": "Zara Wilde and Lena Loch co-founded Meridian Infra."
+  },
+  {
+   "source": "p049",
+   "target": "p018",
+   "type": "cofounded",
    "year": 2025,
-   "reason": "Pax Calder cosigned Quin Flint for frontend."
+   "reason": "Lena Loch and Zara Wilde co-founded Meridian Infra."
   },
   {
-   "source": "p039",
-   "target": "p009",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Ulla Quarry cosigned Reza Ridge for fintech."
+   "source": "p018",
+   "target": "p095",
+   "type": "cofounded",
+   "year": 2017,
+   "reason": "Zara Wilde and Hana Moss co-founded Meridian Infra."
   },
   {
-   "source": "p040",
-   "target": "p036",
-   "type": "cosigned_skill",
+   "source": "p095",
+   "target": "p018",
+   "type": "cofounded",
+   "year": 2026,
+   "reason": "Hana Moss and Zara Wilde co-founded Meridian Infra."
+  },
+  {
+   "source": "p041",
+   "target": "p049",
+   "type": "cofounded",
+   "year": 2021,
+   "reason": "Kael Glen and Lena Loch co-founded Meridian Infra."
+  },
+  {
+   "source": "p049",
+   "target": "p041",
+   "type": "cofounded",
+   "year": 2024,
+   "reason": "Lena Loch and Kael Glen co-founded Meridian Infra."
+  },
+  {
+   "source": "p041",
+   "target": "p095",
+   "type": "cofounded",
+   "year": 2019,
+   "reason": "Kael Glen and Hana Moss co-founded Meridian Infra."
+  },
+  {
+   "source": "p095",
+   "target": "p041",
+   "type": "cofounded",
+   "year": 2019,
+   "reason": "Hana Moss and Kael Glen co-founded Meridian Infra."
+  },
+  {
+   "source": "p049",
+   "target": "p095",
+   "type": "cofounded",
    "year": 2020,
-   "reason": "Reza Thorn cosigned Dev Grove for product design."
+   "reason": "Lena Loch and Hana Moss co-founded Meridian Infra."
   },
   {
-   "source": "p040",
-   "target": "p019",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Reza Thorn cosigned Vik Quarry for sales."
+   "source": "p095",
+   "target": "p049",
+   "type": "cofounded",
+   "year": 2020,
+   "reason": "Hana Moss and Lena Loch co-founded Meridian Infra."
   },
   {
-   "source": "p040",
-   "target": "p138",
-   "type": "cosigned_skill",
+   "source": "p007",
+   "target": "p023",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Esme Calder and Ines Grove worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p007",
+   "target": "p027",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Esme Calder and Vida Ember worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p027",
+   "target": "p007",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Vida Ember and Esme Calder worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p007",
+   "target": "p031",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Esme Calder and Lior Ridge worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p007",
+   "target": "p049",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Esme Calder and Lena Loch worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p049",
+   "target": "p007",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Lena Loch and Esme Calder worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p007",
+   "target": "p059",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Esme Calder and Bodhi Arbor worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p007",
+   "target": "p095",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Esme Calder and Hana Moss worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p095",
+   "target": "p007",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Hana Moss and Esme Calder worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p018",
+   "target": "p031",
+   "type": "worked_with",
    "year": 2021,
-   "reason": "Reza Thorn cosigned Lior Fjord for frontend."
+   "reason": "Zara Wilde and Lior Ridge worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p018",
+   "target": "p049",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Zara Wilde and Lena Loch worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p049",
+   "target": "p018",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Lena Loch and Zara Wilde worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p018",
+   "target": "p071",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Zara Wilde and Juno Elm worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p071",
+   "target": "p018",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Juno Elm and Zara Wilde worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p018",
+   "target": "p075",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Zara Wilde and Amara Wilde worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p023",
+   "target": "p041",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Ines Grove and Kael Glen worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p041",
+   "target": "p023",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Kael Glen and Ines Grove worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p023",
+   "target": "p049",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Ines Grove and Lena Loch worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p023",
+   "target": "p050",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Ines Grove and Wren North worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p050",
+   "target": "p023",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Wren North and Ines Grove worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p023",
+   "target": "p095",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Ines Grove and Hana Moss worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p095",
+   "target": "p023",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Hana Moss and Ines Grove worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p027",
+   "target": "p071",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Vida Ember and Juno Elm worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p071",
+   "target": "p027",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Juno Elm and Vida Ember worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p027",
+   "target": "p075",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Vida Ember and Amara Wilde worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p075",
+   "target": "p027",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Amara Wilde and Vida Ember worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p027",
+   "target": "p095",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Vida Ember and Hana Moss worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p031",
+   "target": "p041",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Lior Ridge and Kael Glen worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p041",
+   "target": "p031",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Kael Glen and Lior Ridge worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p031",
+   "target": "p050",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Lior Ridge and Wren North worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p050",
+   "target": "p031",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Wren North and Lior Ridge worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p031",
+   "target": "p071",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Lior Ridge and Juno Elm worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p071",
+   "target": "p031",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Juno Elm and Lior Ridge worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p041",
+   "target": "p049",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Kael Glen and Lena Loch worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p049",
+   "target": "p041",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Lena Loch and Kael Glen worked together at Meridian Infra for two years."
   },
   {
    "source": "p041",
    "target": "p059",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Kael Glen cosigned Bodhi Arbor for growth."
-  },
-  {
-   "source": "p042",
-   "target": "p006",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Esme Pine cosigned Finn Loch for security."
-  },
-  {
-   "source": "p042",
-   "target": "p074",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Esme Pine cosigned Jory Oak for agents."
-  },
-  {
-   "source": "p043",
-   "target": "p213",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Pia Jade cosigned Uma Wilde for frontend."
-  },
-  {
-   "source": "p044",
-   "target": "p040",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Hale Glen cosigned Reza Thorn for ai infra."
-  },
-  {
-   "source": "p045",
-   "target": "p086",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Vida North cosigned Tova Glen for data eng."
-  },
-  {
-   "source": "p046",
-   "target": "p049",
-   "type": "cosigned_skill",
+   "type": "worked_with",
    "year": 2024,
-   "reason": "Finn Delta cosigned Lena Loch for security."
+   "reason": "Kael Glen and Bodhi Arbor worked together at Meridian Infra for two years."
   },
   {
-   "source": "p046",
-   "target": "p212",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Finn Delta cosigned Pax Ashby for ai infra."
-  },
-  {
-   "source": "p046",
-   "target": "p164",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Finn Delta cosigned Bodhi Glen for gtm."
-  },
-  {
-   "source": "p047",
-   "target": "p166",
-   "type": "cosigned_skill",
+   "source": "p059",
+   "target": "p041",
+   "type": "worked_with",
    "year": 2020,
-   "reason": "Quin Kestrel cosigned Hana Shore for gtm."
+   "reason": "Bodhi Arbor and Kael Glen worked together at Meridian Infra for two years."
   },
   {
-   "source": "p048",
-   "target": "p143",
-   "type": "cosigned_skill",
+   "source": "p041",
+   "target": "p075",
+   "type": "worked_with",
    "year": 2022,
-   "reason": "Hale Ember cosigned Milo Heath for gtm."
+   "reason": "Kael Glen and Amara Wilde worked together at Meridian Infra for four years."
   },
   {
-   "source": "p048",
-   "target": "p196",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Hale Ember cosigned Nia Kestrel for devtools."
+   "source": "p075",
+   "target": "p041",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Amara Wilde and Kael Glen worked together at Meridian Infra for three years."
   },
   {
    "source": "p049",
-   "target": "p166",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Lena Loch cosigned Hana Shore for fintech."
+   "target": "p095",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Lena Loch and Hana Moss worked together at Meridian Infra for two years."
   },
   {
    "source": "p050",
-   "target": "p143",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Wren North cosigned Milo Heath for fundraising."
+   "target": "p059",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Wren North and Bodhi Arbor worked together at Meridian Infra for two years."
   },
   {
-   "source": "p051",
+   "source": "p059",
+   "target": "p050",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Bodhi Arbor and Wren North worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p075",
+   "target": "p095",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Amara Wilde and Hana Moss worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p095",
+   "target": "p075",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Hana Moss and Amara Wilde worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p007",
+   "target": "c014",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Esme Calder and Meridian Infra worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p018",
+   "target": "c014",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Zara Wilde and Meridian Infra worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p023",
+   "target": "c014",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Ines Grove and Meridian Infra worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p027",
+   "target": "c014",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Vida Ember and Meridian Infra worked together at Meridian Infra for two years."
+  },
+  {
+   "source": "p031",
+   "target": "c014",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Lior Ridge and Meridian Infra worked together at Meridian Infra for three years."
+  },
+  {
+   "source": "p041",
+   "target": "c014",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Kael Glen and Meridian Infra worked together at Meridian Infra for four years."
+  },
+  {
+   "source": "p001",
+   "target": "p030",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Gia Knoll and Vida Glen worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p030",
+   "target": "p001",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Vida Glen and Gia Knoll worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p001",
+   "target": "p046",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Gia Knoll and Finn Delta worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p046",
+   "target": "p001",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Finn Delta and Gia Knoll worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p001",
+   "target": "p067",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Gia Knoll and Oren Moss worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p001",
+   "target": "p082",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Gia Knoll and Yuki Cove worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p006",
+   "target": "p039",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Finn Loch and Ulla Quarry worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p039",
+   "target": "p006",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Ulla Quarry and Finn Loch worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p006",
+   "target": "p046",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Finn Loch and Finn Delta worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p046",
+   "target": "p006",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Finn Delta and Finn Loch worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p006",
+   "target": "p056",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Finn Loch and Sana Knoll worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p056",
+   "target": "p006",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Sana Knoll and Finn Loch worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p009",
+   "target": "p028",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Reza Ridge and Pax Grove worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p009",
+   "target": "p030",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Reza Ridge and Vida Glen worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p009",
+   "target": "p044",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Reza Ridge and Hale Glen worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p044",
+   "target": "p009",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Hale Glen and Reza Ridge worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p009",
+   "target": "p056",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Reza Ridge and Sana Knoll worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p056",
+   "target": "p009",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Sana Knoll and Reza Ridge worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p009",
+   "target": "p067",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Reza Ridge and Oren Moss worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p020",
+   "target": "p023",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Gus Moss and Ines Grove worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p023",
+   "target": "p020",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Ines Grove and Gus Moss worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p020",
+   "target": "p028",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Gus Moss and Pax Grove worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p020",
+   "target": "p030",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Gus Moss and Vida Glen worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p030",
+   "target": "p020",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Vida Glen and Gus Moss worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p020",
+   "target": "p046",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Gus Moss and Finn Delta worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p023",
+   "target": "p030",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Ines Grove and Vida Glen worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p030",
+   "target": "p023",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Vida Glen and Ines Grove worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p023",
+   "target": "p044",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Ines Grove and Hale Glen worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p044",
+   "target": "p023",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Hale Glen and Ines Grove worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p023",
+   "target": "p067",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Ines Grove and Oren Moss worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p023",
+   "target": "p093",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Ines Grove and Vida Brook worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p028",
+   "target": "p039",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Pax Grove and Ulla Quarry worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p028",
+   "target": "p082",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Pax Grove and Yuki Cove worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p030",
+   "target": "p038",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Vida Glen and Pax Calder worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p030",
+   "target": "p067",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Vida Glen and Oren Moss worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p067",
+   "target": "p030",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Oren Moss and Vida Glen worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p030",
+   "target": "p093",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Vida Glen and Vida Brook worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p093",
+   "target": "p030",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Vida Brook and Vida Glen worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p038",
+   "target": "p039",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Pax Calder and Ulla Quarry worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p038",
+   "target": "p093",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Pax Calder and Vida Brook worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p039",
+   "target": "p082",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Ulla Quarry and Yuki Cove worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p039",
+   "target": "p093",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Ulla Quarry and Vida Brook worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p093",
+   "target": "p039",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Vida Brook and Ulla Quarry worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p046",
+   "target": "p067",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Finn Delta and Oren Moss worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p067",
+   "target": "p046",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Oren Moss and Finn Delta worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p046",
+   "target": "p082",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Finn Delta and Yuki Cove worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p046",
+   "target": "p093",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Finn Delta and Vida Brook worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p093",
+   "target": "p046",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Vida Brook and Finn Delta worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p056",
+   "target": "p067",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Sana Knoll and Oren Moss worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p067",
+   "target": "p056",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Oren Moss and Sana Knoll worked together at Forge Cloud for four years."
+  },
+  {
+   "source": "p056",
+   "target": "p093",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Sana Knoll and Vida Brook worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p093",
+   "target": "p056",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Vida Brook and Sana Knoll worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p001",
+   "target": "c015",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Gia Knoll and Forge Cloud worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p006",
+   "target": "c015",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Finn Loch and Forge Cloud worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p009",
+   "target": "c015",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Reza Ridge and Forge Cloud worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p020",
+   "target": "c015",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Gus Moss and Forge Cloud worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p023",
+   "target": "c015",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Ines Grove and Forge Cloud worked together at Forge Cloud for two years."
+  },
+  {
+   "source": "p028",
+   "target": "c015",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Pax Grove and Forge Cloud worked together at Forge Cloud for three years."
+  },
+  {
+   "source": "p017",
+   "target": "p047",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Milo Flint and Quin Kestrel worked together at Atlas Robotics for four years."
+  },
+  {
+   "source": "p017",
+   "target": "p091",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Milo Flint and Idris Grove worked together at Atlas Robotics for two years."
+  },
+  {
+   "source": "p033",
+   "target": "p047",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Elio North and Quin Kestrel worked together at Atlas Robotics for three years."
+  },
+  {
+   "source": "p047",
+   "target": "p033",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Quin Kestrel and Elio North worked together at Atlas Robotics for two years."
+  },
+  {
+   "source": "p035",
+   "target": "p091",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Soren North and Idris Grove worked together at Atlas Robotics for two years."
+  },
+  {
+   "source": "p091",
+   "target": "p035",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Idris Grove and Soren North worked together at Atlas Robotics for four years."
+  },
+  {
+   "source": "p047",
+   "target": "p091",
+   "type": "worked_with",
+   "year": 2017,
+   "reason": "Quin Kestrel and Idris Grove worked together at Atlas Robotics for two years."
+  },
+  {
+   "source": "p091",
+   "target": "p047",
+   "type": "worked_with",
+   "year": 2022,
+   "reason": "Idris Grove and Quin Kestrel worked together at Atlas Robotics for three years."
+  },
+  {
+   "source": "p017",
+   "target": "c016",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Milo Flint and Atlas Robotics worked together at Atlas Robotics for two years."
+  },
+  {
+   "source": "p029",
+   "target": "c016",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Bodhi Cove and Atlas Robotics worked together at Atlas Robotics for three years."
+  },
+  {
+   "source": "p033",
+   "target": "c016",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Elio North and Atlas Robotics worked together at Atlas Robotics for three years."
+  },
+  {
+   "source": "p035",
+   "target": "c016",
+   "type": "worked_with",
+   "year": 2021,
+   "reason": "Soren North and Atlas Robotics worked together at Atlas Robotics for three years."
+  },
+  {
+   "source": "p047",
+   "target": "c016",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Quin Kestrel and Atlas Robotics worked together at Atlas Robotics for three years."
+  },
+  {
+   "source": "p091",
+   "target": "c016",
+   "type": "worked_with",
+   "year": 2023,
+   "reason": "Idris Grove and Atlas Robotics worked together at Atlas Robotics for two years."
+  },
+  {
+   "source": "p014",
+   "target": "p065",
+   "type": "worked_with",
+   "year": 2026,
+   "reason": "Wes Loch and Gus Wilde worked together at Meridian Bio for two years."
+  },
+  {
+   "source": "p040",
+   "target": "p099",
+   "type": "worked_with",
+   "year": 2016,
+   "reason": "Reza Thorn and Tova Quarry worked together at Meridian Bio for four years."
+  },
+  {
+   "source": "p099",
+   "target": "p040",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Tova Quarry and Reza Thorn worked together at Meridian Bio for three years."
+  },
+  {
+   "source": "p045",
+   "target": "p099",
+   "type": "worked_with",
+   "year": 2020,
+   "reason": "Vida North and Tova Quarry worked together at Meridian Bio for three years."
+  },
+  {
+   "source": "p014",
+   "target": "c017",
+   "type": "worked_with",
+   "year": 2024,
+   "reason": "Wes Loch and Meridian Bio worked together at Meridian Bio for four years."
+  },
+  {
+   "source": "p040",
+   "target": "c017",
+   "type": "worked_with",
+   "year": 2025,
+   "reason": "Reza Thorn and Meridian Bio worked together at Meridian Bio for four years."
+  },
+  {
+   "source": "p045",
+   "target": "c017",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Vida North and Meridian Bio worked together at Meridian Bio for three years."
+  },
+  {
+   "source": "p065",
+   "target": "c017",
+   "type": "worked_with",
+   "year": 2018,
+   "reason": "Gus Wilde and Meridian Bio worked together at Meridian Bio for two years."
+  },
+  {
+   "source": "p099",
+   "target": "c017",
+   "type": "worked_with",
+   "year": 2019,
+   "reason": "Tova Quarry and Meridian Bio worked together at Meridian Bio for two years."
+  },
+  {
+   "source": "p000",
+   "target": "p055",
+   "type": "cosigned_skill",
+   "year": 2019,
+   "reason": "Oren Harbor cosigned Mira Birch for security."
+  },
+  {
+   "source": "p001",
+   "target": "p008",
+   "type": "cosigned_skill",
+   "year": 2017,
+   "reason": "Gia Knoll cosigned Rhea Flint for gtm."
+  },
+  {
+   "source": "p001",
+   "target": "p066",
+   "type": "cosigned_skill",
+   "year": 2023,
+   "reason": "Gia Knoll cosigned Jory Brook for gtm."
+  },
+  {
+   "source": "p001",
+   "target": "p020",
+   "type": "cosigned_skill",
+   "year": 2025,
+   "reason": "Gia Knoll cosigned Gus Moss for ai infra."
+  },
+  {
+   "source": "p002",
+   "target": "p068",
+   "type": "cosigned_skill",
+   "year": 2021,
+   "reason": "Orla Ivory cosigned Pia Arbor for mobile."
+  },
+  {
+   "source": "p002",
+   "target": "p081",
+   "type": "cosigned_skill",
+   "year": 2025,
+   "reason": "Orla Ivory cosigned Quin Ashby for devtools."
+  },
+  {
+   "source": "p003",
+   "target": "p069",
+   "type": "cosigned_skill",
+   "year": 2026,
+   "reason": "Cira Ridge cosigned Teo Jade for backend."
+  },
+  {
+   "source": "p004",
+   "target": "p042",
+   "type": "cosigned_skill",
+   "year": 2016,
+   "reason": "Rhea Juniper cosigned Esme Pine for sales."
+  },
+  {
+   "source": "p004",
+   "target": "p043",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Rhea Juniper cosigned Pia Jade for ml ranking."
+  },
+  {
+   "source": "p005",
+   "target": "p029",
+   "type": "cosigned_skill",
+   "year": 2018,
+   "reason": "Wren Yarrow cosigned Bodhi Cove for llm eval."
+  },
+  {
+   "source": "p005",
+   "target": "p041",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Wren Yarrow cosigned Kael Glen for recruiting."
+  },
+  {
+   "source": "p006",
+   "target": "p067",
+   "type": "cosigned_skill",
+   "year": 2023,
+   "reason": "Finn Loch cosigned Oren Moss for data eng."
+  },
+  {
+   "source": "p007",
+   "target": "p041",
+   "type": "cosigned_skill",
+   "year": 2024,
+   "reason": "Esme Calder cosigned Kael Glen for recruiting."
+  },
+  {
+   "source": "p009",
+   "target": "p006",
+   "type": "cosigned_skill",
+   "year": 2019,
+   "reason": "Reza Ridge cosigned Finn Loch for security."
+  },
+  {
+   "source": "p009",
+   "target": "p090",
+   "type": "cosigned_skill",
+   "year": 2019,
+   "reason": "Reza Ridge cosigned Oren Flint for recruiting."
+  },
+  {
+   "source": "p010",
+   "target": "p012",
+   "type": "cosigned_skill",
+   "year": 2026,
+   "reason": "Pax Kestrel cosigned Esme North for growth."
+  },
+  {
+   "source": "p011",
+   "target": "p085",
+   "type": "cosigned_skill",
+   "year": 2023,
+   "reason": "Ulla Dune cosigned Dax Quarry for distributed systems."
+  },
+  {
+   "source": "p013",
+   "target": "p088",
+   "type": "cosigned_skill",
+   "year": 2017,
+   "reason": "Fia Birch cosigned Milo Harbor for security."
+  },
+  {
+   "source": "p013",
+   "target": "p080",
+   "type": "cosigned_skill",
+   "year": 2019,
+   "reason": "Fia Birch cosigned Lena Brook for backend."
+  },
+  {
+   "source": "p014",
+   "target": "p065",
+   "type": "cosigned_skill",
+   "year": 2024,
+   "reason": "Wes Loch cosigned Gus Wilde for fundraising."
+  },
+  {
+   "source": "p014",
+   "target": "p040",
+   "type": "cosigned_skill",
+   "year": 2026,
+   "reason": "Wes Loch cosigned Reza Thorn for agents."
+  },
+  {
+   "source": "p015",
    "target": "p048",
    "type": "cosigned_skill",
    "year": 2026,
-   "reason": "Wes Juniper cosigned Hale Ember for fintech."
+   "reason": "Orla Isle cosigned Hale Ember for fintech."
+  },
+  {
+   "source": "p016",
+   "target": "p027",
+   "type": "cosigned_skill",
+   "year": 2023,
+   "reason": "Oren Kestrel cosigned Vida Ember for frontend."
+  },
+  {
+   "source": "p016",
+   "target": "p077",
+   "type": "cosigned_skill",
+   "year": 2021,
+   "reason": "Oren Kestrel cosigned Tova Ashby for fintech."
+  },
+  {
+   "source": "p017",
+   "target": "p066",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Milo Flint cosigned Jory Brook for agents."
+  },
+  {
+   "source": "p017",
+   "target": "p055",
+   "type": "cosigned_skill",
+   "year": 2019,
+   "reason": "Milo Flint cosigned Mira Birch for recruiting."
+  },
+  {
+   "source": "p018",
+   "target": "p076",
+   "type": "cosigned_skill",
+   "year": 2022,
+   "reason": "Zara Wilde cosigned Zara Brook for ai infra."
+  },
+  {
+   "source": "p018",
+   "target": "p095",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Zara Wilde cosigned Hana Moss for fintech."
+  },
+  {
+   "source": "p019",
+   "target": "p032",
+   "type": "cosigned_skill",
+   "year": 2021,
+   "reason": "Vik Quarry cosigned Dev Knoll for mobile."
+  },
+  {
+   "source": "p020",
+   "target": "p056",
+   "type": "cosigned_skill",
+   "year": 2021,
+   "reason": "Gus Moss cosigned Sana Knoll for recruiting."
+  },
+  {
+   "source": "p020",
+   "target": "p071",
+   "type": "cosigned_skill",
+   "year": 2018,
+   "reason": "Gus Moss cosigned Juno Elm for backend."
+  },
+  {
+   "source": "p022",
+   "target": "p097",
+   "type": "cosigned_skill",
+   "year": 2018,
+   "reason": "Kael Fjord cosigned Teo Pine for frontend."
+  },
+  {
+   "source": "p023",
+   "target": "p039",
+   "type": "cosigned_skill",
+   "year": 2022,
+   "reason": "Ines Grove cosigned Ulla Quarry for recruiting."
+  },
+  {
+   "source": "p024",
+   "target": "p026",
+   "type": "cosigned_skill",
+   "year": 2023,
+   "reason": "Idris Moss cosigned Orla Oak for fundraising."
+  },
+  {
+   "source": "p025",
+   "target": "p075",
+   "type": "cosigned_skill",
+   "year": 2024,
+   "reason": "Cira Harbor cosigned Amara Wilde for growth."
+  },
+  {
+   "source": "p025",
+   "target": "p019",
+   "type": "cosigned_skill",
+   "year": 2018,
+   "reason": "Cira Harbor cosigned Vik Quarry for distributed systems."
+  },
+  {
+   "source": "p026",
+   "target": "p058",
+   "type": "cosigned_skill",
+   "year": 2018,
+   "reason": "Orla Oak cosigned Gus Harbor for recruiting."
+  },
+  {
+   "source": "p026",
+   "target": "p062",
+   "type": "cosigned_skill",
+   "year": 2021,
+   "reason": "Orla Oak cosigned Reza Ashby for sales."
+  },
+  {
+   "source": "p026",
+   "target": "p095",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Orla Oak cosigned Hana Moss for fundraising."
+  },
+  {
+   "source": "p027",
+   "target": "p016",
+   "type": "cosigned_skill",
+   "year": 2018,
+   "reason": "Vida Ember cosigned Oren Kestrel for data eng."
+  },
+  {
+   "source": "p027",
+   "target": "p095",
+   "type": "cosigned_skill",
+   "year": 2022,
+   "reason": "Vida Ember cosigned Hana Moss for fundraising."
+  },
+  {
+   "source": "p028",
+   "target": "p001",
+   "type": "cosigned_skill",
+   "year": 2021,
+   "reason": "Pax Grove cosigned Gia Knoll for ai infra."
+  },
+  {
+   "source": "p029",
+   "target": "p057",
+   "type": "cosigned_skill",
+   "year": 2019,
+   "reason": "Bodhi Cove cosigned Quin Calder for devtools."
+  },
+  {
+   "source": "p029",
+   "target": "p088",
+   "type": "cosigned_skill",
+   "year": 2025,
+   "reason": "Bodhi Cove cosigned Milo Harbor for llm eval."
+  },
+  {
+   "source": "p030",
+   "target": "p034",
+   "type": "cosigned_skill",
+   "year": 2023,
+   "reason": "Vida Glen cosigned Quin Flint for frontend."
+  },
+  {
+   "source": "p030",
+   "target": "p017",
+   "type": "cosigned_skill",
+   "year": 2021,
+   "reason": "Vida Glen cosigned Milo Flint for ai infra."
+  },
+  {
+   "source": "p032",
+   "target": "p002",
+   "type": "cosigned_skill",
+   "year": 2019,
+   "reason": "Dev Knoll cosigned Orla Ivory for fintech."
+  },
+  {
+   "source": "p032",
+   "target": "p013",
+   "type": "cosigned_skill",
+   "year": 2025,
+   "reason": "Dev Knoll cosigned Fia Birch for ml ranking."
+  },
+  {
+   "source": "p033",
+   "target": "p017",
+   "type": "cosigned_skill",
+   "year": 2022,
+   "reason": "Elio North cosigned Milo Flint for fintech."
+  },
+  {
+   "source": "p035",
+   "target": "p017",
+   "type": "cosigned_skill",
+   "year": 2016,
+   "reason": "Soren North cosigned Milo Flint for distributed systems."
+  },
+  {
+   "source": "p035",
+   "target": "p091",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Soren North cosigned Idris Grove for robotics."
+  },
+  {
+   "source": "p036",
+   "target": "p079",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Dev Grove cosigned Reza Birch for ml ranking."
+  },
+  {
+   "source": "p037",
+   "target": "p060",
+   "type": "cosigned_skill",
+   "year": 2017,
+   "reason": "Lior Ember cosigned Reza Wilde for distributed systems."
+  },
+  {
+   "source": "p038",
+   "target": "p066",
+   "type": "cosigned_skill",
+   "year": 2019,
+   "reason": "Pax Calder cosigned Jory Brook for agents."
+  },
+  {
+   "source": "p040",
+   "target": "p088",
+   "type": "cosigned_skill",
+   "year": 2023,
+   "reason": "Reza Thorn cosigned Milo Harbor for llm eval."
+  },
+  {
+   "source": "p044",
+   "target": "p006",
+   "type": "cosigned_skill",
+   "year": 2024,
+   "reason": "Hale Glen cosigned Finn Loch for robotics."
+  },
+  {
+   "source": "p045",
+   "target": "p040",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Vida North cosigned Reza Thorn for agents."
+  },
+  {
+   "source": "p045",
+   "target": "p005",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Vida North cosigned Wren Yarrow for fintech."
+  },
+  {
+   "source": "p046",
+   "target": "p006",
+   "type": "cosigned_skill",
+   "year": 2016,
+   "reason": "Finn Delta cosigned Finn Loch for robotics."
+  },
+  {
+   "source": "p047",
+   "target": "p052",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Quin Kestrel cosigned Bram Lark for fundraising."
+  },
+  {
+   "source": "p048",
+   "target": "p055",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Hale Ember cosigned Mira Birch for security."
+  },
+  {
+   "source": "p049",
+   "target": "p027",
+   "type": "cosigned_skill",
+   "year": 2017,
+   "reason": "Lena Loch cosigned Vida Ember for frontend."
+  },
+  {
+   "source": "p049",
+   "target": "p095",
+   "type": "cosigned_skill",
+   "year": 2025,
+   "reason": "Lena Loch cosigned Hana Moss for fundraising."
+  },
+  {
+   "source": "p050",
+   "target": "p007",
+   "type": "cosigned_skill",
+   "year": 2026,
+   "reason": "Wren North cosigned Esme Calder for fundraising."
   },
   {
    "source": "p052",
-   "target": "p016",
+   "target": "p046",
    "type": "cosigned_skill",
    "year": 2026,
-   "reason": "Bram Lark cosigned Oren Kestrel for data eng."
+   "reason": "Bram Lark cosigned Finn Delta for devtools."
   },
   {
    "source": "p053",
-   "target": "p059",
+   "target": "p080",
    "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Kai Glen cosigned Bodhi Arbor for security."
+   "year": 2024,
+   "reason": "Kai Glen cosigned Lena Brook for product design."
   },
   {
    "source": "p053",
-   "target": "p031",
+   "target": "p034",
    "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Kai Glen cosigned Lior Ridge for backend."
+   "year": 2023,
+   "reason": "Kai Glen cosigned Quin Flint for fintech."
+  },
+  {
+   "source": "p053",
+   "target": "p071",
+   "type": "cosigned_skill",
+   "year": 2025,
+   "reason": "Kai Glen cosigned Juno Elm for recruiting."
   },
   {
    "source": "p054",
-   "target": "p167",
+   "target": "p076",
+   "type": "cosigned_skill",
+   "year": 2023,
+   "reason": "Dax Yarrow cosigned Zara Brook for frontend."
+  },
+  {
+   "source": "p054",
+   "target": "p055",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Dax Yarrow cosigned Mira Birch for recruiting."
+  },
+  {
+   "source": "p054",
+   "target": "p066",
    "type": "cosigned_skill",
    "year": 2022,
-   "reason": "Dax Yarrow cosigned Nico Delta for devtools."
+   "reason": "Dax Yarrow cosigned Jory Brook for agents."
   },
   {
    "source": "p055",
-   "target": "p201",
+   "target": "p013",
    "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Mira Birch cosigned Gus Zephyr for growth."
+   "year": 2023,
+   "reason": "Mira Birch cosigned Fia Birch for ml ranking."
   },
   {
    "source": "p056",
    "target": "p002",
    "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Sana Knoll cosigned Orla Ivory for mobile."
+   "year": 2017,
+   "reason": "Sana Knoll cosigned Orla Ivory for fintech."
   },
   {
    "source": "p056",
-   "target": "p104",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Sana Knoll cosigned Elio Elm for distributed systems."
-  },
-  {
-   "source": "p056",
-   "target": "p060",
+   "target": "p001",
    "type": "cosigned_skill",
    "year": 2017,
-   "reason": "Sana Knoll cosigned Reza Wilde for biotech."
+   "reason": "Sana Knoll cosigned Gia Knoll for agents."
   },
   {
-   "source": "p057",
-   "target": "p175",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Quin Calder cosigned Wes Brook for data eng."
-  },
-  {
-   "source": "p057",
-   "target": "p080",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Quin Calder cosigned Lena Brook for backend."
-  },
-  {
-   "source": "p058",
-   "target": "p070",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Gus Harbor cosigned Dax Jade for biotech."
-  },
-  {
-   "source": "p058",
-   "target": "p209",
+   "source": "p056",
+   "target": "p046",
    "type": "cosigned_skill",
    "year": 2016,
-   "reason": "Gus Harbor cosigned Elio Zephyr for biotech."
+   "reason": "Sana Knoll cosigned Finn Delta for ml ranking."
   },
   {
-   "source": "p058",
-   "target": "p190",
+   "source": "p057",
+   "target": "p074",
    "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Gus Harbor cosigned Ulla Juniper for sales."
+   "year": 2026,
+   "reason": "Quin Calder cosigned Jory Oak for growth."
   },
   {
    "source": "p059",
-   "target": "p210",
+   "target": "p071",
    "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Bodhi Arbor cosigned Rhea Elm for mobile."
+   "year": 2026,
+   "reason": "Bodhi Arbor cosigned Juno Elm for recruiting."
+  },
+  {
+   "source": "p059",
+   "target": "p018",
+   "type": "cosigned_skill",
+   "year": 2016,
+   "reason": "Bodhi Arbor cosigned Zara Wilde for backend."
   },
   {
    "source": "p060",
-   "target": "p027",
+   "target": "p052",
    "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Reza Wilde cosigned Vida Ember for growth."
+   "year": 2017,
+   "reason": "Reza Wilde cosigned Bram Lark for mobile."
   },
   {
    "source": "p060",
-   "target": "p137",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Reza Wilde cosigned Xan Delta for robotics."
-  },
-  {
-   "source": "p061",
-   "target": "p187",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Reza Cove cosigned Zara Yarrow for ml ranking."
-  },
-  {
-   "source": "p061",
-   "target": "p080",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Reza Cove cosigned Lena Brook for product design."
-  },
-  {
-   "source": "p062",
-   "target": "p023",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Reza Ashby cosigned Ines Grove for mobile."
-  },
-  {
-   "source": "p062",
-   "target": "p085",
+   "target": "p094",
    "type": "cosigned_skill",
    "year": 2022,
-   "reason": "Reza Ashby cosigned Dax Quarry for distributed systems."
+   "reason": "Reza Wilde cosigned Quin Wilde for recruiting."
+  },
+  {
+   "source": "p061",
+   "target": "p048",
+   "type": "cosigned_skill",
+   "year": 2016,
+   "reason": "Reza Cove cosigned Hale Ember for fintech."
+  },
+  {
+   "source": "p061",
+   "target": "p056",
+   "type": "cosigned_skill",
+   "year": 2018,
+   "reason": "Reza Cove cosigned Sana Knoll for recruiting."
+  },
+  {
+   "source": "p062",
+   "target": "p094",
+   "type": "cosigned_skill",
+   "year": 2023,
+   "reason": "Reza Ashby cosigned Quin Wilde for recruiting."
   },
   {
    "source": "p063",
-   "target": "p174",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Juno Arbor cosigned Rhea Thorn for product design."
-  },
-  {
-   "source": "p064",
-   "target": "p079",
+   "target": "p051",
    "type": "cosigned_skill",
    "year": 2026,
-   "reason": "Cira Elm cosigned Reza Birch for ml ranking."
+   "reason": "Juno Arbor cosigned Wes Juniper for gtm."
+  },
+  {
+   "source": "p063",
+   "target": "p088",
+   "type": "cosigned_skill",
+   "year": 2019,
+   "reason": "Juno Arbor cosigned Milo Harbor for security."
   },
   {
    "source": "p064",
-   "target": "p119",
+   "target": "p012",
    "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Cira Elm cosigned Zev Loch for recruiting."
+   "year": 2018,
+   "reason": "Cira Elm cosigned Esme North for growth."
+  },
+  {
+   "source": "p064",
+   "target": "p070",
+   "type": "cosigned_skill",
+   "year": 2026,
+   "reason": "Cira Elm cosigned Dax Jade for backend."
+  },
+  {
+   "source": "p064",
+   "target": "p034",
+   "type": "cosigned_skill",
+   "year": 2026,
+   "reason": "Cira Elm cosigned Quin Flint for ml ranking."
+  },
+  {
+   "source": "p065",
+   "target": "p064",
+   "type": "cosigned_skill",
+   "year": 2024,
+   "reason": "Gus Wilde cosigned Cira Elm for product design."
+  },
+  {
+   "source": "p065",
+   "target": "p071",
+   "type": "cosigned_skill",
+   "year": 2023,
+   "reason": "Gus Wilde cosigned Juno Elm for recruiting."
   },
   {
    "source": "p066",
-   "target": "p212",
+   "target": "p055",
+   "type": "cosigned_skill",
+   "year": 2016,
+   "reason": "Jory Brook cosigned Mira Birch for recruiting."
+  },
+  {
+   "source": "p066",
+   "target": "p013",
    "type": "cosigned_skill",
    "year": 2026,
-   "reason": "Jory Brook cosigned Pax Ashby for devtools."
+   "reason": "Jory Brook cosigned Fia Birch for recruiting."
   },
   {
    "source": "p067",
-   "target": "p174",
+   "target": "p030",
    "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Oren Moss cosigned Rhea Thorn for ml ranking."
-  },
-  {
-   "source": "p067",
-   "target": "p050",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Oren Moss cosigned Wren North for security."
+   "year": 2026,
+   "reason": "Oren Moss cosigned Vida Glen for backend."
   },
   {
    "source": "p068",
-   "target": "p157",
+   "target": "p047",
+   "type": "cosigned_skill",
+   "year": 2023,
+   "reason": "Pia Arbor cosigned Quin Kestrel for mobile."
+  },
+  {
+   "source": "p069",
+   "target": "p034",
+   "type": "cosigned_skill",
+   "year": 2024,
+   "reason": "Teo Jade cosigned Quin Flint for frontend."
+  },
+  {
+   "source": "p069",
+   "target": "p080",
+   "type": "cosigned_skill",
+   "year": 2024,
+   "reason": "Teo Jade cosigned Lena Brook for product design."
+  },
+  {
+   "source": "p070",
+   "target": "p056",
    "type": "cosigned_skill",
    "year": 2019,
-   "reason": "Pia Arbor cosigned Oren Brook for ml ranking."
-  },
-  {
-   "source": "p069",
-   "target": "p050",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Teo Jade cosigned Wren North for fintech."
-  },
-  {
-   "source": "p069",
-   "target": "p157",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Teo Jade cosigned Oren Brook for robotics."
+   "reason": "Dax Jade cosigned Sana Knoll for recruiting."
   },
   {
    "source": "p071",
-   "target": "p205",
+   "target": "p088",
    "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Juno Elm cosigned Amara Zephyr for backend."
+   "year": 2017,
+   "reason": "Juno Elm cosigned Milo Harbor for llm eval."
   },
   {
    "source": "p072",
-   "target": "p103",
+   "target": "p058",
    "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Oren Ridge cosigned Teo Isle for distributed systems."
-  },
-  {
-   "source": "p072",
-   "target": "p098",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Oren Ridge cosigned Wren Delta for security."
+   "year": 2018,
+   "reason": "Oren Ridge cosigned Gus Harbor for recruiting."
   },
   {
    "source": "p073",
-   "target": "p101",
+   "target": "p019",
    "type": "cosigned_skill",
    "year": 2016,
-   "reason": "Esme Shore cosigned Soren Glen for security."
-  },
-  {
-   "source": "p074",
-   "target": "p094",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Jory Oak cosigned Quin Wilde for recruiting."
+   "reason": "Esme Shore cosigned Vik Quarry for sales."
   },
   {
    "source": "p075",
-   "target": "p177",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Amara Wilde cosigned Kai Dune for frontend."
-  },
-  {
-   "source": "p076",
-   "target": "p093",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Zara Brook cosigned Vida Brook for growth."
-  },
-  {
-   "source": "p076",
-   "target": "p120",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Zara Brook cosigned Zara Birch for backend."
-  },
-  {
-   "source": "p077",
-   "target": "p001",
+   "target": "p088",
    "type": "cosigned_skill",
    "year": 2020,
-   "reason": "Tova Ashby cosigned Gia Knoll for agents."
+   "reason": "Amara Wilde cosigned Milo Harbor for llm eval."
+  },
+  {
+   "source": "p075",
+   "target": "p040",
+   "type": "cosigned_skill",
+   "year": 2024,
+   "reason": "Amara Wilde cosigned Reza Thorn for backend."
+  },
+  {
+   "source": "p075",
+   "target": "p071",
+   "type": "cosigned_skill",
+   "year": 2018,
+   "reason": "Amara Wilde cosigned Juno Elm for frontend."
+  },
+  {
+   "source": "p076",
+   "target": "p084",
+   "type": "cosigned_skill",
+   "year": 2021,
+   "reason": "Zara Brook cosigned Bram Juniper for robotics."
   },
   {
    "source": "p077",
-   "target": "p137",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Tova Ashby cosigned Xan Delta for robotics."
-  },
-  {
-   "source": "p078",
-   "target": "p209",
+   "target": "p067",
    "type": "cosigned_skill",
    "year": 2023,
-   "reason": "Orla Heath cosigned Elio Zephyr for biotech."
+   "reason": "Tova Ashby cosigned Oren Moss for data eng."
+  },
+  {
+   "source": "p079",
+   "target": "p057",
+   "type": "cosigned_skill",
+   "year": 2016,
+   "reason": "Reza Birch cosigned Quin Calder for devtools."
   },
   {
    "source": "p080",
-   "target": "p126",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Lena Brook cosigned Dax Loch for gtm."
-  },
-  {
-   "source": "p081",
-   "target": "p072",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Quin Ashby cosigned Oren Ridge for recruiting."
-  },
-  {
-   "source": "p081",
-   "target": "p087",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Quin Ashby cosigned Mira Ember for sales."
-  },
-  {
-   "source": "p082",
-   "target": "p174",
+   "target": "p053",
    "type": "cosigned_skill",
    "year": 2016,
-   "reason": "Yuki Cove cosigned Rhea Thorn for product design."
+   "reason": "Lena Brook cosigned Kai Glen for fundraising."
   },
   {
-   "source": "p082",
-   "target": "p020",
+   "source": "p081",
+   "target": "p086",
    "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Yuki Cove cosigned Gus Moss for ai infra."
+   "year": 2019,
+   "reason": "Quin Ashby cosigned Tova Glen for robotics."
   },
   {
    "source": "p083",
-   "target": "p134",
+   "target": "p004",
    "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Wren Oak cosigned Yara Vale for llm eval."
+   "year": 2026,
+   "reason": "Wren Oak cosigned Rhea Juniper for data eng."
   },
   {
-   "source": "p084",
-   "target": "p123",
+   "source": "p083",
+   "target": "p057",
    "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Bram Juniper cosigned Oren Pine for ai infra."
+   "year": 2026,
+   "reason": "Wren Oak cosigned Quin Calder for devtools."
+  },
+  {
+   "source": "p083",
+   "target": "p087",
+   "type": "cosigned_skill",
+   "year": 2026,
+   "reason": "Wren Oak cosigned Mira Ember for sales."
   },
   {
    "source": "p085",
+   "target": "p022",
+   "type": "cosigned_skill",
+   "year": 2017,
+   "reason": "Dax Quarry cosigned Kael Fjord for fintech."
+  },
+  {
+   "source": "p086",
+   "target": "p056",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Tova Glen cosigned Sana Knoll for product design."
+  },
+  {
+   "source": "p087",
+   "target": "p002",
+   "type": "cosigned_skill",
+   "year": 2022,
+   "reason": "Mira Ember cosigned Orla Ivory for fintech."
+  },
+  {
+   "source": "p088",
    "target": "p095",
    "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Dax Quarry cosigned Hana Moss for fundraising."
+   "year": 2016,
+   "reason": "Milo Harbor cosigned Hana Moss for fundraising."
   },
   {
-   "source": "p086",
-   "target": "p208",
+   "source": "p088",
+   "target": "p062",
    "type": "cosigned_skill",
    "year": 2025,
-   "reason": "Tova Glen cosigned Amara Kestrel for ml ranking."
+   "reason": "Milo Harbor cosigned Reza Ashby for robotics."
   },
   {
-   "source": "p086",
-   "target": "p090",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Tova Glen cosigned Oren Flint for biotech."
-  },
-  {
-   "source": "p086",
-   "target": "p201",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Tova Glen cosigned Gus Zephyr for growth."
-  },
-  {
-   "source": "p087",
-   "target": "p060",
+   "source": "p089",
+   "target": "p003",
    "type": "cosigned_skill",
    "year": 2023,
-   "reason": "Mira Ember cosigned Reza Wilde for biotech."
-  },
-  {
-   "source": "p087",
-   "target": "p152",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Mira Ember cosigned Amara Harbor for sales."
-  },
-  {
-   "source": "p088",
-   "target": "p083",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Milo Harbor cosigned Wren Oak for llm eval."
-  },
-  {
-   "source": "p088",
-   "target": "p072",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Milo Harbor cosigned Oren Ridge for recruiting."
-  },
-  {
-   "source": "p090",
-   "target": "p196",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Oren Flint cosigned Nia Kestrel for data eng."
+   "reason": "Bodhi Zephyr cosigned Cira Ridge for product design."
   },
   {
    "source": "p091",
-   "target": "p171",
+   "target": "p069",
    "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Idris Grove cosigned Dev Shore for biotech."
+   "year": 2020,
+   "reason": "Idris Grove cosigned Teo Jade for backend."
   },
   {
    "source": "p092",
-   "target": "p118",
+   "target": "p005",
    "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Finn Ridge cosigned Ulla Glen for sales."
+   "year": 2017,
+   "reason": "Finn Ridge cosigned Wren Yarrow for distributed systems."
   },
   {
-   "source": "p093",
-   "target": "p131",
+   "source": "p092",
+   "target": "p003",
    "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Vida Brook cosigned Yara Ashby for frontend."
-  },
-  {
-   "source": "p093",
-   "target": "p139",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Vida Brook cosigned Reza Arbor for fintech."
+   "year": 2020,
+   "reason": "Finn Ridge cosigned Cira Ridge for product design."
   },
   {
    "source": "p094",
-   "target": "p195",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Quin Wilde cosigned Lior Calder for backend."
-  },
-  {
-   "source": "p095",
-   "target": "p188",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Hana Moss cosigned Quin Moss for agents."
-  },
-  {
-   "source": "p095",
-   "target": "p147",
+   "target": "p024",
    "type": "cosigned_skill",
    "year": 2017,
-   "reason": "Hana Moss cosigned Kai Quarry for sales."
+   "reason": "Quin Wilde cosigned Idris Moss for backend."
+  },
+  {
+   "source": "p095",
+   "target": "p018",
+   "type": "cosigned_skill",
+   "year": 2020,
+   "reason": "Hana Moss cosigned Zara Wilde for ai infra."
+  },
+  {
+   "source": "p095",
+   "target": "p045",
+   "type": "cosigned_skill",
+   "year": 2018,
+   "reason": "Hana Moss cosigned Vida North for frontend."
   },
   {
    "source": "p096",
-   "target": "p108",
+   "target": "p040",
    "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Elio Heath cosigned Kael Dune for gtm."
-  },
-  {
-   "source": "p096",
-   "target": "p094",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Elio Heath cosigned Quin Wilde for fintech."
-  },
-  {
-   "source": "p096",
-   "target": "p195",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Elio Heath cosigned Lior Calder for biotech."
+   "year": 2023,
+   "reason": "Elio Heath cosigned Reza Thorn for backend."
   },
   {
    "source": "p097",
-   "target": "p074",
+   "target": "p045",
    "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Teo Pine cosigned Jory Oak for growth."
+   "year": 2025,
+   "reason": "Teo Pine cosigned Vida North for frontend."
   },
   {
-   "source": "p098",
-   "target": "p011",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Wren Delta cosigned Ulla Dune for data eng."
-  },
-  {
-   "source": "p098",
-   "target": "p204",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Wren Delta cosigned Yara Juniper for product design."
-  },
-  {
-   "source": "p099",
-   "target": "p047",
+   "source": "p097",
+   "target": "p076",
    "type": "cosigned_skill",
    "year": 2019,
-   "reason": "Tova Quarry cosigned Quin Kestrel for fintech."
+   "reason": "Teo Pine cosigned Zara Brook for frontend."
   },
   {
-   "source": "p099",
-   "target": "p027",
+   "source": "p098",
+   "target": "p054",
    "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Tova Quarry cosigned Vida Ember for frontend."
+   "year": 2023,
+   "reason": "Wren Delta cosigned Dax Yarrow for gtm."
+  },
+  {
+   "source": "p098",
+   "target": "p062",
+   "type": "cosigned_skill",
+   "year": 2024,
+   "reason": "Wren Delta cosigned Reza Ashby for sales."
   },
   {
    "source": "p099",
    "target": "p017",
    "type": "cosigned_skill",
-   "year": 2018,
+   "year": 2024,
    "reason": "Tova Quarry cosigned Milo Flint for fintech."
   },
   {
-   "source": "p100",
-   "target": "p217",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Lior Moss cosigned Idris Brook for sales."
-  },
-  {
-   "source": "p101",
-   "target": "p079",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Soren Glen cosigned Reza Birch for ml ranking."
-  },
-  {
-   "source": "p101",
-   "target": "p127",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Soren Glen cosigned Ines Ember for biotech."
-  },
-  {
-   "source": "p103",
-   "target": "p219",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Teo Isle cosigned Esme Jade for fintech."
-  },
-  {
-   "source": "p104",
-   "target": "p121",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Elio Elm cosigned Dev Moss for frontend."
-  },
-  {
-   "source": "p104",
-   "target": "p113",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Elio Elm cosigned Tova Shore for data eng."
-  },
-  {
-   "source": "p105",
-   "target": "p157",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Zev Heath cosigned Oren Brook for ml ranking."
-  },
-  {
-   "source": "p107",
-   "target": "p098",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Yara Elm cosigned Wren Delta for security."
-  },
-  {
-   "source": "p107",
-   "target": "p122",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Yara Elm cosigned Rhea Loch for frontend."
-  },
-  {
-   "source": "p108",
-   "target": "p106",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Kael Dune cosigned Tova Fjord for mobile."
-  },
-  {
-   "source": "p108",
-   "target": "p193",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Kael Dune cosigned Wes Calder for devtools."
-  },
-  {
-   "source": "p109",
-   "target": "p097",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Finn Kestrel cosigned Teo Pine for fintech."
-  },
-  {
-   "source": "p110",
-   "target": "p192",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Cira Grove cosigned Xan Shore for data eng."
-  },
-  {
-   "source": "p110",
-   "target": "p086",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Cira Grove cosigned Tova Glen for data eng."
-  },
-  {
-   "source": "p111",
-   "target": "p081",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Sana Oak cosigned Quin Ashby for devtools."
-  },
-  {
-   "source": "p111",
-   "target": "p024",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Sana Oak cosigned Idris Moss for security."
-  },
-  {
-   "source": "p112",
-   "target": "p060",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Idris Oak cosigned Reza Wilde for distributed systems."
-  },
-  {
-   "source": "p113",
-   "target": "p013",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Tova Shore cosigned Fia Birch for gtm."
-  },
-  {
-   "source": "p115",
-   "target": "p008",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Bram Fjord cosigned Rhea Flint for security."
-  },
-  {
-   "source": "p115",
-   "target": "p072",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Bram Fjord cosigned Oren Ridge for recruiting."
-  },
-  {
-   "source": "p116",
-   "target": "p196",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Rhea Calder cosigned Nia Kestrel for data eng."
-  },
-  {
-   "source": "p116",
-   "target": "p131",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Rhea Calder cosigned Yara Ashby for frontend."
-  },
-  {
-   "source": "p116",
-   "target": "p215",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Rhea Calder cosigned Vik Jade for distributed systems."
-  },
-  {
-   "source": "p119",
-   "target": "p092",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Zev Loch cosigned Finn Ridge for robotics."
-  },
-  {
-   "source": "p120",
-   "target": "p138",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Zara Birch cosigned Lior Fjord for fundraising."
-  },
-  {
-   "source": "p120",
-   "target": "p112",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Zara Birch cosigned Idris Oak for agents."
-  },
-  {
-   "source": "p121",
-   "target": "p043",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Dev Moss cosigned Pia Jade for distributed systems."
-  },
-  {
-   "source": "p122",
-   "target": "p033",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Rhea Loch cosigned Elio North for product design."
-  },
-  {
-   "source": "p123",
-   "target": "p176",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Oren Pine cosigned Vida Kestrel for robotics."
-  },
-  {
-   "source": "p123",
-   "target": "p032",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Oren Pine cosigned Dev Knoll for product design."
-  },
-  {
-   "source": "p124",
-   "target": "p042",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Finn Oak cosigned Esme Pine for fintech."
-  },
-  {
-   "source": "p125",
-   "target": "p007",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Uma Shore cosigned Esme Calder for fundraising."
-  },
-  {
-   "source": "p125",
-   "target": "p149",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Uma Shore cosigned Finn Birch for security."
-  },
-  {
-   "source": "p126",
-   "target": "p061",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Dax Loch cosigned Reza Cove for growth."
-  },
-  {
-   "source": "p126",
-   "target": "p197",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Dax Loch cosigned Milo Dune for devtools."
-  },
-  {
-   "source": "p128",
-   "target": "p076",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Ada Shore cosigned Zara Brook for data eng."
-  },
-  {
-   "source": "p130",
-   "target": "p045",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Kael Ashby cosigned Vida North for recruiting."
-  },
-  {
-   "source": "p131",
-   "target": "p077",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Yara Ashby cosigned Tova Ashby for robotics."
-  },
-  {
-   "source": "p133",
-   "target": "p014",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Jory Ember cosigned Wes Loch for mobile."
-  },
-  {
-   "source": "p134",
-   "target": "p039",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Yara Vale cosigned Ulla Quarry for data eng."
-  },
-  {
-   "source": "p135",
-   "target": "p202",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Oren Shore cosigned Mira Oak for distributed systems."
-  },
-  {
-   "source": "p135",
-   "target": "p209",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Oren Shore cosigned Elio Zephyr for distributed systems."
-  },
-  {
-   "source": "p135",
-   "target": "p078",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Oren Shore cosigned Orla Heath for ai infra."
-  },
-  {
-   "source": "p136",
-   "target": "p018",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Kai Thorn cosigned Zara Wilde for backend."
-  },
-  {
-   "source": "p136",
-   "target": "p110",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Kai Thorn cosigned Cira Grove for backend."
-  },
-  {
-   "source": "p138",
-   "target": "p044",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Lior Fjord cosigned Hale Glen for growth."
-  },
-  {
-   "source": "p138",
-   "target": "p040",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Lior Fjord cosigned Reza Thorn for agents."
-  },
-  {
-   "source": "p139",
-   "target": "p130",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Reza Arbor cosigned Kael Ashby for frontend."
-  },
-  {
-   "source": "p140",
-   "target": "p019",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Esme Elm cosigned Vik Quarry for sales."
-  },
-  {
-   "source": "p141",
-   "target": "p068",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Tova Moss cosigned Pia Arbor for fundraising."
-  },
-  {
-   "source": "p142",
-   "target": "p117",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Wren Shore cosigned Lior Delta for agents."
-  },
-  {
-   "source": "p143",
-   "target": "p048",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Milo Heath cosigned Hale Ember for llm eval."
-  },
-  {
-   "source": "p143",
-   "target": "p020",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Milo Heath cosigned Gus Moss for fintech."
-  },
-  {
-   "source": "p144",
-   "target": "p219",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Mira Quarry cosigned Esme Jade for ai infra."
-  },
-  {
-   "source": "p145",
-   "target": "p064",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Cira Calder cosigned Cira Elm for agents."
-  },
-  {
-   "source": "p145",
-   "target": "p127",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Cira Calder cosigned Ines Ember for biotech."
-  },
-  {
-   "source": "p146",
-   "target": "p090",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Amara Lark cosigned Oren Flint for recruiting."
-  },
-  {
-   "source": "p147",
-   "target": "p089",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Kai Quarry cosigned Bodhi Zephyr for frontend."
-  },
-  {
-   "source": "p147",
-   "target": "p085",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Kai Quarry cosigned Dax Quarry for gtm."
-  },
-  {
-   "source": "p148",
-   "target": "p032",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Esme Juniper cosigned Dev Knoll for product design."
-  },
-  {
-   "source": "p148",
-   "target": "p155",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Esme Juniper cosigned Pax Zephyr for fintech."
-  },
-  {
-   "source": "p149",
-   "target": "p148",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Finn Birch cosigned Esme Juniper for fintech."
-  },
-  {
-   "source": "p150",
-   "target": "p002",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Wes Quarry cosigned Orla Ivory for mobile."
-  },
-  {
-   "source": "p152",
-   "target": "p064",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Amara Harbor cosigned Cira Elm for product design."
-  },
-  {
-   "source": "p153",
-   "target": "p201",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Pax Knoll cosigned Gus Zephyr for devtools."
-  },
-  {
-   "source": "p154",
-   "target": "p145",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Amara Glen cosigned Cira Calder for agents."
-  },
-  {
-   "source": "p154",
-   "target": "p073",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Amara Glen cosigned Esme Shore for agents."
-  },
-  {
-   "source": "p155",
-   "target": "p030",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Pax Zephyr cosigned Vida Glen for backend."
-  },
-  {
-   "source": "p156",
-   "target": "p098",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Rhea Moss cosigned Wren Delta for backend."
-  },
-  {
-   "source": "p157",
-   "target": "p121",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Oren Brook cosigned Dev Moss for frontend."
-  },
-  {
-   "source": "p158",
-   "target": "p172",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Esme Loch cosigned Jory Grove for security."
-  },
-  {
-   "source": "p159",
-   "target": "p211",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Milo Arbor cosigned Cira Yarrow for biotech."
-  },
-  {
-   "source": "p160",
-   "target": "p144",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Hale Brook cosigned Mira Quarry for ml ranking."
-  },
-  {
-   "source": "p162",
-   "target": "p074",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Cira Zephyr cosigned Jory Oak for growth."
-  },
-  {
-   "source": "p163",
-   "target": "p147",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Cleo Jade cosigned Kai Quarry for distributed systems."
-  },
-  {
-   "source": "p163",
-   "target": "p210",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Cleo Jade cosigned Rhea Elm for mobile."
-  },
-  {
-   "source": "p163",
-   "target": "p144",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Cleo Jade cosigned Mira Quarry for distributed systems."
-  },
-  {
-   "source": "p164",
-   "target": "p185",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Bodhi Glen cosigned Dax Zephyr for fundraising."
-  },
-  {
-   "source": "p164",
-   "target": "p212",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Bodhi Glen cosigned Pax Ashby for devtools."
-  },
-  {
-   "source": "p165",
-   "target": "p069",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Ines Ridge cosigned Teo Jade for distributed systems."
-  },
-  {
-   "source": "p165",
-   "target": "p100",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Ines Ridge cosigned Lior Moss for robotics."
-  },
-  {
-   "source": "p165",
-   "target": "p008",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Ines Ridge cosigned Rhea Flint for gtm."
-  },
-  {
-   "source": "p166",
-   "target": "p173",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Hana Shore cosigned Yuki Ridge for fintech."
-  },
-  {
-   "source": "p166",
-   "target": "p208",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Hana Shore cosigned Amara Kestrel for ml ranking."
-  },
-  {
-   "source": "p167",
-   "target": "p211",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Nico Delta cosigned Cira Yarrow for data eng."
-  },
-  {
-   "source": "p168",
-   "target": "p002",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Ulla Delta cosigned Orla Ivory for fintech."
-  },
-  {
-   "source": "p168",
-   "target": "p042",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Ulla Delta cosigned Esme Pine for fintech."
-  },
-  {
-   "source": "p170",
-   "target": "p092",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Dev Loch cosigned Finn Ridge for backend."
-  },
-  {
-   "source": "p171",
-   "target": "p180",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Dev Shore cosigned Dev Arbor for ml ranking."
-  },
-  {
-   "source": "p172",
-   "target": "p045",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Jory Grove cosigned Vida North for biotech."
-  },
-  {
-   "source": "p172",
-   "target": "p139",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Jory Grove cosigned Reza Arbor for sales."
-  },
-  {
-   "source": "p174",
-   "target": "p082",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Rhea Thorn cosigned Yuki Cove for ai infra."
-  },
-  {
-   "source": "p175",
-   "target": "p075",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Wes Brook cosigned Amara Wilde for growth."
-  },
-  {
-   "source": "p175",
-   "target": "p164",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Wes Brook cosigned Bodhi Glen for gtm."
-  },
-  {
-   "source": "p175",
-   "target": "p104",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Wes Brook cosigned Elio Elm for frontend."
-  },
-  {
-   "source": "p176",
-   "target": "p184",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Vida Kestrel cosigned Zev Cove for product design."
-  },
-  {
-   "source": "p177",
-   "target": "p103",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Kai Dune cosigned Teo Isle for sales."
-  },
-  {
-   "source": "p178",
-   "target": "p057",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Cira Cove cosigned Quin Calder for devtools."
-  },
-  {
-   "source": "p178",
-   "target": "p051",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Cira Cove cosigned Wes Juniper for gtm."
-  },
-  {
-   "source": "p179",
-   "target": "p158",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Soren Heath cosigned Esme Loch for fundraising."
-  },
-  {
-   "source": "p180",
-   "target": "p213",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Dev Arbor cosigned Uma Wilde for sales."
-  },
-  {
-   "source": "p181",
-   "target": "p158",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Hale Arbor cosigned Esme Loch for fundraising."
-  },
-  {
-   "source": "p181",
-   "target": "p029",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Hale Arbor cosigned Bodhi Cove for data eng."
-  },
-  {
-   "source": "p181",
-   "target": "p053",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Hale Arbor cosigned Kai Glen for fundraising."
-  },
-  {
-   "source": "p182",
-   "target": "p085",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Uma Oak cosigned Dax Quarry for gtm."
-  },
-  {
-   "source": "p183",
-   "target": "p043",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Cleo Delta cosigned Pia Jade for ml ranking."
-  },
-  {
-   "source": "p184",
-   "target": "p154",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Zev Cove cosigned Amara Glen for security."
-  },
-  {
-   "source": "p184",
-   "target": "p145",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Zev Cove cosigned Cira Calder for devtools."
-  },
-  {
-   "source": "p185",
-   "target": "p084",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Dax Zephyr cosigned Bram Juniper for distributed systems."
-  },
-  {
-   "source": "p186",
-   "target": "p146",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Tova Wilde cosigned Amara Lark for biotech."
-  },
-  {
-   "source": "p187",
-   "target": "p113",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Zara Yarrow cosigned Tova Shore for sales."
-  },
-  {
-   "source": "p189",
-   "target": "p215",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Fia Flint cosigned Vik Jade for distributed systems."
-  },
-  {
-   "source": "p190",
-   "target": "p127",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Ulla Juniper cosigned Ines Ember for devtools."
-  },
-  {
-   "source": "p190",
-   "target": "p132",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Ulla Juniper cosigned Gia Elm for ai infra."
-  },
-  {
-   "source": "p191",
-   "target": "p219",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Dev Yarrow cosigned Esme Jade for biotech."
-  },
-  {
-   "source": "p192",
-   "target": "p093",
-   "type": "cosigned_skill",
-   "year": 2017,
-   "reason": "Xan Shore cosigned Vida Brook for growth."
-  },
-  {
-   "source": "p192",
-   "target": "p191",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Xan Shore cosigned Dev Yarrow for llm eval."
-  },
-  {
-   "source": "p192",
-   "target": "p151",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Xan Shore cosigned Bram Loch for backend."
-  },
-  {
-   "source": "p193",
-   "target": "p126",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Wes Calder cosigned Dax Loch for gtm."
-  },
-  {
-   "source": "p193",
-   "target": "p196",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Wes Calder cosigned Nia Kestrel for mobile."
-  },
-  {
-   "source": "p194",
-   "target": "p084",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Jory Dune cosigned Bram Juniper for distributed systems."
-  },
-  {
-   "source": "p194",
-   "target": "p001",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Jory Dune cosigned Gia Knoll for agents."
-  },
-  {
-   "source": "p197",
-   "target": "p131",
-   "type": "cosigned_skill",
-   "year": 2016,
-   "reason": "Milo Dune cosigned Yara Ashby for ml ranking."
-  },
-  {
-   "source": "p198",
-   "target": "p100",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Sana Ashby cosigned Lior Moss for robotics."
-  },
-  {
-   "source": "p201",
-   "target": "p005",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Gus Zephyr cosigned Wren Yarrow for distributed systems."
-  },
-  {
-   "source": "p201",
-   "target": "p028",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Gus Zephyr cosigned Pax Grove for mobile."
-  },
-  {
-   "source": "p202",
-   "target": "p169",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Mira Oak cosigned Finn Fjord for security."
-  },
-  {
-   "source": "p204",
-   "target": "p091",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Yara Juniper cosigned Idris Grove for devtools."
-  },
-  {
-   "source": "p204",
-   "target": "p171",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Yara Juniper cosigned Dev Shore for robotics."
-  },
-  {
-   "source": "p205",
-   "target": "p071",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Amara Zephyr cosigned Juno Elm for recruiting."
-  },
-  {
-   "source": "p205",
-   "target": "p032",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Amara Zephyr cosigned Dev Knoll for fundraising."
-  },
-  {
-   "source": "p206",
-   "target": "p202",
-   "type": "cosigned_skill",
-   "year": 2026,
-   "reason": "Cira Oak cosigned Mira Oak for sales."
-  },
-  {
-   "source": "p206",
-   "target": "p125",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Cira Oak cosigned Uma Shore for frontend."
-  },
-  {
-   "source": "p207",
-   "target": "p218",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Sana Elm cosigned Ada Yarrow for biotech."
-  },
-  {
-   "source": "p208",
-   "target": "p201",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Amara Kestrel cosigned Gus Zephyr for growth."
-  },
-  {
-   "source": "p209",
-   "target": "p078",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Elio Zephyr cosigned Orla Heath for data eng."
-  },
-  {
-   "source": "p209",
-   "target": "p146",
-   "type": "cosigned_skill",
-   "year": 2018,
-   "reason": "Elio Zephyr cosigned Amara Lark for robotics."
-  },
-  {
-   "source": "p211",
-   "target": "p176",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Cira Yarrow cosigned Vida Kestrel for agents."
-  },
-  {
-   "source": "p211",
-   "target": "p156",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Cira Yarrow cosigned Rhea Moss for agents."
-  },
-  {
-   "source": "p212",
-   "target": "p081",
-   "type": "cosigned_skill",
-   "year": 2020,
-   "reason": "Pax Ashby cosigned Quin Ashby for devtools."
-  },
-  {
-   "source": "p213",
-   "target": "p043",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Uma Wilde cosigned Pia Jade for ml ranking."
-  },
-  {
-   "source": "p214",
-   "target": "p108",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Cira Arbor cosigned Kael Dune for growth."
-  },
-  {
-   "source": "p215",
-   "target": "p151",
-   "type": "cosigned_skill",
-   "year": 2019,
-   "reason": "Vik Jade cosigned Bram Loch for backend."
-  },
-  {
-   "source": "p216",
-   "target": "p070",
-   "type": "cosigned_skill",
-   "year": 2024,
-   "reason": "Pax Cove cosigned Dax Jade for biotech."
-  },
-  {
-   "source": "p217",
-   "target": "p198",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Idris Brook cosigned Sana Ashby for ml ranking."
-  },
-  {
-   "source": "p218",
-   "target": "p038",
-   "type": "cosigned_skill",
-   "year": 2022,
-   "reason": "Ada Yarrow cosigned Pax Calder for robotics."
-  },
-  {
-   "source": "p218",
-   "target": "p216",
-   "type": "cosigned_skill",
-   "year": 2025,
-   "reason": "Ada Yarrow cosigned Pax Cove for frontend."
-  },
-  {
-   "source": "p219",
-   "target": "p065",
-   "type": "cosigned_skill",
-   "year": 2021,
-   "reason": "Esme Jade cosigned Gus Wilde for gtm."
-  },
-  {
-   "source": "p219",
-   "target": "p205",
-   "type": "cosigned_skill",
-   "year": 2023,
-   "reason": "Esme Jade cosigned Amara Zephyr for sales."
-  },
-  {
    "source": "p002",
-   "target": "c036",
-   "type": "invested_in",
-   "year": 2016,
-   "reason": "Orla Ivory invested in Nimbus Security (growth)."
-  },
-  {
-   "source": "p002",
-   "target": "p132",
-   "type": "mentored",
-   "year": 2026,
-   "reason": "Orla Ivory mentored Gia Elm through an accelerator cohort."
-  },
-  {
-   "source": "p002",
-   "target": "c008",
-   "type": "invested_in",
-   "year": 2021,
-   "reason": "Orla Ivory invested in Quill Data (series b)."
-  },
-  {
-   "source": "p002",
-   "target": "p102",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Orla Ivory mentored Ada Knoll through an accelerator cohort."
-  },
-  {
-   "source": "p002",
-   "target": "p152",
-   "type": "mentored",
-   "year": 2026,
-   "reason": "Orla Ivory mentored Amara Harbor through an accelerator cohort."
-  },
-  {
-   "source": "p002",
-   "target": "c019",
-   "type": "invested_in",
-   "year": 2024,
-   "reason": "Orla Ivory invested in Orbit Data (series a)."
-  },
-  {
-   "source": "p002",
-   "target": "p043",
-   "type": "mentored",
-   "year": 2021,
-   "reason": "Orla Ivory mentored Pia Jade through an accelerator cohort."
-  },
-  {
-   "source": "p002",
-   "target": "p119",
-   "type": "mentored",
-   "year": 2025,
-   "reason": "Orla Ivory mentored Zev Loch through an accelerator cohort."
-  },
-  {
-   "source": "p005",
-   "target": "c009",
-   "type": "invested_in",
-   "year": 2026,
-   "reason": "Wren Yarrow invested in Tandem Systems (series b)."
-  },
-  {
-   "source": "p005",
-   "target": "p057",
-   "type": "mentored",
-   "year": 2025,
-   "reason": "Wren Yarrow mentored Quin Calder through an accelerator cohort."
-  },
-  {
-   "source": "p005",
-   "target": "p175",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Wren Yarrow mentored Wes Brook through an accelerator cohort."
-  },
-  {
-   "source": "p005",
-   "target": "c021",
-   "type": "invested_in",
-   "year": 2019,
-   "reason": "Wren Yarrow invested in Signal Robotics (series b)."
-  },
-  {
-   "source": "p005",
-   "target": "c036",
-   "type": "invested_in",
-   "year": 2017,
-   "reason": "Wren Yarrow invested in Nimbus Security (growth)."
-  },
-  {
-   "source": "p005",
-   "target": "p132",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Wren Yarrow mentored Gia Elm through an accelerator cohort."
-  },
-  {
-   "source": "p008",
-   "target": "c006",
-   "type": "invested_in",
-   "year": 2017,
-   "reason": "Rhea Flint invested in Orbit Finance (series b)."
-  },
-  {
-   "source": "p008",
-   "target": "c021",
-   "type": "invested_in",
-   "year": 2017,
-   "reason": "Rhea Flint invested in Signal Robotics (series b)."
-  },
-  {
-   "source": "p008",
-   "target": "c036",
-   "type": "invested_in",
-   "year": 2016,
-   "reason": "Rhea Flint invested in Nimbus Security (growth)."
-  },
-  {
-   "source": "p008",
-   "target": "p132",
-   "type": "mentored",
-   "year": 2016,
-   "reason": "Rhea Flint mentored Gia Elm through an accelerator cohort."
-  },
-  {
-   "source": "p008",
-   "target": "c028",
-   "type": "invested_in",
-   "year": 2019,
-   "reason": "Rhea Flint invested in Atlas Security (pre-seed)."
-  },
-  {
-   "source": "p008",
-   "target": "p137",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Rhea Flint mentored Xan Delta through an accelerator cohort."
-  },
-  {
-   "source": "p008",
-   "target": "c019",
-   "type": "invested_in",
-   "year": 2019,
-   "reason": "Rhea Flint invested in Orbit Data (series a)."
-  },
-  {
-   "source": "p008",
-   "target": "p043",
-   "type": "mentored",
-   "year": 2020,
-   "reason": "Rhea Flint mentored Pia Jade through an accelerator cohort."
-  },
-  {
-   "source": "p008",
-   "target": "p119",
-   "type": "mentored",
-   "year": 2023,
-   "reason": "Rhea Flint mentored Zev Loch through an accelerator cohort."
-  },
-  {
-   "source": "p037",
-   "target": "c033",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Lior Ember invested in Nimbus Data (seed)."
-  },
-  {
-   "source": "p037",
-   "target": "c000",
-   "type": "invested_in",
-   "year": 2018,
-   "reason": "Lior Ember invested in Prism Labs (series b)."
-  },
-  {
-   "source": "p037",
-   "target": "c010",
-   "type": "invested_in",
-   "year": 2018,
-   "reason": "Lior Ember invested in Signal AI (series b)."
-  },
-  {
-   "source": "p037",
-   "target": "p089",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Lior Ember mentored Bodhi Zephyr through an accelerator cohort."
-  },
-  {
-   "source": "p037",
-   "target": "c020",
-   "type": "invested_in",
-   "year": 2017,
-   "reason": "Lior Ember invested in Nimbus Bio (growth)."
-  },
-  {
-   "source": "p038",
-   "target": "c008",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Pax Calder invested in Quill Data (series b)."
-  },
-  {
-   "source": "p038",
-   "target": "p102",
-   "type": "mentored",
-   "year": 2018,
-   "reason": "Pax Calder mentored Ada Knoll through an accelerator cohort."
-  },
-  {
-   "source": "p038",
-   "target": "p152",
-   "type": "mentored",
-   "year": 2025,
-   "reason": "Pax Calder mentored Amara Harbor through an accelerator cohort."
-  },
-  {
-   "source": "p038",
-   "target": "c013",
-   "type": "invested_in",
-   "year": 2024,
-   "reason": "Pax Calder invested in Beacon Data (series b)."
-  },
-  {
-   "source": "p038",
-   "target": "p169",
-   "type": "mentored",
-   "year": 2020,
-   "reason": "Pax Calder mentored Finn Fjord through an accelerator cohort."
-  },
-  {
-   "source": "p038",
-   "target": "c019",
-   "type": "invested_in",
-   "year": 2016,
-   "reason": "Pax Calder invested in Orbit Data (series a)."
-  },
-  {
-   "source": "p038",
-   "target": "p043",
-   "type": "mentored",
-   "year": 2023,
-   "reason": "Pax Calder mentored Pia Jade through an accelerator cohort."
-  },
-  {
-   "source": "p038",
-   "target": "p119",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Pax Calder mentored Zev Loch through an accelerator cohort."
-  },
-  {
-   "source": "p060",
-   "target": "c036",
-   "type": "invested_in",
-   "year": 2017,
-   "reason": "Reza Wilde invested in Nimbus Security (growth)."
-  },
-  {
-   "source": "p060",
-   "target": "p132",
-   "type": "mentored",
-   "year": 2026,
-   "reason": "Reza Wilde mentored Gia Elm through an accelerator cohort."
-  },
-  {
-   "source": "p060",
-   "target": "c031",
-   "type": "invested_in",
-   "year": 2021,
-   "reason": "Reza Wilde invested in Verge Systems (growth)."
-  },
-  {
-   "source": "p060",
-   "target": "c029",
-   "type": "invested_in",
-   "year": 2020,
-   "reason": "Reza Wilde invested in Prism Finance (series b)."
-  },
-  {
-   "source": "p060",
-   "target": "p105",
-   "type": "mentored",
-   "year": 2025,
-   "reason": "Reza Wilde mentored Zev Heath through an accelerator cohort."
-  },
-  {
-   "source": "p060",
-   "target": "p119",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Reza Wilde mentored Zev Loch through an accelerator cohort."
-  },
-  {
-   "source": "p060",
    "target": "c002",
    "type": "invested_in",
-   "year": 2018,
-   "reason": "Reza Wilde invested in Quill Security (series a)."
+   "year": 2024,
+   "reason": "Orla Ivory invested in Nimbus Robotics (pre-seed)."
   },
   {
-   "source": "p086",
-   "target": "c029",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Tova Glen invested in Prism Finance (series b)."
-  },
-  {
-   "source": "p086",
-   "target": "p105",
+   "source": "p002",
+   "target": "p026",
    "type": "mentored",
-   "year": 2016,
-   "reason": "Tova Glen mentored Zev Heath through an accelerator cohort."
+   "year": 2025,
+   "reason": "Orla Ivory mentored Orla Oak through an accelerator cohort."
   },
   {
-   "source": "p086",
-   "target": "p119",
-   "type": "mentored",
-   "year": 2018,
-   "reason": "Tova Glen mentored Zev Loch through an accelerator cohort."
-  },
-  {
-   "source": "p086",
-   "target": "c024",
-   "type": "invested_in",
-   "year": 2026,
-   "reason": "Tova Glen invested in Verge Infra (pre-seed)."
-  },
-  {
-   "source": "p086",
-   "target": "c011",
-   "type": "invested_in",
-   "year": 2020,
-   "reason": "Tova Glen invested in Nimbus Finance (series a)."
-  },
-  {
-   "source": "p086",
+   "source": "p002",
    "target": "p095",
    "type": "mentored",
-   "year": 2017,
-   "reason": "Tova Glen mentored Hana Moss through an accelerator cohort."
+   "year": 2025,
+   "reason": "Orla Ivory mentored Hana Moss through an accelerator cohort."
   },
   {
-   "source": "p086",
-   "target": "c036",
-   "type": "invested_in",
-   "year": 2019,
-   "reason": "Tova Glen invested in Nimbus Security (growth)."
-  },
-  {
-   "source": "p086",
-   "target": "p132",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Tova Glen mentored Gia Elm through an accelerator cohort."
-  },
-  {
-   "source": "p086",
-   "target": "c006",
-   "type": "invested_in",
-   "year": 2017,
-   "reason": "Tova Glen invested in Orbit Finance (series b)."
-  },
-  {
-   "source": "p087",
-   "target": "c006",
-   "type": "invested_in",
-   "year": 2021,
-   "reason": "Mira Ember invested in Orbit Finance (series b)."
-  },
-  {
-   "source": "p087",
-   "target": "c032",
-   "type": "invested_in",
-   "year": 2023,
-   "reason": "Mira Ember invested in Cinder Finance (pre-seed)."
-  },
-  {
-   "source": "p103",
-   "target": "c013",
+   "source": "p002",
+   "target": "c000",
    "type": "invested_in",
    "year": 2016,
-   "reason": "Teo Isle invested in Beacon Data (series b)."
+   "reason": "Orla Ivory invested in Nimbus Health (seed)."
   },
   {
-   "source": "p103",
-   "target": "p169",
+   "source": "p002",
+   "target": "p018",
    "type": "mentored",
-   "year": 2026,
-   "reason": "Teo Isle mentored Finn Fjord through an accelerator cohort."
+   "year": 2024,
+   "reason": "Orla Ivory mentored Zara Wilde through an accelerator cohort."
   },
   {
-   "source": "p103",
-   "target": "c032",
+   "source": "p005",
+   "target": "c011",
    "type": "invested_in",
-   "year": 2026,
-   "reason": "Teo Isle invested in Cinder Finance (pre-seed)."
+   "year": 2025,
+   "reason": "Wren Yarrow invested in Forge Robotics (pre-seed)."
   },
   {
-   "source": "p103",
-   "target": "c002",
+   "source": "p005",
+   "target": "c012",
    "type": "invested_in",
+   "year": 2020,
+   "reason": "Wren Yarrow invested in Harbor Systems (pre-seed)."
+  },
+  {
+   "source": "p005",
+   "target": "p041",
+   "type": "mentored",
    "year": 2023,
-   "reason": "Teo Isle invested in Quill Security (series a)."
+   "reason": "Wren Yarrow mentored Kael Glen through an accelerator cohort."
   },
   {
-   "source": "p103",
-   "target": "c029",
+   "source": "p005",
+   "target": "p066",
+   "type": "mentored",
+   "year": 2024,
+   "reason": "Wren Yarrow mentored Jory Brook through an accelerator cohort."
+  },
+  {
+   "source": "p005",
+   "target": "c007",
    "type": "invested_in",
-   "year": 2021,
-   "reason": "Teo Isle invested in Prism Finance (series b)."
-  },
-  {
-   "source": "p103",
-   "target": "p105",
-   "type": "mentored",
    "year": 2022,
-   "reason": "Teo Isle mentored Zev Heath through an accelerator cohort."
+   "reason": "Wren Yarrow invested in Vector Systems (seed)."
   },
   {
-   "source": "p103",
-   "target": "p119",
+   "source": "p005",
+   "target": "p026",
    "type": "mentored",
-   "year": 2022,
-   "reason": "Teo Isle mentored Zev Loch through an accelerator cohort."
+   "year": 2024,
+   "reason": "Wren Yarrow mentored Orla Oak through an accelerator cohort."
   },
   {
-   "source": "p108",
+   "source": "p005",
+   "target": "p043",
+   "type": "mentored",
+   "year": 2026,
+   "reason": "Wren Yarrow mentored Pia Jade through an accelerator cohort."
+  },
+  {
+   "source": "p008",
    "target": "c016",
    "type": "invested_in",
    "year": 2018,
-   "reason": "Kael Dune invested in Atlas AI (seed)."
+   "reason": "Rhea Flint invested in Atlas Robotics (seed)."
   },
   {
-   "source": "p108",
-   "target": "p066",
-   "type": "mentored",
-   "year": 2026,
-   "reason": "Kael Dune mentored Jory Brook through an accelerator cohort."
-  },
-  {
-   "source": "p108",
-   "target": "c007",
-   "type": "invested_in",
-   "year": 2023,
-   "reason": "Kael Dune invested in Forge Robotics (series a)."
-  },
-  {
-   "source": "p108",
-   "target": "p153",
-   "type": "mentored",
-   "year": 2023,
-   "reason": "Kael Dune mentored Pax Knoll through an accelerator cohort."
-  },
-  {
-   "source": "p108",
-   "target": "p201",
-   "type": "mentored",
-   "year": 2017,
-   "reason": "Kael Dune mentored Gus Zephyr through an accelerator cohort."
-  },
-  {
-   "source": "p112",
-   "target": "c028",
-   "type": "invested_in",
-   "year": 2020,
-   "reason": "Idris Oak invested in Atlas Security (pre-seed)."
-  },
-  {
-   "source": "p112",
-   "target": "p137",
-   "type": "mentored",
-   "year": 2018,
-   "reason": "Idris Oak mentored Xan Delta through an accelerator cohort."
-  },
-  {
-   "source": "p112",
-   "target": "c008",
-   "type": "invested_in",
-   "year": 2025,
-   "reason": "Idris Oak invested in Quill Data (series b)."
-  },
-  {
-   "source": "p112",
-   "target": "p102",
-   "type": "mentored",
-   "year": 2018,
-   "reason": "Idris Oak mentored Ada Knoll through an accelerator cohort."
-  },
-  {
-   "source": "p112",
-   "target": "p152",
-   "type": "mentored",
-   "year": 2017,
-   "reason": "Idris Oak mentored Amara Harbor through an accelerator cohort."
-  },
-  {
-   "source": "p112",
-   "target": "c030",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Idris Oak invested in Atlas Data (pre-seed)."
-  },
-  {
-   "source": "p112",
-   "target": "p201",
-   "type": "mentored",
-   "year": 2017,
-   "reason": "Idris Oak mentored Gus Zephyr through an accelerator cohort."
-  },
-  {
-   "source": "p117",
-   "target": "c017",
-   "type": "invested_in",
-   "year": 2023,
-   "reason": "Lior Delta invested in Vector Security (seed)."
-  },
-  {
-   "source": "p117",
-   "target": "c009",
-   "type": "invested_in",
-   "year": 2018,
-   "reason": "Lior Delta invested in Tandem Systems (series b)."
-  },
-  {
-   "source": "p117",
-   "target": "p057",
-   "type": "mentored",
-   "year": 2016,
-   "reason": "Lior Delta mentored Quin Calder through an accelerator cohort."
-  },
-  {
-   "source": "p117",
-   "target": "p175",
-   "type": "mentored",
-   "year": 2023,
-   "reason": "Lior Delta mentored Wes Brook through an accelerator cohort."
-  },
-  {
-   "source": "p129",
-   "target": "c024",
-   "type": "invested_in",
-   "year": 2023,
-   "reason": "Wren Wilde invested in Verge Infra (pre-seed)."
-  },
-  {
-   "source": "p129",
-   "target": "c019",
-   "type": "invested_in",
-   "year": 2025,
-   "reason": "Wren Wilde invested in Orbit Data (series a)."
-  },
-  {
-   "source": "p129",
-   "target": "p043",
-   "type": "mentored",
-   "year": 2016,
-   "reason": "Wren Wilde mentored Pia Jade through an accelerator cohort."
-  },
-  {
-   "source": "p129",
-   "target": "p119",
-   "type": "mentored",
-   "year": 2019,
-   "reason": "Wren Wilde mentored Zev Loch through an accelerator cohort."
-  },
-  {
-   "source": "p134",
-   "target": "c015",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Yara Vale invested in Nimbus Labs (seed)."
-  },
-  {
-   "source": "p134",
-   "target": "c012",
-   "type": "invested_in",
-   "year": 2016,
-   "reason": "Yara Vale invested in Meridian Robotics (series b)."
-  },
-  {
-   "source": "p134",
-   "target": "p132",
-   "type": "mentored",
-   "year": 2019,
-   "reason": "Yara Vale mentored Gia Elm through an accelerator cohort."
-  },
-  {
-   "source": "p134",
-   "target": "p161",
-   "type": "mentored",
-   "year": 2026,
-   "reason": "Yara Vale mentored Quin Dune through an accelerator cohort."
-  },
-  {
-   "source": "p134",
-   "target": "c005",
-   "type": "invested_in",
-   "year": 2019,
-   "reason": "Yara Vale invested in Forge Labs (seed)."
-  },
-  {
-   "source": "p134",
-   "target": "p018",
-   "type": "mentored",
-   "year": 2026,
-   "reason": "Yara Vale mentored Zara Wilde through an accelerator cohort."
-  },
-  {
-   "source": "p134",
-   "target": "p192",
-   "type": "mentored",
-   "year": 2018,
-   "reason": "Yara Vale mentored Xan Shore through an accelerator cohort."
-  },
-  {
-   "source": "p134",
-   "target": "c001",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Yara Vale invested in Lumen Data (pre-seed)."
-  },
-  {
-   "source": "p134",
-   "target": "p049",
-   "type": "mentored",
-   "year": 2017,
-   "reason": "Yara Vale mentored Lena Loch through an accelerator cohort."
-  },
-  {
-   "source": "p138",
-   "target": "c035",
-   "type": "invested_in",
-   "year": 2024,
-   "reason": "Lior Fjord invested in Meridian Security (growth)."
-  },
-  {
-   "source": "p138",
-   "target": "p080",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Lior Fjord mentored Lena Brook through an accelerator cohort."
-  },
-  {
-   "source": "p138",
-   "target": "p126",
-   "type": "mentored",
-   "year": 2019,
-   "reason": "Lior Fjord mentored Dax Loch through an accelerator cohort."
-  },
-  {
-   "source": "p138",
-   "target": "c012",
-   "type": "invested_in",
-   "year": 2017,
-   "reason": "Lior Fjord invested in Meridian Robotics (series b)."
-  },
-  {
-   "source": "p138",
-   "target": "p132",
-   "type": "mentored",
-   "year": 2021,
-   "reason": "Lior Fjord mentored Gia Elm through an accelerator cohort."
-  },
-  {
-   "source": "p138",
-   "target": "p161",
-   "type": "mentored",
-   "year": 2016,
-   "reason": "Lior Fjord mentored Quin Dune through an accelerator cohort."
-  },
-  {
-   "source": "p138",
-   "target": "c039",
-   "type": "invested_in",
-   "year": 2026,
-   "reason": "Lior Fjord invested in Lumen Bio (growth)."
-  },
-  {
-   "source": "p138",
-   "target": "p041",
-   "type": "mentored",
-   "year": 2016,
-   "reason": "Lior Fjord mentored Kael Glen through an accelerator cohort."
-  },
-  {
-   "source": "p138",
-   "target": "p066",
-   "type": "mentored",
-   "year": 2019,
-   "reason": "Lior Fjord mentored Jory Brook through an accelerator cohort."
-  },
-  {
-   "source": "p138",
-   "target": "c013",
-   "type": "invested_in",
-   "year": 2019,
-   "reason": "Lior Fjord invested in Beacon Data (series b)."
-  },
-  {
-   "source": "p138",
-   "target": "p169",
-   "type": "mentored",
-   "year": 2026,
-   "reason": "Lior Fjord mentored Finn Fjord through an accelerator cohort."
-  },
-  {
-   "source": "p145",
-   "target": "c002",
-   "type": "invested_in",
-   "year": 2020,
-   "reason": "Cira Calder invested in Quill Security (series a)."
-  },
-  {
-   "source": "p145",
+   "source": "p008",
    "target": "c004",
    "type": "invested_in",
-   "year": 2023,
-   "reason": "Cira Calder invested in Nimbus Systems (pre-seed)."
-  },
-  {
-   "source": "p145",
-   "target": "p001",
-   "type": "mentored",
-   "year": 2024,
-   "reason": "Cira Calder mentored Gia Knoll through an accelerator cohort."
-  },
-  {
-   "source": "p145",
-   "target": "c013",
-   "type": "invested_in",
-   "year": 2018,
-   "reason": "Cira Calder invested in Beacon Data (series b)."
-  },
-  {
-   "source": "p145",
-   "target": "p169",
-   "type": "mentored",
-   "year": 2017,
-   "reason": "Cira Calder mentored Finn Fjord through an accelerator cohort."
-  },
-  {
-   "source": "p145",
-   "target": "c026",
-   "type": "invested_in",
-   "year": 2021,
-   "reason": "Cira Calder invested in Quill Health (seed)."
-  },
-  {
-   "source": "p145",
-   "target": "p089",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Cira Calder mentored Bodhi Zephyr through an accelerator cohort."
-  },
-  {
-   "source": "p145",
-   "target": "p095",
-   "type": "mentored",
-   "year": 2018,
-   "reason": "Cira Calder mentored Hana Moss through an accelerator cohort."
-  },
-  {
-   "source": "p150",
-   "target": "c020",
-   "type": "invested_in",
-   "year": 2021,
-   "reason": "Wes Quarry invested in Nimbus Bio (growth)."
-  },
-  {
-   "source": "p150",
-   "target": "c030",
-   "type": "invested_in",
    "year": 2025,
-   "reason": "Wes Quarry invested in Atlas Data (pre-seed)."
+   "reason": "Rhea Flint invested in Prism AI (pre-seed)."
   },
   {
-   "source": "p150",
-   "target": "p201",
-   "type": "mentored",
-   "year": 2023,
-   "reason": "Wes Quarry mentored Gus Zephyr through an accelerator cohort."
-  },
-  {
-   "source": "p150",
-   "target": "c004",
-   "type": "invested_in",
-   "year": 2024,
-   "reason": "Wes Quarry invested in Nimbus Systems (pre-seed)."
-  },
-  {
-   "source": "p150",
-   "target": "p001",
-   "type": "mentored",
-   "year": 2019,
-   "reason": "Wes Quarry mentored Gia Knoll through an accelerator cohort."
-  },
-  {
-   "source": "p165",
-   "target": "c014",
-   "type": "invested_in",
-   "year": 2025,
-   "reason": "Ines Ridge invested in Cinder Robotics (pre-seed)."
-  },
-  {
-   "source": "p165",
-   "target": "p185",
-   "type": "mentored",
-   "year": 2020,
-   "reason": "Ines Ridge mentored Dax Zephyr through an accelerator cohort."
-  },
-  {
-   "source": "p165",
-   "target": "c001",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Ines Ridge invested in Lumen Data (pre-seed)."
-  },
-  {
-   "source": "p165",
-   "target": "p049",
-   "type": "mentored",
-   "year": 2025,
-   "reason": "Ines Ridge mentored Lena Loch through an accelerator cohort."
-  },
-  {
-   "source": "p170",
-   "target": "c008",
-   "type": "invested_in",
-   "year": 2023,
-   "reason": "Dev Loch invested in Quill Data (series b)."
-  },
-  {
-   "source": "p170",
-   "target": "p102",
-   "type": "mentored",
-   "year": 2019,
-   "reason": "Dev Loch mentored Ada Knoll through an accelerator cohort."
-  },
-  {
-   "source": "p170",
-   "target": "p152",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Dev Loch mentored Amara Harbor through an accelerator cohort."
-  },
-  {
-   "source": "p170",
-   "target": "c023",
-   "type": "invested_in",
-   "year": 2026,
-   "reason": "Dev Loch invested in Nimbus Infra (series b)."
-  },
-  {
-   "source": "p170",
-   "target": "p026",
-   "type": "mentored",
-   "year": 2019,
-   "reason": "Dev Loch mentored Orla Oak through an accelerator cohort."
-  },
-  {
-   "source": "p170",
-   "target": "p122",
-   "type": "mentored",
-   "year": 2025,
-   "reason": "Dev Loch mentored Rhea Loch through an accelerator cohort."
-  },
-  {
-   "source": "p171",
-   "target": "c008",
-   "type": "invested_in",
-   "year": 2024,
-   "reason": "Dev Shore invested in Quill Data (series b)."
-  },
-  {
-   "source": "p171",
-   "target": "p102",
-   "type": "mentored",
-   "year": 2026,
-   "reason": "Dev Shore mentored Ada Knoll through an accelerator cohort."
-  },
-  {
-   "source": "p171",
-   "target": "p152",
-   "type": "mentored",
-   "year": 2016,
-   "reason": "Dev Shore mentored Amara Harbor through an accelerator cohort."
-  },
-  {
-   "source": "p171",
-   "target": "c017",
-   "type": "invested_in",
-   "year": 2021,
-   "reason": "Dev Shore invested in Vector Security (seed)."
-  },
-  {
-   "source": "p171",
-   "target": "c020",
-   "type": "invested_in",
-   "year": 2019,
-   "reason": "Dev Shore invested in Nimbus Bio (growth)."
-  },
-  {
-   "source": "p171",
-   "target": "c002",
-   "type": "invested_in",
-   "year": 2024,
-   "reason": "Dev Shore invested in Quill Security (series a)."
-  },
-  {
-   "source": "p173",
-   "target": "c014",
-   "type": "invested_in",
-   "year": 2024,
-   "reason": "Yuki Ridge invested in Cinder Robotics (pre-seed)."
-  },
-  {
-   "source": "p173",
-   "target": "p185",
-   "type": "mentored",
-   "year": 2018,
-   "reason": "Yuki Ridge mentored Dax Zephyr through an accelerator cohort."
-  },
-  {
-   "source": "p173",
-   "target": "c038",
-   "type": "invested_in",
-   "year": 2026,
-   "reason": "Yuki Ridge invested in Signal Works (seed)."
-  },
-  {
-   "source": "p173",
+   "source": "p008",
    "target": "p022",
    "type": "mentored",
-   "year": 2017,
-   "reason": "Yuki Ridge mentored Kael Fjord through an accelerator cohort."
+   "year": 2023,
+   "reason": "Rhea Flint mentored Kael Fjord through an accelerator cohort."
   },
   {
-   "source": "p173",
-   "target": "p049",
-   "type": "mentored",
-   "year": 2017,
-   "reason": "Yuki Ridge mentored Lena Loch through an accelerator cohort."
-  },
-  {
-   "source": "p173",
-   "target": "c024",
+   "source": "p008",
+   "target": "c014",
    "type": "invested_in",
    "year": 2016,
-   "reason": "Yuki Ridge invested in Verge Infra (pre-seed)."
+   "reason": "Rhea Flint invested in Meridian Infra (series b)."
   },
   {
-   "source": "p209",
-   "target": "c013",
-   "type": "invested_in",
-   "year": 2018,
-   "reason": "Elio Zephyr invested in Beacon Data (series b)."
-  },
-  {
-   "source": "p209",
-   "target": "p169",
-   "type": "mentored",
-   "year": 2019,
-   "reason": "Elio Zephyr mentored Finn Fjord through an accelerator cohort."
-  },
-  {
-   "source": "p209",
-   "target": "c008",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Elio Zephyr invested in Quill Data (series b)."
-  },
-  {
-   "source": "p209",
-   "target": "p102",
-   "type": "mentored",
-   "year": 2020,
-   "reason": "Elio Zephyr mentored Ada Knoll through an accelerator cohort."
-  },
-  {
-   "source": "p209",
-   "target": "p152",
-   "type": "mentored",
-   "year": 2019,
-   "reason": "Elio Zephyr mentored Amara Harbor through an accelerator cohort."
-  },
-  {
-   "source": "p209",
-   "target": "c005",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Elio Zephyr invested in Forge Labs (seed)."
-  },
-  {
-   "source": "p209",
+   "source": "p008",
    "target": "p018",
    "type": "mentored",
-   "year": 2025,
-   "reason": "Elio Zephyr mentored Zara Wilde through an accelerator cohort."
-  },
-  {
-   "source": "p209",
-   "target": "p192",
-   "type": "mentored",
-   "year": 2020,
-   "reason": "Elio Zephyr mentored Xan Shore through an accelerator cohort."
-  },
-  {
-   "source": "p216",
-   "target": "c012",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Pax Cove invested in Meridian Robotics (series b)."
-  },
-  {
-   "source": "p216",
-   "target": "p132",
-   "type": "mentored",
-   "year": 2018,
-   "reason": "Pax Cove mentored Gia Elm through an accelerator cohort."
-  },
-  {
-   "source": "p216",
-   "target": "p161",
-   "type": "mentored",
    "year": 2023,
-   "reason": "Pax Cove mentored Quin Dune through an accelerator cohort."
-  },
-  {
-   "source": "p216",
-   "target": "c017",
-   "type": "invested_in",
-   "year": 2024,
-   "reason": "Pax Cove invested in Vector Security (seed)."
-  },
-  {
-   "source": "p216",
-   "target": "c030",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Pax Cove invested in Atlas Data (pre-seed)."
-  },
-  {
-   "source": "p216",
-   "target": "p201",
-   "type": "mentored",
-   "year": 2023,
-   "reason": "Pax Cove mentored Gus Zephyr through an accelerator cohort."
-  },
-  {
-   "source": "p216",
-   "target": "c005",
-   "type": "invested_in",
-   "year": 2022,
-   "reason": "Pax Cove invested in Forge Labs (seed)."
-  },
-  {
-   "source": "p216",
-   "target": "p018",
-   "type": "mentored",
-   "year": 2017,
-   "reason": "Pax Cove mentored Zara Wilde through an accelerator cohort."
-  },
-  {
-   "source": "p216",
-   "target": "p192",
-   "type": "mentored",
-   "year": 2025,
-   "reason": "Pax Cove mentored Xan Shore through an accelerator cohort."
-  },
-  {
-   "source": "p216",
-   "target": "c023",
-   "type": "invested_in",
-   "year": 2018,
-   "reason": "Pax Cove invested in Nimbus Infra (series b)."
-  },
-  {
-   "source": "p216",
-   "target": "p026",
-   "type": "mentored",
-   "year": 2018,
-   "reason": "Pax Cove mentored Orla Oak through an accelerator cohort."
-  },
-  {
-   "source": "p216",
-   "target": "p122",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Pax Cove mentored Rhea Loch through an accelerator cohort."
-  },
-  {
-   "source": "p217",
-   "target": "c029",
-   "type": "invested_in",
-   "year": 2025,
-   "reason": "Idris Brook invested in Prism Finance (series b)."
-  },
-  {
-   "source": "p217",
-   "target": "p105",
-   "type": "mentored",
-   "year": 2017,
-   "reason": "Idris Brook mentored Zev Heath through an accelerator cohort."
-  },
-  {
-   "source": "p217",
-   "target": "p119",
-   "type": "mentored",
-   "year": 2018,
-   "reason": "Idris Brook mentored Zev Loch through an accelerator cohort."
-  },
-  {
-   "source": "p217",
-   "target": "c018",
-   "type": "invested_in",
-   "year": 2019,
-   "reason": "Idris Brook invested in Beacon AI (growth)."
-  },
-  {
-   "source": "p217",
-   "target": "p122",
-   "type": "mentored",
-   "year": 2019,
-   "reason": "Idris Brook mentored Rhea Loch through an accelerator cohort."
-  },
-  {
-   "source": "p217",
-   "target": "c024",
-   "type": "invested_in",
-   "year": 2016,
-   "reason": "Idris Brook invested in Verge Infra (pre-seed)."
-  },
-  {
-   "source": "p217",
-   "target": "c035",
-   "type": "invested_in",
-   "year": 2023,
-   "reason": "Idris Brook invested in Meridian Security (growth)."
-  },
-  {
-   "source": "p217",
-   "target": "p080",
-   "type": "mentored",
-   "year": 2022,
-   "reason": "Idris Brook mentored Lena Brook through an accelerator cohort."
-  },
-  {
-   "source": "p217",
-   "target": "p126",
-   "type": "mentored",
-   "year": 2021,
-   "reason": "Idris Brook mentored Dax Loch through an accelerator cohort."
-  },
-  {
-   "source": "p125",
-   "target": "p078",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Uma Shore and Orla Heath met at a founder dinner in New York."
-  },
-  {
-   "source": "p104",
-   "target": "p009",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Elio Elm and Reza Ridge met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p041",
-   "target": "p049",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Kael Glen and Lena Loch met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p130",
-   "target": "p181",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Kael Ashby and Hale Arbor met at a founder dinner in London."
-  },
-  {
-   "source": "p014",
-   "target": "p166",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Wes Loch and Hana Shore met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p063",
-   "target": "p062",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Juno Arbor and Reza Ashby met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p161",
-   "target": "p180",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Quin Dune and Dev Arbor met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p066",
-   "target": "p154",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Jory Brook and Amara Glen met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p063",
-   "target": "p154",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Juno Arbor and Amara Glen met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p029",
-   "target": "p197",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Bodhi Cove and Milo Dune met at a founder dinner in London."
-  },
-  {
-   "source": "p180",
-   "target": "p150",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Dev Arbor and Wes Quarry met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p108",
-   "target": "p042",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Kael Dune and Esme Pine met at a founder dinner in London."
-  },
-  {
-   "source": "p077",
-   "target": "p128",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Tova Ashby and Ada Shore met at a founder dinner in Austin."
-  },
-  {
-   "source": "p078",
-   "target": "p187",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Orla Heath and Zara Yarrow met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p162",
-   "target": "p146",
-   "type": "met_at_event",
-   "year": 2021,
-   "reason": "Cira Zephyr and Amara Lark met at a founder dinner in Austin."
-  },
-  {
-   "source": "p191",
-   "target": "p053",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Dev Yarrow and Kai Glen met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p043",
-   "target": "p208",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Pia Jade and Amara Kestrel met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p017",
-   "target": "p198",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Milo Flint and Sana Ashby met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p167",
-   "target": "p073",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Nico Delta and Esme Shore met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p095",
-   "target": "p047",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Hana Moss and Quin Kestrel met at a founder dinner in London."
-  },
-  {
-   "source": "p046",
-   "target": "p128",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Finn Delta and Ada Shore met at a founder dinner in London."
-  },
-  {
-   "source": "p047",
-   "target": "p051",
-   "type": "met_at_event",
-   "year": 2016,
-   "reason": "Quin Kestrel and Wes Juniper met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p066",
-   "target": "p104",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Jory Brook and Elio Elm met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p162",
-   "target": "p042",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Cira Zephyr and Esme Pine met at a founder dinner in Austin."
-  },
-  {
-   "source": "p096",
-   "target": "p031",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Elio Heath and Lior Ridge met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p007",
-   "target": "p149",
-   "type": "met_at_event",
-   "year": 2019,
-   "reason": "Esme Calder and Finn Birch met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p172",
-   "target": "p194",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Jory Grove and Jory Dune met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p068",
-   "target": "p192",
-   "type": "met_at_event",
-   "year": 2016,
-   "reason": "Pia Arbor and Xan Shore met at a founder dinner in New York."
-  },
-  {
-   "source": "p024",
-   "target": "p054",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Idris Moss and Dax Yarrow met at a founder dinner in Austin."
-  },
-  {
-   "source": "p154",
-   "target": "p133",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Amara Glen and Jory Ember met at a founder dinner in New York."
-  },
-  {
-   "source": "p193",
-   "target": "p086",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Wes Calder and Tova Glen met at a founder dinner in Austin."
-  },
-  {
-   "source": "p094",
-   "target": "p174",
-   "type": "met_at_event",
-   "year": 2021,
-   "reason": "Quin Wilde and Rhea Thorn met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p092",
-   "target": "p170",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Finn Ridge and Dev Loch met at a founder dinner in Austin."
-  },
-  {
-   "source": "p091",
-   "target": "p084",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Idris Grove and Bram Juniper met at a founder dinner in New York."
-  },
-  {
-   "source": "p178",
-   "target": "p102",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Cira Cove and Ada Knoll met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p031",
-   "target": "p135",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Lior Ridge and Oren Shore met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p115",
-   "target": "p158",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Bram Fjord and Esme Loch met at a founder dinner in London."
-  },
-  {
-   "source": "p105",
-   "target": "p169",
-   "type": "met_at_event",
-   "year": 2019,
-   "reason": "Zev Heath and Finn Fjord met at a founder dinner in Austin."
-  },
-  {
-   "source": "p208",
-   "target": "p082",
-   "type": "met_at_event",
-   "year": 2016,
-   "reason": "Amara Kestrel and Yuki Cove met at a founder dinner in London."
-  },
-  {
-   "source": "p206",
-   "target": "p188",
-   "type": "met_at_event",
-   "year": 2021,
-   "reason": "Cira Oak and Quin Moss met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p155",
-   "target": "p124",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Pax Zephyr and Finn Oak met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p089",
-   "target": "p109",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Bodhi Zephyr and Finn Kestrel met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p098",
-   "target": "p075",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Wren Delta and Amara Wilde met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p133",
-   "target": "p146",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Jory Ember and Amara Lark met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p127",
-   "target": "p203",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Ines Ember and Zara Knoll met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p140",
-   "target": "p119",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Esme Elm and Zev Loch met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p123",
-   "target": "p169",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Oren Pine and Finn Fjord met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p054",
-   "target": "p043",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Dax Yarrow and Pia Jade met at a founder dinner in London."
-  },
-  {
-   "source": "p111",
-   "target": "p183",
-   "type": "met_at_event",
-   "year": 2016,
-   "reason": "Sana Oak and Cleo Delta met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p098",
-   "target": "p196",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Wren Delta and Nia Kestrel met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p170",
-   "target": "p121",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Dev Loch and Dev Moss met at a founder dinner in London."
-  },
-  {
-   "source": "p034",
-   "target": "p136",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Quin Flint and Kai Thorn met at a founder dinner in New York."
-  },
-  {
-   "source": "p203",
-   "target": "p177",
-   "type": "met_at_event",
-   "year": 2021,
-   "reason": "Zara Knoll and Kai Dune met at a founder dinner in Austin."
-  },
-  {
-   "source": "p196",
-   "target": "p153",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Nia Kestrel and Pax Knoll met at a founder dinner in London."
-  },
-  {
-   "source": "p183",
-   "target": "p190",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Cleo Delta and Ulla Juniper met at a founder dinner in Austin."
-  },
-  {
-   "source": "p206",
-   "target": "p059",
-   "type": "met_at_event",
-   "year": 2019,
-   "reason": "Cira Oak and Bodhi Arbor met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p074",
-   "target": "p022",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Jory Oak and Kael Fjord met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p189",
-   "target": "p151",
-   "type": "met_at_event",
-   "year": 2019,
-   "reason": "Fia Flint and Bram Loch met at a founder dinner in London."
-  },
-  {
-   "source": "p094",
-   "target": "p032",
-   "type": "met_at_event",
-   "year": 2021,
-   "reason": "Quin Wilde and Dev Knoll met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p079",
-   "target": "p015",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Reza Birch and Orla Isle met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p216",
-   "target": "p099",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Pax Cove and Tova Quarry met at a founder dinner in Austin."
-  },
-  {
-   "source": "p204",
-   "target": "p173",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Yara Juniper and Yuki Ridge met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p154",
-   "target": "p151",
-   "type": "met_at_event",
-   "year": 2019,
-   "reason": "Amara Glen and Bram Loch met at a founder dinner in New York."
-  },
-  {
-   "source": "p002",
-   "target": "p137",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Orla Ivory and Xan Delta met at a founder dinner in New York."
-  },
-  {
-   "source": "p208",
-   "target": "p075",
-   "type": "met_at_event",
-   "year": 2019,
-   "reason": "Amara Kestrel and Amara Wilde met at a founder dinner in London."
-  },
-  {
-   "source": "p116",
-   "target": "p037",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Rhea Calder and Lior Ember met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p191",
-   "target": "p170",
-   "type": "met_at_event",
-   "year": 2016,
-   "reason": "Dev Yarrow and Dev Loch met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p079",
-   "target": "p128",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Reza Birch and Ada Shore met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p146",
-   "target": "p122",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Amara Lark and Rhea Loch met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p074",
-   "target": "p180",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Jory Oak and Dev Arbor met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p039",
-   "target": "p211",
-   "type": "met_at_event",
-   "year": 2019,
-   "reason": "Ulla Quarry and Cira Yarrow met at a founder dinner in New York."
-  },
-  {
-   "source": "p188",
-   "target": "p013",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Quin Moss and Fia Birch met at a founder dinner in London."
-  },
-  {
-   "source": "p076",
-   "target": "p208",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Zara Brook and Amara Kestrel met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p140",
-   "target": "p100",
-   "type": "met_at_event",
-   "year": 2021,
-   "reason": "Esme Elm and Lior Moss met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p121",
-   "target": "p089",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Dev Moss and Bodhi Zephyr met at a founder dinner in New York."
-  },
-  {
-   "source": "p135",
-   "target": "p186",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Oren Shore and Tova Wilde met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p049",
-   "target": "p179",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Lena Loch and Soren Heath met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p033",
-   "target": "p082",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Elio North and Yuki Cove met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p077",
-   "target": "p117",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Tova Ashby and Lior Delta met at a founder dinner in Austin."
-  },
-  {
-   "source": "p035",
-   "target": "p113",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Soren North and Tova Shore met at a founder dinner in London."
-  },
-  {
-   "source": "p053",
-   "target": "p055",
-   "type": "met_at_event",
-   "year": 2019,
-   "reason": "Kai Glen and Mira Birch met at a founder dinner in New York."
-  },
-  {
-   "source": "p185",
-   "target": "p219",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Dax Zephyr and Esme Jade met at a founder dinner in Austin."
-  },
-  {
-   "source": "p201",
-   "target": "p219",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Gus Zephyr and Esme Jade met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p173",
-   "target": "p215",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Yuki Ridge and Vik Jade met at a founder dinner in Austin."
-  },
-  {
-   "source": "p091",
-   "target": "p121",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Idris Grove and Dev Moss met at a founder dinner in New York."
-  },
-  {
-   "source": "p131",
-   "target": "p166",
-   "type": "met_at_event",
-   "year": 2021,
-   "reason": "Yara Ashby and Hana Shore met at a founder dinner in New York."
-  },
-  {
-   "source": "p038",
-   "target": "p160",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Pax Calder and Hale Brook met at a founder dinner in Austin."
-  },
-  {
-   "source": "p030",
-   "target": "p061",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Vida Glen and Reza Cove met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p176",
-   "target": "p152",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Vida Kestrel and Amara Harbor met at a founder dinner in New York."
-  },
-  {
-   "source": "p203",
-   "target": "p171",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Zara Knoll and Dev Shore met at a founder dinner in Austin."
-  },
-  {
-   "source": "p209",
-   "target": "p166",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Elio Zephyr and Hana Shore met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p094",
-   "target": "p002",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Quin Wilde and Orla Ivory met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p031",
-   "target": "p125",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Lior Ridge and Uma Shore met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p005",
-   "target": "p150",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Wren Yarrow and Wes Quarry met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p070",
-   "target": "p177",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Dax Jade and Kai Dune met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p098",
-   "target": "p123",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Wren Delta and Oren Pine met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p146",
-   "target": "p032",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Amara Lark and Dev Knoll met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p182",
-   "target": "p203",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Uma Oak and Zara Knoll met at a founder dinner in London."
-  },
-  {
-   "source": "p208",
-   "target": "p179",
-   "type": "met_at_event",
-   "year": 2016,
-   "reason": "Amara Kestrel and Soren Heath met at a founder dinner in London."
-  },
-  {
-   "source": "p209",
-   "target": "p137",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Elio Zephyr and Xan Delta met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p132",
-   "target": "p214",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Gia Elm and Cira Arbor met at a founder dinner in London."
-  },
-  {
-   "source": "p209",
-   "target": "p202",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Elio Zephyr and Mira Oak met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p168",
-   "target": "p030",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Ulla Delta and Vida Glen met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p001",
-   "target": "p142",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Gia Knoll and Wren Shore met at a founder dinner in New York."
-  },
-  {
-   "source": "p010",
-   "target": "p032",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Pax Kestrel and Dev Knoll met at a founder dinner in London."
-  },
-  {
-   "source": "p022",
-   "target": "p143",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Kael Fjord and Milo Heath met at a founder dinner in New York."
-  },
-  {
-   "source": "p031",
-   "target": "p129",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Lior Ridge and Wren Wilde met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p043",
-   "target": "p108",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Pia Jade and Kael Dune met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p076",
-   "target": "p011",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Zara Brook and Ulla Dune met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p136",
-   "target": "p113",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Kai Thorn and Tova Shore met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p177",
-   "target": "p080",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Kai Dune and Lena Brook met at a founder dinner in Austin."
-  },
-  {
-   "source": "p176",
-   "target": "p025",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Vida Kestrel and Cira Harbor met at a founder dinner in New York."
-  },
-  {
-   "source": "p009",
-   "target": "p048",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Reza Ridge and Hale Ember met at a founder dinner in London."
-  },
-  {
-   "source": "p034",
-   "target": "p154",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Quin Flint and Amara Glen met at a founder dinner in New York."
-  },
-  {
-   "source": "p091",
-   "target": "p071",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Idris Grove and Juno Elm met at a founder dinner in New York."
-  },
-  {
-   "source": "p019",
-   "target": "p140",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Vik Quarry and Esme Elm met at a founder dinner in London."
-  },
-  {
-   "source": "p166",
-   "target": "p041",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Hana Shore and Kael Glen met at a founder dinner in London."
-  },
-  {
-   "source": "p065",
-   "target": "p173",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Gus Wilde and Yuki Ridge met at a founder dinner in New York."
-  },
-  {
-   "source": "p052",
-   "target": "p018",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Bram Lark and Zara Wilde met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p182",
-   "target": "p095",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Uma Oak and Hana Moss met at a founder dinner in London."
-  },
-  {
-   "source": "p041",
-   "target": "p107",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Kael Glen and Yara Elm met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p097",
-   "target": "p006",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Teo Pine and Finn Loch met at a founder dinner in Austin."
-  },
-  {
-   "source": "p069",
-   "target": "p031",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Teo Jade and Lior Ridge met at a founder dinner in New York."
-  },
-  {
-   "source": "p016",
-   "target": "p084",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Oren Kestrel and Bram Juniper met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p085",
-   "target": "p199",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Dax Quarry and Lena Juniper met at a founder dinner in New York."
-  },
-  {
-   "source": "p070",
-   "target": "p002",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Dax Jade and Orla Ivory met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p096",
-   "target": "p026",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Elio Heath and Orla Oak met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p150",
-   "target": "p210",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Wes Quarry and Rhea Elm met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p089",
-   "target": "p179",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Bodhi Zephyr and Soren Heath met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p069",
-   "target": "p155",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Teo Jade and Pax Zephyr met at a founder dinner in New York."
-  },
-  {
-   "source": "p081",
-   "target": "p192",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Quin Ashby and Xan Shore met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p206",
-   "target": "p189",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Cira Oak and Fia Flint met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p122",
-   "target": "p151",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Rhea Loch and Bram Loch met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p175",
-   "target": "p131",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Wes Brook and Yara Ashby met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p096",
-   "target": "p145",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Elio Heath and Cira Calder met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p181",
-   "target": "p199",
-   "type": "met_at_event",
-   "year": 2019,
-   "reason": "Hale Arbor and Lena Juniper met at a founder dinner in Austin."
-  },
-  {
-   "source": "p180",
-   "target": "p117",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Dev Arbor and Lior Delta met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p204",
-   "target": "p119",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Yara Juniper and Zev Loch met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p109",
-   "target": "p133",
-   "type": "met_at_event",
-   "year": 2019,
-   "reason": "Finn Kestrel and Jory Ember met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p078",
-   "target": "p104",
-   "type": "met_at_event",
-   "year": 2021,
-   "reason": "Orla Heath and Elio Elm met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p019",
-   "target": "p186",
-   "type": "met_at_event",
-   "year": 2019,
-   "reason": "Vik Quarry and Tova Wilde met at a founder dinner in London."
-  },
-  {
-   "source": "p147",
-   "target": "p014",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Kai Quarry and Wes Loch met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p126",
-   "target": "p206",
-   "type": "met_at_event",
-   "year": 2016,
-   "reason": "Dax Loch and Cira Oak met at a founder dinner in London."
-  },
-  {
-   "source": "p122",
-   "target": "p127",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Rhea Loch and Ines Ember met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p103",
-   "target": "p003",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Teo Isle and Cira Ridge met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p001",
-   "target": "p182",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Gia Knoll and Uma Oak met at a founder dinner in New York."
-  },
-  {
-   "source": "p062",
-   "target": "p189",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Reza Ashby and Fia Flint met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p155",
-   "target": "p010",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Pax Zephyr and Pax Kestrel met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p172",
-   "target": "p195",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Jory Grove and Lior Calder met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p019",
-   "target": "p093",
-   "type": "met_at_event",
-   "year": 2018,
-   "reason": "Vik Quarry and Vida Brook met at a founder dinner in London."
-  },
-  {
-   "source": "p013",
-   "target": "p108",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Fia Birch and Kael Dune met at a founder dinner in New York."
-  },
-  {
-   "source": "p095",
-   "target": "p028",
-   "type": "met_at_event",
-   "year": 2021,
-   "reason": "Hana Moss and Pax Grove met at a founder dinner in London."
-  },
-  {
-   "source": "p217",
-   "target": "p196",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Idris Brook and Nia Kestrel met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p123",
-   "target": "p075",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Oren Pine and Amara Wilde met at a founder dinner in Seattle."
-  },
-  {
-   "source": "p188",
-   "target": "p161",
-   "type": "met_at_event",
-   "year": 2025,
-   "reason": "Quin Moss and Quin Dune met at a founder dinner in London."
-  },
-  {
-   "source": "p078",
-   "target": "p164",
-   "type": "met_at_event",
-   "year": 2024,
-   "reason": "Orla Heath and Bodhi Glen met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p158",
-   "target": "p217",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Esme Loch and Idris Brook met at a founder dinner in New York."
-  },
-  {
-   "source": "p001",
-   "target": "p157",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Gia Knoll and Oren Brook met at a founder dinner in New York."
-  },
-  {
-   "source": "p090",
-   "target": "p027",
-   "type": "met_at_event",
-   "year": 2016,
-   "reason": "Oren Flint and Vida Ember met at a founder dinner in Austin."
-  },
-  {
-   "source": "p102",
-   "target": "p090",
-   "type": "met_at_event",
-   "year": 2016,
-   "reason": "Ada Knoll and Oren Flint met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p125",
-   "target": "p050",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Uma Shore and Wren North met at a founder dinner in New York."
-  },
-  {
-   "source": "p105",
-   "target": "p031",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Zev Heath and Lior Ridge met at a founder dinner in Austin."
-  },
-  {
-   "source": "p196",
-   "target": "p168",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Nia Kestrel and Ulla Delta met at a founder dinner in London."
-  },
-  {
-   "source": "p101",
-   "target": "p095",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Soren Glen and Hana Moss met at a founder dinner in Los Angeles."
-  },
-  {
-   "source": "p046",
-   "target": "p137",
-   "type": "met_at_event",
-   "year": 2020,
-   "reason": "Finn Delta and Xan Delta met at a founder dinner in London."
-  },
-  {
-   "source": "p168",
-   "target": "p214",
-   "type": "met_at_event",
-   "year": 2023,
-   "reason": "Ulla Delta and Cira Arbor met at a founder dinner in San Francisco."
-  },
-  {
-   "source": "p090",
-   "target": "p191",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Oren Flint and Dev Yarrow met at a founder dinner in Austin."
-  },
-  {
-   "source": "p181",
-   "target": "p050",
-   "type": "met_at_event",
-   "year": 2017,
-   "reason": "Hale Arbor and Wren North met at a founder dinner in Austin."
-  },
-  {
-   "source": "p010",
-   "target": "p034",
-   "type": "met_at_event",
-   "year": 2022,
-   "reason": "Pax Kestrel and Quin Flint met at a founder dinner in London."
+   "reason": "Rhea Flint mentored Zara Wilde through an accelerator cohort."
   },
   {
    "source": "p008",
    "target": "p041",
-   "type": "met_at_event",
-   "year": 2026,
-   "reason": "Rhea Flint and Kael Glen met at a founder dinner in New York."
+   "type": "mentored",
+   "year": 2017,
+   "reason": "Rhea Flint mentored Kael Glen through an accelerator cohort."
   },
   {
-   "source": "p170",
-   "target": "p068",
+   "source": "p037",
+   "target": "c007",
+   "type": "invested_in",
+   "year": 2021,
+   "reason": "Lior Ember invested in Vector Systems (seed)."
+  },
+  {
+   "source": "p037",
+   "target": "p026",
+   "type": "mentored",
+   "year": 2023,
+   "reason": "Lior Ember mentored Orla Oak through an accelerator cohort."
+  },
+  {
+   "source": "p037",
+   "target": "p043",
+   "type": "mentored",
+   "year": 2016,
+   "reason": "Lior Ember mentored Pia Jade through an accelerator cohort."
+  },
+  {
+   "source": "p037",
+   "target": "c001",
+   "type": "invested_in",
+   "year": 2026,
+   "reason": "Lior Ember invested in Meridian AI (seed)."
+  },
+  {
+   "source": "p037",
+   "target": "p021",
+   "type": "mentored",
+   "year": 2017,
+   "reason": "Lior Ember mentored Ulla Heath through an accelerator cohort."
+  },
+  {
+   "source": "p037",
+   "target": "c006",
+   "type": "invested_in",
+   "year": 2024,
+   "reason": "Lior Ember invested in Harbor Cloud (series b)."
+  },
+  {
+   "source": "p037",
+   "target": "c008",
+   "type": "invested_in",
+   "year": 2020,
+   "reason": "Lior Ember invested in Relay AI (growth)."
+  },
+  {
+   "source": "p037",
+   "target": "p000",
+   "type": "mentored",
+   "year": 2020,
+   "reason": "Lior Ember mentored Oren Harbor through an accelerator cohort."
+  },
+  {
+   "source": "p037",
+   "target": "p080",
+   "type": "mentored",
+   "year": 2024,
+   "reason": "Lior Ember mentored Lena Brook through an accelerator cohort."
+  },
+  {
+   "source": "p038",
+   "target": "c012",
+   "type": "invested_in",
+   "year": 2025,
+   "reason": "Pax Calder invested in Harbor Systems (pre-seed)."
+  },
+  {
+   "source": "p038",
+   "target": "p041",
+   "type": "mentored",
+   "year": 2024,
+   "reason": "Pax Calder mentored Kael Glen through an accelerator cohort."
+  },
+  {
+   "source": "p038",
+   "target": "p066",
+   "type": "mentored",
+   "year": 2022,
+   "reason": "Pax Calder mentored Jory Brook through an accelerator cohort."
+  },
+  {
+   "source": "p038",
+   "target": "c017",
+   "type": "invested_in",
+   "year": 2024,
+   "reason": "Pax Calder invested in Meridian Bio (pre-seed)."
+  },
+  {
+   "source": "p038",
+   "target": "p065",
+   "type": "mentored",
+   "year": 2021,
+   "reason": "Pax Calder mentored Gus Wilde through an accelerator cohort."
+  },
+  {
+   "source": "p038",
+   "target": "c011",
+   "type": "invested_in",
+   "year": 2023,
+   "reason": "Pax Calder invested in Forge Robotics (pre-seed)."
+  },
+  {
+   "source": "p060",
+   "target": "c016",
+   "type": "invested_in",
+   "year": 2023,
+   "reason": "Reza Wilde invested in Atlas Robotics (seed)."
+  },
+  {
+   "source": "p060",
+   "target": "c004",
+   "type": "invested_in",
+   "year": 2019,
+   "reason": "Reza Wilde invested in Prism AI (pre-seed)."
+  },
+  {
+   "source": "p060",
+   "target": "p022",
+   "type": "mentored",
+   "year": 2024,
+   "reason": "Reza Wilde mentored Kael Fjord through an accelerator cohort."
+  },
+  {
+   "source": "p086",
+   "target": "c006",
+   "type": "invested_in",
+   "year": 2021,
+   "reason": "Tova Glen invested in Harbor Cloud (series b)."
+  },
+  {
+   "source": "p086",
+   "target": "p021",
+   "type": "mentored",
+   "year": 2017,
+   "reason": "Tova Glen mentored Ulla Heath through an accelerator cohort."
+  },
+  {
+   "source": "p086",
+   "target": "c004",
+   "type": "invested_in",
+   "year": 2019,
+   "reason": "Tova Glen invested in Prism AI (pre-seed)."
+  },
+  {
+   "source": "p086",
+   "target": "p022",
+   "type": "mentored",
+   "year": 2021,
+   "reason": "Tova Glen mentored Kael Fjord through an accelerator cohort."
+  },
+  {
+   "source": "p086",
+   "target": "c005",
+   "type": "invested_in",
+   "year": 2017,
+   "reason": "Tova Glen invested in Prism Bio (series a)."
+  },
+  {
+   "source": "p086",
+   "target": "p065",
+   "type": "mentored",
+   "year": 2026,
+   "reason": "Tova Glen mentored Gus Wilde through an accelerator cohort."
+  },
+  {
+   "source": "p086",
+   "target": "c002",
+   "type": "invested_in",
+   "year": 2023,
+   "reason": "Tova Glen invested in Nimbus Robotics (pre-seed)."
+  },
+  {
+   "source": "p086",
+   "target": "p026",
+   "type": "mentored",
+   "year": 2025,
+   "reason": "Tova Glen mentored Orla Oak through an accelerator cohort."
+  },
+  {
+   "source": "p086",
+   "target": "p095",
+   "type": "mentored",
+   "year": 2026,
+   "reason": "Tova Glen mentored Hana Moss through an accelerator cohort."
+  },
+  {
+   "source": "p087",
+   "target": "c007",
+   "type": "invested_in",
+   "year": 2018,
+   "reason": "Mira Ember invested in Vector Systems (seed)."
+  },
+  {
+   "source": "p087",
+   "target": "p026",
+   "type": "mentored",
+   "year": 2025,
+   "reason": "Mira Ember mentored Orla Oak through an accelerator cohort."
+  },
+  {
+   "source": "p087",
+   "target": "p043",
+   "type": "mentored",
+   "year": 2018,
+   "reason": "Mira Ember mentored Pia Jade through an accelerator cohort."
+  },
+  {
+   "source": "p087",
+   "target": "c001",
+   "type": "invested_in",
+   "year": 2024,
+   "reason": "Mira Ember invested in Meridian AI (seed)."
+  },
+  {
+   "source": "p087",
+   "target": "p021",
+   "type": "mentored",
+   "year": 2025,
+   "reason": "Mira Ember mentored Ulla Heath through an accelerator cohort."
+  },
+  {
+   "source": "p007",
+   "target": "p021",
+   "type": "met_at_event",
+   "year": 2020,
+   "reason": "Esme Calder and Ulla Heath met at a founder dinner in Seattle."
+  },
+  {
+   "source": "p051",
+   "target": "p076",
+   "type": "met_at_event",
+   "year": 2025,
+   "reason": "Wes Juniper and Zara Brook met at a founder dinner in Seattle."
+  },
+  {
+   "source": "p010",
+   "target": "p027",
+   "type": "met_at_event",
+   "year": 2023,
+   "reason": "Pax Kestrel and Vida Ember met at a founder dinner in London."
+  },
+  {
+   "source": "p021",
+   "target": "p028",
+   "type": "met_at_event",
+   "year": 2022,
+   "reason": "Ulla Heath and Pax Grove met at a founder dinner in New York."
+  },
+  {
+   "source": "p098",
+   "target": "p023",
+   "type": "met_at_event",
+   "year": 2025,
+   "reason": "Wren Delta and Ines Grove met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p021",
+   "target": "p092",
+   "type": "met_at_event",
+   "year": 2026,
+   "reason": "Ulla Heath and Finn Ridge met at a founder dinner in New York."
+  },
+  {
+   "source": "p076",
+   "target": "p075",
    "type": "met_at_event",
    "year": 2017,
-   "reason": "Dev Loch and Pia Arbor met at a founder dinner in London."
+   "reason": "Zara Brook and Amara Wilde met at a founder dinner in Los Angeles."
   },
   {
-   "source": "p140",
-   "target": "p126",
+   "source": "p049",
+   "target": "p016",
+   "type": "met_at_event",
+   "year": 2017,
+   "reason": "Lena Loch and Oren Kestrel met at a founder dinner in San Francisco."
+  },
+  {
+   "source": "p066",
+   "target": "p064",
    "type": "met_at_event",
    "year": 2026,
-   "reason": "Esme Elm and Dax Loch met at a founder dinner in Seattle."
+   "reason": "Jory Brook and Cira Elm met at a founder dinner in Seattle."
   },
   {
-   "source": "p192",
-   "target": "p195",
+   "source": "p077",
+   "target": "p012",
    "type": "met_at_event",
-   "year": 2022,
-   "reason": "Xan Shore and Lior Calder met at a founder dinner in Seattle."
+   "year": 2018,
+   "reason": "Tova Ashby and Esme North met at a founder dinner in Austin."
   },
   {
-   "source": "p189",
-   "target": "p215",
+   "source": "p076",
+   "target": "p004",
+   "type": "met_at_event",
+   "year": 2024,
+   "reason": "Zara Brook and Rhea Juniper met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p011",
+   "target": "p061",
+   "type": "met_at_event",
+   "year": 2026,
+   "reason": "Ulla Dune and Reza Cove met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p099",
+   "target": "p086",
+   "type": "met_at_event",
+   "year": 2026,
+   "reason": "Tova Quarry and Tova Glen met at a founder dinner in London."
+  },
+  {
+   "source": "p053",
+   "target": "p047",
+   "type": "met_at_event",
+   "year": 2016,
+   "reason": "Kai Glen and Quin Kestrel met at a founder dinner in New York."
+  },
+  {
+   "source": "p029",
+   "target": "p061",
    "type": "met_at_event",
    "year": 2022,
-   "reason": "Fia Flint and Vik Jade met at a founder dinner in London."
+   "reason": "Bodhi Cove and Reza Cove met at a founder dinner in London."
+  },
+  {
+   "source": "p094",
+   "target": "p097",
+   "type": "met_at_event",
+   "year": 2025,
+   "reason": "Quin Wilde and Teo Pine met at a founder dinner in San Francisco."
+  },
+  {
+   "source": "p017",
+   "target": "p032",
+   "type": "met_at_event",
+   "year": 2023,
+   "reason": "Milo Flint and Dev Knoll met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p036",
+   "target": "p076",
+   "type": "met_at_event",
+   "year": 2024,
+   "reason": "Dev Grove and Zara Brook met at a founder dinner in San Francisco."
+  },
+  {
+   "source": "p024",
+   "target": "p000",
+   "type": "met_at_event",
+   "year": 2016,
+   "reason": "Idris Moss and Oren Harbor met at a founder dinner in Austin."
+  },
+  {
+   "source": "p066",
+   "target": "p000",
+   "type": "met_at_event",
+   "year": 2022,
+   "reason": "Jory Brook and Oren Harbor met at a founder dinner in Seattle."
+  },
+  {
+   "source": "p040",
+   "target": "p052",
+   "type": "met_at_event",
+   "year": 2021,
+   "reason": "Reza Thorn and Bram Lark met at a founder dinner in Austin."
+  },
+  {
+   "source": "p054",
+   "target": "p083",
+   "type": "met_at_event",
+   "year": 2025,
+   "reason": "Dax Yarrow and Wren Oak met at a founder dinner in London."
+  },
+  {
+   "source": "p068",
+   "target": "p054",
+   "type": "met_at_event",
+   "year": 2025,
+   "reason": "Pia Arbor and Dax Yarrow met at a founder dinner in New York."
+  },
+  {
+   "source": "p035",
+   "target": "p087",
+   "type": "met_at_event",
+   "year": 2022,
+   "reason": "Soren North and Mira Ember met at a founder dinner in London."
+  },
+  {
+   "source": "p070",
+   "target": "p071",
+   "type": "met_at_event",
+   "year": 2023,
+   "reason": "Dax Jade and Juno Elm met at a founder dinner in Seattle."
+  },
+  {
+   "source": "p071",
+   "target": "p061",
+   "type": "met_at_event",
+   "year": 2020,
+   "reason": "Juno Elm and Reza Cove met at a founder dinner in New York."
+  },
+  {
+   "source": "p044",
+   "target": "p099",
+   "type": "met_at_event",
+   "year": 2022,
+   "reason": "Hale Glen and Tova Quarry met at a founder dinner in London."
+  },
+  {
+   "source": "p095",
+   "target": "p029",
+   "type": "met_at_event",
+   "year": 2023,
+   "reason": "Hana Moss and Bodhi Cove met at a founder dinner in London."
   },
   {
    "source": "p027",
-   "target": "p202",
+   "target": "p065",
+   "type": "met_at_event",
+   "year": 2022,
+   "reason": "Vida Ember and Gus Wilde met at a founder dinner in Austin."
+  },
+  {
+   "source": "p020",
+   "target": "p049",
+   "type": "met_at_event",
+   "year": 2026,
+   "reason": "Gus Moss and Lena Loch met at a founder dinner in Austin."
+  },
+  {
+   "source": "p018",
+   "target": "p060",
+   "type": "met_at_event",
+   "year": 2025,
+   "reason": "Zara Wilde and Reza Wilde met at a founder dinner in London."
+  },
+  {
+   "source": "p008",
+   "target": "p033",
+   "type": "met_at_event",
+   "year": 2019,
+   "reason": "Rhea Flint and Elio North met at a founder dinner in New York."
+  },
+  {
+   "source": "p077",
+   "target": "p004",
+   "type": "met_at_event",
+   "year": 2022,
+   "reason": "Tova Ashby and Rhea Juniper met at a founder dinner in Austin."
+  },
+  {
+   "source": "p083",
+   "target": "p066",
+   "type": "met_at_event",
+   "year": 2020,
+   "reason": "Wren Oak and Jory Brook met at a founder dinner in New York."
+  },
+  {
+   "source": "p081",
+   "target": "p063",
+   "type": "met_at_event",
+   "year": 2023,
+   "reason": "Quin Ashby and Juno Arbor met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p084",
+   "target": "p066",
+   "type": "met_at_event",
+   "year": 2020,
+   "reason": "Bram Juniper and Jory Brook met at a founder dinner in New York."
+  },
+  {
+   "source": "p076",
+   "target": "p065",
+   "type": "met_at_event",
+   "year": 2024,
+   "reason": "Zara Brook and Gus Wilde met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p021",
+   "target": "p086",
    "type": "met_at_event",
    "year": 2016,
-   "reason": "Vida Ember and Mira Oak met at a founder dinner in Austin."
+   "reason": "Ulla Heath and Tova Glen met at a founder dinner in New York."
+  },
+  {
+   "source": "p083",
+   "target": "p000",
+   "type": "met_at_event",
+   "year": 2018,
+   "reason": "Wren Oak and Oren Harbor met at a founder dinner in New York."
+  },
+  {
+   "source": "p099",
+   "target": "p051",
+   "type": "met_at_event",
+   "year": 2021,
+   "reason": "Tova Quarry and Wes Juniper met at a founder dinner in London."
+  },
+  {
+   "source": "p075",
+   "target": "p025",
+   "type": "met_at_event",
+   "year": 2024,
+   "reason": "Amara Wilde and Cira Harbor met at a founder dinner in Seattle."
+  },
+  {
+   "source": "p011",
+   "target": "p070",
+   "type": "met_at_event",
+   "year": 2020,
+   "reason": "Ulla Dune and Dax Jade met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p044",
+   "target": "p035",
+   "type": "met_at_event",
+   "year": 2019,
+   "reason": "Hale Glen and Soren North met at a founder dinner in London."
+  },
+  {
+   "source": "p051",
+   "target": "p073",
+   "type": "met_at_event",
+   "year": 2016,
+   "reason": "Wes Juniper and Esme Shore met at a founder dinner in Seattle."
+  },
+  {
+   "source": "p052",
+   "target": "p064",
+   "type": "met_at_event",
+   "year": 2017,
+   "reason": "Bram Lark and Cira Elm met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p064",
+   "target": "p037",
+   "type": "met_at_event",
+   "year": 2021,
+   "reason": "Cira Elm and Lior Ember met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p068",
+   "target": "p073",
+   "type": "met_at_event",
+   "year": 2020,
+   "reason": "Pia Arbor and Esme Shore met at a founder dinner in New York."
+  },
+  {
+   "source": "p072",
+   "target": "p061",
+   "type": "met_at_event",
+   "year": 2019,
+   "reason": "Oren Ridge and Reza Cove met at a founder dinner in Seattle."
+  },
+  {
+   "source": "p087",
+   "target": "p058",
+   "type": "met_at_event",
+   "year": 2025,
+   "reason": "Mira Ember and Gus Harbor met at a founder dinner in London."
+  },
+  {
+   "source": "p014",
+   "target": "p033",
+   "type": "met_at_event",
+   "year": 2017,
+   "reason": "Wes Loch and Elio North met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p028",
+   "target": "p086",
+   "type": "met_at_event",
+   "year": 2019,
+   "reason": "Pax Grove and Tova Glen met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p045",
+   "target": "p066",
+   "type": "met_at_event",
+   "year": 2024,
+   "reason": "Vida North and Jory Brook met at a founder dinner in San Francisco."
+  },
+  {
+   "source": "p033",
+   "target": "p031",
+   "type": "met_at_event",
+   "year": 2020,
+   "reason": "Elio North and Lior Ridge met at a founder dinner in Seattle."
+  },
+  {
+   "source": "p086",
+   "target": "p095",
+   "type": "met_at_event",
+   "year": 2021,
+   "reason": "Tova Glen and Hana Moss met at a founder dinner in London."
+  },
+  {
+   "source": "p022",
+   "target": "p060",
+   "type": "met_at_event",
+   "year": 2021,
+   "reason": "Kael Fjord and Reza Wilde met at a founder dinner in New York."
+  },
+  {
+   "source": "p073",
+   "target": "p034",
+   "type": "met_at_event",
+   "year": 2018,
+   "reason": "Esme Shore and Quin Flint met at a founder dinner in New York."
+  },
+  {
+   "source": "p094",
+   "target": "p025",
+   "type": "met_at_event",
+   "year": 2019,
+   "reason": "Quin Wilde and Cira Harbor met at a founder dinner in San Francisco."
+  },
+  {
+   "source": "p026",
+   "target": "p029",
+   "type": "met_at_event",
+   "year": 2019,
+   "reason": "Orla Oak and Bodhi Cove met at a founder dinner in San Francisco."
+  },
+  {
+   "source": "p045",
+   "target": "p019",
+   "type": "met_at_event",
+   "year": 2017,
+   "reason": "Vida North and Vik Quarry met at a founder dinner in San Francisco."
+  },
+  {
+   "source": "p086",
+   "target": "p084",
+   "type": "met_at_event",
+   "year": 2023,
+   "reason": "Tova Glen and Bram Juniper met at a founder dinner in London."
+  },
+  {
+   "source": "p005",
+   "target": "p061",
+   "type": "met_at_event",
+   "year": 2021,
+   "reason": "Wren Yarrow and Reza Cove met at a founder dinner in Seattle."
+  },
+  {
+   "source": "p073",
+   "target": "p035",
+   "type": "met_at_event",
+   "year": 2023,
+   "reason": "Esme Shore and Soren North met at a founder dinner in New York."
+  },
+  {
+   "source": "p050",
+   "target": "p028",
+   "type": "met_at_event",
+   "year": 2025,
+   "reason": "Wren North and Pax Grove met at a founder dinner in Austin."
+  },
+  {
+   "source": "p067",
+   "target": "p054",
+   "type": "met_at_event",
+   "year": 2023,
+   "reason": "Oren Moss and Dax Yarrow met at a founder dinner in New York."
+  },
+  {
+   "source": "p064",
+   "target": "p044",
+   "type": "met_at_event",
+   "year": 2022,
+   "reason": "Cira Elm and Hale Glen met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p015",
+   "target": "p089",
+   "type": "met_at_event",
+   "year": 2024,
+   "reason": "Orla Isle and Bodhi Zephyr met at a founder dinner in New York."
   },
   {
    "source": "p088",
-   "target": "p128",
+   "target": "p001",
    "type": "met_at_event",
    "year": 2016,
-   "reason": "Milo Harbor and Ada Shore met at a founder dinner in Austin."
+   "reason": "Milo Harbor and Gia Knoll met at a founder dinner in Austin."
+  },
+  {
+   "source": "p074",
+   "target": "p012",
+   "type": "met_at_event",
+   "year": 2021,
+   "reason": "Jory Oak and Esme North met at a founder dinner in Seattle."
+  },
+  {
+   "source": "p023",
+   "target": "p070",
+   "type": "met_at_event",
+   "year": 2020,
+   "reason": "Ines Grove and Dax Jade met at a founder dinner in New York."
+  },
+  {
+   "source": "p060",
+   "target": "p078",
+   "type": "met_at_event",
+   "year": 2021,
+   "reason": "Reza Wilde and Orla Heath met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p063",
+   "target": "p054",
+   "type": "met_at_event",
+   "year": 2019,
+   "reason": "Juno Arbor and Dax Yarrow met at a founder dinner in Seattle."
+  },
+  {
+   "source": "p046",
+   "target": "p051",
+   "type": "met_at_event",
+   "year": 2020,
+   "reason": "Finn Delta and Wes Juniper met at a founder dinner in London."
+  },
+  {
+   "source": "p073",
+   "target": "p016",
+   "type": "met_at_event",
+   "year": 2025,
+   "reason": "Esme Shore and Oren Kestrel met at a founder dinner in New York."
+  },
+  {
+   "source": "p092",
+   "target": "p034",
+   "type": "met_at_event",
+   "year": 2019,
+   "reason": "Finn Ridge and Quin Flint met at a founder dinner in Austin."
+  },
+  {
+   "source": "p048",
+   "target": "p025",
+   "type": "met_at_event",
+   "year": 2018,
+   "reason": "Hale Ember and Cira Harbor met at a founder dinner in Los Angeles."
+  },
+  {
+   "source": "p001",
+   "target": "p022",
+   "type": "met_at_event",
+   "year": 2022,
+   "reason": "Gia Knoll and Kael Fjord met at a founder dinner in New York."
+  },
+  {
+   "source": "p080",
+   "target": "p066",
+   "type": "met_at_event",
+   "year": 2024,
+   "reason": "Lena Brook and Jory Brook met at a founder dinner in San Francisco."
+  },
+  {
+   "source": "p038",
+   "target": "p032",
+   "type": "met_at_event",
+   "year": 2024,
+   "reason": "Pax Calder and Dev Knoll met at a founder dinner in Austin."
+  },
+  {
+   "source": "p012",
+   "target": "p088",
+   "type": "met_at_event",
+   "year": 2018,
+   "reason": "Esme North and Milo Harbor met at a founder dinner in London."
+  },
+  {
+   "source": "p032",
+   "target": "p060",
+   "type": "met_at_event",
+   "year": 2026,
+   "reason": "Dev Knoll and Reza Wilde met at a founder dinner in Seattle."
   }
  ]
 };
