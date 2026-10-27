@@ -45,17 +45,44 @@
     "series a": ["series a"], "series b": ["series b"], growth: ["growth-stage", "late-stage", "public", "big company"],
   };
 
+  // Filler that carries no constraint; anything else the parser can't place is
+  // reported back as "unknown" instead of being silently dropped.
+  const STOPWORDS = new Set(("i im we you me my our your a an the to on in at of for with and or but is are was be been being " +
+    "who whom whose that this these those what which someone anyone somebody people person folks want wants wanted need needs " +
+    "needed meet meeting met intro introduce introduction introductions connect connected connection looking look looks find " +
+    "found finding reach reaching get gets getting know knows knew working works work worked doing does do did done about from " +
+    "team teams member members talk chat speak hello hi hey please help can could would should like likes " +
+    "focused focusing interested interesting great good best top senior experienced").split(" "));
+
   function parseIntent(text) {
     const t = ` ${text.toLowerCase().replace(/[^a-z0-9\- ]/g, " ")} `;
     const has = (phrase) => t.includes(` ${phrase} `) || t.includes(` ${phrase}-`) || t.includes(`-${phrase} `);
-    const skills = Object.entries(SKILL_SYNONYMS).filter(([, syns]) => syns.some(has)).map(([k]) => k);
-    const roles = Object.entries(ROLE_SYNONYMS).filter(([, syns]) => syns.some(has)).map(([k]) => k);
-    const stages = Object.entries(STAGE_SYNONYMS).filter(([, syns]) => syns.some(has)).map(([k]) => k);
+    const consumed = new Set();
+    const consume = (phrase) => phrase.split(/[\s-]+/).forEach((w) => consumed.add(w));
+    const pick = (dict) => Object.entries(dict).filter(([, syns]) => {
+      const hits = syns.filter(has);
+      hits.forEach(consume);
+      return hits.length > 0;
+    }).map(([k]) => k);
+    const skills = pick(SKILL_SYNONYMS);
+    const roles = pick(ROLE_SYNONYMS);
+    const stages = pick(STAGE_SYNONYMS);
     const cities = ["san francisco", "new york", "los angeles", "seattle", "austin", "london", "miami"].filter(has);
-    const wantsCompany = /\b(company|startup|startups|firm|lab|labs)\b/.test(t) && roles.length === 0;
+    cities.forEach(consume);
+    const companyWords = ["company", "companies", "startup", "startups", "firm", "lab", "labs"].filter(has);
+    companyWords.forEach(consume);
+    const wantsCompany = companyWords.length > 0 && roles.length === 0;
     // Named entities: any node whose name (or a short alias) appears in the query.
-    const named = (data?.nodes || []).filter((n) => aliasesOf(n).some((a) => t.includes(` ${a} `)));
-    return { skills, roles, stages, cities, wantsCompany, named };
+    const named = (data?.nodes || []).filter((n) => {
+      const hits = aliasesOf(n).filter((a) => t.includes(` ${a} `));
+      hits.forEach(consume);
+      return hits.length > 0;
+    });
+    // Words the graph knows nothing about ("openai"). Surfacing these is what
+    // keeps an unmatched query from silently degrading into "rank everyone".
+    const unknown = [...new Set(t.replace(/-/g, " ").trim().split(/\s+/))]
+      .filter((w) => w.length > 2 && !/^\d+$/.test(w) && !STOPWORDS.has(w) && !consumed.has(w));
+    return { skills, roles, stages, cities, wantsCompany, named, unknown };
   }
   function aliasesOf(n) {
     const full = n.name.toLowerCase().replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
@@ -89,9 +116,12 @@
     } else {
       if (intent.roles.length && !intent.wantsCompany) return 0; // asked for a person
       if (intent.stages.length) { if (!intent.stages.includes(node.stage)) return 0; s += 0.5; }
+      if (intent.wantsCompany) s += 0.3;
     }
     if (intent.cities.length) s += intent.cities.includes((node.city || "").toLowerCase()) ? 0.3 : -0.1;
-    return Math.max(s, 0.05);
+    // No floor: a node that matched nothing is not a target. The caller already
+    // refuses to rank at all when the query produced no constraints.
+    return Math.max(s, 0);
   }
 
   // ---------- graph + trust ----------
@@ -249,7 +279,8 @@
     intent.cities.forEach((c) => chips.push(`<span class="chip">city <b>${c}</b></span>`));
     if (intent.wantsCompany) chips.push(`<span class="chip">target <b>company</b></span>`);
     intent.named.forEach((n) => chips.push(`<span class="chip k-skill">${n.kind === "company" ? "people at" : "person"} <b>${n.name}</b></span>`));
-    $("#intent").innerHTML = chips.length ? `<span class="chip">parsed as →</span>` + chips.join("") : `<span class="chip">no constraints parsed; ranking everyone by trust</span>`;
+    (intent.unknown || []).forEach((w) => chips.push(`<span class="chip k-miss">not in graph <b>${w}</b></span>`));
+    $("#intent").innerHTML = chips.length ? `<span class="chip">parsed as →</span>` + chips.join("") : "";
   }
 
   function stepLine(s) {
@@ -263,7 +294,7 @@
 
   function renderResults() {
     const box = $("#results");
-    if (!current.paths.length) { box.innerHTML = `<p class="empty">No reachable match within ${MAX_HOPS} hops. Loosen the query or pick a different origin.</p>`; return; }
+    if (!current.paths.length) { box.innerHTML = `<p class="empty">${current.note || `No reachable match within ${MAX_HOPS} hops. Loosen the query or pick a different origin.`}</p>`; return; }
     box.innerHTML = current.paths.map((p, i) => `
       <div class="path ${i === current.active ? "active" : ""}" data-i="${i}">
         <div class="head"><b>${p.target.name}</b><span class="score">${(p.trust * 100).toFixed(0)}% trust</span></div>
@@ -308,8 +339,20 @@
     const intent = parseIntent($("#query").value);
     const mode = document.querySelector('input[name="mode"]:checked').value;
     renderIntent(intent);
-    const { paths } = findIntroPaths(data, adj, origin, intent, mode);
-    current = { paths, active: 0 };
+    const hasSignal = intent.skills.length || intent.roles.length || intent.stages.length ||
+      intent.cities.length || intent.named.length || intent.wantsCompany;
+    if (!hasSignal) {
+      // Refuse to rank rather than fall back to "everyone by trust": a query
+      // about something the graph doesn't contain should say so, not return
+      // the origin's strongest neighbours as if they matched.
+      const note = intent.unknown.length
+        ? `This graph has nothing matching “${intent.unknown.join(", ")}”. Name a skill, role, stage, city, or a person/company that is in the graph — or add the people you know and grow it.`
+        : `Tell me what you're looking for: a skill, role, stage, city, or a person/company in the graph.`;
+      current = { paths: [], active: 0, note };
+    } else {
+      const { paths } = findIntroPaths(data, adj, origin, intent, mode);
+      current = { paths, active: 0 };
+    }
     renderResults();
     renderDraft();
     highlight();

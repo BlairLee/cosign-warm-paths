@@ -58,6 +58,8 @@ details input, details select { margin-top: 6px; }
 .chip { font-size: 12px; padding: 3px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
 .chip b { color: var(--text); font-weight: 600; }
 .chip.k-skill { border-color: var(--accent-2); }
+.chip.k-miss { border-color: #b4563e; color: #b4563e; }
+.chip.k-miss b { color: #b4563e; }
 
 .compare { margin-bottom: 8px; font-size: 13px; }
 .path { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin-bottom: 10px; cursor: pointer; }
