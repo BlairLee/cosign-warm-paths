@@ -51,8 +51,6 @@ button:hover { filter: brightness(1.08); }
 details { margin-top: 8px; }
 summary { color: var(--muted); cursor: pointer; font-size: 13px; }
 details input, details select { margin-top: 6px; }
-#me-rows .me-row { display: grid; grid-template-columns: 1fr 140px; gap: 6px; }
-#addme button { margin-top: 8px; width: 100%; }
 
 .intent { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { font-size: 12px; padding: 3px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }

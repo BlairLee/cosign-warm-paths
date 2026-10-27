@@ -23,7 +23,7 @@ Flip the **Fewest hops (baseline)** toggle to see the difference on the same que
 
 ## What it does
 
-1. **You are** – pick a node, or add yourself with 1–3 people you really know and how you know them. That is the whole onboarding: the graph grows from endorsements you assert, which is also how Cosign's waitlist works.
+1. **You are** – pick who you are in the graph.
 2. **What do you want?** – a sentence. A small rule-based parser pulls out skills, role, stage, city, and any named person or company (`"someone on the Cosign team"` → people with a `worked_with`/`cofounded` edge to Cosign). Swap in an LLM if you like; the interface is one function.
 3. **Paths** – Dijkstra on `-log(trust)` from you to every candidate, top 3 by `trust × fit`. Each hop shows the endorsement type, year, the reason text, and a source link.
 4. **Ask for the intro** – a draft note to the first *person* on the path (never a company), that quotes the reason they would remember you and names who you want to reach.
