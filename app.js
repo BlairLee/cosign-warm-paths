@@ -414,6 +414,6 @@
   $("#copy").addEventListener("click", () => { navigator.clipboard?.writeText($("#draft").value); $("#copy").textContent = "Copied"; setTimeout(() => ($("#copy").textContent = "Copy"), 1200); });
   window.addEventListener("resize", () => { if (sim) { const b = svg.node().getBoundingClientRect(); sim.force("center", d3.forceCenter(b.width / 2, b.height / 2)).alpha(0.3).restart(); } });
 
-  loadDataset("synthetic");
+  loadDataset("public");
   meRow();
 })();
