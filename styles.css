@@ -62,6 +62,14 @@ details input, details select { margin-top: 6px; }
 .edge.auto { opacity: 0.12; }
 .edge.auto.lit { opacity: 1; }
 
+#tour { position: fixed; right: 24px; bottom: 24px; z-index: 50; max-width: 400px; }
+.tour-card { background: var(--panel, #fff); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; box-shadow: 0 12px 40px rgba(0,0,0,0.18); }
+.tour-step { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.tour-card h3 { margin: 0 0 8px; font-size: 16px; }
+.tour-card p { margin: 0 0 14px; font-size: 13px; line-height: 1.55; color: var(--muted); }
+.tour-nav { display: flex; gap: 8px; }
+.tour-nav #tour-skip { margin-left: auto; }
+
 .compare { margin-bottom: 8px; font-size: 13px; }
 .path { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin-bottom: 10px; cursor: pointer; }
 .path:hover, .path.active { border-color: var(--accent); }

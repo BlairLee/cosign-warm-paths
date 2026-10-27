@@ -446,8 +446,70 @@
       .classed("dim", (d) => p && ![...litEdges].some((e) => e.source === d.source.id && e.target === d.target.id && e.type === d.type));
   }
 
+  // ---------- guided tour ----------
+  // Four steps that walk the demo's argument in order: thesis, a real query,
+  // the hop-count baseline it beats, and the drafted ask.
+  const TOUR = [
+    {
+      title: "The reputation graph, made routable",
+      body: "LinkedIn answers “who do you know?”. Cosign's premise is sharper: “who would vouch for you, and how strongly?”. This demo takes the public slice of Cosign's launch-day neighbourhood — 25 real people, every relationship cited — and turns that endorsement graph into a router for warm intros.",
+      apply() {},
+    },
+    {
+      title: "Ask it something real",
+      body: "Reid Hoffman wants to reach the Cosign team. The best path runs through Josh Elman — partners together at Greylock, LinkedIn before that — and lands on Erik Torenberg. Every hop says why it would work, with a link to the public source it came from.",
+      apply() {
+        document.querySelector('input[name="mode"][value="trust"]').checked = true;
+        $("#origin").value = "reid_hoffman";
+        $("#query").value = "I want to meet someone on the Cosign team";
+        run();
+      },
+    },
+    {
+      title: "Why not just count hops?",
+      body: "This is what every network does today: fewest clicks wins, and a conference handshake counts the same as a co-founder. Watch the ranking change under the baseline — then flip back. That toggle is the demo's whole argument.",
+      apply() {
+        document.querySelector('input[name="mode"][value="hops"]').checked = true;
+        run();
+      },
+    },
+    {
+      title: "The payoff: an ask you can send",
+      body: "The last step drafts the note to your first hop, quoting the reason they would remember you — a path here is an argument, not a fact. Explore freely: click any node to start from it, or switch to the synthetic graph to stress-test the ranking.",
+      apply() {
+        document.querySelector('input[name="mode"][value="trust"]').checked = true;
+        run();
+        $("#draft-section").scrollIntoView({ behavior: "smooth", block: "nearest" });
+      },
+    },
+  ];
+  let tourIdx = 0;
+  function showTour(i) {
+    tourIdx = i;
+    const s = TOUR[i];
+    $("#tour-step").textContent = `Tour · ${i + 1} / ${TOUR.length}`;
+    $("#tour-title").textContent = s.title;
+    $("#tour-body").textContent = s.body;
+    $("#tour-back").disabled = i === 0;
+    $("#tour-next").textContent = i === TOUR.length - 1 ? "Done" : "Next";
+    $("#tour").hidden = false;
+    s.apply();
+  }
+  function endTour() { $("#tour").hidden = true; }
+  $("#tour-next").addEventListener("click", () => (tourIdx >= TOUR.length - 1 ? endTour() : showTour(tourIdx + 1)));
+  $("#tour-back").addEventListener("click", () => showTour(Math.max(0, tourIdx - 1)));
+  $("#tour-skip").addEventListener("click", endTour);
+  $("#tour-restart").addEventListener("click", (e) => {
+    e.preventDefault();
+    if (document.querySelector('input[name="ds"]:checked').value !== "public") {
+      document.querySelector('input[name="ds"][value="public"]').checked = true;
+      loadDataset("public");
+    }
+    showTour(0);
+  });
+
   // ---------- wire up ----------
-  document.querySelectorAll('input[name="ds"]').forEach((r) => r.addEventListener("change", (e) => loadDataset(e.target.value)));
+  document.querySelectorAll('input[name="ds"]').forEach((r) => r.addEventListener("change", (e) => { endTour(); loadDataset(e.target.value); }));
   document.querySelectorAll('input[name="mode"]').forEach((r) => r.addEventListener("change", run));
   $("#run").addEventListener("click", run);
   $("#query").addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); run(); } });
@@ -462,4 +524,5 @@
   window.addEventListener("resize", () => { if (sim) { const b = svg.node().getBoundingClientRect(); sim.force("center", d3.forceCenter(b.width / 2, b.height / 2)).alpha(0.3).restart(); } });
 
   loadDataset("public");
+  showTour(0);
 })();
