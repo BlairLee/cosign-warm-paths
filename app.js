@@ -45,56 +45,123 @@
     "series a": ["series a"], "series b": ["series b"], growth: ["growth-stage", "late-stage", "public", "big company"],
   };
 
+  // Filler that carries no constraint; anything else the parser can't place is
+  // reported back as "unknown" instead of being silently dropped.
+  const STOPWORDS = new Set(("i im we you me my our your a an the to on in at of for with and or but is are was be been being " +
+    "who whom whose that this these those what which someone anyone somebody people person folks want wants wanted need needs " +
+    "needed meet meeting met intro introduce introduction introductions connect connected connection looking look looks find " +
+    "found finding reach reaching get gets getting know knows knew working works work worked doing does do did done about from " +
+    "team teams member members talk chat speak hello hi hey please help can could would should like likes " +
+    "focused focusing interested interesting great good best top senior experienced has have had having " +
+    "built build builds building").split(" "));
+
   function parseIntent(text) {
     const t = ` ${text.toLowerCase().replace(/[^a-z0-9\- ]/g, " ")} `;
     const has = (phrase) => t.includes(` ${phrase} `) || t.includes(` ${phrase}-`) || t.includes(`-${phrase} `);
-    const skills = Object.entries(SKILL_SYNONYMS).filter(([, syns]) => syns.some(has)).map(([k]) => k);
-    const roles = Object.entries(ROLE_SYNONYMS).filter(([, syns]) => syns.some(has)).map(([k]) => k);
-    const stages = Object.entries(STAGE_SYNONYMS).filter(([, syns]) => syns.some(has)).map(([k]) => k);
+    const consumed = new Set();
+    const consume = (phrase) => phrase.split(/[\s-]+/).forEach((w) => consumed.add(w));
+    const pick = (dict) => Object.entries(dict).filter(([, syns]) => {
+      const hits = syns.filter(has);
+      hits.forEach(consume);
+      return hits.length > 0;
+    }).map(([k]) => k);
+    const skills = pick(SKILL_SYNONYMS);
+    const roles = pick(ROLE_SYNONYMS);
+    const stages = pick(STAGE_SYNONYMS);
     const cities = ["san francisco", "new york", "los angeles", "seattle", "austin", "london", "miami"].filter(has);
-    const wantsCompany = /\b(company|startup|startups|firm|lab|labs)\b/.test(t) && roles.length === 0;
-    // Named entities: any node whose name (or a short alias) appears in the query.
-    const named = (data?.nodes || []).filter((n) => aliasesOf(n).some((a) => t.includes(` ${a} `)));
-    return { skills, roles, stages, cities, wantsCompany, named };
+    cities.forEach(consume);
+    // "company/startup" carries no constraint of its own anymore (orgs live on
+    // people); it still gets consumed so it doesn't read as an unknown term.
+    ["company", "companies", "startup", "startups", "firm", "firms", "lab", "labs", "org", "orgs"].filter(has).forEach(consume);
+    // Named people: any node whose name (or a short alias) appears in the query.
+    const named = (data?.nodes || []).filter((n) => {
+      const hits = aliasesOf(n).filter((a) => t.includes(` ${a} `));
+      hits.forEach(consume);
+      return hits.length > 0;
+    });
+    // Named orgs: "the Cosign team", "someone at a16z". Orgs are attributes on
+    // people, not nodes, so this matches people through their affiliations.
+    const orgNames = new Map();
+    for (const n of (data?.nodes || [])) for (const o of (n.orgs || [])) if (!orgNames.has(o.name)) orgNames.set(o.name, orgAliases(o.name));
+    const namedOrgs = [...orgNames.entries()].filter(([, aliases]) => {
+      const hits = aliases.filter((a) => t.includes(` ${a} `));
+      hits.forEach(consume);
+      return hits.length > 0;
+    }).map(([name]) => name);
+    // Words the graph knows nothing about ("openai"). Surfacing these is what
+    // keeps an unmatched query from silently degrading into "rank everyone".
+    const unknown = [...new Set(t.replace(/-/g, " ").trim().split(/\s+/))]
+      .filter((w) => w.length > 2 && !/^\d+$/.test(w) && !STOPWORDS.has(w) && !consumed.has(w));
+    return { skills, roles, stages, cities, named, namedOrgs, unknown };
   }
   function aliasesOf(n) {
     const full = n.name.toLowerCase().replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
     const out = [full];
     const m = n.name.match(/\(([^)]+)\)/); if (m) out.push(m[1].toLowerCase());
-    if (n.kind === "company") out.push(full.split(" ")[0]); // "cosign", "product", "databricks"
     return out.filter((a) => a.length > 3);
   }
+  function orgAliases(name) {
+    const full = name.toLowerCase().replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+    const out = [full];
+    const m = name.match(/\(([^)]+)\)/); if (m) out.push(m[1].toLowerCase());
+    out.push(full.split(" ")[0]); // "cosign", "jam", "turpentine"
+    return [...new Set(out)].filter((a) => a.length > 2);
+  }
 
-  // Score how well a node matches the intent. 0 = not a target.
-  function targetScore(node, intent, adj) {
-    // A named entity in the query wins: the entity itself, or the people attached to a named company.
-    if (intent.named.length) {
-      for (const n of intent.named) {
-        if (n.id === node.id) return 1.5;
-        if (n.kind === "company" && node.kind === "person" &&
-            (adj.get(node.id) || []).some((x) => x.to === n.id && (x.edge.type === "cofounded" || x.edge.type === "worked_with"))) return 1.2;
-      }
+  // Score how well a person matches the intent. 0 = not a target.
+  function targetScore(node, intent) {
+    // A named person or org in the query wins: the person, or people affiliated
+    // with the org ("someone on the Cosign team").
+    if (intent.named.length || intent.namedOrgs.length) {
+      for (const n of intent.named) if (n.id === node.id) return 1.5;
+      const orgs = (node.orgs || []).map((o) => o.name);
+      for (const o of intent.namedOrgs) if (orgs.includes(o)) return 1.2;
       return 0;
     }
     let s = 0;
-    const tags = node.kind === "person" ? node.skills : node.focus;
-    const hit = intent.skills.filter((k) => tags.includes(k)).length;
+    const hit = intent.skills.filter((k) => node.skills.includes(k)).length;
     if (intent.skills.length) {
       if (!hit) return 0;
       s += hit / intent.skills.length;
     }
-    if (node.kind === "person") {
-      if (intent.roles.length) { if (!intent.roles.includes(node.role)) return 0; s += 0.5; }
-      if (intent.wantsCompany) s -= 0.2;
-    } else {
-      if (intent.roles.length && !intent.wantsCompany) return 0; // asked for a person
-      if (intent.stages.length) { if (!intent.stages.includes(node.stage)) return 0; s += 0.5; }
+    if (intent.roles.length) { if (!intent.roles.includes(node.role)) return 0; s += 0.5; }
+    if (intent.stages.length) {
+      // "at a seed-stage startup" = any of the person's orgs is at that stage.
+      const stages = (node.orgs || []).map((o) => o.stage).filter(Boolean);
+      if (!intent.stages.some((st) => stages.includes(st))) return 0;
+      s += 0.5;
     }
     if (intent.cities.length) s += intent.cities.includes((node.city || "").toLowerCase()) ? 0.3 : -0.1;
-    return Math.max(s, 0.05);
+    // No floor: a node that matched nothing is not a target. The caller already
+    // refuses to rank at all when the query produced no constraints.
+    return Math.max(s, 0);
   }
 
   // ---------- graph + trust ----------
+  const SYMMETRIC = new Set(["worked_with", "cofounded", "colleagues"]);
+
+  // Orgs live on people, not as nodes. So that two people who share an org are
+  // still reachable through it, synthesize a weak "colleagues" edge for every
+  // org-sharing pair that has no explicit endorsement. Pairs sharing several
+  // orgs get the smallest (most specific) one: "Both at Cosign", not a16z.
+  function injectColleagues(data) {
+    if (!data.edgeTypes.colleagues) data.edgeTypes = { ...data.edgeTypes, colleagues: { base: 0.5, label: "at the same org as" } };
+    const linked = new Set(data.edges.map((e) => [e.source, e.target].sort().join("|")));
+    const orgs = new Map();
+    for (const n of data.nodes) for (const o of (n.orgs || [])) {
+      if (!orgs.has(o.name)) orgs.set(o.name, []);
+      orgs.get(o.name).push(n.id);
+    }
+    for (const [name, members] of [...orgs.entries()].sort((a, b) => a[1].length - b[1].length)) {
+      for (let i = 0; i < members.length; i++) for (let j = i + 1; j < members.length; j++) {
+        const key = [members[i], members[j]].sort().join("|");
+        if (linked.has(key)) continue;
+        linked.add(key);
+        data.edges.push({ source: members[i], target: members[j], type: "colleagues", year: YEAR_NOW, via: name, reason: `Both at ${name}.`, auto: true });
+      }
+    }
+  }
+
   function recency(year) {
     const age = Math.max(0, YEAR_NOW - (year || YEAR_NOW));
     return 0.6 + 0.4 * Math.exp(-age / 6);
@@ -134,7 +201,7 @@
         if (mode === "hops") w = 1;                        // baseline: every edge equal
         else {
           let t = edgeTrust(edge, data.edgeTypes);
-          if (reverse && edge.type !== "worked_with" && edge.type !== "cofounded") t *= REVERSE_PENALTY;
+          if (reverse && !SYMMETRIC.has(edge.type)) t *= REVERSE_PENALTY;
           w = -Math.log(t * HOP_DISCOUNT);
         }
         const nc = c + w;
@@ -163,7 +230,7 @@
     let t = 1;
     for (const s of steps) {
       let w = edgeTrust(s.edge, types);
-      if (s.reverse && s.edge.type !== "worked_with" && s.edge.type !== "cofounded") w *= REVERSE_PENALTY;
+      if (s.reverse && !SYMMETRIC.has(s.edge.type)) w *= REVERSE_PENALTY;
       t *= w;
     }
     return t * Math.pow(HOP_DISCOUNT, Math.max(0, steps.length - 1));
@@ -175,7 +242,7 @@
     const out = [];
     for (const n of data.nodes) {
       if (n.id === origin) continue;
-      const ts = targetScore(n, intent, adj);
+      const ts = targetScore(n, intent);
       if (!ts) continue;
       const steps = unwind(prev, origin, n.id);
       if (!steps) continue;
@@ -199,13 +266,14 @@
       "Looking for a designer in New York who has done mobile",
       "Who can introduce me to investors in fintech?",
       "I need a researcher who knows LLM eval and agents",
-      "Find a Series A company doing robotics in Los Angeles",
+      "Who should I meet at a series a robotics startup in Los Angeles?",
     ],
     public: [
       "I want to meet someone on the Cosign team",
       "Who can introduce me to an investor focused on AI infra?",
+      "Who can introduce me to Packy McCormick?",
       "Looking for a founder who has built in recruiting",
-      "I want to reach someone working on consumer AI at a16z",
+      "I want to reach someone working on agents at a16z",
     ],
   };
   let exampleIdx = 0;
@@ -213,6 +281,7 @@
   function loadDataset(key) {
     const src = datasets[key];
     data = { ...src, nodes: src.nodes.map((n) => ({ ...n })), edges: src.edges.map((e) => ({ ...e })) };
+    injectColleagues(data);
     byId = Object.fromEntries(data.nodes.map((n) => [n.id, n]));
     adj = buildAdjacency(data);
     $("#dsnote").textContent = data.meta.note + (data.meta.verified === false ? " Sources are cited per edge and still need a human re-check." : "");
@@ -247,9 +316,10 @@
     intent.roles.forEach((r) => chips.push(`<span class="chip">role <b>${r}</b></span>`));
     intent.stages.forEach((s) => chips.push(`<span class="chip">stage <b>${s}</b></span>`));
     intent.cities.forEach((c) => chips.push(`<span class="chip">city <b>${c}</b></span>`));
-    if (intent.wantsCompany) chips.push(`<span class="chip">target <b>company</b></span>`);
-    intent.named.forEach((n) => chips.push(`<span class="chip k-skill">${n.kind === "company" ? "people at" : "person"} <b>${n.name}</b></span>`));
-    $("#intent").innerHTML = chips.length ? `<span class="chip">parsed as →</span>` + chips.join("") : `<span class="chip">no constraints parsed; ranking everyone by trust</span>`;
+    intent.named.forEach((n) => chips.push(`<span class="chip k-skill">person <b>${n.name}</b></span>`));
+    intent.namedOrgs.forEach((o) => chips.push(`<span class="chip k-skill">people at <b>${o}</b></span>`));
+    (intent.unknown || []).forEach((w) => chips.push(`<span class="chip k-miss">not in graph <b>${w}</b></span>`));
+    $("#intent").innerHTML = chips.length ? `<span class="chip">parsed as →</span>` + chips.join("") : "";
   }
 
   function stepLine(s) {
@@ -263,11 +333,11 @@
 
   function renderResults() {
     const box = $("#results");
-    if (!current.paths.length) { box.innerHTML = `<p class="empty">No reachable match within ${MAX_HOPS} hops. Loosen the query or pick a different origin.</p>`; return; }
+    if (!current.paths.length) { box.innerHTML = `<p class="empty">${current.note || `No reachable match within ${MAX_HOPS} hops. Loosen the query or pick a different origin.`}</p>`; return; }
     box.innerHTML = current.paths.map((p, i) => `
       <div class="path ${i === current.active ? "active" : ""}" data-i="${i}">
         <div class="head"><b>${p.target.name}</b><span class="score">${(p.trust * 100).toFixed(0)}% trust</span></div>
-        <div class="hops">${p.hops} hop${p.hops > 1 ? "s" : ""} · ${p.target.kind === "person" ? p.target.role : p.target.stage} · ${p.target.city || ""}</div>
+        <div class="hops">${p.hops} hop${p.hops > 1 ? "s" : ""} · ${p.target.role}${(p.target.orgs || []).length ? ` @ ${p.target.orgs[0].name}` : ""} · ${p.target.city || ""}</div>
         <ol>${p.steps.map(stepLine).join("")}</ol>
       </div>`).join("");
     box.querySelectorAll(".path").forEach((el) => el.addEventListener("click", () => { current.active = +el.dataset.i; renderResults(); highlight(); renderDraft(); }));
@@ -280,24 +350,18 @@
     const target = p.target;
     const goal = ($("#query").value || "").trim().replace(/[.?!]+$/, "");
     const firstName = (n) => n.name.split(" ")[0];
-    // The person you actually write to: the first *person* on the path (a company can't reply).
-    const firstStep = p.steps.find((s) => byId[s.to].kind === "person");
-    if (!firstStep) {
-      $("#draft").value = `You already have a direct tie to ${target.name} (${p.steps[0].edge.reason}). Reach out to someone there you know, or add yourself with the people you know to find a warmer path.`;
-      $("#draft-section").hidden = false; return;
-    }
-    const first = byId[firstStep.to];
-    const why = firstStep.edge.reason.replace(/\.$/, "");
+    // The person you actually write to: the first hop on the path.
+    const first = byId[p.steps[0].to];
+    const why = p.steps[0].edge.reason.replace(/\.$/, "");
     let body;
     if (first.id === target.id) {
       // Direct: no intro needed, just a warm note.
       body = `We're connected through this: "${why}." So I hope it's fine to reach out directly. What I'm after: ${goal}. I'd value 20 minutes of your time if you're open to it.`;
     } else {
-      const rest = p.steps.slice(p.steps.indexOf(firstStep) + 1);
+      const rest = p.steps.slice(1);
       const chain = rest.length === 1 ? ` From what I can see, you know ${target.name} directly.`
         : rest.length > 1 ? ` From what I can see, you're ${rest.length} steps from ${target.name} (${rest.map((s) => byId[s.to].name).join(" → ")}).` : "";
-      const askWhom = target.kind === "person" ? target.name : `someone at ${target.name}`;
-      body = `You came to mind because of this: "${why}."${chain} Would you be open to a short intro to ${askWhom}? What I'm after: ${goal}.`;
+      body = `You came to mind because of this: "${why}."${chain} Would you be open to a short intro to ${target.name}? What I'm after: ${goal}.`;
     }
     $("#draft").value = `Hi ${firstName(first)},\n\n${body}\n\nHappy to send a two-line blurb you can forward, and no worries at all if it's not a fit.\n\n${me.name}`;
     $("#draft-section").hidden = false;
@@ -308,8 +372,20 @@
     const intent = parseIntent($("#query").value);
     const mode = document.querySelector('input[name="mode"]:checked').value;
     renderIntent(intent);
-    const { paths } = findIntroPaths(data, adj, origin, intent, mode);
-    current = { paths, active: 0 };
+    const hasSignal = intent.skills.length || intent.roles.length || intent.stages.length ||
+      intent.cities.length || intent.named.length || intent.namedOrgs.length;
+    if (!hasSignal) {
+      // Refuse to rank rather than fall back to "everyone by trust": a query
+      // about something the graph doesn't contain should say so, not return
+      // the origin's strongest neighbours as if they matched.
+      const note = intent.unknown.length
+        ? `This graph has nothing matching “${intent.unknown.join(", ")}”. Name a skill, role, stage, city, or a person/org that is in the graph — or add the people you know and grow it.`
+        : `Tell me what you're looking for: a skill, role, stage, city, or a person/org in the graph.`;
+      current = { paths: [], active: 0, note };
+    } else {
+      const { paths } = findIntroPaths(data, adj, origin, intent, mode);
+      current = { paths, active: 0 };
+    }
     renderResults();
     renderDraft();
     highlight();
@@ -330,20 +406,21 @@
     const nodes = data.nodes;
     const links = data.edges.map((e) => ({ ...e, source: e.source, target: e.target }));
     gEdges = root.append("g").selectAll("line").data(links).join("line")
-      .attr("class", "edge").attr("stroke-width", (d) => 0.6 + 2 * (data.edgeTypes[d.type]?.base ?? 0.3));
+      .attr("class", (d) => d.auto ? "edge auto" : "edge")
+      .attr("stroke-width", (d) => d.auto ? 0.5 : 0.6 + 2 * (data.edgeTypes[d.type]?.base ?? 0.3));
     gNodes = root.append("g").selectAll("g").data(nodes, (d) => d.id).join("g")
-      .attr("class", (d) => `node ${d.id === "you" ? "you" : d.kind}`)
+      .attr("class", (d) => `node ${d.id === "you" ? "you" : "person"}`)
       .call(d3.drag()
         .on("start", (ev, d) => { if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
         .on("drag", (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
         .on("end", (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
-    gNodes.append("circle").attr("r", (d) => d.kind === "company" ? 7 : (d.id === "you" ? 9 : 4.5));
+    gNodes.append("circle").attr("r", (d) => d.id === "you" ? 9 : 4.5);
     gNodes.append("text").attr("dx", 9).attr("dy", 3).text((d) => d.name);
-    gNodes.append("title").text((d) => `${d.name}\n${d.kind === "person" ? d.role + " · " + d.skills.join(", ") : d.stage + " · " + d.focus.join(", ")}`);
-    gNodes.on("click", (ev, d) => { if (d.kind === "person") { $("#origin").value = d.id; run(); } });
+    gNodes.append("title").text((d) => `${d.name}\n${d.role} · ${d.skills.join(", ")}${(d.orgs || []).length ? "\n" + d.orgs.map((o) => o.name).join(", ") : ""}`);
+    gNodes.on("click", (ev, d) => { $("#origin").value = d.id; run(); });
 
     sim = d3.forceSimulation(nodes)
-      .force("link", d3.forceLink(links).id((d) => d.id).distance((d) => (small ? 70 : 30) + 40 * (1 - (data.edgeTypes[d.type]?.base ?? 0.3))).strength(0.4))
+      .force("link", d3.forceLink(links).id((d) => d.id).distance((d) => (small ? 70 : 30) + 40 * (1 - (data.edgeTypes[d.type]?.base ?? 0.3))).strength((d) => d.auto ? 0.08 : 0.4))
       .force("charge", d3.forceManyBody().strength(small ? -400 : -60))
       .force("center", d3.forceCenter(W / 2, H / 2))
       .force("collide", d3.forceCollide(9))
@@ -375,7 +452,7 @@
     const row = document.createElement("div");
     row.className = "me-row";
     const list = data.nodes.filter((n) => n.kind === "person").sort((a, b) => a.name.localeCompare(b.name)).map((n) => `<option value="${n.id}">${n.name}</option>`).join("");
-    const types = Object.entries(data.edgeTypes).map(([k, v]) => `<option value="${k}">${v.label}</option>`).join("");
+    const types = Object.entries(data.edgeTypes).filter(([k]) => k !== "colleagues").map(([k, v]) => `<option value="${k}">${v.label}</option>`).join("");
     row.innerHTML = `<select class="me-who">${list}</select><select class="me-type">${types}</select>`;
     $("#me-rows").appendChild(row);
   }
@@ -383,7 +460,7 @@
     const name = $("#me-name").value.trim() || "You";
     data.nodes = data.nodes.filter((n) => n.id !== "you");
     data.edges = data.edges.filter((e) => e.source !== "you" && e.target !== "you");
-    data.nodes.push({ id: "you", kind: "person", name, role: "engineer", skills: [], city: "" });
+    data.nodes.push({ id: "you", kind: "person", name, role: "engineer", skills: [], city: "", orgs: [] });
     $("#me-rows").querySelectorAll(".me-row").forEach((r) => {
       const who = r.querySelector(".me-who").value, type = r.querySelector(".me-type").value;
       const other = byId[who];
