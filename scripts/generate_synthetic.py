@@ -42,12 +42,15 @@ STAGES = ["pre-seed", "seed", "series a", "series b", "growth"]
 CITIES = ["San Francisco", "New York", "Los Angeles", "Seattle", "Austin", "London"]
 
 # Endorsement types. `base` is the trust prior; the UI explains each type.
+# "colleagues" is synthesized by the app for org-sharing pairs with no
+# explicit edge; it is listed here so the legend can explain it.
 EDGE_TYPES = {
     "cofounded":      {"base": 0.95, "label": "co-founded"},
     "worked_with":    {"base": 0.80, "label": "worked together"},
     "cosigned_skill": {"base": 0.70, "label": "cosigned a skill"},
     "invested_in":    {"base": 0.65, "label": "invested in"},
     "mentored":       {"base": 0.60, "label": "mentored"},
+    "colleagues":     {"base": 0.50, "label": "at the same org as"},
     "met_at_event":   {"base": 0.25, "label": "met at an event"},
 }
 
@@ -73,35 +76,28 @@ def make_people(n, rng):
 
 
 def make_companies(n, rng):
+    """Orgs are not nodes: they end up as affiliations on people and as `via`
+    context on edges."""
     out, used = [], set()
     while len(out) < n:
         name = f"{rng.choice(COMPANY_A)} {rng.choice(COMPANY_B)}"
         if name in used:
             continue
         used.add(name)
-        out.append({
-            "id": f"c{len(out):03d}",
-            "kind": "company",
-            "name": name,
-            "stage": rng.choice(STAGES),
-            "focus": rng.sample(SKILLS, 2),
-            "city": rng.choice(CITIES),
-        })
+        out.append({"name": name, "stage": rng.choice(STAGES)})
     return out
 
 
 def reason_for(etype, a, b, company, rng):
-    skill = rng.choice(a["skills"]) if a["kind"] == "person" else None
     if etype == "cofounded":
         return f"{a['name']} and {b['name']} co-founded {company['name']}."
     if etype == "worked_with":
         yrs = rng.choice(["two", "three", "four"])
         return f"{a['name']} and {b['name']} worked together at {company['name']} for {yrs} years."
     if etype == "cosigned_skill":
-        s = rng.choice(b["skills"]) if b["kind"] == "person" else "the product"
-        return f"{a['name']} cosigned {b['name']} for {s}."
+        return f"{a['name']} cosigned {b['name']} for {rng.choice(b['skills'])}."
     if etype == "invested_in":
-        return f"{a['name']} invested in {b['name']} ({b.get('stage', 'seed')})."
+        return f"{a['name']} invested in {company['name']} ({company['stage']}), where {b['name']} is a founder."
     if etype == "mentored":
         return f"{a['name']} mentored {b['name']} through an accelerator cohort."
     if etype == "met_at_event":
@@ -113,14 +109,14 @@ def build(seed, n_people, n_companies):
     rng = random.Random(seed)
     people = make_people(n_people, rng)
     companies = make_companies(n_companies, rng)
-    nodes = people + companies
-    by_id = {n["id"]: n for n in nodes}
 
-    # Assign people to companies (current / past) to create realistic clusters.
+    # Assign people to orgs (current / past) to create realistic clusters.
+    # Orgs live on the person node; the app derives colleague edges from them.
     membership = {}
     for p in people:
         n_jobs = 1 if rng.random() < 0.55 else 2
         membership[p["id"]] = rng.sample(companies, n_jobs)
+        p["orgs"] = [{"name": c["name"], "stage": c["stage"]} for c in membership[p["id"]]]
 
     edges, seen = [], set()
 
@@ -130,15 +126,19 @@ def build(seed, n_people, n_companies):
             return
         seen.add(key)
         year = year or rng.randint(2016, 2026)
-        edges.append({
+        c = company or rng.choice(companies)
+        e = {
             "source": a["id"],
             "target": b["id"],
             "type": etype,
             "year": year,
-            "reason": reason_for(etype, a, b, company or rng.choice(companies), rng),
-        })
+            "reason": reason_for(etype, a, b, c, rng),
+        }
+        if company is not None:
+            e["via"] = company["name"]
+        edges.append(e)
 
-    # worked_with / cofounded inside each company cluster
+    # worked_with / cofounded inside each org cluster
     for c in companies:
         members = [p for p in people if c in membership[p["id"]]]
         founders = [p for p in members if p["role"] == "founder"]
@@ -152,25 +152,23 @@ def build(seed, n_people, n_companies):
                     add(a, b, "worked_with", c)
                     if rng.random() < 0.6:
                         add(b, a, "worked_with", c)
-        # company node links: current employees "work at"
-        for m in members[:6]:
-            add(m, c, "worked_with", c)
 
     # cosigned_skill: directed, mostly inside clusters, some across
     for p in people:
         n_cosigns = rng.choices([0, 1, 2, 3], weights=[2, 5, 3, 1])[0]
-        mine = {c["id"] for c in membership[p["id"]]}
-        pool = [q for q in people if q is not p and mine & {c["id"] for c in membership[q["id"]]}]
+        mine = {c["name"] for c in membership[p["id"]]}
+        pool = [q for q in people if q is not p and mine & {c["name"] for c in membership[q["id"]]}]
         for _ in range(n_cosigns):
             q = rng.choice(pool) if pool and rng.random() < 0.7 else rng.choice(people)
             add(p, q, "cosigned_skill")
 
-    # investors invest in companies and mentor founders
+    # investors back founders (the org is the context, not a node)
     for inv in [p for p in people if p["role"] == "investor"]:
         for c in rng.sample(companies, rng.randint(2, 5)):
-            add(inv, c, "invested_in", c)
             founders = [p for p in people if c in membership[p["id"]] and p["role"] == "founder"]
             for f in founders[:2]:
+                add(inv, f, "invested_in", c)
+            for f in founders[2:3]:
                 add(inv, f, "mentored", c)
 
     # weak ties: event meetings across clusters
@@ -181,11 +179,11 @@ def build(seed, n_people, n_companies):
     return {
         "meta": {
             "name": "Synthetic endorsement graph",
-            "note": "Every person, company and endorsement is invented.",
+            "note": "Every person, org and endorsement is invented.",
             "seed": seed,
         },
         "edgeTypes": EDGE_TYPES,
-        "nodes": nodes,
+        "nodes": people,
         "edges": edges,
     }
 
@@ -193,8 +191,8 @@ def build(seed, n_people, n_companies):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--seed", type=int, default=42)
-    ap.add_argument("--people", type=int, default=220)
-    ap.add_argument("--companies", type=int, default=40)
+    ap.add_argument("--people", type=int, default=100)
+    ap.add_argument("--companies", type=int, default=18)
     ap.add_argument("--out", default="data/synthetic.js")
     args = ap.parse_args()
     g = build(args.seed, args.people, args.companies)

@@ -61,6 +61,9 @@ details input, details select { margin-top: 6px; }
 .chip.k-miss { border-color: #b4563e; color: #b4563e; }
 .chip.k-miss b { color: #b4563e; }
 
+.edge.auto { opacity: 0.12; }
+.edge.auto.lit { opacity: 1; }
+
 .compare { margin-bottom: 8px; font-size: 13px; }
 .path { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin-bottom: 10px; cursor: pointer; }
 .path:hover, .path.active { border-color: var(--accent); }
