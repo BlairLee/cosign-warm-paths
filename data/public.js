@@ -85,7 +85,35 @@ window.COSIGN_PUBLIC = {
   {"id":"packy_mccormick","kind":"person","name":"Packy McCormick","role":"investor","skills":["fundraising","growth","gtm"],"city":"New York","url":"https://www.notboring.co/p/a16z-the-power-brokers",
    "orgs":[{"name":"Not Boring","stage":"seed","url":"https://www.notboring.co/"}]},
   {"id":"anu_atluru","kind":"person","name":"Anu Atluru","role":"founder","skills":["growth","product design","biotech"],"city":"","url":"https://every.to/@anu.atluru",
-   "orgs":[{"name":"Clubhouse","stage":"growth","url":"https://every.to/p/what-i-learned-at-clubhouse"}]}
+   "orgs":[{"name":"Clubhouse","stage":"growth","url":"https://every.to/p/what-i-learned-at-clubhouse"}]},
+
+  // --- frontier labs ---
+  {"id":"sam_altman","kind":"person","name":"Sam Altman","role":"founder","skills":["fundraising","agents","ai infra"],"city":"San Francisco","url":"https://en.wikipedia.org/wiki/Sam_Altman",
+   "orgs":[{"name":"OpenAI","stage":"growth","url":"https://en.wikipedia.org/wiki/OpenAI"},{"name":"Y Combinator","stage":"growth","url":"https://en.wikipedia.org/wiki/Sam_Altman"}]},
+  {"id":"greg_brockman","kind":"person","name":"Greg Brockman","role":"engineer","skills":["ai infra","backend","devtools"],"city":"San Francisco","url":"https://en.wikipedia.org/wiki/Greg_Brockman",
+   "orgs":[{"name":"OpenAI","stage":"growth","url":"https://en.wikipedia.org/wiki/OpenAI"},{"name":"Stripe","stage":"growth","url":"https://en.wikipedia.org/wiki/Greg_Brockman"}]},
+  {"id":"mira_murati","kind":"person","name":"Mira Murati","role":"founder","skills":["ai infra","agents","product design"],"city":"San Francisco","url":"https://en.wikipedia.org/wiki/Mira_Murati",
+   "orgs":[{"name":"Thinking Machines Lab","stage":"seed","url":"https://en.wikipedia.org/wiki/Mira_Murati"},{"name":"OpenAI","stage":"growth","url":"https://en.wikipedia.org/wiki/Mira_Murati"}]},
+  {"id":"dario_amodei","kind":"person","name":"Dario Amodei","role":"founder","skills":["llm eval","ai infra","agents"],"city":"San Francisco","url":"https://en.wikipedia.org/wiki/Dario_Amodei",
+   "orgs":[{"name":"Anthropic","stage":"growth","url":"https://en.wikipedia.org/wiki/Anthropic"},{"name":"OpenAI","stage":"growth","url":"https://en.wikipedia.org/wiki/Dario_Amodei"}]},
+  {"id":"daniela_amodei","kind":"person","name":"Daniela Amodei","role":"founder","skills":["recruiting","gtm","growth"],"city":"San Francisco","url":"https://en.wikipedia.org/wiki/Daniela_Amodei",
+   "orgs":[{"name":"Anthropic","stage":"growth","url":"https://en.wikipedia.org/wiki/Anthropic"},{"name":"OpenAI","stage":"growth","url":"https://en.wikipedia.org/wiki/Daniela_Amodei"},{"name":"Stripe","stage":"growth","url":"https://en.wikipedia.org/wiki/Daniela_Amodei"}]},
+  {"id":"demis_hassabis","kind":"person","name":"Demis Hassabis","role":"researcher","skills":["agents","llm eval","biotech"],"city":"London","url":"https://en.wikipedia.org/wiki/Demis_Hassabis",
+   "orgs":[{"name":"Google DeepMind","stage":"growth","url":"https://en.wikipedia.org/wiki/Google_DeepMind"}]},
+  {"id":"mustafa_suleyman","kind":"person","name":"Mustafa Suleyman","role":"founder","skills":["agents","product design","gtm"],"city":"","url":"https://en.wikipedia.org/wiki/Mustafa_Suleyman",
+   "orgs":[{"name":"Microsoft","stage":"growth","url":"https://en.wikipedia.org/wiki/Mustafa_Suleyman"},{"name":"Inflection AI","stage":"growth","url":"https://en.wikipedia.org/wiki/Inflection_AI"},{"name":"Google DeepMind","stage":"growth","url":"https://en.wikipedia.org/wiki/Mustafa_Suleyman"}]},
+
+  // --- big tech ---
+  {"id":"satya_nadella","kind":"person","name":"Satya Nadella","role":"operator","skills":["gtm","ai infra","growth"],"city":"Seattle","url":"https://en.wikipedia.org/wiki/Satya_Nadella",
+   "orgs":[{"name":"Microsoft","stage":"growth","url":"https://en.wikipedia.org/wiki/Microsoft"}]},
+  {"id":"sundar_pichai","kind":"person","name":"Sundar Pichai","role":"operator","skills":["product design","growth","ai infra"],"city":"San Francisco","url":"https://en.wikipedia.org/wiki/Sundar_Pichai",
+   "orgs":[{"name":"Google","stage":"growth","url":"https://en.wikipedia.org/wiki/Google"}]},
+  {"id":"mark_zuckerberg","kind":"person","name":"Mark Zuckerberg","role":"founder","skills":["product design","growth","mobile"],"city":"San Francisco","url":"https://en.wikipedia.org/wiki/Mark_Zuckerberg",
+   "orgs":[{"name":"Meta (Facebook)","stage":"growth","url":"https://en.wikipedia.org/wiki/Meta_Platforms"}]},
+  {"id":"jeff_bezos","kind":"person","name":"Jeff Bezos","role":"founder","skills":["growth","gtm","robotics"],"city":"Miami","url":"https://en.wikipedia.org/wiki/Jeff_Bezos",
+   "orgs":[{"name":"Amazon","stage":"growth","url":"https://en.wikipedia.org/wiki/Amazon_(company)"}]},
+  {"id":"andy_jassy","kind":"person","name":"Andy Jassy","role":"operator","skills":["devtools","gtm","sales"],"city":"Seattle","url":"https://en.wikipedia.org/wiki/Andy_Jassy",
+   "orgs":[{"name":"Amazon","stage":"growth","url":"https://en.wikipedia.org/wiki/Amazon_(company)"}]}
  ],
  "edges": [
   // --- the Cosign team itself ---
@@ -130,6 +158,33 @@ window.COSIGN_PUBLIC = {
   {"source":"martin_casado","target":"anjney_midha","type":"worked_with","year":2022,"via":"Andreessen Horowitz (a16z)","reason":"Both general partners on a16z's infrastructure/AI practice; Midha founded Ubiquity6 before joining.","src":"https://a16z.com/author/anjney-midha/","verified":false},
   {"source":"andrew_chen","target":"olivia_moore","type":"worked_with","year":2024,"via":"Andreessen Horowitz (a16z)","reason":"Both on a16z's consumer team; Chen led rider growth at Uber before joining.","src":"https://a16z.com/author/olivia-moore/","verified":false},
   {"source":"andrew_chen","target":"josh_elman","type":"worked_with","year":2024,"via":"Andreessen Horowitz (a16z)","reason":"Both on a16z's consumer team.","src":"https://a16z.com/author/josh-elman/","verified":false},
-  {"source":"josh_elman","target":"reid_hoffman","type":"worked_with","year":2011,"via":"Greylock Partners","reason":"Overlapped at Greylock as partners, and earlier at LinkedIn, which Hoffman co-founded.","src":"https://a16z.com/author/josh-elman/","verified":false}
+  {"source":"josh_elman","target":"reid_hoffman","type":"worked_with","year":2011,"via":"Greylock Partners","reason":"Overlapped at Greylock as partners, and earlier at LinkedIn, which Hoffman co-founded.","src":"https://a16z.com/author/josh-elman/","verified":false},
+
+  // --- frontier labs ---
+  {"source":"sam_altman","target":"greg_brockman","type":"cofounded","year":2015,"via":"OpenAI","reason":"Co-founded OpenAI in 2015; Altman as CEO, Brockman as CTO and later president.","src":"https://en.wikipedia.org/wiki/OpenAI","verified":false},
+  {"source":"greg_brockman","target":"sam_altman","type":"cofounded","year":2015,"via":"OpenAI","reason":"Co-founded OpenAI in 2015.","src":"https://en.wikipedia.org/wiki/OpenAI","verified":false},
+  {"source":"mira_murati","target":"sam_altman","type":"worked_with","year":2022,"via":"OpenAI","reason":"CTO of OpenAI under Altman before leaving to found Thinking Machines Lab.","src":"https://en.wikipedia.org/wiki/Mira_Murati","verified":false},
+  {"source":"dario_amodei","target":"sam_altman","type":"worked_with","year":2019,"via":"OpenAI","reason":"VP of Research at OpenAI before leaving to co-found Anthropic in 2021.","src":"https://en.wikipedia.org/wiki/Dario_Amodei","verified":false},
+  {"source":"dario_amodei","target":"daniela_amodei","type":"cofounded","year":2021,"via":"Anthropic","reason":"Co-founded Anthropic; Dario as CEO, Daniela as president.","src":"https://en.wikipedia.org/wiki/Anthropic","verified":false},
+  {"source":"daniela_amodei","target":"dario_amodei","type":"cofounded","year":2021,"via":"Anthropic","reason":"Co-founded Anthropic together.","src":"https://en.wikipedia.org/wiki/Anthropic","verified":false},
+  {"source":"daniela_amodei","target":"greg_brockman","type":"worked_with","year":2014,"via":"Stripe","reason":"Both worked at Stripe before OpenAI.","src":"https://en.wikipedia.org/wiki/Daniela_Amodei","verified":false},
+  {"source":"demis_hassabis","target":"mustafa_suleyman","type":"cofounded","year":2010,"via":"Google DeepMind","reason":"Co-founded DeepMind in 2010, acquired by Google in 2014.","src":"https://en.wikipedia.org/wiki/Google_DeepMind","verified":false},
+  {"source":"mustafa_suleyman","target":"demis_hassabis","type":"cofounded","year":2010,"via":"Google DeepMind","reason":"Co-founded DeepMind together.","src":"https://en.wikipedia.org/wiki/Google_DeepMind","verified":false},
+  {"source":"mustafa_suleyman","target":"reid_hoffman","type":"cofounded","year":2022,"via":"Inflection AI","reason":"Co-founded Inflection AI with Reid Hoffman.","src":"https://en.wikipedia.org/wiki/Inflection_AI","verified":false},
+  {"source":"reid_hoffman","target":"mustafa_suleyman","type":"cofounded","year":2022,"via":"Inflection AI","reason":"Co-founded Inflection AI together.","src":"https://en.wikipedia.org/wiki/Inflection_AI","verified":false},
+  {"source":"reid_hoffman","target":"sam_altman","type":"invested_in","year":2019,"via":"OpenAI","reason":"Early OpenAI donor and board member, until stepping down in March 2023.","src":"https://en.wikipedia.org/wiki/Reid_Hoffman","verified":false},
+  {"source":"sam_altman","target":"ryan_hoover","type":"invested_in","year":2014,"via":"Y Combinator","reason":"Y Combinator backed Product Hunt; Altman led YC as president from 2014.","src":"https://en.wikipedia.org/wiki/Product_Hunt","verified":false},
+
+  // --- big tech ---
+  {"source":"reid_hoffman","target":"satya_nadella","type":"worked_with","year":2017,"via":"Microsoft","reason":"Has served on Microsoft's board of directors since 2017.","src":"https://en.wikipedia.org/wiki/Reid_Hoffman","verified":false},
+  {"source":"mustafa_suleyman","target":"satya_nadella","type":"worked_with","year":2024,"via":"Microsoft","reason":"CEO of Microsoft AI, reporting to Nadella, since 2024.","src":"https://en.wikipedia.org/wiki/Mustafa_Suleyman","verified":false},
+  {"source":"satya_nadella","target":"sam_altman","type":"invested_in","year":2023,"via":"Microsoft","reason":"Microsoft, under Nadella, invested more than $13B in OpenAI.","src":"https://en.wikipedia.org/wiki/OpenAI","verified":false},
+  {"source":"sundar_pichai","target":"demis_hassabis","type":"worked_with","year":2023,"via":"Google","reason":"Hassabis leads Google DeepMind within Pichai's Alphabet.","src":"https://en.wikipedia.org/wiki/Google_DeepMind","verified":false},
+  {"source":"reid_hoffman","target":"mark_zuckerberg","type":"invested_in","year":2004,"via":"Meta (Facebook)","reason":"Angel investor in Facebook's first funding round in 2004.","src":"https://en.wikipedia.org/wiki/Reid_Hoffman","verified":false},
+  {"source":"jeff_bezos","target":"andy_jassy","type":"worked_with","year":2021,"via":"Amazon","reason":"Jassy joined Amazon in 1997, founded AWS under Bezos, and succeeded him as CEO in 2021.","src":"https://en.wikipedia.org/wiki/Andy_Jassy","verified":false},
+  {"source":"andy_jassy","target":"jeff_bezos","type":"worked_with","year":2021,"via":"Amazon","reason":"Founded AWS under Bezos and succeeded him as Amazon CEO.","src":"https://en.wikipedia.org/wiki/Andy_Jassy","verified":false},
+  {"source":"jeff_bezos","target":"mark_zuckerberg","type":"met_at_event","year":2025,"reason":"Seated together at the January 2025 presidential inauguration.","src":"https://en.wikipedia.org/wiki/Second_inauguration_of_Donald_Trump","verified":false},
+  {"source":"jeff_bezos","target":"sundar_pichai","type":"met_at_event","year":2025,"reason":"Seated together at the January 2025 presidential inauguration.","src":"https://en.wikipedia.org/wiki/Second_inauguration_of_Donald_Trump","verified":false},
+  {"source":"mark_zuckerberg","target":"sundar_pichai","type":"met_at_event","year":2025,"reason":"Seated together at the January 2025 presidential inauguration.","src":"https://en.wikipedia.org/wiki/Second_inauguration_of_Donald_Trump","verified":false}
  ]
 };

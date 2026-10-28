@@ -270,6 +270,8 @@
     ],
     public: [
       "I want to meet someone on the Cosign team",
+      "I want to meet someone on the OpenAI team",
+      "Who can introduce me to Sam Altman?",
       "Who can introduce me to an investor focused on AI infra?",
       "Who can introduce me to Packy McCormick?",
       "Looking for a founder who has built in recruiting",
@@ -452,7 +454,7 @@
   const TOUR = [
     {
       title: "The reputation graph, made routable",
-      body: "LinkedIn answers “who do you know?”. Cosign's premise is sharper: “who would vouch for you, and how strongly?”. This demo takes the public slice of Cosign's launch-day neighbourhood — 25 real people, every relationship cited — and turns that endorsement graph into a router for warm intros.",
+      body: "LinkedIn answers “who do you know?”. Cosign's premise is sharper: “who would vouch for you, and how strongly?”. This demo takes a public graph around Cosign's launch — 37 real people, from the Cosign team to the frontier labs and big tech, every relationship cited — and turns that endorsement graph into a router for warm intros.",
       apply() {},
     },
     {

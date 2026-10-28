@@ -307,7 +307,29 @@ today. Drafted the public post and the DM; flagged that the post step is
 required ("everyone who posts something will be let into cosign"), and that
 a month had passed since Dhruv's post, so "quick" argues for shipping now.
 
-### Turns 11–12 — this file
+### Turn 11 — big tech and the frontier labs
+
+> **User:** Can we also add some executives from big tech companies (e.g.
+> Google, Meta, Amazon) and hot frontier labs (e.g. OpenAI, Anthropic) in
+> our graph data. That can enhance our diversity of demo queries
+
+**Claude:** Added 12 people (Altman, Brockman, Murati; the Amodeis;
+Hassabis, Suleyman; Nadella, Pichai, Zuckerberg, Bezos, Jassy) under the
+same rule as everyone else: only publicly documented relationships, a source
+on every edge. The design question was the **bridge** — a new cluster is
+useless if no real edges connect it to the existing graph — and Reid
+Hoffman turned out to be the documented hub: Microsoft board seat since
+2017, early OpenAI donor and board member until 2023, Facebook angel in
+2004, Inflection AI co-founded with Suleyman (who co-founded DeepMind with
+Hassabis and now runs Microsoft AI under Nadella). One deliberately weak
+edge went in for the baseline argument: Bezos, Zuckerberg and Pichai seated
+together at the January 2025 inauguration — a real, sourced
+"appeared together" tie that the fewest-hops baseline will happily route
+through. And the payoff query is the callback: **"someone on the OpenAI
+team"**, the exact query the user caught returning nonsense in Turn 2, now
+returns real paths.
+
+### Turns 12–13 — this file
 
 > **User (原文):** transcript你替我抓到不就行了 … 我是觉得这个transcript还有中文,而且比较简单,是不是不太好
 >
@@ -328,7 +350,7 @@ flow as everything above.
 - **Trust model & search**: `app.js` — edge trust = type prior × recency,
   Dijkstra on −log(trust), 0.85/hop discount, 0.8 reverse-endorsement
   penalty, symmetric types exempted.
-- **Real data**: `data/public.js` — 25 people, 34 explicit edges, a public
+- **Real data**: `data/public.js` — 37 people, 57 explicit edges, a public
   source URL on every edge; `verified: false` marks rows a human should
   re-check before relying on them.
 - **Synthetic generator**: `scripts/generate_synthetic.py`.
