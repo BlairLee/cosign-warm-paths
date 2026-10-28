@@ -402,7 +402,8 @@
     const box = svg.node().getBoundingClientRect();
     const W = box.width || 800, H = box.height || 600;
     const root = svg.append("g");
-    svg.call(d3.zoom().scaleExtent([0.3, 4]).on("zoom", (ev) => root.attr("transform", ev.transform)));
+    let curT = d3.zoomIdentity;
+    svg.call(d3.zoom().scaleExtent([0.3, 4]).on("zoom", (ev) => { curT = ev.transform; root.attr("transform", ev.transform); }));
 
     const nodes = data.nodes;
     const links = data.edges.map((e) => ({ ...e, source: e.source, target: e.target }));
@@ -420,15 +421,70 @@
     gNodes.append("title").text((d) => `${d.name}\n${d.role} · ${d.skills.join(", ")}${(d.orgs || []).length ? "\n" + d.orgs.map((o) => o.name).join(", ") : ""}`);
     gNodes.on("click", (ev, d) => { $("#origin").value = d.id; run(); });
 
+    // The cursor is a gentle force field: nodes inside its radius drift away,
+    // so moving the mouse makes the whole graph flow around it.
+    let pointer = null;
+    const POINTER_R = 140;
+    function pointerForce(alpha) {
+      if (!pointer) return;
+      for (const n of nodes) {
+        const dx = n.x - pointer[0], dy = n.y - pointer[1];
+        const d2 = dx * dx + dy * dy;
+        if (d2 > POINTER_R * POINTER_R || d2 < 1) continue;
+        const d = Math.sqrt(d2);
+        const k = (1 - d / POINTER_R) * 1.6 * alpha;
+        n.vx += (dx / d) * k * 10;
+        n.vy += (dy / d) * k * 10;
+      }
+    }
+
     sim = d3.forceSimulation(nodes)
       .force("link", d3.forceLink(links).id((d) => d.id).distance((d) => (small ? 70 : 30) + 40 * (1 - (data.edgeTypes[d.type]?.base ?? 0.3))).strength((d) => d.auto ? 0.08 : 0.4))
       .force("charge", d3.forceManyBody().strength(small ? -400 : -60))
       .force("center", d3.forceCenter(W / 2, H / 2))
       .force("collide", d3.forceCollide(9))
+      .force("pointer", pointerForce)
       .on("tick", () => {
         gEdges.attr("x1", (d) => d.source.x).attr("y1", (d) => d.source.y).attr("x2", (d) => d.target.x).attr("y2", (d) => d.target.y);
         gNodes.attr("transform", (d) => `translate(${d.x},${d.y})`);
       });
+
+    // Hover: the node nearest the cursor lights up with its neighbourhood,
+    // and its edges run a flowing dash. rAF-throttled; cleared on leave.
+    let hoverRaf = 0;
+    function applyHover(hovered) {
+      const near = new Set(), litEdges = new Set();
+      if (hovered) {
+        near.add(hovered.id);
+        for (const { to, edge } of adj.get(hovered.id) || []) { near.add(to); litEdges.add(edge); }
+      }
+      gNodes.classed("hov", (d) => hovered && d.id === hovered.id)
+        .classed("hov-adj", (d) => hovered && d.id !== hovered.id && near.has(d.id))
+        .classed("hov-dim", (d) => hovered && !near.has(d.id));
+      gEdges.classed("hov-lit", (d) => hovered && (d.source.id === hovered.id || d.target.id === hovered.id))
+        .classed("hov-dim", (d) => hovered && d.source.id !== hovered.id && d.target.id !== hovered.id);
+    }
+    svg.on("mousemove", (ev) => {
+      const [px, py] = curT.invert(d3.pointer(ev, svg.node()));
+      pointer = [px, py];
+      if (sim.alpha() < 0.06) sim.alphaTarget(0.05).restart();
+      if (hoverRaf) return;
+      hoverRaf = requestAnimationFrame(() => {
+        hoverRaf = 0;
+        let best = null, bestD = (70 / curT.k) ** 2;
+        for (const n of nodes) {
+          const d2 = (n.x - px) ** 2 + (n.y - py) ** 2;
+          if (d2 < bestD) { bestD = d2; best = n; }
+        }
+        applyHover(best);
+      });
+    });
+    svg.on("mouseleave", () => {
+      pointer = null;
+      sim.alphaTarget(0);
+      if (hoverRaf) { cancelAnimationFrame(hoverRaf); hoverRaf = 0; }
+      applyHover(null);
+    });
 
     $("#legend").innerHTML = Object.entries(data.edgeTypes).map(([k, v]) =>
       `<span><i style="background:var(--muted);height:${1 + 3 * v.base}px"></i>${v.label} · ${v.base}</span>`).join("");
