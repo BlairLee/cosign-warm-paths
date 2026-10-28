@@ -90,11 +90,22 @@ details input, details select { margin-top: 6px; }
 .hint { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); background: color-mix(in srgb, var(--panel) 92%, transparent); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: 13px; color: var(--muted); pointer-events: none; white-space: nowrap; }
 
 /* graph */
-.edge { stroke: var(--edge); stroke-opacity: .55; }
+.edge { stroke: var(--edge); stroke-opacity: .55; transition: stroke-opacity .2s ease, opacity .2s ease; }
 .edge.dim { stroke-opacity: .12; }
 .edge.lit { stroke: var(--accent); stroke-opacity: 1; }
 .edge.lit.base { stroke: var(--muted); stroke-dasharray: 4 3; }
-.node circle { stroke: var(--bg); stroke-width: 1.2px; }
+
+/* hover neighbourhood: flowing dashes on the hovered node's edges */
+.edge.hov-lit { stroke: var(--accent); stroke-opacity: 1; opacity: 1; stroke-dasharray: 5 5; animation: edgeflow .5s linear infinite; }
+.edge.hov-dim { stroke-opacity: .08; }
+@keyframes edgeflow { to { stroke-dashoffset: -10; } }
+
+.node circle { stroke: var(--bg); stroke-width: 1.2px; transition: r .15s ease, fill-opacity .2s ease, opacity .2s ease; }
+.node.hov circle { r: 7.5; stroke: var(--accent); stroke-width: 2.5px; }
+.node.hov-adj circle { r: 6; }
+.node.hov text, .node.hov-adj text { opacity: 1; }
+.node.hov-dim { opacity: .3; }
+.node.hov-dim text { opacity: 0; }
 .node.person circle { fill: var(--node-person); }
 .node.company circle { fill: var(--node-company); }
 .node.you circle { fill: var(--node-you); }
